@@ -1,0 +1,45 @@
+{
+  "file": "com.codex.starry.rw5.debug.0.2.7.rpk",
+  "version": "0.2.7",
+  "bytes": 10005618,
+  "expandedBytes": 11623507,
+  "entries": 580,
+  "sha256": "f97330fc260727df56db91dce1885a70b6ed83022b2f9a6ffa38d5cb2032e1cf",
+  "certificateSha256": "4e8e1ee24968b0dad6d0956a7e14d848b38b22a203f39c389a45d8737bdc4585",
+  "zipCRCValid": true,
+  "outerSignatureValid": true,
+  "innerSignatureValid": true,
+  "allFileDigestsValid": true,
+  "signedFiles": 573,
+  "device": "REDMI Watch 5",
+  "physicalDeviceTested": false,
+  "applicationIcon": {
+    "game": "starry",
+    "width": 192,
+    "height": 192,
+    "pngColorType": 6,
+    "transparentCorners": true,
+    "centerOpaque": true,
+    "bytes": 86829,
+    "sha256": "786ba40f5780e9f6de089b318508db679f6ad91b685103d3278ed5d7dd5bad70",
+    "source": "exec-6807ac52-8c77-4f16-bff9-39b96adce314.png",
+    "builtInImagegenUsed": true,
+    "originalArtworkDirectCrop": false
+  },
+  "allStoryImagesFontsAndOtherResourcesUnchanged": true,
+  "changedCommonResources": [
+    "common/logo.png"
+  ],
+  "compiledGamePageUnchanged": true,
+  "binEqualsRpk": true,
+  "native": {
+    "runtime": "official vela-watch-5.0",
+    "freshInstallationPassed": true,
+    "coldLaunchPassed": true,
+    "iconManifestPath": "/common/logo.png",
+    "actualPhysicalLauncherRenderingTested": false
+  },
+  "status": "virtual-watch checked; new complete package awaits physical testing",
+  "logicValidationInheritedFromVersion": "0.2.6",
+  "logicTestsPreviouslyPassed": 13
+}

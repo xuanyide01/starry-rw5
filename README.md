@@ -4,7 +4,7 @@
 
 本项目参考 **[@liuyuze61](https://github.com/liuyuze61)** 的《ATRI 1.5.1》与《星空列车与白的旅行 v1.0.0》移植作品，完成了本项目的资源转换和播放器功能扩展。两部参考作品的原始链接见「参考作品与致谢」。
 
-> 资料截至 2026-10-09。当前版本 **0.2.6**，修正菜单“下一章”为遇到选项立即停下，并保持原剧情变量与分支。0.2.5 已完成 REDMI Watch 5 实机测试；本次 0.2.6 已完成自动检查与官方原生模拟器检查，尚待实机复测。程序由 Codex 完成，代码采用 MIT 许可证，原游戏资源不在代码许可范围内。
+> 资料截至 2026-10-09。当前更新版 **0.2.7** 将应用图标改为无标题文字的圆形透明 PNG。游戏页面代码、剧情、立绘、CG 和存档格式与 0.2.6 逐字节相同，官方 Vela 原生模拟器安装、启动检查通过；本次新包与圆形图标尚待实机复测。程序由 Codex 完成，代码采用 MIT 许可证，原游戏资源不在代码许可范围内。
 
 ## 功能与本项目成果
 
@@ -34,22 +34,22 @@ CG 鉴赏中的转换资源全部开放，可能提前展示后续剧情。
 
 ## 当前安装包
 
-[下载当前版本及校验文件](https://github.com/xuanyide01/starry-rw5/releases/tag/v0.2.6)。
+[下载 0.2.7 更新预发布及校验文件](https://github.com/xuanyide01/starry-rw5/releases/tag/v0.2.7)。
 
 | 项目 | 内容 |
 | --- | --- |
 | 应用名称 | 星空列车与白的旅行 |
-| 版本 | 0.2.6 / versionCode 9 |
+| 版本 | 0.2.7 / versionCode 10 |
 | 包名 | `com.codex.starry.rw5` |
-| BIN 文件 | `starry-rw5-v0.2.6.bin` |
-| 文件大小 | **9,987,592 字节，约 9.99 MB** |
-| 包内文件解压总大小 | 11,605,471 字节，不含安装工具额外开销 |
+| BIN 文件 | `starry-rw5-v0.2.7.bin` |
+| 文件大小 | **10,005,618 字节，约 10.01 MB** |
+| 包内文件解压总大小 | 11,623,507 字节，不含安装工具额外开销 |
 
 MB 按 1,000,000 字节计算。BIN 与同版本 RPK 内容相同，任选安装工具支持的格式。当前产物使用开发签名。
 
 ```text
 SHA256
-5b9514b8e6b1b6da013c037b12f60f7ca1cb7b1dfaa8db005dc5acff68ea2830
+f97330fc260727df56db91dce1885a70b6ed83022b2f9a6ffa38d5cb2032e1cf
 ```
 
 ## 安装与使用
@@ -65,6 +65,12 @@ SHA256
 ## 0.2.6 跳章修正
 
 新包在官方 Vela 虚拟手表安装、启动和菜单选项保护检查通过；仍使用已通过此前实机测试的资源格式与兼容编译器，未改动图片和剧情文件。36 种选择组合在正常阅读与安全跳章下的结局状态一致。
+
+## 0.2.7 圆形图标
+
+应用列表图标使用 192 × 192 RGBA PNG，圆外透明，移除图内标题文字。游戏标题背景继续使用原画。新包的页面脚本及除图标外的全部资源与 0.2.6 相同，签名与文件摘要校验、原生安装及启动检查通过。
+
+![圆形应用图标](docs/images/app-icon.png)
 
 ## 适配与验证
 
@@ -88,7 +94,7 @@ npm test
 npm run build
 ```
 
-产物为 `dist/com.codex.starry.rw5.debug.0.2.6.rpk`。构建固定使用 **aiot-toolkit 1.1.0**，`tools/compat-toolkit` 将图片依赖 sharp 固定为 0.34.5；项目根目录的 2.0.5 依赖用于开发和模拟器工具。构建脚本检查 **25,000,000 字节**上限。
+产物为 `dist/com.codex.starry.rw5.debug.0.2.7.rpk`。构建固定使用 **aiot-toolkit 1.1.0**，`tools/compat-toolkit` 将图片依赖 sharp 固定为 0.34.5；项目根目录的 2.0.5 依赖用于开发和模拟器工具。构建脚本检查 **25,000,000 字节**上限。
 
 ```text
 src/                  Vela 应用、界面与转换后的运行资源
@@ -113,7 +119,7 @@ npm run emulator
 待虚拟系统完成启动后，另开终端进入本项目目录，安装已经构建的包：
 
 ```powershell
-$rpkPath = (Resolve-Path 'dist/com.codex.starry.rw5.debug.0.2.6.rpk').Path
+$rpkPath = (Resolve-Path 'dist/com.codex.starry.rw5.debug.0.2.7.rpk').Path
 $installUrl = 'http://127.0.0.1:43125/install?rpk=' + [Uri]::EscapeDataString($rpkPath)
 Invoke-RestMethod -Uri $installUrl
 Invoke-RestMethod -Uri 'http://127.0.0.1:43125/start'
