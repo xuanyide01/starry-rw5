@@ -1,0 +1,51 @@
+{
+  "version": "0.2.4",
+  "packageSha256": "9f8c6a6add4446efc4ca7fe72f890bf96b75b7c01901aabfdf18ab6d409324fd",
+  "compiler": "aiot-toolkit 1.1.0",
+  "runtime": "official vela-watch-5.0",
+  "screen": [
+    432,
+    514
+  ],
+  "chaptersRead": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "gallery": {
+    "groups": 24,
+    "images": 124,
+    "pagesChecked": 6,
+    "cyclicVariants": true,
+    "variantGroupsChecked": [
+      "01",
+      "04",
+      "10",
+      "21"
+    ],
+    "singleImageGuard": true,
+    "sceneNavigation": true,
+    "returnToSamePage": true
+  },
+  "previousSaveLoaded": [
+    3,
+    8
+  ],
+  "resourceFailures": 0,
+  "physicalFixVerified": false,
+  "result": "passed"
+}

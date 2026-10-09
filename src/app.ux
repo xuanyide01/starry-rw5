@@ -1,0 +1,6 @@
+<script>
+export default {
+  onCreate() { console.log('STARRY_RW5 app created'); },
+  onDestroy() { console.log('STARRY_RW5 app destroyed'); }
+}
+</script>

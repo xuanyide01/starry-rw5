@@ -1,0 +1,35 @@
+{
+  "package": "com.codex.starry.rw5",
+  "name": "星空列车与白的旅行",
+  "versionName": "0.2.5",
+  "versionCode": 8,
+  "minPlatformVersion": 1000,
+  "minAPILevel": 1,
+  "icon": "/common/logo.png",
+  "deviceTypeList": [
+    "watch"
+  ],
+  "features": [
+    {
+      "name": "system.storage"
+    },
+    {
+      "name": "system.file"
+    },
+    {
+      "name": "system.prompt"
+    }
+  ],
+  "config": {
+    "designWidth": 432,
+    "logLevel": "log"
+  },
+  "router": {
+    "entry": "pages/index",
+    "pages": {
+      "pages/index": {
+        "component": "index"
+      }
+    }
+  }
+}

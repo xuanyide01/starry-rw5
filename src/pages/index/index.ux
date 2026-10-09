@@ -1,0 +1,243 @@
+<template>
+  <div class="page" onswipe="swipe">
+    <div if="{{mode !== 'gallery' && mode !== 'cg'}}" class="art" onclick="advance">
+      <image if="{{mode === 'title'}}" class="background" src="/common/title_bg.png" onerror="backgroundError" oncomplete="backgroundLoaded"></image>
+      <image if="{{mode !== 'title'}}" class="background" src="{{backgroundSrc}}" onerror="backgroundError" oncomplete="backgroundLoaded"></image>
+      <image if="{{bodySrc !== ''}}" class="body" src="{{bodySrc}}"></image>
+    </div>
+    <div if="{{mode === 'title'}}" class="title-panel">
+      <text class="title-text">星空列车与白的旅行</text>
+      <text class="title-subtitle">红米手表 5 · 图文版</text>
+      <text class="title-action" onclick="startNew">开始旅行</text>
+      <text class="title-action secondary" onclick="continueGame">读取存档</text>
+      <text class="title-action secondary" onclick="openGallery">CG 鉴赏</text>
+    </div>
+    <div if="{{mode === 'play'}}" class="dialogue-panel">
+      <div class="speaker-row"><text class="speaker">{{speaker}}</text><text class="chapter">{{chapterLabel}}</text></div>
+      <scroll id="dialogue-scroll" class="dialogue-scroll" scroll-y="true" onclick="advance"><text class="dialogue" style="font-size: {{fontSize}}px;">{{displayText}}</text></scroll>
+      <div class="toolbar"><text class="tool" onclick="goBack">上一句</text><text class="tool" onclick="showMenu">菜单</text><text class="tool" onclick="advance">下一句 ›</text></div>
+    </div>
+    <div if="{{mode === 'choice'}}" class="choice-panel">
+      <text class="choice-title">选择下一步</text>
+      <text for="{{options}}" tid="text" class="choice" onclick="pick($idx)">{{$item.text}}</text>
+      <text class="small-action" onclick="showMenu">菜单</text>
+    </div>
+    <div if="{{mode === 'menu'}}" class="overlay">
+      <text class="menu-title">旅行菜单</text>
+      <text class="menu-action" onclick="saveGame">保存进度</text>
+      <text class="menu-action" onclick="loadGame">读取进度</text>
+      <text class="menu-action" style="color: {{hasNextChapter ? '#d5e5f2' : '#64758a'}};" onclick="goNextChapter">下一章 ›</text>
+      <text class="menu-action" onclick="toggleSpeed">{{speedLabel}}</text>
+      <text class="menu-action" onclick="toggleFont">{{fontLabel}}</text>
+      <text class="menu-action" onclick="resume">返回游戏</text>
+      <text class="menu-action muted" onclick="toTitle">返回标题</text>
+    </div>
+    <div if="{{mode === 'slots'}}" class="full-panel">
+      <text class="panel-title">{{slotTitle}}</text>
+      <text class="panel-subtitle">{{slotPageLabel}}</text>
+      <div class="slot-list">
+        <div for="{{slotRows}}" tid="number" class="slot-card" style="background-color: {{$item.occupied ? '#1d3549' : '#142535'}};" onclick="selectSlot($item.index)">
+          <text class="slot-title">{{$item.title}}</text><text class="slot-meta">{{$item.meta}}</text><text class="slot-preview">{{$item.preview}}</text>
+        </div>
+      </div>
+      <div class="pager"><text class="pager-action" onclick="previousSlotPage">‹ 上一页</text><text class="pager-action" onclick="closeSlots">返回</text><text class="pager-action" onclick="nextSlotPage">下一页 ›</text></div>
+    </div>
+    <div if="{{mode === 'overwrite'}}" class="overlay">
+      <text class="menu-title">{{overwriteTitle}}</text>
+      <text class="confirm-text">{{overwriteDetail}}</text>
+      <text class="menu-action" onclick="confirmOverwrite">确认覆盖</text><text class="menu-action muted" onclick="cancelOverwrite">取消</text>
+    </div>
+    <div if="{{mode === 'gallery'}}" class="full-panel">
+      <text class="panel-title">CG 鉴赏</text><text class="panel-subtitle">{{galleryPageLabel}}</text>
+      <div class="gallery-row"><div for="{{galleryTop}}" tid="image" class="gallery-card" onclick="viewCg($item.index)"><image class="gallery-thumb" src="{{$item.src}}"></image><text class="gallery-caption">{{$item.label}}</text></div></div>
+      <div class="gallery-row"><div for="{{galleryBottom}}" tid="image" class="gallery-card" onclick="viewCg($item.index)"><image class="gallery-thumb" src="{{$item.src}}"></image><text class="gallery-caption">{{$item.label}}</text></div></div>
+      <div class="pager"><text class="pager-action" onclick="previousGalleryPage">‹ 上一页</text><text class="pager-action" onclick="toTitle">返回标题</text><text class="pager-action" onclick="nextGalleryPage">下一页 ›</text></div>
+    </div>
+    <div if="{{mode === 'cg'}}" class="cg-panel">
+      <image class="cg-image" src="{{cgSrc}}" onclick="cycleCg"></image><text class="cg-caption">{{cgLabel}}</text>
+      <div class="cg-controls"><text class="pager-action" onclick="previousCg">‹ 上一组</text><text class="pager-action" onclick="backToGallery">返回列表</text><text class="pager-action" onclick="nextCg">下一组 ›</text></div>
+    </div>
+    <div if="{{mode === 'end'}}" class="end-panel"><text class="game-title">旅行的终点</text><text class="subtitle">感谢陪伴</text><text class="action" onclick="toTitle">返回标题</text></div>
+    <div if="{{mode === 'error'}}" class="overlay"><text class="menu-title">暂时无法继续</text><text class="error-text">{{errorText}}</text><text class="action" onclick="toTitle">返回标题</text></div>
+    <text if="{{loading}}" class="loading">加载中…</text>
+  </div>
+</template>
+<script>
+import file from '@system.file';
+import storage from '@system.storage';
+import prompt from '@system.prompt';
+import {newState,restore,readFrame,next,nextChapter,choose,previous} from '../../common/engine.js';
+import {SLOT_COUNT,LEGACY_KEY,slotKey,decodeSave,createSave,slotRow} from '../../common/saves.js';
+import {imagePath} from '../../common/assets.js';
+import {groupGallery,stepVariant} from '../../common/gallery.js';
+export default {
+  private:{mode:'title',backgroundSrc:'/common/title_bg.png',bodySrc:'',speaker:'',displayText:'',chapterLabel:'',
+    options:[],loading:false,errorText:'',hasNextChapter:true,fontSize:24,textSpeed:30,speedLabel:'显示速度：逐字',fontLabel:'字号：标准',
+    slotTitle:'',slotPage:0,slotPageLabel:'',slotRows:[],storageBusy:false,overwriteTitle:'',overwriteDetail:'',
+    galleryPage:0,galleryPageLabel:'',galleryTop:[],galleryBottom:[],cgIndex:0,cgVariant:0,cgSrc:'',cgLabel:''},
+  onInit(){
+    this.session=newState();this.cachedChapter=0;this.ops=[];this.loadSequence=0;this.timer=null;this.fullText='';this.resumeMode='play';
+    this._slotsSequence=0;this._gallerySequence=0;this._slotData=[];this._galleryCatalog=[];this._galleryTotal=0;this._slotsReturnMode='title';this._slotRole='load';
+    storage.get({complete:()=>{},key:'starry_rw5_settings_v1',success:data=>{try{const s=JSON.parse(data);this.fontSize=s.fontSize===28?28:24;this.textSpeed=s.textSpeed===0?0:30;this.refreshSettings();}catch(e){}},fail:()=>{}});
+    console.log('STARRY_RW5 title ready');
+  },
+  backgroundLoaded(){console.log('STARRY_RW5 background loaded',this.mode,this.backgroundSrc);},
+  backgroundError(){console.log('STARRY_RW5 background failed',this.mode,this.backgroundSrc);},
+  clearTyping(){if(this.timer!==null){clearTimeout(this.timer);this.timer=null;}},
+  onHide(){this.clearTyping();if(this.mode==='play')this.displayText=this.fullText;},
+  onDestroy(){this.clearTyping();this.loadSequence++;this._slotsSequence++;this._gallerySequence++;},
+  startNew(){if(this.loading)return;this.clearTyping();this.session=newState();this.cachedChapter=0;this.renderFrame();},
+  continueGame(){this.openSlots('load');},
+  readChapter(chapter,done){
+    if(this.cachedChapter===chapter){done();return;}
+    this.loading=true;const seq=++this.loadSequence;
+    file.readText({complete:()=>{},uri:'/common/story/'+chapter+'.txt',success:data=>{
+      if(seq!==this.loadSequence)return;
+      try{const ops=JSON.parse(data.text);if(!Array.isArray(ops))throw new Error('章节格式无效');this.ops=ops;this.cachedChapter=chapter;this.loading=false;done();}
+      catch(e){this.fail(e.message);}
+    },fail:(data,code)=>{if(seq===this.loadSequence)this.fail('第 '+chapter+' 章读取失败：'+code+' '+String(data||'').slice(0,100));}});
+  },
+  renderFrame(){
+    this.clearTyping();this.readChapter(this.session.chapter,()=>{
+      try{
+        const f=readFrame(this.ops,this.session);
+        if(f.type==='jump'){this.session.chapter=f.to[0];this.session.cursor=f.to[1];this.renderFrame();return;}
+        this.backgroundSrc=imagePath(this.session.background);
+        this.bodySrc=this.session.body?imagePath(this.session.body):'';
+        this.chapterLabel=this.session.chapter+' / 17';this.hasNextChapter=this.session.chapter<17;
+        if(f.type==='choice'){this.options=f.items;this.mode='choice';console.log('STARRY_RW5 choice',this.session.chapter,this.session.cursor);return;}
+        if(f.type==='end'){this.mode='end';console.log('STARRY_RW5 ending');return;}
+        this.mode='play';this.speaker=f.speaker;this.fullText=f.text;this.displayText='';
+        try{this.$element('dialogue-scroll').scrollTo({index:0});}catch(e){}
+        console.log('STARRY_RW5 frame',this.session.chapter,this.session.cursor);
+        if(this.textSpeed===0){this.displayText=this.fullText;return;}
+        const tick=()=>{this.displayText=this.fullText.slice(0,this.displayText.length+1);if(this.displayText.length<this.fullText.length)this.timer=setTimeout(tick,this.textSpeed);else this.timer=null;};tick();
+      }catch(e){this.fail(e.message);}
+    });
+  },
+  advance(){if(this.loading||this.mode!=='play')return;if(this.timer!==null){this.clearTyping();this.displayText=this.fullText;return;}next(this.session);this.renderFrame();},
+  goNextChapter(){if(this.loading||this.mode!=='menu')return;if(this.session.chapter>=17){this.toast('已经是最后一章');return;}this.clearTyping();nextChapter(this.session);this.options=[];this.renderFrame();console.log('STARRY_RW5 chapter skipped',this.session.chapter);},
+  pick(index){if(this.mode!=='choice'||this.loading)return;choose(this.session,this.options[index],index);this.renderFrame();},
+  goBack(){if(this.loading||this.mode!=='play')return;this.clearTyping();if(previous(this.session))this.renderFrame();else this.toast('已经是第一句');},
+  showMenu(){if(this.loading||(this.mode!=='play'&&this.mode!=='choice'))return;this.clearTyping();this.displayText=this.fullText;this.resumeMode=this.mode;this.mode='menu';console.log('STARRY_RW5 menu',this.session.chapter);},
+  resume(){this.mode=this.resumeMode;},
+  swipe(event){
+    if(this.mode==='gallery'){if(event.direction==='left')this.nextGalleryPage();if(event.direction==='right')this.previousGalleryPage();return;}
+    if(event.direction==='right'&&(this.mode==='play'||this.mode==='choice'))this.showMenu();
+  },
+  saveGame(){this.openSlots('save');},
+  loadGame(){this.openSlots('load');},
+  openSlots(role){
+    if(this.loading||this.storageBusy)return;this.clearTyping();this._slotsReturnMode=this.mode;this._slotRole=role;
+    this._pendingSave=role==='save'?createSave(this.session,this.resumeMode,Date.now()):null;
+    this.slotTitle=role==='save'?'选择保存栏位':'选择读取栏位';this.slotPage=0;this.slotRows=[];this.mode='slots';this.loading=true;
+    const seq=++this._slotsSequence;this._slotData=Array(SLOT_COUNT).fill(null);let remaining=SLOT_COUNT;
+    const ready=()=>{if(seq!==this._slotsSequence)return;this.loading=false;this.refreshSlotRows();console.log('STARRY_RW5 slots ready',role);};
+    const finish=()=>{
+      if(seq!==this._slotsSequence||--remaining!==0)return;
+      if(this._slotData[0]){ready();return;}
+      storage.get({complete:()=>{},key:LEGACY_KEY,default:'',success:data=>{if(seq!==this._slotsSequence)return;try{const old=decodeSave(data);if(old){old.legacy=true;this._slotData[0]=old;}}catch(e){}ready();},fail:ready});
+    };
+    for(let i=0;i<SLOT_COUNT;i++)storage.get({complete:()=>{},key:slotKey(i),default:'',success:data=>{if(seq!==this._slotsSequence)return;try{this._slotData[i]=decodeSave(data);}catch(e){this._slotData[i]={invalid:true};}finish();},fail:()=>{if(seq!==this._slotsSequence)return;this._slotData[i]={invalid:true};finish();}});
+  },
+  refreshSlotRows(){const start=this.slotPage*4;const rows=[];for(let i=start;i<Math.min(start+4,SLOT_COUNT);i++)rows.push(slotRow(i,this._slotData[i]));this.slotRows=rows;this.slotPageLabel=SLOT_COUNT+' 个栏位 · 第 '+(this.slotPage+1)+' / '+Math.ceil(SLOT_COUNT/4)+' 页';},
+  previousSlotPage(){if(this.loading||this.slotPage===0)return;this.slotPage--;this.refreshSlotRows();},
+  nextSlotPage(){if(this.loading||this.slotPage>=Math.ceil(SLOT_COUNT/4)-1)return;this.slotPage++;this.refreshSlotRows();},
+  closeSlots(){if(this.storageBusy)return;this._slotsSequence++;this.loading=false;this.mode=this._slotsReturnMode;},
+  selectSlot(index){
+    if(this.loading||this.storageBusy||this.mode!=='slots'||index<0||index>=SLOT_COUNT)return;
+    const saved=this._slotData[index];
+    if(this._slotRole==='load'){
+      if(!saved){this.toast('这个栏位还没有存档');return;}if(saved.invalid){this.toast('这个存档无法读取');return;}
+      try{this.session=restore(saved.state);this.cachedChapter=0;this._slotsSequence++;this.renderFrame();console.log('STARRY_RW5 slot loaded',index+1,this.session.chapter,this.session.cursor);}catch(e){this.toast(e.message);}return;
+    }
+    this._pendingSlotIndex=index;
+    if(saved){const row=slotRow(index,saved);this.overwriteTitle='覆盖'+row.title+'？';this.overwriteDetail=row.meta+'\n覆盖后将保存当前进度。';this.mode='overwrite';console.log('STARRY_RW5 overwrite',index+1);return;}
+    this.commitSlot();
+  },
+  confirmOverwrite(){if(this.mode==='overwrite')this.commitSlot();},
+  cancelOverwrite(){if(!this.storageBusy)this.mode='slots';},
+  commitSlot(){
+    if(this.storageBusy||!this._pendingSave)return;
+    const index=this._pendingSlotIndex,seq=this._slotsSequence,payload=this._pendingSave;payload.savedAt=Date.now();this.storageBusy=true;this.loading=true;
+    storage.set({complete:()=>{},key:slotKey(index),value:JSON.stringify(payload),success:()=>{
+      if(seq!==this._slotsSequence)return;this._slotData[index]=payload;this.storageBusy=false;this.loading=false;this._slotsSequence++;this.mode=this.resumeMode;
+      this.toast('已保存到存档 '+('0'+(index+1)).slice(-2));console.log('STARRY_RW5 slot saved',index+1,payload.state.chapter,payload.state.cursor);
+    },fail:()=>{if(seq!==this._slotsSequence)return;this.storageBusy=false;this.loading=false;this.toast('保存失败，请重试');}});
+  },
+  openGallery(){
+    if(this.loading)return;this.clearTyping();this.mode='gallery';
+    if(this._galleryCatalog.length){this.refreshGallery();return;}
+    this.loading=true;const seq=++this._gallerySequence;
+    file.readText({complete:()=>{},uri:'/common/gallery.txt',success:data=>{
+      if(seq!==this._gallerySequence)return;
+      try{const items=JSON.parse(data.text);if(!Array.isArray(items)||!items.length)throw new Error('CG 目录为空');this._galleryCatalog=groupGallery(items);this._galleryTotal=items.length;this.galleryPage=0;this.loading=false;this.refreshGallery();console.log('STARRY_RW5 gallery ready',this._galleryCatalog.length,items.length);}catch(e){this.fail(e.message);}
+    },fail:(data,code)=>{if(seq===this._gallerySequence)this.fail('CG 目录读取失败：'+code);}});
+  },
+  refreshGallery(){const start=this.galleryPage*4;const items=this._galleryCatalog.slice(start,start+4).map((item,i)=>({image:item.image,label:item.label+'\n'+item.variants.length+' 张',index:start+i,src:imagePath(item.image)}));this.galleryTop=items.slice(0,2);this.galleryBottom=items.slice(2,4);this.galleryPageLabel=this._galleryCatalog.length+' 组 · '+this._galleryTotal+' 张 · 第 '+(this.galleryPage+1)+' / '+Math.ceil(this._galleryCatalog.length/4)+' 页';},
+  previousGalleryPage(){if(this.loading||this.galleryPage===0)return;this.galleryPage--;this.refreshGallery();},
+  nextGalleryPage(){if(this.loading||this.galleryPage>=Math.ceil(this._galleryCatalog.length/4)-1)return;this.galleryPage++;this.refreshGallery();},
+  viewCg(index){if(this.loading||index<0||index>=this._galleryCatalog.length)return;this.cgIndex=index;this.cgVariant=0;this.mode='cg';this.renderCg();},
+  renderCg(){const group=this._galleryCatalog[this.cgIndex],item=group.variants[this.cgVariant];this.cgSrc=imagePath(item.image);this.cgLabel=group.label+(group.variants.length>1?' · 差分 '+(this.cgVariant+1)+' / '+group.variants.length+' · 点击切换':'');console.log('STARRY_RW5 cg',this.cgIndex+1,this.cgVariant+1,item.image);},
+  cycleCg(){if(this.mode!=='cg'||this.loading)return;const count=this._galleryCatalog[this.cgIndex].variants.length;if(count<2)return;this.cgVariant=stepVariant(this.cgVariant,1,count);this.renderCg();},
+  previousCg(){if(this.cgIndex>0)this.viewCg(this.cgIndex-1);},
+  nextCg(){if(this.cgIndex<this._galleryCatalog.length-1)this.viewCg(this.cgIndex+1);},
+  backToGallery(){this.galleryPage=Math.floor(this.cgIndex/4);this.refreshGallery();this.mode='gallery';},
+  refreshSettings(){this.speedLabel=this.textSpeed===0?'显示速度：即时':'显示速度：逐字';this.fontLabel=this.fontSize===28?'字号：大':'字号：标准';},
+  persistSettings(){storage.set({complete:()=>{},key:'starry_rw5_settings_v1',value:JSON.stringify({fontSize:this.fontSize,textSpeed:this.textSpeed}),success:()=>{},fail:()=>{}});},
+  toggleSpeed(){this.textSpeed=this.textSpeed===0?30:0;this.refreshSettings();this.persistSettings();},
+  toggleFont(){this.fontSize=this.fontSize===24?28:24;this.refreshSettings();this.persistSettings();},
+  toTitle(){if(this.storageBusy)return;this.clearTyping();this.loadSequence++;this._slotsSequence++;this._gallerySequence++;this.loading=false;this.mode='title';this.backgroundSrc='/common/title_bg.png';this.bodySrc='';},
+  toast(message){prompt.showToast({message,duration:1500,success:()=>{},fail:()=>{},complete:()=>{}});},
+  fail(message){this.clearTyping();this.loading=false;this.mode='error';this.errorText=message;console.error('STARRY_RW5 error',message);}
+}
+</script>
+<style>
+.page{width:432px;height:514px;background-color:#0a111f;flex-direction:column;}
+.art{position:absolute;top:0px;left:0px;width:432px;height:286px;justify-content:center;align-items:center;background-color:#000000;}
+.background{width:432px;height:286px;object-fit:contain;}
+.body{position:absolute;top:0px;left:0px;width:432px;height:286px;object-fit:contain;}
+.title-panel,.dialogue-panel,.choice-panel,.end-panel{position:absolute;top:286px;left:0px;width:432px;height:228px;flex-direction:column;padding:12px 18px;}
+.title-text{font-size:26px;color:#f4f7ff;text-align:center;margin-bottom:2px;}
+.title-subtitle{font-size:16px;color:#8d9cae;text-align:center;margin-bottom:4px;}
+.title-action{height:40px;width:396px;margin-bottom:4px;color:#ffffff;background-color:#25445f;border-radius:12px;text-align:center;font-size:22px;}
+.game-title{font-size:28px;color:#f4f7ff;text-align:center;margin-bottom:4px;}
+.subtitle{font-size:18px;color:#8d9cae;text-align:center;margin-bottom:8px;}
+.action{height:52px;width:396px;margin-bottom:6px;color:#ffffff;background-color:#25445f;border-radius:14px;text-align:center;font-size:24px;}
+.secondary{background-color:#192b3d;}
+.speaker-row{height:30px;justify-content:space-between;align-items:center;}
+.speaker{font-size:23px;color:#9bdaed;}
+.chapter{font-size:16px;color:#72849b;}
+.dialogue-scroll{width:396px;height:128px;}
+.dialogue{width:396px;color:#f4f7ff;line-height:34px;}
+.toolbar{height:42px;width:396px;justify-content:space-between;align-items:center;}
+.tool{font-size:20px;color:#b7cbdf;padding:8px;}
+.choice-title{font-size:23px;color:#b8dbe9;margin-bottom:8px;text-align:center;}
+.choice{height:42px;width:396px;background-color:#25445f;border-radius:12px;font-size:21px;color:#ffffff;text-align:center;margin-bottom:6px;}
+.small-action{font-size:18px;color:#9bacc0;text-align:center;}
+.overlay{position:absolute;top:0px;left:0px;width:432px;height:514px;background-color:#0a111f;flex-direction:column;padding:22px 32px;}
+.menu-title{height:36px;font-size:28px;color:#ffffff;text-align:center;margin-bottom:12px;}
+.menu-action{height:50px;font-size:22px;color:#d5e5f2;background-color:#172b3c;border-radius:12px;margin-bottom:8px;text-align:center;}
+.muted{color:#98aabd;}
+.full-panel{position:absolute;top:0px;left:0px;width:432px;height:514px;background-color:#0a111f;flex-direction:column;padding:16px 18px;}
+.panel-title{height:36px;font-size:28px;color:#ffffff;text-align:center;margin-bottom:4px;}
+.panel-subtitle{height:22px;font-size:16px;color:#93a8bc;text-align:center;margin-bottom:6px;}
+.slot-list{height:368px;width:396px;flex-direction:column;}
+.slot-card{height:84px;width:396px;margin-bottom:8px;padding:7px 12px;flex-direction:column;border-radius:12px;}
+.slot-title{height:26px;font-size:22px;color:#e5f0fa;}
+.slot-meta{height:19px;font-size:16px;color:#9ab2c7;}
+.slot-preview{height:22px;font-size:18px;color:#bfceda;}
+.pager{height:44px;width:396px;justify-content:space-between;align-items:center;}
+.pager-action{font-size:20px;color:#b7cbdf;padding:8px;}
+.gallery-row{height:184px;width:396px;justify-content:space-between;}
+.gallery-card{height:176px;width:192px;padding:6px;flex-direction:column;background-color:#142535;border-radius:12px;}
+.gallery-thumb{height:116px;width:180px;object-fit:contain;background-color:#000000;}
+.gallery-caption{height:48px;width:180px;font-size:18px;line-height:22px;color:#d5e5f2;text-align:center;}
+.cg-panel{position:absolute;top:0px;left:0px;width:432px;height:514px;flex-direction:column;background-color:#000000;}
+.cg-image{width:432px;height:432px;object-fit:contain;}
+.cg-caption{width:432px;height:28px;font-size:18px;color:#d5e5f2;text-align:center;}
+.cg-controls{width:432px;height:54px;padding:0px 10px;justify-content:space-between;align-items:center;background-color:#0a111f;}
+.confirm-text{font-size:24px;color:#d5e5f2;margin:30px 0px;}
+.error-text{font-size:22px;color:#eab7b7;margin-bottom:30px;}
+.loading{position:absolute;top:234px;left:128px;width:176px;height:46px;text-align:center;font-size:23px;color:#ffffff;background-color:#253a50;border-radius:12px;}
+</style>

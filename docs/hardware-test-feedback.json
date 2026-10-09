@@ -1,0 +1,11 @@
+{
+  "version": "0.2.5",
+  "device": "REDMI Watch 5",
+  "reportedDate": "2026-10-09",
+  "reportedBy": "maintainer",
+  "evidenceType": "user-reported hardware test",
+  "applicationIconDisplaysNormally": true,
+  "currentFunctionalIssuesObserved": false,
+  "installationNote": "表盘自定义工具显示安装完成后仍需等待一阵，手表端才会完成安装。",
+  "scope": "已测试设备和已检查功能；未声称穷举所有剧情和所有固件。"
+}

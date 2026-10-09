@@ -1,0 +1,11 @@
+{
+  "version": "0.2.4",
+  "changedResources": [],
+  "imageModes": {
+    "RGB": 1,
+    "P": 549
+  },
+  "imageBytes": 9474548,
+  "maxDecodedImageBytes": 419904,
+  "portraitImages": []
+}

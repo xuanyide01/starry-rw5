@@ -1,0 +1,25 @@
+{
+  "name": "starry-rw5-reproduction",
+  "version": "0.2.5",
+  "private": true,
+  "scripts": {
+    "build": "node tools/build.cjs",
+    "release": "node tools/build.cjs --release",
+    "start": "aiot start",
+    "test": "node --test tests/*.test.cjs",
+    "emulator:setup": "node tools/setup-emulator.cjs",
+    "emulator": "node tools/emulator-server.cjs",
+    "test:native": "node tools/native-slots.cjs",
+    "test:native:persist": "node tools/native-slots.cjs --persist",
+    "test:native:gallery": "node tools/native-gallery.cjs",
+    "test:native:prepare": "node tools/native-slots.cjs --prepare"
+  },
+  "devDependencies": {
+    "aiot-toolkit": "2.0.5"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xuanyide01/starry-rw5.git"
+  }
+}

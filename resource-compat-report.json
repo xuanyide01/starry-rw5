@@ -1,0 +1,99 @@
+{
+  "version": "0.2.4",
+  "sourceReference": "supplied working Starry 1.0.0 BIN",
+  "textResourceFormat": "UTF-8 JSON in .txt files",
+  "textResources": [
+    {
+      "path": "common/story/1.txt",
+      "sha256": "a4ab0cf3f91e28426df22957466e1e8b300e2631d33a48a4ca9cc1c58bf2a52f",
+      "bytes": 147611
+    },
+    {
+      "path": "common/story/10.txt",
+      "sha256": "559342a45b72d3a1ac9233efe3521c0996caa06e97083326bb8008f3b4950ebb",
+      "bytes": 70785
+    },
+    {
+      "path": "common/story/11.txt",
+      "sha256": "276ec55af4104ab0c5b2d3045f89a5bd29964af7e549814b0a6f028d571bbfa6",
+      "bytes": 97615
+    },
+    {
+      "path": "common/story/12.txt",
+      "sha256": "1406fea6cf00699fe0f5ef3bef232b750cb77790c65fd40608f03026efe4012a",
+      "bytes": 131699
+    },
+    {
+      "path": "common/story/13.txt",
+      "sha256": "94017926183cf13c19a1b5fc7d8f5d42529694d5e05de4d03c48b73ffc380bf3",
+      "bytes": 188253
+    },
+    {
+      "path": "common/story/14.txt",
+      "sha256": "ebaec54b6cfa0e6b51d7062bb8b564f4f393e50757d85de0fbfb44ad9a971c6c",
+      "bytes": 109308
+    },
+    {
+      "path": "common/story/15.txt",
+      "sha256": "dce7a6658e3ed64cce8113055462ddd7d897c9a02c33353c10f2b46017e340df",
+      "bytes": 157232
+    },
+    {
+      "path": "common/story/16.txt",
+      "sha256": "525e2ada433b79a9439beebdb33b136f3d83b103d6c8bca2299a95531fea3834",
+      "bytes": 70313
+    },
+    {
+      "path": "common/story/17.txt",
+      "sha256": "257077449c70d040f91172f3cd4ff767ab4dadd7e5bd40f159e938e0840f2d31",
+      "bytes": 19846
+    },
+    {
+      "path": "common/story/2.txt",
+      "sha256": "66a7e92bc0226e97a610afded1fe9009400573dd88a48bcfdf6442fd98655475",
+      "bytes": 185405
+    },
+    {
+      "path": "common/story/3.txt",
+      "sha256": "ac8efb8e4dececfa1f804ff4f8040db8f4e1deb1b749350e9448ad8dc6acd566",
+      "bytes": 39718
+    },
+    {
+      "path": "common/story/4.txt",
+      "sha256": "d4676e5fbf600ec32d81cc8d8ec62303ecdbc106f40535d3f8245e783c4106c3",
+      "bytes": 78295
+    },
+    {
+      "path": "common/story/5.txt",
+      "sha256": "a78a17c0673a593d6cc8d9e41e6d7ddaac49c990b367530004e77da2e22de1f7",
+      "bytes": 180307
+    },
+    {
+      "path": "common/story/6.txt",
+      "sha256": "ae5845ac1fce0acc73578d93d2497b40b94a887aedb15ca3852f58a69fc9d7dc",
+      "bytes": 133126
+    },
+    {
+      "path": "common/story/7.txt",
+      "sha256": "f5b82cacef8b1db77cbc5316ffbb5358f6211acb81d14e0ef520042bdb345682",
+      "bytes": 65961
+    },
+    {
+      "path": "common/story/8.txt",
+      "sha256": "a22287624736308ab14cc67c9343a4a2664597d754a5f8f4f5e00dd6133dc102",
+      "bytes": 121003
+    },
+    {
+      "path": "common/story/9.txt",
+      "sha256": "090ebd3836490b2cccaccb7f1186d251e28e47271d2f5758e2a3e7dcfb6ef7a5",
+      "bytes": 130706
+    },
+    {
+      "path": "common/gallery.txt",
+      "sha256": "8ac3544254626ee421997b6d457b6cd7c34cb4ca8eb34bc8848386859363ffa8",
+      "bytes": 8823
+    }
+  ],
+  "cover": "/common/title_bg.png",
+  "physicalFixVerified": false
+}

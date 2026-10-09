@@ -1,0 +1,24 @@
+{
+  "project": "starry-rw5",
+  "version": "0.2.5",
+  "name": "星空列车与白的旅行",
+  "oldIconColors": 1,
+  "oldIconPath": "/common/icon.png",
+  "iconPath": "/common/logo.png",
+  "dimensions": [
+    192,
+    192
+  ],
+  "pngMode": "RGB",
+  "colors": 17751,
+  "bytes": 68792,
+  "sha256": "c587480aa8a202c3aa1b1e71799edef602f088184c616fcd1939ece124f639a3",
+  "source": "existing original-game title art",
+  "cropBox": [
+    46,
+    0,
+    289,
+    243
+  ],
+  "iconSizeSpecification": "https://iot.mi.com/vela/quickapp/zh/guide/framework/manifest.html"
+}
