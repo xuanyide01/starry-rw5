@@ -12,7 +12,7 @@
   "allFileDigestsValid": true,
   "signedFiles": 573,
   "device": "REDMI Watch 5",
-  "physicalDeviceTested": false,
+  "physicalDeviceTested": true,
   "applicationIcon": {
     "game": "starry",
     "width": 192,
@@ -37,9 +37,22 @@
     "freshInstallationPassed": true,
     "coldLaunchPassed": true,
     "iconManifestPath": "/common/logo.png",
-    "actualPhysicalLauncherRenderingTested": false
+    "actualPhysicalLauncherRenderingTested": true
   },
-  "status": "virtual-watch checked; new complete package awaits physical testing",
+  "status": "Physical installation and icon display confirmed by maintainer; no other bugs reported in tested use.",
   "logicValidationInheritedFromVersion": "0.2.6",
-  "logicTestsPreviouslyPassed": 13
+  "logicTestsPreviouslyPassed": 13,
+  "hardwareTestPassed": true,
+  "physicalDeviceFeedback": {
+    "date": "2026-10-09",
+    "source": "maintainer physical-device feedback in this conversation",
+    "device": "REDMI Watch 5",
+    "version": "0.2.7",
+    "sha256": "f97330fc260727df56db91dce1885a70b6ed83022b2f9a6ffa38d5cb2032e1cf",
+    "installationPassed": true,
+    "applicationIconDisplayedNormally": true,
+    "otherBugsReported": false,
+    "verbatimFeedback": "3个游戏都已通过上机测试，安装正常，图标正常，暂未发现其他bug。",
+    "scope": "Installation, application icon and the functions exercised by the maintainer; not an exhaustive route or firmware compatibility test."
+  }
 }
