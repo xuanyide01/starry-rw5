@@ -1,8 +1,8 @@
 {
   "package": "com.codex.starry.rw5",
   "name": "星空列车与白的旅行",
-  "versionName": "0.2.5",
-  "versionCode": 8,
+  "versionName": "0.2.6",
+  "versionCode": 9,
   "minPlatformVersion": 1000,
   "minAPILevel": 1,
   "icon": "/common/logo.png",

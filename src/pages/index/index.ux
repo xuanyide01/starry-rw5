@@ -66,7 +66,7 @@
 import file from '@system.file';
 import storage from '@system.storage';
 import prompt from '@system.prompt';
-import {newState,restore,readFrame,next,nextChapter,choose,previous} from '../../common/engine.js';
+import {newState,restore,readFrame,readChapterSkip,next,nextChapter,choose,previous} from '../../common/engine.js';
 import {SLOT_COUNT,LEGACY_KEY,slotKey,decodeSave,createSave,slotRow} from '../../common/saves.js';
 import {imagePath} from '../../common/assets.js';
 import {groupGallery,stepVariant} from '../../common/gallery.js';
@@ -84,7 +84,8 @@ export default {
   backgroundLoaded(){console.log('STARRY_RW5 background loaded',this.mode,this.backgroundSrc);},
   backgroundError(){console.log('STARRY_RW5 background failed',this.mode,this.backgroundSrc);},
   clearTyping(){if(this.timer!==null){clearTimeout(this.timer);this.timer=null;}},
-  onHide(){this.clearTyping();if(this.mode==='play')this.displayText=this.fullText;},
+  onShow(){this._hidden=false;if(this._chapterSkip&&this.timer===null)this.renderFrame();},
+    onHide(){this._hidden=true;this.clearTyping();if(!this._chapterSkip&&this.mode==='play')this.displayText=this.fullText;},
   onDestroy(){this.clearTyping();this.loadSequence++;this._slotsSequence++;this._gallerySequence++;},
   startNew(){if(this.loading)return;this.clearTyping();this.session=newState();this.cachedChapter=0;this.renderFrame();},
   continueGame(){this.openSlots('load');},
@@ -93,18 +94,19 @@ export default {
     this.loading=true;const seq=++this.loadSequence;
     file.readText({complete:()=>{},uri:'/common/story/'+chapter+'.txt',success:data=>{
       if(seq!==this.loadSequence)return;
-      try{const ops=JSON.parse(data.text);if(!Array.isArray(ops))throw new Error('章节格式无效');this.ops=ops;this.cachedChapter=chapter;this.loading=false;done();}
+      try{const ops=JSON.parse(data.text);if(!Array.isArray(ops))throw new Error('章节格式无效');this.ops=ops;this.cachedChapter=chapter;this.loading=!!this._chapterSkip;done();}
       catch(e){this.fail(e.message);}
     },fail:(data,code)=>{if(seq===this.loadSequence)this.fail('第 '+chapter+' 章读取失败：'+code+' '+String(data||'').slice(0,100));}});
   },
   renderFrame(){
     this.clearTyping();this.readChapter(this.session.chapter,()=>{
+      if(this._hidden)return;
       try{
-        const f=readFrame(this.ops,this.session);
-        if(f.type==='jump'){this.session.chapter=f.to[0];this.session.cursor=f.to[1];this.renderFrame();return;}
+        const f=this._chapterSkip?readChapterSkip(this.ops,this.session,this._chapterSkip):readFrame(this.ops,this.session);
+        if(f.type==='jump'){this.session.chapter=f.to[0];this.session.cursor=f.to[1];this.timer=setTimeout(()=>{this.timer=null;this.renderFrame();},0);return;}if(f.type==='yield'){this.timer=setTimeout(()=>{this.timer=null;this.renderFrame();},0);return;}this._chapterSkip=null;this.loading=false;
         this.backgroundSrc=imagePath(this.session.background);
         this.bodySrc=this.session.body?imagePath(this.session.body):'';
-        this.chapterLabel=this.session.chapter+' / 17';this.hasNextChapter=this.session.chapter<17;
+        this.chapterLabel=this.session.chapter+' / 17';this.hasNextChapter=!this.session.ended;
         if(f.type==='choice'){this.options=f.items;this.mode='choice';console.log('STARRY_RW5 choice',this.session.chapter,this.session.cursor);return;}
         if(f.type==='end'){this.mode='end';console.log('STARRY_RW5 ending');return;}
         this.mode='play';this.speaker=f.speaker;this.fullText=f.text;this.displayText='';
@@ -116,7 +118,7 @@ export default {
     });
   },
   advance(){if(this.loading||this.mode!=='play')return;if(this.timer!==null){this.clearTyping();this.displayText=this.fullText;return;}next(this.session);this.renderFrame();},
-  goNextChapter(){if(this.loading||this.mode!=='menu')return;if(this.session.chapter>=17){this.toast('已经是最后一章');return;}this.clearTyping();nextChapter(this.session);this.options=[];this.renderFrame();console.log('STARRY_RW5 chapter skipped',this.session.chapter);},
+  goNextChapter(){if(this.loading||this.mode!=='menu')return;if(this.resumeMode==='choice'){this.mode='choice';this.toast('请先作出当前选择');return;}this.clearTyping();this._chapterSkip=nextChapter(this.session);if(!this._chapterSkip){this.toast('本篇已结束');return;}this._autoHops=0;this.loading=true;this.renderFrame();console.log('STARRY_RW5 safe chapter skip',this.session.chapter,this.session.cursor);},
   pick(index){if(this.mode!=='choice'||this.loading)return;choose(this.session,this.options[index],index);this.renderFrame();},
   goBack(){if(this.loading||this.mode!=='play')return;this.clearTyping();if(previous(this.session))this.renderFrame();else this.toast('已经是第一句');},
   showMenu(){if(this.loading||(this.mode!=='play'&&this.mode!=='choice'))return;this.clearTyping();this.displayText=this.fullText;this.resumeMode=this.mode;this.mode='menu';console.log('STARRY_RW5 menu',this.session.chapter);},
@@ -187,9 +189,9 @@ export default {
   persistSettings(){storage.set({complete:()=>{},key:'starry_rw5_settings_v1',value:JSON.stringify({fontSize:this.fontSize,textSpeed:this.textSpeed}),success:()=>{},fail:()=>{}});},
   toggleSpeed(){this.textSpeed=this.textSpeed===0?30:0;this.refreshSettings();this.persistSettings();},
   toggleFont(){this.fontSize=this.fontSize===24?28:24;this.refreshSettings();this.persistSettings();},
-  toTitle(){if(this.storageBusy)return;this.clearTyping();this.loadSequence++;this._slotsSequence++;this._gallerySequence++;this.loading=false;this.mode='title';this.backgroundSrc='/common/title_bg.png';this.bodySrc='';},
+  toTitle(){if(this.storageBusy)return;this._chapterSkip=null;this.clearTyping();this.loadSequence++;this._slotsSequence++;this._gallerySequence++;this.loading=false;this.mode='title';this.backgroundSrc='/common/title_bg.png';this.bodySrc='';},
   toast(message){prompt.showToast({message,duration:1500,success:()=>{},fail:()=>{},complete:()=>{}});},
-  fail(message){this.clearTyping();this.loading=false;this.mode='error';this.errorText=message;console.error('STARRY_RW5 error',message);}
+  fail(message){this._chapterSkip=null;this.clearTyping();this.loading=false;this.mode='error';this.errorText=message;console.error('STARRY_RW5 error',message);}
 }
 </script>
 <style>

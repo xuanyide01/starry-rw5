@@ -1,6 +1,6 @@
 {
   "name": "starry-rw5-reproduction",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "private": true,
   "scripts": {
     "build": "node tools/build.cjs",

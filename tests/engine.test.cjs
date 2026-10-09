@@ -48,17 +48,3 @@ test('closing an event picture restores the regular scene background',async()=>{
  e.readFrame(ops,s);assert.equal(s.background,'event');e.next(s);e.readFrame(ops,s);assert.equal(s.background,'station');
  assert.equal(e.restore(e.checkpoint(s)).regularBackground,'station');
 });
-test('chapter skip preserves choices, reads the next opening and can be undone',async()=>{
- const e=await engine,s=e.newState();
- s.cursor=chapters[0].findIndex(x=>x.op==='choice');const selection=e.readFrame(chapters[0],s);
- e.choose(s,selection.items[1],1);e.readFrame(chapters[0],s);const before=e.checkpoint(s);
- assert.ok(e.nextChapter(s));const opening=e.readFrame(chapters[1],s);
- assert.equal(s.chapter,2);assert.equal(opening.type,'text');assert.deepEqual(s.choices,[1]);assert.equal(s.body,'');
- const saved=e.restore(JSON.parse(JSON.stringify(e.checkpoint(s))));assert.deepEqual(e.readFrame(chapters[1],saved),opening);
- assert.ok(e.previous(s));assert.deepEqual(e.checkpoint(s),before);
-});
-test('skipping an unchosen selection and all chapter boundaries stays valid',async()=>{
- const e=await engine,s=e.newState();s.cursor=chapters[0].findIndex(x=>x.op==='choice');e.readFrame(chapters[0],s);
- for(let ch=2;ch<=17;ch++){assert.ok(e.nextChapter(s));const f=e.readFrame(chapters[ch-1],s);assert.equal(s.chapter,ch);assert.equal(f.type,'text');assert.deepEqual(s.choices,[]);}
- const last=e.checkpoint(s),historyLength=s.history.length;assert.equal(e.nextChapter(s),false);assert.deepEqual(e.checkpoint(s),last);assert.equal(s.history.length,historyLength);
-});

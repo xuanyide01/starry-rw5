@@ -37,13 +37,20 @@ export function next(state) {
   if(state.history.length>30)state.history.shift();
   state.cursor++;
 }
-export function nextChapter(state) {
-  if(state.chapter>=17)return false;
-  const chapter=state.chapter+1,choices=state.choices.slice(),history=state.history;
-  history.push(checkpoint(state));
-  if(history.length>30)history.shift();
-  Object.assign(state,newState(),{chapter,choices,history});
-  return true;
+// Run the original interpreter until a decision or the next chapter's first text.
+// The skip context is transient UI state; saves keep the original VM format.
+export function nextChapter(state){
+  if(state.ended)return null;
+  state.history.push(checkpoint(state));if(state.history.length>30)state.history.shift();
+  return {chapter:state.chapter};
+}
+export function readChapterSkip(ops,state,context,base,total){
+  for(let count=0;count<64;count++){
+    const frame=readFrame(ops,state,base,total);
+    if(frame.type!=='text'||state.chapter!==context.chapter)return frame;
+    state.cursor++;
+  }
+  return {type:'yield'};
 }
 export function choose(state,item,index) {
   if(!item || !Array.isArray(item.to) || item.to.length!==2)throw new Error('选项目标无效');

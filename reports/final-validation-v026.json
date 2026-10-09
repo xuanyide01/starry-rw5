@@ -1,0 +1,34 @@
+{
+  "version": "0.2.6",
+  "packageBytes": 9987592,
+  "expandedBytes": 11605471,
+  "sha256": "5b9514b8e6b1b6da013c037b12f60f7ca1cb7b1dfaa8db005dc5acff68ea2830",
+  "automatedTestsPassed": 13,
+  "sourceResourceFilesMatch": 568,
+  "safeChapterSkip": {
+    "result": "passed",
+    "chapters": 17,
+    "decisionStops": 4,
+    "normalReadingStateMatches": true
+  },
+  "native": {
+    "version": "0.2.6",
+    "result": "passed",
+    "runtime": "official vela-watch-5.0",
+    "screen": [
+      432,
+      514
+    ],
+    "packageSha256": "5b9514b8e6b1b6da013c037b12f60f7ca1cb7b1dfaa8db005dc5acff68ea2830",
+    "checks": [
+      "new package installs and starts in official Vela watch VM",
+      "menu skip stops at first original choice",
+      "menu skip cannot bypass a pending choice",
+      "old slot 1 loads at 1:2"
+    ],
+    "physicalDeviceTested": false
+  },
+  "physicalDeviceTested": false,
+  "branchPaths": 36,
+  "normalReadingAndSkipEndStatesMatch": true
+}
