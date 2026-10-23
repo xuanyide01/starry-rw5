@@ -163,3 +163,8 @@ Invoke-RestMethod -Uri 'http://127.0.0.1:43125/start'
 ## 相关项目
 
 [夏日口袋 · REDMI Watch 5](https://github.com/xuanyide01/summer-rw5)。
+
+
+## 联系方式
+
+问题反馈与交流：[shining237841@gmail.com](mailto:shining237841@gmail.com)。
