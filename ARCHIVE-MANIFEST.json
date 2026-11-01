@@ -1,0 +1,141 @@
+{
+  "archived_at": "2026-11-01",
+  "repository": "xuanyide01/starry-rw5",
+  "versions": [
+    {
+      "tag": "v0.1.0",
+      "files": [
+        {
+          "name": "星空列车-RW5-复现源码-0.1.0.zip",
+          "bytes": 9651302,
+          "sha256": "d6e0b30c63dddc48f121d6267bf49c139b64e449a8a2b2de6033a39abadab51a"
+        },
+        {
+          "name": "星空列车-RW5-复现版-0.1.0.bin",
+          "bytes": 9394272,
+          "sha256": "82d2a220899e575ea1e352766822b761cec572a9877619757426145acadd9005"
+        },
+        {
+          "name": "星空列车-RW5-复现版-0.1.0.rpk",
+          "bytes": 9394272,
+          "sha256": "82d2a220899e575ea1e352766822b761cec572a9877619757426145acadd9005"
+        }
+      ]
+    },
+    {
+      "tag": "v0.1.1",
+      "files": [
+        {
+          "name": "星空列车-RW5-复现源码-0.1.1.zip",
+          "bytes": 9689741,
+          "sha256": "232369c21a5c825f73ec18ee6aa4babd2de210badbf7ae302865b729f1975742"
+        },
+        {
+          "name": "星空列车-RW5-复现版-0.1.1.bin",
+          "bytes": 9394573,
+          "sha256": "b448c234d58e04e41717df75e2a0fe07062c22217f3ebd159618ab76fe444eec"
+        },
+        {
+          "name": "星空列车-RW5-复现版-0.1.1.rpk",
+          "bytes": 9394573,
+          "sha256": "b448c234d58e04e41717df75e2a0fe07062c22217f3ebd159618ab76fe444eec"
+        }
+      ]
+    },
+    {
+      "tag": "v0.2.0",
+      "files": [
+        {
+          "name": "星空列车-RW5-复现源码-0.2.0.zip",
+          "bytes": 10941209,
+          "sha256": "0a32f5a56150980b54eb9b36f377f09d79cce750bf1e2425cc1535c4618d432c"
+        },
+        {
+          "name": "星空列车-RW5-复现版-0.2.0.bin",
+          "bytes": 9878363,
+          "sha256": "02ba6ef827951bc65a6e8d1ea21ad11bdd7b902901d1d5f3b8f0ce73a821ef17"
+        },
+        {
+          "name": "星空列车-RW5-复现版-0.2.0.rpk",
+          "bytes": 9878363,
+          "sha256": "02ba6ef827951bc65a6e8d1ea21ad11bdd7b902901d1d5f3b8f0ce73a821ef17"
+        }
+      ]
+    },
+    {
+      "tag": "v0.2.1",
+      "files": [
+        {
+          "name": "星空列车-RW5-复现源码-0.2.1.zip",
+          "bytes": 11596357,
+          "sha256": "1b2c55b5a3bb75a65c66e49d31be8e0ac1c7fe3250c3eff197859a0eb18cb5ab"
+        },
+        {
+          "name": "星空列车-RW5-复现版-0.2.1.bin",
+          "bytes": 9878904,
+          "sha256": "cb1f36d15cb5c43fee8041f29c855d1030f2704f969b5995be9c92dc57a89a5d"
+        },
+        {
+          "name": "星空列车-RW5-复现版-0.2.1.rpk",
+          "bytes": 9878904,
+          "sha256": "cb1f36d15cb5c43fee8041f29c855d1030f2704f969b5995be9c92dc57a89a5d"
+        }
+      ]
+    },
+    {
+      "tag": "v0.2.2",
+      "files": [
+        {
+          "name": "星空列车-0.2.2-源码与适配说明.md",
+          "bytes": 9676,
+          "sha256": "03e613dbdb3fe2dff761c883135a719773c583ce20d1d3dad07a195a2c156a92"
+        },
+        {
+          "name": "星空列车-RW5-复现源码-0.2.2.zip",
+          "bytes": 6992499,
+          "sha256": "adb43a3b1453f41fb9d75db141ecc914419b77bb77ccc1a48e9180a2a4f0cb05"
+        },
+        {
+          "name": "星空列车-RW5-复现版-0.2.2.bin",
+          "bytes": 4364243,
+          "sha256": "475375aa5d5e9cbbdf631c43119eeede3de53cdde3103a8f1c8a5fcddb1ae829"
+        },
+        {
+          "name": "星空列车-RW5-复现版-0.2.2.rpk",
+          "bytes": 4364243,
+          "sha256": "475375aa5d5e9cbbdf631c43119eeede3de53cdde3103a8f1c8a5fcddb1ae829"
+        }
+      ]
+    },
+    {
+      "tag": "v0.2.3",
+      "files": [
+        {
+          "name": "星空列车-RW5-兼容修复版-0.2.3.bin",
+          "bytes": 9918019,
+          "sha256": "48e094f3f2c8ca0c49964c7e66bfeffb8fb1089de1c4a4e6a5276ada85ba0c0c"
+        },
+        {
+          "name": "星空列车-RW5-兼容修复版-0.2.3.rpk",
+          "bytes": 9918019,
+          "sha256": "48e094f3f2c8ca0c49964c7e66bfeffb8fb1089de1c4a4e6a5276ada85ba0c0c"
+        }
+      ]
+    },
+    {
+      "tag": "v0.2.4",
+      "files": [
+        {
+          "name": "星空列车-RW5-兼容修复版-0.2.4.bin",
+          "bytes": 9918530,
+          "sha256": "9f8c6a6add4446efc4ca7fe72f890bf96b75b7c01901aabfdf18ab6d409324fd"
+        },
+        {
+          "name": "星空列车-RW5-兼容修复版-0.2.4.rpk",
+          "bytes": 9918530,
+          "sha256": "9f8c6a6add4446efc4ca7fe72f890bf96b75b7c01901aabfdf18ab6d409324fd"
+        }
+      ]
+    }
+  ]
+}
