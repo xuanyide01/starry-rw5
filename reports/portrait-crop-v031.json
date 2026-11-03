@@ -1,0 +1,5167 @@
+{
+  "version": "0.3.1",
+  "applied": true,
+  "portraits": 368,
+  "beforeBytes": 6945241,
+  "afterBytes": 6736828,
+  "savedBytes": 208413,
+  "allReconstructedPixelsIdentical": true,
+  "originalViewport": [
+    432,
+    286
+  ],
+  "rows": [
+    {
+      "image": "large_jibie_10face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 25985,
+      "after": 25688,
+      "beforeSha256": "342b7aa268135602b49b3101cc776050f14704a00cb12109af16d501c341320a",
+      "sha256": "4f769950e58d9d51a660275dc6af9d35c894809b842f2cc781856f5c272b2b68",
+      "reconstructedRgbaSha256": "0260ba78515ba297c45eae9f0dc55d51940b26416a66a42019141e879048d4c7"
+    },
+    {
+      "image": "karuha_36face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18413,
+      "after": 17681,
+      "beforeSha256": "846c54754402378c2eb5297eb40604cdfafb378b6239183a1a73ed08d021a7f1",
+      "sha256": "b001ab49c8654e4fa34cc000a6d811d355bc80756ae17d51cc60bb005f96d48c",
+      "reconstructedRgbaSha256": "e1167c15313697d33a501a34a0e05334b76078e62d05b438b0b407397b5a29df"
+    },
+    {
+      "image": "large_noir_06face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20239,
+      "after": 19865,
+      "beforeSha256": "dd68a776d5535481522bc45b12baeb324a02ee6b0a23cb4653d3127bbf43aec5",
+      "sha256": "5adfa3c9d870d8b51dc9196c77b5cca28538b0e3830503b11799d5b168509675",
+      "reconstructedRgbaSha256": "1247e2ea8c6db66ff5faf61db82ee17ccd81081483406bab9b836da496047186"
+    },
+    {
+      "image": "large_takase_13face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15435,
+      "after": 14880,
+      "beforeSha256": "db84886b3066effcfeca1cfc6bb8b340b682c539fc1aec4f61f0a4d21703bac9",
+      "sha256": "06791660994d53adc911a2f3fbcbb9b125bcbd7eb1421756511ab503482ac6a0",
+      "reconstructedRgbaSha256": "7e9eebce0b2c36005c3e8ac465ed098d61a12b488ef6c4b59699449726f114cc"
+    },
+    {
+      "image": "large_karuha_19face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29874,
+      "after": 29477,
+      "beforeSha256": "7e795f9a01be0a9ab4dc1e6f3e9f81012139021f63c0c9f109e280ce1d2a27a0",
+      "sha256": "74971fa6e70bc8804d07ddcd1c28761eb3de4b20fe8bb073cd37d1e793f124e5",
+      "reconstructedRgbaSha256": "6e0a7738f7dfad07e131e5c7e850e98c3e85e020be64eb4ee86109e959fa6527"
+    },
+    {
+      "image": "noir_13face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16020,
+      "after": 15423,
+      "beforeSha256": "e20dbea195bf72576cbc32b33751e71bc72d8fed72c79e3d287c252c2a421e97",
+      "sha256": "633bd760124606689472b82df23682ea7bdd213232143d47987726e9743ec216",
+      "reconstructedRgbaSha256": "d1c9fcb62e10bd3fb93b1727e542aa5c8dab5d31ecd195a619302bbed9389ec5"
+    },
+    {
+      "image": "large_mashiro_10face+",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17750,
+      "after": 17359,
+      "beforeSha256": "92ab8a7b18075d860d7782836303dad4f075dc7c5fb976dd683574117fac7454",
+      "sha256": "5a392016146638693a652536ca08046701ac26d6249601207f66d446ffa37f5a",
+      "reconstructedRgbaSha256": "4673d558fa9bdbbea3b48ac206954e1a17f024d7f9492f77fbf594decc1d0727"
+    },
+    {
+      "image": "large_mashiro_03face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18074,
+      "after": 17673,
+      "beforeSha256": "71e5e54ed975cf22c662020e851f104b194d5cf7058c1da3b7d6e0d2a52c7146",
+      "sha256": "15a42149360d0f58b69bd9a92bb7cadc04d6c860946fe4a544b89758e7ec1e4c",
+      "reconstructedRgbaSha256": "4f16fad8bb2f205ade28779b9964936a9bb345e51cfd5fa4902d2d36cda4e217"
+    },
+    {
+      "image": "large_neri_07face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22843,
+      "after": 22500,
+      "beforeSha256": "62a5c4054f65e349c18e45fc33d8efbfac295125803f47ae296210f5e1904b07",
+      "sha256": "e953ff3c39c0f1889ff2f9a8e6077ba9b6c380fdc94c4220d8137a0f318d1eb9",
+      "reconstructedRgbaSha256": "fd32aee043d5f117ea730766d78675676abccf3f7487123d1c5fb71f687e01f1"
+    },
+    {
+      "image": "takase_20face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11617,
+      "after": 10969,
+      "beforeSha256": "5e2f87be2f6d21f455c0f63ab7ec9fa6120262c7e3def3e7903463c228fe09ff",
+      "sha256": "cc06aa943eb45cbd649cef8a98b2615569a1e13944e8442588469c4db4cc120c",
+      "reconstructedRgbaSha256": "5384eb58aaaefdcb7ce1e1c9701a0114d41d2efe880140c9c88c5f1cacde1236"
+    },
+    {
+      "image": "large_neri_12face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22450,
+      "after": 22109,
+      "beforeSha256": "96133d290d44a287f4556ebcf3f2cd96f6c7291b3fc0eb7e1646f6f6d9835b9b",
+      "sha256": "a4f26f695cce7a062aceaa416e514d25b4d64d6a74f1e27329ed1ba166553e6e",
+      "reconstructedRgbaSha256": "cdf53b5e6f18cdc01a2ce114f07c62d6953de0a8530e7f1a0a497e9930f68021"
+    },
+    {
+      "image": "large_karuha_09face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30050,
+      "after": 29629,
+      "beforeSha256": "2e53ba7e00ae793c5fe3d3e122a158f82bd7da2d1215f20767caccf1d27f1d62",
+      "sha256": "2f297b39592969a65801634252bb0aa0e792cf419e535f73a1ee5a23b2e5f1ef",
+      "reconstructedRgbaSha256": "299c0ababe0306a49a3b3266db504ca9d138065be58b4675cd3629a037914946"
+    },
+    {
+      "image": "mashiro_22face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14812,
+      "after": 14166,
+      "beforeSha256": "34ea5fabc4f047a9f71a331a7cf3f2f44e19216c280c29e652d8b5d529489c77",
+      "sha256": "fc9008b68a179776b4e9497978bb97bbfa5dd93c621720003abbf0d84fb2eb09",
+      "reconstructedRgbaSha256": "38f44006d24dc92ecfe9601f861375489c3045512eb217e2f87b28c25af7f387"
+    },
+    {
+      "image": "large_hanae_04face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18551,
+      "after": 17811,
+      "beforeSha256": "2e4282516abcc7b9f9134115881d8d96b7e5fdf1f2d2753b5dda9d3fe48bc0bc",
+      "sha256": "e95644a95ca7ca58cccf0df5b94f3bfc021f6e61e6979e3f5ab28c3e560c4b0d",
+      "reconstructedRgbaSha256": "dd4a12482d2c96dd1362b39094653e5dcb9f91e660b12ac434c75be49fa820ed"
+    },
+    {
+      "image": "neri_07face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17936,
+      "after": 17279,
+      "beforeSha256": "e593164c6888119045346427ce710d9852bceefa000a6d238d16c279bffc78df",
+      "sha256": "8e717f3dcb3a7efc721db4c1daaf66067668845eea15c0f79c2a7dc8ed60f73d",
+      "reconstructedRgbaSha256": "3479a0e2d1a46f89c7dd24a971b9dcfb3d95ed508e67f160a6502bcf1acc27d3"
+    },
+    {
+      "image": "noir_17face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16122,
+      "after": 15540,
+      "beforeSha256": "15eb1e3da06784ac22145f8868e5f126827aa075ba698eea8a173ba139592da3",
+      "sha256": "ba348940e777348eb0b9e6b9f10517e43bc18cf76a37553f42327873a23c14ad",
+      "reconstructedRgbaSha256": "e75c167a6430b2881992242aa4d7d1e7e24b7af4be6dcafa4beb22bdfbda8ed9"
+    },
+    {
+      "image": "large_karuha_10face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30091,
+      "after": 29681,
+      "beforeSha256": "00e958b6b68c0aa3599c724a0325e4226c86abaddbda1f0998a5c25b10c54e1e",
+      "sha256": "9459e9c5f948d7eb8ea3c506176bad46eff683400bc0b77adbd938bc36c5f1b2",
+      "reconstructedRgbaSha256": "20ebaae767f3b006ce253ec431f2511cb0c95587f0a401dd3e615ad94d8caa46"
+    },
+    {
+      "image": "large_karuha_05face+",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29926,
+      "after": 29520,
+      "beforeSha256": "98d6eb99e6f30370ebb5b7acc37b47d33160561c43c3a75fde9e02e0adf4edc8",
+      "sha256": "72c0f68acc339b792b672d186693808344f7b9b7cbbf6b359e9514c0399551e8",
+      "reconstructedRgbaSha256": "fe192aef5deb444dc36fcff42c8fc48d752681943c897977575851c405501bee"
+    },
+    {
+      "image": "large_takase_10face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15456,
+      "after": 14912,
+      "beforeSha256": "042df4e2c744fa36f47f8f52180ead10f0d4a2c716c47cdb7c904b57c3f14e7e",
+      "sha256": "7ef5f15a56e9b37204468660a9b334fdb733c4005ff7a96e4ea66882bd360b78",
+      "reconstructedRgbaSha256": "8a1aec30729a264b3b6ece26bf4d969a508cbb83cedb9537e152096e2f21c504"
+    },
+    {
+      "image": "large_neri_08face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22919,
+      "after": 22548,
+      "beforeSha256": "6f2f4779f3f4abc6e2e48d7ded047dea25f3f35bd53aca9caab0fede2862785a",
+      "sha256": "3bf5677d159cd150a47864d7c6ac153fdaf9ff05027e33c80b48e1603c19e5e8",
+      "reconstructedRgbaSha256": "36b78863fbd55958274fff24d3cd573033ae7b4244369daff7327856b16c7390"
+    },
+    {
+      "image": "karuha_02face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18387,
+      "after": 17677,
+      "beforeSha256": "23f995f485334aa69cdad1386e5a3a07ef2dbb71ca00ce1f04fcb0377fab1da5",
+      "sha256": "8563f7668034efd60cbe3438ceeb28dce022192487e0c9a2566786d1635762ab",
+      "reconstructedRgbaSha256": "f5ed5ab77e42473305837e55af1e3db5d243091c0b1f171b235605d917908e59"
+    },
+    {
+      "image": "large_hanae_09face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18516,
+      "after": 17788,
+      "beforeSha256": "a8c51a3f1730be84de2f534772131488948a9efee978493e7d175d9e3d194bc5",
+      "sha256": "bf7ae90551671cb511c80c93e86107520ae989e2147db0172d25ca0a83f12332",
+      "reconstructedRgbaSha256": "96da7c2ecf3476ef4846d8d27ae058ffd40f9b687ca7f3741b1854d489d191fe"
+    },
+    {
+      "image": "mashiro_12face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14649,
+      "after": 13995,
+      "beforeSha256": "0e5c210af3dc52d0337ccd48a6c92220768a574fceaf1b6a62871dc0477c51a9",
+      "sha256": "34c37a9566b11d9d989ebbbe038f465dfa7b0fa3865088cb88204cc27ab4e7f3",
+      "reconstructedRgbaSha256": "f04ee02cee548d2318cf7191cdcb4954fbee7568ee11a49927055a2a6089c6a3"
+    },
+    {
+      "image": "neri_14face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17774,
+      "after": 17095,
+      "beforeSha256": "99752fbf161b66695ac7a53913589edcdd5c4ce86bbdffc629468532321610bb",
+      "sha256": "4663b066716d8db0fd5a03740de20b87e7b246d8ccb71ee0d2841b6d66eba131",
+      "reconstructedRgbaSha256": "64281a08f9b9dc1a2d07f1c9fa713d60d8ab6b80fc888394c62a703fa2d05c71"
+    },
+    {
+      "image": "takase_14face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11237,
+      "after": 10599,
+      "beforeSha256": "87ff9e46115654c29b5e62bbcf53d847d0b8e98a6c2e4d16c5575c7dc6185ce0",
+      "sha256": "ee3d3f1a5ff42fe20154e7594143c2f3d1d41a00a76d44592c62ea56bf5995d0",
+      "reconstructedRgbaSha256": "4455d7c10d1f1acb56fac6643b71e39ae94a7992f5b864f60d6f349880e6f809"
+    },
+    {
+      "image": "noir_22face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16091,
+      "after": 15484,
+      "beforeSha256": "ebb1e19e1fbdbda7c89a98298b555c9d3135cfa8b4a274dcfb6d950755eb6dc8",
+      "sha256": "52547e0e2d533cf6e6ba93568a6da72924a1b47d9bb03c9340d624273a18e87d",
+      "reconstructedRgbaSha256": "881f69cd44500c0baea1a4d27e02ae51e75d5db52e558a2d3caa3f53ed9a8a0b"
+    },
+    {
+      "image": "large_mashiro_00face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17950,
+      "after": 17541,
+      "beforeSha256": "5039a19480fe873b7f61e3ab12dec29f8bfbccc768baca0b4433d2cfe609b451",
+      "sha256": "2a3e0af0cbea56b2a9b386a7a861a90fba6b0ca5b4198088825a4e8b8f648c24",
+      "reconstructedRgbaSha256": "4dffa143ca1a6f7f5956ea96d78282f023ad068308fb5578591a7afa2846762f"
+    },
+    {
+      "image": "karuha_28face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18385,
+      "after": 17679,
+      "beforeSha256": "fa9bef4249f3866645d5778e934a48b1865381d38ab634a1f15047af13845af0",
+      "sha256": "1951f4c0830d1d3d008d10e81cf003e4440f98bcb4001cb6c6d293038ed7e059",
+      "reconstructedRgbaSha256": "39195b2bfc25193bd4173481d051abb39a2356926a255cb6a6938e719c091a63"
+    },
+    {
+      "image": "karuha_23face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18412,
+      "after": 17696,
+      "beforeSha256": "4ea1a6fb1661cfa88bc28f8fac8e3303c7d137113a879872439938cf551dd359",
+      "sha256": "bacfe580cc2533cb3eee87c2a029298622a4cdf8b8532f471ab6a6c5d9d02333",
+      "reconstructedRgbaSha256": "7f9d4a230f2e23d3ac0528191f061cf92cf13eccbb1c631efdaad7460a499cf5"
+    },
+    {
+      "image": "hanae_04face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14194,
+      "after": 13410,
+      "beforeSha256": "1c5d6624038a2cb79b4f2d60afa27c7b3d5a68c064368335c7be31e1071b4104",
+      "sha256": "c07bce55a05fc42d965b824e3cc185b63656f6cc1e8bc558773c00e58d73c027",
+      "reconstructedRgbaSha256": "ca31dbdf3fa397781e21f060d76bc0521e3f92ca7c8b1cf6dba1e1a2ad78de49"
+    },
+    {
+      "image": "mashiro_09face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14594,
+      "after": 13941,
+      "beforeSha256": "bfd7a7216e0b9087923fcde2e7565dfb0dba49f28347d1bc87634cc5f355adb9",
+      "sha256": "a0e56b044c2b2a4cd7ab6263d6563b65550d14881792b1af6376c7fc5f4f139e",
+      "reconstructedRgbaSha256": "6a892b6602b93d20576da4669fc468e65111a6831201aff039c7574c9910cdf0"
+    },
+    {
+      "image": "large_karuha_27face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30047,
+      "after": 29639,
+      "beforeSha256": "0cfbdabbab900081cc1ab9a2ce8bfc61be49c957a2865f0c53da1a4bbbd3a7ca",
+      "sha256": "f130c35e589c32219a55ebe389b8215ac625e9fcda6878fc9a7d5615edf6810c",
+      "reconstructedRgbaSha256": "af99c0f1bc0b53a55a7e629ded51aaaa1d94c84360be0fe3b2340c8582ffcd7f"
+    },
+    {
+      "image": "large_hanae_13face+",
+      "box": [
+        100,
+        0,
+        312,
+        286
+      ],
+      "before": 19293,
+      "after": 18544,
+      "beforeSha256": "a29659ed7e7be96c188403eff4eff7ab352529e5bde5b4f559cde8b4bdd885f8",
+      "sha256": "8a6f86d9d26bf519fd6a9d16c9a2f40a539c67d1bf36b96dfc062238206ff213",
+      "reconstructedRgbaSha256": "1648e18c4ddffff26b01c9cc29662ae2a4dd07fab317765568e01ab3e68c4be7"
+    },
+    {
+      "image": "hanae_11face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13716,
+      "after": 12996,
+      "beforeSha256": "12bad20309899c1bc5c336a85b5a7fdffe28b547254ccc4c7445e8b8e0770ae5",
+      "sha256": "adb2775e08681bcf05cdbdcb0d81740db54d2bdbab3daaa8247b0a4a64844bd4",
+      "reconstructedRgbaSha256": "e7c35251df8949bda3c63e7f9cb4fd344bf033fae9211d37555a25498adade54"
+    },
+    {
+      "image": "karuha_03face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18406,
+      "after": 17699,
+      "beforeSha256": "b92400fce5ab92ecdc712ed116e58e7af39f08c98ca4858c24528bd1476683e7",
+      "sha256": "00c2cca9bc9654bbbccc63e0df41a56ef9782b2cfd7bfb29c0ac27a27489e6a3",
+      "reconstructedRgbaSha256": "0c6516b1af1128c874c9356aec2efb98b0294eb56de64c61c0572379f9310aff"
+    },
+    {
+      "image": "large_mashiro_28face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17970,
+      "after": 17561,
+      "beforeSha256": "ba8c0f771a2ba25ff1874b1947fff2c4127c3ead2947d88b6c7762dfd4f3471b",
+      "sha256": "5e467a961bb23fe461c3d57d74e0bb93ec4d83f6a5371cd61348513ed0429d5c",
+      "reconstructedRgbaSha256": "1190b0d5321510c5517971ba4975276930b7e1630817bedb9eaa20ce95e302b8"
+    },
+    {
+      "image": "large_hanae_07face+",
+      "box": [
+        100,
+        0,
+        312,
+        286
+      ],
+      "before": 19302,
+      "after": 18560,
+      "beforeSha256": "ffad49dd813588878db5c1fe615a96771041a85c172d57f66b46c919d03c26be",
+      "sha256": "6a16e9e3729ba43a72e23b66363f7de45489c01bbf379ed42cbb9c3b789d1300",
+      "reconstructedRgbaSha256": "0d2025eddb87fe9f09e747b1c94fe7d22c3b399e0398e38a436f82d0d0222dd1"
+    },
+    {
+      "image": "mashiro_21face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14832,
+      "after": 14190,
+      "beforeSha256": "ba169d130b0061022cb92e446e536a97e53c1f47dc3d9b584d1188d34128cab6",
+      "sha256": "1a0f98e94345e3c36437d46817c10eb91a1e7f3d417d4d52c65db212e2b39ff8",
+      "reconstructedRgbaSha256": "8a11cc8ba69097f87bdd07b46a4bb74a4afd971b9c0d184ad997941da9c05121"
+    },
+    {
+      "image": "large_jibie_04face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26457,
+      "after": 26142,
+      "beforeSha256": "f549ae2221906d9ab3813a3ca00f919c903c41ae60a2be424b3de3c908d10d80",
+      "sha256": "f24e6883a500cfa5cbb98cf188bfdfea2500e3779a34305dc347961a855a0079",
+      "reconstructedRgbaSha256": "e02a427f62277aec79aa3e1b8ef688dfbaf33f10456e1ac094ac456ce9ab99a8"
+    },
+    {
+      "image": "takase_16face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11206,
+      "after": 10577,
+      "beforeSha256": "cee69486085487b29a8bb7e5ac1b5633546846abf6666cf070b9ceeef7a1fc94",
+      "sha256": "0738c73e64b60a85c564f765a72cb0355e316aee03a43dbbc06b853325faa4f6",
+      "reconstructedRgbaSha256": "005c2285aea80feb47f2c135bcb5a0c85777b75960c76f698eff83c6053b5629"
+    },
+    {
+      "image": "large_mashiro_33face",
+      "box": [
+        49,
+        32,
+        353,
+        286
+      ],
+      "before": 17757,
+      "after": 17410,
+      "beforeSha256": "ed087c1b7201382a71443bbb4ad1c4a9c49eeeedefc40c1c5a7891ed20326da0",
+      "sha256": "4fda684cdac573d3727858f3b3d5ad91fbb9cbd70883bf183661174a2c749055",
+      "reconstructedRgbaSha256": "bb189d2eb212cc2869cf29c2d3d209d88e45e0bebfab3900150593faf02c3aa4"
+    },
+    {
+      "image": "large_takase_03face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15214,
+      "after": 14650,
+      "beforeSha256": "13ab0830c0912eb47d961cb839218648ac607c29a3b4d4b72e4fdeaa10e3a453",
+      "sha256": "b9bdb62f1ed24438153d853d636c0086aa77dcd76278e66dddd48aed445d35e9",
+      "reconstructedRgbaSha256": "2d4bc81a1f6de968151990fa6745d272db2242fcb64e7077a1015d6760877b5b"
+    },
+    {
+      "image": "neri_02face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 18000,
+      "after": 17330,
+      "beforeSha256": "583118a18cb942c83cb679ed19f36e42afa545806872c47b006436c5e4a2f7e1",
+      "sha256": "612fa6e6a7c5ecf5cc984faa906e7cfa484ecdfd7374548ecc4243795109ccec",
+      "reconstructedRgbaSha256": "d8c5071b494c4c7460883b6c09c69379b28349ef5c46111075a95fca8ad21386"
+    },
+    {
+      "image": "jibie_15face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17724,
+      "after": 16946,
+      "beforeSha256": "78de01d726390420535b5c06bd09ec9fe9cbd86f1aab9aaf96b4e80b61ef2dac",
+      "sha256": "775fee20ec5066ad6c38bdc326a60680e8df447dd1291e8e340bb66b0579c39f",
+      "reconstructedRgbaSha256": "af92046d048b7f4191295fdb79dfe83f9d216eb816c7dcccb64be538354bd469"
+    },
+    {
+      "image": "hanae_12face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13727,
+      "after": 12995,
+      "beforeSha256": "b1ef1767f103337b2ee11751b9329b2f1b77e543f45a025b4118a503fa375559",
+      "sha256": "1dd23ae2906d5217da5959c72aaede8dc9184cc9124709a402ee5f11d42cf560",
+      "reconstructedRgbaSha256": "88d4c4ce43677b0c1e318885a312ce484a72e7ab94c3d56a88654b689a5f5555"
+    },
+    {
+      "image": "noir_16face+",
+      "box": [
+        100,
+        60,
+        344,
+        286
+      ],
+      "before": 17416,
+      "after": 16825,
+      "beforeSha256": "6e657d60f4f404f1727df49c4754caf17db20c03af7b697e92b1a5164808edd1",
+      "sha256": "f5e016cc0fddd59a8fb0864f73e749bc0b31becb532cc21ffde273d7707f9826",
+      "reconstructedRgbaSha256": "94b08f14501000b4f0e7807f0c48184d14aa0ef2aadb9401a9895c6be7a6c782"
+    },
+    {
+      "image": "noir_09face+",
+      "box": [
+        100,
+        60,
+        344,
+        286
+      ],
+      "before": 17402,
+      "after": 16783,
+      "beforeSha256": "86119af4dec8028726d97ceb35a6f3e030b636866615f958d169a544752a7cad",
+      "sha256": "1c522ca577e859a37fa38588f0e60f1ba4b419318353c412120ec83b81caca13",
+      "reconstructedRgbaSha256": "bd8ac6dca618748e1f69d74ae6aa9ebf2ffec936fea82a45391fd434a4ee7fea"
+    },
+    {
+      "image": "large_takase_20face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15983,
+      "after": 15432,
+      "beforeSha256": "23b7c120248a5c47eddb33270531bbe50eed531334c72cde9bfef061baef5c23",
+      "sha256": "2198abd070c3a939e2a757e882a67475165b17ae849e6c6b1568f35565660cd6",
+      "reconstructedRgbaSha256": "ce7740ecf8f2ed02ee621f221f2103ea42dd3e0bf615bce55d59557c7d68fa4c"
+    },
+    {
+      "image": "noir_23face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16107,
+      "after": 15512,
+      "beforeSha256": "e9f51a7a7817a0afebd85e2d53944c99e279eacc53899599b324cff4bfe00852",
+      "sha256": "ae24e4f499e3a462ab26df2ed7d51a6434be74234e1810974fad33fb00314ea6",
+      "reconstructedRgbaSha256": "8abf457b12f94bd98708385bc2c3d5ac4c6a470fdfb3395c09809f19d1c50cd2"
+    },
+    {
+      "image": "karuha_32face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18378,
+      "after": 17652,
+      "beforeSha256": "5f39e3aae146391d12bd8fce80d2a67e1537a8b29a14ca6ad903d819a3b6d73c",
+      "sha256": "8c5e21c7629cea4176adb0a21e7dcee1cfa1b58508b895b815d7b6a2dd301d7c",
+      "reconstructedRgbaSha256": "f0ae87193f00ed842c39d114c836574eb2ce8c9bfb366daa31d74e33c4cc5c2f"
+    },
+    {
+      "image": "mashiro_24face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14805,
+      "after": 14166,
+      "beforeSha256": "02ac238f706dea67115357d3b1c77035590d5ecdb93a204698e6ebda6db37611",
+      "sha256": "c34481c235cd7927b0b1af20acfaabd8de40d22f26f55c113428d64d6a76d9ba",
+      "reconstructedRgbaSha256": "71cceeff4481877ab739e5d5d7dea142f5adccd208e5674813f2629845d7d16d"
+    },
+    {
+      "image": "mashiro_27face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14837,
+      "after": 14189,
+      "beforeSha256": "56936e00970e542a67ab07a36eb782bf5bfff9cd0909354a151f7e18eaa7588f",
+      "sha256": "343973e9a545e3ee4d3c6a8b89633c2624c74bd157adfe07e5771427e473759b",
+      "reconstructedRgbaSha256": "635dda4714f33dbf045a0632533100ae701814fededdad0643d04541b6bd856a"
+    },
+    {
+      "image": "mashiro_32face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14803,
+      "after": 14167,
+      "beforeSha256": "34e2f0fdc59e5650bd26d1c99076cf15ae2282e828a44d143ac9451bfc9e2ae5",
+      "sha256": "7717d48fe2b546aea37da48fcefbb54ed3a679c7d91d2e99b7d064bdbc28e794",
+      "reconstructedRgbaSha256": "ee6353c76304a9b6c56d91b0387cc3dd120bbefa76b812a32d6d7935f2eb117f"
+    },
+    {
+      "image": "large_hanae_16face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18715,
+      "after": 17995,
+      "beforeSha256": "5431e3f96bfc29b2c51181c470c43da7322c1faf163d596ea5fb2f2da0708508",
+      "sha256": "42b0b0006d9bc32c89082094a0b955f23d557e9dcf1235bbf0518210a9d55723",
+      "reconstructedRgbaSha256": "985cd9968a069f522b42b3a85a8e8e9e6a84a5ff15922636f46ae61f2a11e269"
+    },
+    {
+      "image": "hanae_08face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14181,
+      "after": 13415,
+      "beforeSha256": "d9836d3c2267f65c9acd336880f54e6eb09413ad4793ae85160cb76227dae488",
+      "sha256": "e5cbde9124c466ca6682e03fba30f2dc83057987f907d632a7a00b9b961bc64c",
+      "reconstructedRgbaSha256": "b343d90beb39e5a46f141cf28f06dcccb9191973e0fc6a0f8a3df9353928e0b4"
+    },
+    {
+      "image": "jibie_17face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17521,
+      "after": 16755,
+      "beforeSha256": "273c9fb291bc3b3ea6587f483b50db290a97f1f6ddb5fe4b34b96525313dd936",
+      "sha256": "4c59c1f17fcf8ec2918f4eb824369685f9411b907be413cb8d127b7e29adb63c",
+      "reconstructedRgbaSha256": "7469701ad4f07316fbf944ccbd532b8a9ed80ad6267e8a740745aa00772c2c9f"
+    },
+    {
+      "image": "large_takase_16face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15440,
+      "after": 14872,
+      "beforeSha256": "266be6bec70cda82a0b6af01da3c10f417ea5ac744ff824664478f0c095a677f",
+      "sha256": "8db503708637d771fcf47a71bc803469351ca3e935c5733316603d1f12269cf4",
+      "reconstructedRgbaSha256": "8c305e2c72418c61c9a92c04fb01cd33c6ec5dc58b8749612702dd5fc901b6b7"
+    },
+    {
+      "image": "mashiro_23face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14851,
+      "after": 14192,
+      "beforeSha256": "4c264b8890ae94ed4e05be4a0a80a3591818588e2c9a8a7505931b998a930841",
+      "sha256": "93a1971bc60ed705ed13867d17673bf5d6590e70d9b447795fd59dd10a7c6af3",
+      "reconstructedRgbaSha256": "fe89788d5dfc2eb60ab82939d91065d88009f95160b6faed5dda5e9754778c10"
+    },
+    {
+      "image": "large_karuha_38face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29917,
+      "after": 29508,
+      "beforeSha256": "ab2e2ed90a816ff330f8cb462ed7dca6aa534daf8b070b9d7b369900553ca5cf",
+      "sha256": "5c8b38127a112a1fda03404b350a4badefa384785520616fcc008323c1752c8a",
+      "reconstructedRgbaSha256": "4d0ddfeb9c44345b4193fababbc1f593bb7a13e06db858e5e2b021c868baf2f9"
+    },
+    {
+      "image": "mashiro_17face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14762,
+      "after": 14119,
+      "beforeSha256": "8e793b40b663f4dcfcc9bae3fd9972338929af298b93b987a1e0d7228da71b7c",
+      "sha256": "ce62f701b946adee56ff0c1fbce67e64970441e29978cb497188ae7c3d56c1b3",
+      "reconstructedRgbaSha256": "dc1ab2b69371669751dbdbc3c49742397cdbfdfeb07dbb550691ba6b2b9ac2f1"
+    },
+    {
+      "image": "large_neri_02face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22939,
+      "after": 22595,
+      "beforeSha256": "c35ba7eb0f2361a1c25d23d2c7cd36c6bfab8863ec33063e4de0469c767c56e2",
+      "sha256": "df6402f005dcca13092766b86b28a99d80000ac6ab220ce8c16d488da305d1bc",
+      "reconstructedRgbaSha256": "04065713a356363c53ffc1ca145d9884d57eb53583387717fff88ec07e93974b"
+    },
+    {
+      "image": "neri_08face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17981,
+      "after": 17314,
+      "beforeSha256": "8663989b83c24916abc0992444065c210743aeb8e0b7ff16ada4e12caaa52718",
+      "sha256": "f3fa2d58adfa97641e1e1bfe0ddfa89a2e32f2f6e9e9474d67021a94d4ab8600",
+      "reconstructedRgbaSha256": "87554c6def5c554728eb03f2c302cbe2365d329aaf1dfebcadc245a086453638"
+    },
+    {
+      "image": "takase_18face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11136,
+      "after": 10525,
+      "beforeSha256": "b19bb337da814d52c89134379632fb806b9a800b6199975254cb7e113df4c556",
+      "sha256": "1df71498ea93b1a91c54729d022cda5fd60b388f2b638fd7d93464c97907a849",
+      "reconstructedRgbaSha256": "703bca5a1222c305b5beb3bab9175a9b3e0702dd6b0da35bfd78484ed2961d49"
+    },
+    {
+      "image": "large_takase_08face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15481,
+      "after": 14935,
+      "beforeSha256": "a330e418b6ea230513b08be44d68e0ac8001db1d3f547b4305f18def0f6f4c96",
+      "sha256": "ec871a9423fd7ff25ef4edafce8b202900378c25f001422d10a9b5059f4e0518",
+      "reconstructedRgbaSha256": "31f79acf5002bc0149f84f587af93a86f34c11a01f95a20a4eec6b0cb7d1c4a4"
+    },
+    {
+      "image": "large_jibie_15face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26459,
+      "after": 26136,
+      "beforeSha256": "13d628aab53c3a5a7f067bd1fdb30279bb71c3e86e490f8abfee4d63d7cd7052",
+      "sha256": "b00e82f58ef12a2b7c33b95ddc7cf5761ae7ee561da771e95b95d910a03d1062",
+      "reconstructedRgbaSha256": "b20b45ed43f4b46f333e7c730caa4f72fa5b8759f9d3e6d9569d4054b7023d98"
+    },
+    {
+      "image": "noir_15face++",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16161,
+      "after": 15584,
+      "beforeSha256": "5d177fb45de48adbc460c9db587ae3ee70766b96c0b376a0695735546ca6bfee",
+      "sha256": "aea9caf4945a5026f8c4da473ddf9497c6193e652375bdd90d82a54805addf82",
+      "reconstructedRgbaSha256": "29d0db5b69d92d8c7440fd3ec6404b4ba7942af048c59ab365b058148e81fe50"
+    },
+    {
+      "image": "noir_14face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16032,
+      "after": 15429,
+      "beforeSha256": "fa429743e02a7b9e2746e60ba54504b00c635ee826f15243293fa303bc588366",
+      "sha256": "81724bc9b505b72ce73c649704ad9e0bd42bdebb543bbc68e70b359b3a11d001",
+      "reconstructedRgbaSha256": "3123a1fa66f945bcf092b430a7442cb1e5eaa034c061b3efffbce84a4e272fe5"
+    },
+    {
+      "image": "large_mashiro_01face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17953,
+      "after": 17549,
+      "beforeSha256": "cd7869e4b223ca31dc2237d8e670c1f0fa6f6ef2b8d8f029ea898cb6284e4600",
+      "sha256": "407574524361a7c9b138cb46ee3901c410e8b687b1bb373b864eb8feb18b407c",
+      "reconstructedRgbaSha256": "2e32ceeaa92db711a7ca464a1f3d6b2c97fd7632189138f96d580e2cf559298e"
+    },
+    {
+      "image": "takase_03face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11150,
+      "after": 10512,
+      "beforeSha256": "4060c613dfa3a394eac311c659f18739229b09d8b2df35ceb385bcd13e87e2a3",
+      "sha256": "35ba67c8d6bf46d99fea2d5716cbc94c21d2917c1ea778c1c32edff7ec92d610",
+      "reconstructedRgbaSha256": "857ede736d829b05a1f8dbeb2e856f8a7ab118266dbea517aa5155222271566e"
+    },
+    {
+      "image": "large_hanae_14face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18521,
+      "after": 17777,
+      "beforeSha256": "972bbb3d1390dcbf750af95ce932a24e0a631e305aa9b4e51eb7d3442fbdc839",
+      "sha256": "6094abec405bf78ae3e7542c767dab619d25448f875da6825dbcc2d8eb67c5ea",
+      "reconstructedRgbaSha256": "feb509c70229ab7414f33fced34bd133eb8a894a02c3a16a318d8c382c4b5605"
+    },
+    {
+      "image": "mashiro_18face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14659,
+      "after": 14011,
+      "beforeSha256": "3401eb2d9e94581b3f67d3edc13a56396109afc3ec368902569c42aa8491e139",
+      "sha256": "2115ecbb90bd4a9cbd1573915d29a7e007a5e377554f11e831a625b4c0ba38d3",
+      "reconstructedRgbaSha256": "eac26d317c48b5e0507a1e954b773b08b0c40f6c70ddb507a5c11070f38c477a"
+    },
+    {
+      "image": "karuha_17face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18307,
+      "after": 17595,
+      "beforeSha256": "f4b7b9f4cdaadf6d6e399e3107646853c8a6f096e3d2697a0b1020eb3187a4ec",
+      "sha256": "57df5fcc9686637bbb8f98623526601b94ae2809298a0bab5c841627c142a791",
+      "reconstructedRgbaSha256": "732ffdb7b8272918896de2f0a810d945a4d3f91712796044d4a3d50e22edd213"
+    },
+    {
+      "image": "large_mashiro_02face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17951,
+      "after": 17542,
+      "beforeSha256": "af11a27a2a21b5522ce0065f6cf2aa00883d1409ba1c01ac99091bd7d6a69e20",
+      "sha256": "d4fb72cda07448d470fe0f73f043f270041d7eaaf5f9be7c690e895171826c12",
+      "reconstructedRgbaSha256": "3629d756bdacca63db0c13b261836cafdb48d197d1fcfbf5712097c24f73885d"
+    },
+    {
+      "image": "mashiro_00face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14798,
+      "after": 14151,
+      "beforeSha256": "41123fd5b4d5201b230872cb33081c46b6849c7ee17f82d537a6ab26af36ec88",
+      "sha256": "40d974d1d4df78e590c1becc09bc39fc3759d9988faed1a9b87a4e37c297e12c",
+      "reconstructedRgbaSha256": "5ca110df610b692772db9f8ec7c2993d106dd0b8df30f141ae735f32d2f5dcdd"
+    },
+    {
+      "image": "large_noir_04face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20609,
+      "after": 20243,
+      "beforeSha256": "c3c28b50e8b87e22d559b21c49fdd8f3ded7326d7df9ba4fd8a3e20cf384cb21",
+      "sha256": "89bca42a0bd4a01151d29565fbcc4e05cd9743b87052605350fc57f6d20ce025",
+      "reconstructedRgbaSha256": "c5209cf4dc08395d58f59c776589e318a04097ecbe57e33d32b96b123eb7b2c2"
+    },
+    {
+      "image": "hanae_02face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14139,
+      "after": 13372,
+      "beforeSha256": "3c1e328a77e311c4f7a8b9ae7d8264a46c08b34b77894acada98fab08071d568",
+      "sha256": "9d88980a22ad3ffb5b77b4ae70e6678d17b8412892768a2999ba5d166a2ff1e2",
+      "reconstructedRgbaSha256": "444f17d0b5b4433e3dceff7b10658803dea2fba94dc8934b531c454505c2a17c"
+    },
+    {
+      "image": "mashiro_15face+",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 15297,
+      "after": 14636,
+      "beforeSha256": "4fd231f08d32036dc3f3035fe44672282cc1a350b712cb6af5a30a0f2f6a7543",
+      "sha256": "a934aefffb19217a20c59f9137a54d12c1ad783ae9dd3e12cbf48d4001beab97",
+      "reconstructedRgbaSha256": "4678c3955246e6c4ce4164221a9efafdd75e17840158b5977a7bd40c5825aac5"
+    },
+    {
+      "image": "large_karuha_30face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29792,
+      "after": 29389,
+      "beforeSha256": "de2661f8bb4727991499722b62019e981e03bd5b0c9221792bc94f019261a6bb",
+      "sha256": "d4ac1f5780e7adc5d482876c3813d0a79b12bc760b42ff93a0a6ce422bfd7999",
+      "reconstructedRgbaSha256": "41d65010547ea713f96a9557897e3b7a64066208c77088666ddf6c04d98befa7"
+    },
+    {
+      "image": "hanae_14face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13838,
+      "after": 13115,
+      "beforeSha256": "01f9d004627f87caad8b1d85f03a50712d1a4e27599771e403de4a88bf0edc59",
+      "sha256": "4d9ae82003d636993e25d7daf9db8597f0e650f8427d0d71e78201ba8fa4cba6",
+      "reconstructedRgbaSha256": "1fa52a4441d244da052d8206fc5cce3c8ce66c6e263258d521a924db115c94ee"
+    },
+    {
+      "image": "karuha_07face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18383,
+      "after": 17672,
+      "beforeSha256": "04d7c4276819193b97e2d6d91ee8f81c30c3977a64bf5db18296e367581ab57b",
+      "sha256": "6fe93d35b58b651318ca2445a63c8280522865e3ab3c14e668404f8b3eab16f0",
+      "reconstructedRgbaSha256": "93d78b900018acdb8e6110d0ce3acc08028b9071a8b4665f954a91bb77facff0"
+    },
+    {
+      "image": "noir_11face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 15991,
+      "after": 15379,
+      "beforeSha256": "d25578c8cf8d09aa16c778ddd11d0a0e61165e0d09260b87301aa757b0b542ed",
+      "sha256": "5fa06e25c28728869cfb8825f3953da9bea5830e54225158304b6271a8a909f6",
+      "reconstructedRgbaSha256": "79800dec199026afd4a90d4d1e734634615ed48b61418e58ba149dc8e4c626a7"
+    },
+    {
+      "image": "jibie_12face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17512,
+      "after": 16751,
+      "beforeSha256": "e13bdaf4b9995d2d5a943c82b2a08af59a021fb900f8a9f8d3d45a0c021d6bb5",
+      "sha256": "1f69f8dad179c9295e82106e5bbab1e362e7034ce976887a553f96d821746119",
+      "reconstructedRgbaSha256": "bc985196bdb5f6cd77e38bff53dd37c452f97fd5432159f33c898ce271b84252"
+    },
+    {
+      "image": "hanae_06face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14141,
+      "after": 13383,
+      "beforeSha256": "6076e3080db8dd96b1a89d44d54f0b777e37163c2326a3b29f14c32eb83b807b",
+      "sha256": "15ba54e96aecd3257f97f15ca067e9866c009b9879c515df86f95ffc28d1b25a",
+      "reconstructedRgbaSha256": "b4d12f1000ef33cd8fcf0748288d88821b4ed28c1b2e5c482fa57bf9a9224d04"
+    },
+    {
+      "image": "large_karuha_32face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29881,
+      "after": 29488,
+      "beforeSha256": "ce38a466c42f089596f063d88c5a2f2aabfe8645d0117d17df61503eab90a2b6",
+      "sha256": "3d15d44019434890a30b754a510754375e3464ebd8ce65c352265259a105604d",
+      "reconstructedRgbaSha256": "e65a52446df0f645d6d5ad9f3c76f6a8e129ca60da52f153996f755b33bee8a9"
+    },
+    {
+      "image": "large_takase_06face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15196,
+      "after": 14641,
+      "beforeSha256": "30a313c20e9cc3c0b5cfb94793865ce9420c7a5f6469c99d3a040016a0b109eb",
+      "sha256": "dcf682479798d08edfd352e2f782d9c28bee423a6d1abae45a26b372e0a3b370",
+      "reconstructedRgbaSha256": "62c8f9b02cb4187abe7bf893fee11833e2927d731a67880eb42d0e748871a5f1"
+    },
+    {
+      "image": "noir_09face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16107,
+      "after": 15509,
+      "beforeSha256": "fb2343cd0069212c782ce22cb2f228e1536df633a24727c900a3c92372b91295",
+      "sha256": "5ea49f53b8614d04eae3f7e084c6da85488aa7699507542a89a25702b1aa9109",
+      "reconstructedRgbaSha256": "161a702f9e374f47ed9609b06cbb228ea09d7fcc4b3d88c11f4d6c01cfdff0d6"
+    },
+    {
+      "image": "large_karuha_23face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30073,
+      "after": 29645,
+      "beforeSha256": "c4604eec24c8d8183b167badc1b3163f6f5cfd49b2c1f85015c132219f23025e",
+      "sha256": "6fb3246bea19faa0b918c0412bb3e9ed9b0f154c5f9f7183b6e872ffe7291b5b",
+      "reconstructedRgbaSha256": "51720f76106a5e62b06982671f7c9c82837a49fad8ca05986d1466b3fb4f041c"
+    },
+    {
+      "image": "large_takase_11face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15430,
+      "after": 14884,
+      "beforeSha256": "ba63d68ebfc2c80d97fbae644ba0a9e1021cd5d96f3701b5408b8eb870f55dfa",
+      "sha256": "6e37f769591706859bd12c94c452810aba17d45014136321e6c775cf4c7c9581",
+      "reconstructedRgbaSha256": "cd7b667a6c410fd601f72a994e25e725f771ed57bfde0aeb95b49f1d739ccaf2"
+    },
+    {
+      "image": "takase_05face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11123,
+      "after": 10493,
+      "beforeSha256": "ef5c8837525e7222d30c2c429dd7c4f38342556face48c613a7f1af9dec62854",
+      "sha256": "1243e17de4cc6773df7fe7a051a4b1e7a925412346afafb30775720e3ad9cd63",
+      "reconstructedRgbaSha256": "6d54283db74dd50614bda30981d02e032cc7494a28b994347c570a904705d0c3"
+    },
+    {
+      "image": "large_mashiro_06face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18000,
+      "after": 17595,
+      "beforeSha256": "541f681c4b86836f596f3de32f8c842361bdd4a3a3a19a98ff27892da40ea527",
+      "sha256": "1420581b8ba776ccee4a6bd578636723af92faea49a6585b3e1c8c4c47bc1740",
+      "reconstructedRgbaSha256": "590be63358d0e4cee32410cfedbd18905a45ada4e064fbffb6e3b286404d9f3b"
+    },
+    {
+      "image": "large_neri_15face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22436,
+      "after": 22072,
+      "beforeSha256": "e86566f70985edb85ddb911c3ccefa539f2cd43775ef2a54d262cda41a4f271c",
+      "sha256": "d3a3ec7cac311f38209ba9dae1cbd9d60eddf2b1c1290e066159860cf8e3bb91",
+      "reconstructedRgbaSha256": "35a115fe5a39a6f4bbf31706e1ce0040aa03ba48782bf91710d106cc2922b0ae"
+    },
+    {
+      "image": "noir_24face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 15965,
+      "after": 15363,
+      "beforeSha256": "69e45be65b94d8442a220204551c29f6fb369b763e660be29b584137f6ed2934",
+      "sha256": "11c5238833be3cf6a79332e69c8c53564f3dc1ff095f956208d32f2037f1385c",
+      "reconstructedRgbaSha256": "88b51d37af1b302ec8f7844bea1184aa9167bb4493105a9852ac83e3c6495930"
+    },
+    {
+      "image": "karuha_12face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18310,
+      "after": 17598,
+      "beforeSha256": "01630a93d06e1ddabdc9a8996fd51827615106097c654de24e67afb14b8a0afe",
+      "sha256": "ec37ae393ee8c58a62f1e2a40854ecd2202ab410b1cfa611f58ccaffe4fb1a67",
+      "reconstructedRgbaSha256": "c2a5ae41a2f2539664c4f8714f0aaeb85ad63b9df6818f26e6e4fc933d81f465"
+    },
+    {
+      "image": "karuha_27face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18398,
+      "after": 17675,
+      "beforeSha256": "e03916c9ce2f7da03e67f4952a33213e66905f782062e90444bdba2322c8c291",
+      "sha256": "c9ace052981bbb2ccbacce280e311ebd9ff88f952b5ddbea7352531813e41170",
+      "reconstructedRgbaSha256": "bc860992e5f8aa8c8e52c557243d7505ed78c4aa7df59f281c7a0fc167288429"
+    },
+    {
+      "image": "large_karuha_22face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30055,
+      "after": 29632,
+      "beforeSha256": "08f8647e7653388c1692bec2648b8513d4819311da0f9505de49e7619b7c902e",
+      "sha256": "40ea220910b4ca7102d1497d34d88362d237cb9eef8c3ec783aac2705467b12b",
+      "reconstructedRgbaSha256": "def74581e243118b094e2f819406213f1b34fcd1e450d88b098ea890acb75942"
+    },
+    {
+      "image": "large_mashiro_20face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17967,
+      "after": 17567,
+      "beforeSha256": "ad3367038f72c04a4857666687756df08e7ac714ea2eb350421a84bfd7a3b6d2",
+      "sha256": "6879d022c5ff2fbb7a27592abee3c227d33138408586ff3e6405660bfdea5f37",
+      "reconstructedRgbaSha256": "fc99a85fefe2ec3b8488b6d1a774001c910fef0bdb99144ba24a68554a22afbe"
+    },
+    {
+      "image": "hanae_13face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13850,
+      "after": 13127,
+      "beforeSha256": "8d424b7d017fced5787ef156ba7ec7489f46f545663b66695d5f1477f9dfd469",
+      "sha256": "e18a922c61bdb82a9e7a9756ebdca5e7288f72e6143a59b03cc0e0cc1dddf870",
+      "reconstructedRgbaSha256": "c57a2b38cff791814f26de23738e9bf9abef7f650a87d7e11954bc8bc066d009"
+    },
+    {
+      "image": "large_jibie_01face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26457,
+      "after": 26149,
+      "beforeSha256": "b27ef1eb333044e9701bb757a4329f72fc297bb9354e670577b4d2b0c9f032e0",
+      "sha256": "7b7cdb7b19627222f382f396a76c040b4d7e968252302330e3ddd1c179467837",
+      "reconstructedRgbaSha256": "d49e5706e2f27ffdcca0cb627af1582c8e65a3030ccbfb5705c1d2aa3d2f91ec"
+    },
+    {
+      "image": "large_neri_04face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22983,
+      "after": 22636,
+      "beforeSha256": "bd0a3ec60ac64801afaf0e63231c72549631d11a5a3ea78c55d578fd0101f15e",
+      "sha256": "1ed440c1e76d60c4ddfa358b093cc4165519398c039f7b8e5ec3ade66936b60d",
+      "reconstructedRgbaSha256": "25c698b82c067fb0d545b165c5fdbbf1dc4b8a5e5d4dfaf7275af83405cc1a22"
+    },
+    {
+      "image": "large_mashiro_27face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18086,
+      "after": 17667,
+      "beforeSha256": "2ac9d0ecc12befbcbb37b15a700faa1e299a32e3b5c7976d60a6f10623f359cc",
+      "sha256": "5c073abb10e5712768d5937b173a343abed293ee1695a553c871ec26faacaf32",
+      "reconstructedRgbaSha256": "5dc1eb08e5e649428d45f1aa24a669ef933493e62eec871b1f841c92481fbd58"
+    },
+    {
+      "image": "hanae_11face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14036,
+      "after": 13274,
+      "beforeSha256": "e24cf139501aa68104e1128b9cb4918470d3e4735f6458dd8d10dcfd9c8339f7",
+      "sha256": "404de8b854a51c10b83035934ccddbef4948e713cfd4b76b41936f14c95704cf",
+      "reconstructedRgbaSha256": "b6dcf9a868779701384ef12c88e922859567d9508f62a37003a188310fd03eda"
+    },
+    {
+      "image": "large_mashiro_34face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17596,
+      "after": 17187,
+      "beforeSha256": "2e3ffd3123740593d3751a7b600c1a6289782cc96426fd6aa4e8334d77a5b336",
+      "sha256": "7d7c3d33c7a4e11176266ca0a44fb83ed634ccbc1483f891f43b0daf40661587",
+      "reconstructedRgbaSha256": "42b5350b1f4a26389ce266bd86a51ab4685181d7467efcb25cbea35b68985c4f"
+    },
+    {
+      "image": "large_jibie_09face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 25933,
+      "after": 25642,
+      "beforeSha256": "b68aae8ed5a96409762ce5cb88e74118a97eb71fa92d6c1d1e16d9eb70180b8c",
+      "sha256": "da1d5a7ec8cbbe18480d3368d6076118a777d3c05a3ab2dc73e9c1e95a76e524",
+      "reconstructedRgbaSha256": "892272107f3f88d0ba8c39f8143f2c1a851e716cc9ed3dc58312c4a7854a73eb"
+    },
+    {
+      "image": "large_noir_03face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20556,
+      "after": 20210,
+      "beforeSha256": "96f1e14a803bc786a5a5a3740038afc8711bc3b27a805cbd57d364c25aa44552",
+      "sha256": "1e5f33ed275ad10240bdfc014135e14fbb021f7733c095a441808619e47cbda9",
+      "reconstructedRgbaSha256": "afc5ad530089f894ba90f7f2992abfd2af3a1ad6b026f68293130c1bba215c62"
+    },
+    {
+      "image": "karuha_08face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18412,
+      "after": 17694,
+      "beforeSha256": "e9b607d732728f3f08b1d724142f934f53be340ebceec6d626edf919bf95f731",
+      "sha256": "d202dfcac75569c8a38a4c2d93da28c3ea9bb817b54d893c7ff80f3423975db5",
+      "reconstructedRgbaSha256": "9b852a75dbad5e3a03bd252e34e082c34c71a344e60e70f7e4ce07fc601bfe9a"
+    },
+    {
+      "image": "mashiro_30face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14714,
+      "after": 14074,
+      "beforeSha256": "03c4275d66e63416365e33bdbe81294e457a9ce2411c0dd86a7c214698681c7f",
+      "sha256": "14063f638dd881865bb0f23cd440c225d88feee1304d6fbb24116cbd6da75346",
+      "reconstructedRgbaSha256": "3537ac02231ee25d57bb64a8a74ee5107e91d5be071c50e35d1c67e79306cd3c"
+    },
+    {
+      "image": "mashiro_15face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14767,
+      "after": 14123,
+      "beforeSha256": "49b0415d57417ab7991b554caea7c1da44d5aa2f2c1cb503bfaa6e21d25b36d2",
+      "sha256": "fe27d4f6dacf6e5b5b355f6add868ef861dbbc5bac4555140142b8dcf1de501d",
+      "reconstructedRgbaSha256": "63a35c4db445ca6172d02429a1c3c4232d2056874c6f5c1671a675d6b4536111"
+    },
+    {
+      "image": "takase_11face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11213,
+      "after": 10590,
+      "beforeSha256": "112fc051b973795a716d8761acab37626ab25d81d5ef8906f5ab9ebb8c084bf9",
+      "sha256": "e3c0046cfeeab63edce39ba09cd3b6939c458505572172a6a56f8d7f1384d472",
+      "reconstructedRgbaSha256": "2b07153d557ea32d7fd593b78d9369315b40f21b64b58352dd5946c04a5e8be6"
+    },
+    {
+      "image": "large_noir_26face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20213,
+      "after": 19862,
+      "beforeSha256": "55c234417bec2368fbdcf9126b387b8a996de22906c4194be24fcc9e5e69cccb",
+      "sha256": "c45642d04aa707848c798588ec5df892770a25e4fc4d1d6a2930e366c71919d2",
+      "reconstructedRgbaSha256": "34a3854503f43c1f06c8f45e01f4cc845bc7962903a988e151efb3e3d6bcb64c"
+    },
+    {
+      "image": "large_mashiro_32face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18030,
+      "after": 17626,
+      "beforeSha256": "0865783336dd4a51d9f6f86a657f357baf829b9a6c7679f9ea8d1bc8a9edc0f0",
+      "sha256": "a1c5fd488b28298afb635dd4a027e743144ea538b3a37a5f886f198a9eec24b2",
+      "reconstructedRgbaSha256": "a89c65d8dd661ee5b3bda4d30d88276b885b8e899490e0956b94b4591987333d"
+    },
+    {
+      "image": "karuha_33face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18356,
+      "after": 17632,
+      "beforeSha256": "7b9484ac4d461d8e7d70b0b03cffacb12baeb06232cb5a4017f9a9d97a4f5c87",
+      "sha256": "3c0c87b862e7e06685d74078192ae1b871e5699248ed53d3194866b7f892b0af",
+      "reconstructedRgbaSha256": "94ef1ae3ad5aba48873e0a8f5616e66b9e6ec7ec564cca499681e7b3e0990cd3"
+    },
+    {
+      "image": "large_hanae_08face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18550,
+      "after": 17819,
+      "beforeSha256": "5839463b7ec0a93240d2fcbb02d5436cd96547bb7232c5e478c5f212ff709321",
+      "sha256": "64eefc931e85dabadb25e75db7e8deb648e304a6ac7985ffec9271793559a22c",
+      "reconstructedRgbaSha256": "e328c0bdb7fd105b2b2a3221b04918ce2348d11c07349cd013e1905049dc67fe"
+    },
+    {
+      "image": "large_karuha_18face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29849,
+      "after": 29445,
+      "beforeSha256": "3032ec728edc8b188c5f549fb22fa85b2122223a995906cfe81aecd0ec07030e",
+      "sha256": "a4b7b0b785673bd2beb54183a76ee9df6769420ab2c1c417c7db0f87000ce060",
+      "reconstructedRgbaSha256": "910a261d0a6637294dcf70dabe64097ba8e00746396de271184d7049dd8f6994"
+    },
+    {
+      "image": "large_karuha_21face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30041,
+      "after": 29650,
+      "beforeSha256": "0ef21131f8ceeb1add0bdcc3045477da3ab08ad84f8a423d697a7eb133e56c03",
+      "sha256": "cf6c1f565b6e9e9ddb253ffabae3d97e381c279a02a3bba9fa6943505bc84a0d",
+      "reconstructedRgbaSha256": "07bb427f1f9ae5fcf8e79a46a1ccca7ce2df12c919833f3f477ab2b6507407e5"
+    },
+    {
+      "image": "large_karuha_28face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30041,
+      "after": 29626,
+      "beforeSha256": "064666df6a31be06d3c6c03fb2080120c4436c02ede9f09ff8e490f47eeb0d62",
+      "sha256": "997ab047e6507ecee0f732627bc79f36b04953777a74477518574499b8e7b31b",
+      "reconstructedRgbaSha256": "4587259389fd498307b677198e034e362e6bb11cab5547c3725185f8e316371a"
+    },
+    {
+      "image": "large_noir_18face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20569,
+      "after": 20212,
+      "beforeSha256": "ee492a56988636fe5f3ca8b8ad82d8def61a1d2b430e3f3c8b0bd945d0adebfd",
+      "sha256": "b76bb65e052796d8aba20bda2f2bf2c1ba9b9ae688945ab2a020dfc3747d2c4d",
+      "reconstructedRgbaSha256": "cf9c768661248d754f102d09668f775dcaa9159d7644ee0bddb9df58b9d69230"
+    },
+    {
+      "image": "noir_20face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16106,
+      "after": 15525,
+      "beforeSha256": "895c63e484bd5576325835e3b412b0cd1c3b32a7982432208fb82eee40e8716d",
+      "sha256": "ebf69373b1468c2e61357171794b5f0824e2598408f843cfa05c51d3ec5818ab",
+      "reconstructedRgbaSha256": "5aaaf813870ba02977b520571f3fa592e0328d17d3bd84cf8ceb909dc4361791"
+    },
+    {
+      "image": "large_karuha_36face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29902,
+      "after": 29499,
+      "beforeSha256": "c5aed6da674ed668f26d460e5ebbe635bd73e43537a8ffb90dfd8c71c69b87e7",
+      "sha256": "a7c5677336019c8e4738a66e0c249dd59718dac9906b5a802f015534a4a76882",
+      "reconstructedRgbaSha256": "7ec89ae840814c3172a18532c7d8c008e622a1a7898ffe8d6a38355abb8b09c0"
+    },
+    {
+      "image": "karuha_10face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18407,
+      "after": 17694,
+      "beforeSha256": "99a72edb844d68e9982450f7c95774b5531d187841b6d09cd261b1a8e1812a87",
+      "sha256": "74eb63298bc2f77c07627f778a69180635c1c0c12e9c55835bf9d0e6ca3cf6fa",
+      "reconstructedRgbaSha256": "d2f63615566b0e136d4e3a268c0510f784094710983832785b6725840cd63ece"
+    },
+    {
+      "image": "jibie_10face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17538,
+      "after": 16766,
+      "beforeSha256": "35f6b6f0e62275a832284e95127b0518eaa7b89d0b340c2f4ecbbef1380a6468",
+      "sha256": "b495e835daa00d223537ac147209dd94f33f88afdd96e27dbc724c0c87a1015a",
+      "reconstructedRgbaSha256": "fd8f64e1b4aee82a06548460859f5b5cf9e4047dbcb669977db63e5edc6e17cf"
+    },
+    {
+      "image": "large_jibie_11face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 25873,
+      "after": 25577,
+      "beforeSha256": "74ad51005eaeeec197cd00cc6da7b38caaa186933b699ceef96922540fc8f141",
+      "sha256": "1dd09e37f979e1be41a724a27566dab7ae37f210549e26abf5444fd9afdbe08c",
+      "reconstructedRgbaSha256": "893aa39be677dffd5b4ab1b3c44d4927f155adc78225ec6c600ba003d1c81dc4"
+    },
+    {
+      "image": "large_karuha_08face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30017,
+      "after": 29623,
+      "beforeSha256": "af296e0a4c58621603803bfc378007ea1ca705d1da137f8cbd8ea5f3003855cd",
+      "sha256": "2b759f30a2f47c141f194c7d086faeb62f6d4f566146a27629c3848354aa962a",
+      "reconstructedRgbaSha256": "92361fd642fe5be0b02d5e9d8e26ba467b68fcc0c54a99a8744942c0c38e1422"
+    },
+    {
+      "image": "neri_17face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17780,
+      "after": 17110,
+      "beforeSha256": "18c8b2b743ef758e6a6fa1a211282fea88c101435a348071f9878695fc191b21",
+      "sha256": "8c65d95b5bc6e5da48c943d7581562a8a126bbbbcfe5a4a152cf1eed038f22e1",
+      "reconstructedRgbaSha256": "1f338c5840f1d95c818cd64daa04286a1279cdbb54404281aed6d22a6e6c905b"
+    },
+    {
+      "image": "large_karuha_24face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30108,
+      "after": 29720,
+      "beforeSha256": "a38a7256a36858626a2395d3be533fa716ec17dba32e2cef67e01de4dd1f55db",
+      "sha256": "1aa59803aff8dd5aad9944188ef33602e5d63639722e4953d164d4e869527594",
+      "reconstructedRgbaSha256": "b68f20dc1f969835d43252d6e9795c6d6abae0c8240b3e8a6c2e5d4d5cf4e713"
+    },
+    {
+      "image": "karuha_21face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18404,
+      "after": 17686,
+      "beforeSha256": "042e1fee5f9307b5d426d3abe889abd149039d6d9c33fcbf04cf05ff5e8165f2",
+      "sha256": "3ee793a40f6ddc860b4efcaa78833562b713ba33528a3c2ba3d3377e7161301d",
+      "reconstructedRgbaSha256": "80bc2498974e0ba43a497b267ccb59e21b57fc8e50ab3a60096759a6410dd1bf"
+    },
+    {
+      "image": "large_karuha_12face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29680,
+      "after": 29275,
+      "beforeSha256": "4deb31695079a7ba100213fcc8653dc18897b1b66b224c6ba16546e6fad164d6",
+      "sha256": "38b769ed0dfa0293dd2eb69c6a9819f3caa4563c79fa99796c5b35dda784a049",
+      "reconstructedRgbaSha256": "46febf1ee50869969d30f57ec7c95eaae93b27f288c3c2198f1a5390af489670"
+    },
+    {
+      "image": "karuha_05face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18457,
+      "after": 17726,
+      "beforeSha256": "4a8bc0b7e89a96d05966252985df5504464a819a748dddacd291cef6dadb016e",
+      "sha256": "a9496573090e8f5fc3ae8c52a0e0d79fffbb51e2b9c33f63282d2ce4fc980c6f",
+      "reconstructedRgbaSha256": "00c8857ae5068595b3f25359af10c0d6d49f64ae7874794df6f32ff34902df63"
+    },
+    {
+      "image": "large_mashiro_14face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17858,
+      "after": 17449,
+      "beforeSha256": "d542c04a66203633bf172444047451a78bb14172223c3de45e90f5842d64569c",
+      "sha256": "73278ef73cd1182066be4aedffb961682788e57ef794a4e914eed3d60c740137",
+      "reconstructedRgbaSha256": "6412dafd22c41e937665419d7710948f24e05be07b2149630aca6d533a7d843e"
+    },
+    {
+      "image": "mashiro_28face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14786,
+      "after": 14150,
+      "beforeSha256": "35d6681ab4d005c239423090f17644c3d0dd2883f007269f06d3af212fe47166",
+      "sha256": "babaff4a48e527ab6a442cca5c1b47e3b1a92d5d96cdcd2547a01eb289338713",
+      "reconstructedRgbaSha256": "42b7c996847f1972851875fdef6b6f772c77d4f0349f9579270fb7ec6c78c69b"
+    },
+    {
+      "image": "large_karuha_02face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30051,
+      "after": 29648,
+      "beforeSha256": "b7ece5cb81d7e190c941be229c6d40619839db995747db4da9011847adcf7e4f",
+      "sha256": "062e0c3cb9fa9c02b33a87a66cb75b39109e921920cd570f6c5700c0148895db",
+      "reconstructedRgbaSha256": "37120d2781806fe3f993efa592c36c15b0c0f6d0304cbe8e2f6c318e943adbb8"
+    },
+    {
+      "image": "jibie_08face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17716,
+      "after": 16942,
+      "beforeSha256": "12a7cba085afd5827a3e02c62dd3a555e0b988d1eaa2c19e9f517ace656f0039",
+      "sha256": "87b4784ec550bf3ce68ec3efb70dc61f0ea965bb1957887074b77d549bcf18da",
+      "reconstructedRgbaSha256": "c71cae519b39c445c23acde8f86e09e0cf149ed84839abfb114529fb2f311a15"
+    },
+    {
+      "image": "large_neri_01face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22940,
+      "after": 22593,
+      "beforeSha256": "c0db8760e1dfe0fdfe8c503f05fc7a6c6eece639af4691d59c5ab9fbe41e6d92",
+      "sha256": "4f68368dc7b4457ad6c9184a0274717b883dbbbcc0a8366fd66107fc7e8a0b99",
+      "reconstructedRgbaSha256": "058cc860fcfdeb5813b401d5b150efa9ce8abc21fd4af4a3899adda6d663bff5"
+    },
+    {
+      "image": "karuha_22face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18408,
+      "after": 17693,
+      "beforeSha256": "0df88e85bc866631e9ef3c87fc9fdd9406dc3cc41a13acea2fca33b082827bf6",
+      "sha256": "5810e847ccd527bb414165d941aa7042f5a3051d7b14687b72395380801b4ff2",
+      "reconstructedRgbaSha256": "28e3972c02b1eac3c1e1e334e922d2b746e2246750a2833bc029585668b6409d"
+    },
+    {
+      "image": "large_takase_05face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15172,
+      "after": 14599,
+      "beforeSha256": "6684ae2634e9212b16e8d07472672f9eb9216bf441bb407a96943a48559b9eaf",
+      "sha256": "94304e289ea0574666949fdae938bcad7dc3cb7b2bcdeb81b4ae7e32d670855b",
+      "reconstructedRgbaSha256": "5a54a1c5f3a608d16cf70dc73cc3d495c3f7b985f95262ece052a8010778215a"
+    },
+    {
+      "image": "karuha_18face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18391,
+      "after": 17663,
+      "beforeSha256": "31fba79257db92006b8be85b173d4b249faeddfe5ea1e64375a820dd99aa6db0",
+      "sha256": "1197908cf5fdb54565fde79391bd41050b39f05d99729713a954a2234ee0f289",
+      "reconstructedRgbaSha256": "acc97dc02756ad03910c21501c93e4358b3f9c68d9904c98e9eface97732d051"
+    },
+    {
+      "image": "karuha_38face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18412,
+      "after": 17679,
+      "beforeSha256": "2326eda8ac8ed620644596fdd35ce84cc228045bfc953ce8ef9a806055d22b13",
+      "sha256": "f278cd52c4201c585c2c63ae90b86d8c3563d92b5b3501f777444fcb669ca4ec",
+      "reconstructedRgbaSha256": "5427d374e9948fc309f853554d338bea9e33f0da5cc1e942f2c89c2556d8bbc6"
+    },
+    {
+      "image": "noir_07face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16132,
+      "after": 15544,
+      "beforeSha256": "21ec34e4dbca8159a62d812fb8c3d23b40b8ba50281058238011bb0d608c48aa",
+      "sha256": "7b80dcd7339a92c5be8597583f84e0831015453b02db9c29fc362f3f5aeb9854",
+      "reconstructedRgbaSha256": "8f4acab403546862062b0b5b7366679deedc2ea2d6a156097492d2534f5bf653"
+    },
+    {
+      "image": "noir_16face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16120,
+      "after": 15530,
+      "beforeSha256": "240b438da7a9f10e888f287f3e24ee6777a279182eb4b39082e70057659ca952",
+      "sha256": "0dd4894737d57138f2866d654b4d5eceee215e6cb0ebe185178d132271b00fa9",
+      "reconstructedRgbaSha256": "25c82659d3591139f22e4e2cc34bb192a9f7b0479107b6ae9c60c09fbdc1e74e"
+    },
+    {
+      "image": "large_karuha_14face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29775,
+      "after": 29373,
+      "beforeSha256": "edf49e71c2fd5e7c70b1f70a9266d415447fdbe63c60148be79f9079d8c4313e",
+      "sha256": "6dd3ae2736f3e46feb7131cf9b042a31acd87c2b392d12788cc105f922338027",
+      "reconstructedRgbaSha256": "7ae905a56678b9ca6d0665e4a3742783988f287553405b996f452c1f69339814"
+    },
+    {
+      "image": "hanae_07face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13838,
+      "after": 13125,
+      "beforeSha256": "390a29360436615317a52638668a771e64a10a6d9afed6a94c97469660ae6bb1",
+      "sha256": "7575966eb9ab7a8a0fcbb7f1f3c7acbacbc3ef975cfab55af907ce3dfe65a6dc",
+      "reconstructedRgbaSha256": "e2fc548469cb4e18eee930554453c0c6c5c5fa9aab31323e3d913d55acefe2e8"
+    },
+    {
+      "image": "mashiro_11face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14654,
+      "after": 14009,
+      "beforeSha256": "516e5f4c42921286517ed0fe407914f419960f95c1b8e3d0b1ae5bc17edbb97b",
+      "sha256": "cbf34ddbffdd316469cca53bda4d34ad27f0aca50ca560b100815c71573480f0",
+      "reconstructedRgbaSha256": "88e4d8a7034eabd5245c946c0275f961293b60a4e1bf746552d1e5b0fa364b15"
+    },
+    {
+      "image": "neri_11face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17810,
+      "after": 17151,
+      "beforeSha256": "558ca22dcd89b90a04ff456d9deb2868f328d16356ae815b1e1f8541ad2dd49f",
+      "sha256": "7de6e6d36ec7d243ee2853d4a51085847313d65fb30188f691cb97ab0a5c2433",
+      "reconstructedRgbaSha256": "40bf9f56032673ac4060dd1cb7c3dfe8c78f8656837a4dc0474bca610e41549c"
+    },
+    {
+      "image": "neri_09face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17992,
+      "after": 17301,
+      "beforeSha256": "53b7ac042e68b1f971ca12b8f05d2a2cdd8f6b7084e5e09ac1e88016516be2a2",
+      "sha256": "ce2935cbceed21d308a2459d4b10ad79ae6c337c6f30c883c11194e5f5a8e395",
+      "reconstructedRgbaSha256": "dcd583706ea928ad1d013e61bc446ac73c2305dac4c375e599dd04500cc08ec2"
+    },
+    {
+      "image": "large_karuha_15face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29642,
+      "after": 29241,
+      "beforeSha256": "414dcd03f6ed06cc5f3c5b728624ed48cb4323bba43a63661e55ccfbd7f2d180",
+      "sha256": "dff4e8521225c8a55ab694a029be7f41639f00e121a0a72ffaa57b2b912d442b",
+      "reconstructedRgbaSha256": "628d5a9463a6008e5d602afe09c7ed2b191be495c3c6dd80927a6d5be4e7509a"
+    },
+    {
+      "image": "large_hanae_07face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18525,
+      "after": 17784,
+      "beforeSha256": "fa84824e7af1fd2fb9db43911d52b7b514f073d0efb06489ba05aea1798678fd",
+      "sha256": "776b293657d1e8cd2bb20e8c61e9772d6a3f5a96bb73dca0c3f93ee849d830bf",
+      "reconstructedRgbaSha256": "6eec950bcc86c037688301a2826cfe6c0e508614493995861c3c828234dc8677"
+    },
+    {
+      "image": "large_neri_18face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22365,
+      "after": 22008,
+      "beforeSha256": "8d1d5f812c17d19ad4a2d61d7f01be391cd705212dd1ae0c04b90e09c6b86d3f",
+      "sha256": "84ea1618df98409915edf02ae50ed515d07129a17d685224582d72622d7136e4",
+      "reconstructedRgbaSha256": "5fdacdae915ff4af751d8db2562a1eed24db59357882d7b2cbd71a9d507c1b6a"
+    },
+    {
+      "image": "large_neri_10face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22394,
+      "after": 22038,
+      "beforeSha256": "4f00af114045ad94b2d8d9ce0eed705f93a3cc8a7c567edfb5f324926d1be84d",
+      "sha256": "04e1ea7f49b3efa0666d31b366f1e67f5a07d58057e2cbb9d00a5c038639a75f",
+      "reconstructedRgbaSha256": "2494f4132cc6d51c6ede0e1394c3bb46facf50700fcc542408bb419968ecea8f"
+    },
+    {
+      "image": "large_takase_01face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15226,
+      "after": 14666,
+      "beforeSha256": "3b7ffeeaa168776a92c64a9b694d156e827ccaa8daa6361fcc74d99762e2eb34",
+      "sha256": "7996a731e6cb591e4b4004ac7db546da3c8c13479be9625b7917328244ff3739",
+      "reconstructedRgbaSha256": "c1827cbcb583590c890e6fa9624ac20c04d6c21245e79779684e2f865ab78ebc"
+    },
+    {
+      "image": "takase_17face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11113,
+      "after": 10503,
+      "beforeSha256": "fe0947fec65314987c7c0e62f1ec04b2391169866051c58744d9c578940c2cb6",
+      "sha256": "0d3ad60888fe3d7f8e17ac92df0e6e70b64afd1926aa0829510a3ab26b1f09b1",
+      "reconstructedRgbaSha256": "fe33b642ab379fa0abd628ca1191ba1f6d3119a76ab942d51309358715c00891"
+    },
+    {
+      "image": "large_hanae_12face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18201,
+      "after": 17477,
+      "beforeSha256": "ae535fd75ece065828a2e7ea718b08b3957d560cda4489b85532651b89a72996",
+      "sha256": "fff716aa63e4531a063c1291ff8aab9aa7755023020929a979dc9afab450d449",
+      "reconstructedRgbaSha256": "0c680fdf73d1c935ea0c637c412c7ed4b0af0d78ec968fa7f409bc4b48aef31b"
+    },
+    {
+      "image": "hanae_14face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14171,
+      "after": 13403,
+      "beforeSha256": "48c517f00a64868b572124df1c5cb9864cb454ad1c6a69d2710325b39ade4fde",
+      "sha256": "7e89a3309d8ef87f8b85741211e194c2f87f9a39947c240d6126f9eaba529208",
+      "reconstructedRgbaSha256": "373128d6927acaa4e9133c655081b8cb53e375737cbd3b03d1a2accce86dfd79"
+    },
+    {
+      "image": "noir_21face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16118,
+      "after": 15523,
+      "beforeSha256": "6c7fa88d9c8e0620df95302062b686b65f7b3bc3f24bf76a66106a6a1548955f",
+      "sha256": "01844b861ee537b9a1e66b06d681fdad7d66a12ed92d484b82e4543f335ca1cb",
+      "reconstructedRgbaSha256": "23e3b8235e1a242b9756dd9cb8c6fd139ba1e392becca3e5f9067dead6928f27"
+    },
+    {
+      "image": "mashiro_14face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14766,
+      "after": 14117,
+      "beforeSha256": "9d20c97de4189971a6e37068f5f22fef6808a838dd42e7a3046280e49a5ee6f9",
+      "sha256": "e6854f694dd986049f32e69c6f6e8e74e82387815a580464555a721985d3c9e7",
+      "reconstructedRgbaSha256": "f2ce1b7d34fea0f968bb07651071c158083f9593217d3d96cea98ce20833f317"
+    },
+    {
+      "image": "large_noir_23face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20570,
+      "after": 20180,
+      "beforeSha256": "30ef86b7381396574537b0aa2a938481a62e86e49fdac09ecf16c61e94b074c2",
+      "sha256": "964641dcb8fed94eb558fb0d77cf7478561a3e4dcb6ee6b87c560626e3cbb9ee",
+      "reconstructedRgbaSha256": "d77f20490fc983af5e315a20d2dc6cc49c5e718875dae117257ad139ed855983"
+    },
+    {
+      "image": "karuha_24face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18426,
+      "after": 17707,
+      "beforeSha256": "cda12830f266d61757e82cc7ece91920ac6a68ad3dc3841ea2b382ed6cc52907",
+      "sha256": "7d394c0377fe03f6735cf510e4969435a7f256031c4570f66b1db81ab65e4d26",
+      "reconstructedRgbaSha256": "4c222ab0ea5da6ffda1e28a07133c5ec332f232e3977a1667801dd731132a318"
+    },
+    {
+      "image": "large_mashiro_08face+",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18110,
+      "after": 17704,
+      "beforeSha256": "2e974accb64effef10aeed99f35570e72c85f74927644d2bb541e2ce5540ffd4",
+      "sha256": "412c36b1bba20c7e9abbf3d932d4cca4ba82c9df6ec8328380c2d011fe695a2a",
+      "reconstructedRgbaSha256": "212fbbd17859308b60abbedc035345bbc0c3c99818be82ddac8ecefb807bc736"
+    },
+    {
+      "image": "large_karuha_34face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29728,
+      "after": 29328,
+      "beforeSha256": "22d87d3fcd87ecca7cc296726ebd37235ebc945bbbc9fd344747678281c86240",
+      "sha256": "f2473934c5ddd27a6b2959e70c8e512daa5c00ade87ee51e36091ba5cc1ebfbe",
+      "reconstructedRgbaSha256": "8f5259ed6642c2c7247e5141ee8873ccc5e6d0173fa845b36bcb7ff74bc6c09e"
+    },
+    {
+      "image": "large_karuha_31face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29802,
+      "after": 29398,
+      "beforeSha256": "5c1bac070a38b22ab2785208bba0d6da6040ac734df8722d3f8488ee8da43a3e",
+      "sha256": "ac63dcbea97174b70d7f955b08c0c60e983b30d4fc41acd6e29719282351e1cd",
+      "reconstructedRgbaSha256": "3f1b66526b839f2701530c52db4f08b98d118cf5da1373950f53619646363f76"
+    },
+    {
+      "image": "karuha_26face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18311,
+      "after": 17587,
+      "beforeSha256": "f0aac0f8e4ecbb5d86934fe64430c087afa0ddbbd7076812a442e2ef6dfffe99",
+      "sha256": "ec25bb6b0d7792618ac065ffe0a023f408c160d3aab1eed91df5d126e5988b9e",
+      "reconstructedRgbaSha256": "987419bf82cf48bcd0d1d829b84bb76823db7e875216674613e492366776ffda"
+    },
+    {
+      "image": "large_mashiro_25face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18087,
+      "after": 17680,
+      "beforeSha256": "8e6ad694642a8cae86613e39fced848cbc40359de3e8904ab1c3cf62834b8825",
+      "sha256": "09897c3cd5cb30ea3745c62162b709794f3291878008ff8ec92e18f9ce29c5df",
+      "reconstructedRgbaSha256": "739542c82144e1c4c673a4c5386ca9084570baebce31ce35df669ea7b3e1c7b0"
+    },
+    {
+      "image": "large_noir_01face+",
+      "box": [
+        76,
+        22,
+        358,
+        286
+      ],
+      "before": 22796,
+      "after": 22388,
+      "beforeSha256": "936c2f7a1ed677b2306860cb0067c228f0b91dbf2da34d727dbccf5815818866",
+      "sha256": "f0b6f7d3785dae5f9f96fa9944e7e9c1425c69142a4c91e30c19829e93eb3b58",
+      "reconstructedRgbaSha256": "bed49742aad6ace63fd95798a663ca5f7725875a23dd6052291fa42780364059"
+    },
+    {
+      "image": "noir_19face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16130,
+      "after": 15539,
+      "beforeSha256": "d097971365a1de11805c65241664c9a3fb2d6b7d623792ebb11f8b5763a91cb2",
+      "sha256": "4963615481e79dcc2cce23fe4a1909c5a2e63673d2c7ae83d9b0e5eef207a9e2",
+      "reconstructedRgbaSha256": "499f86782f00a4552dc0838cbce0ea5c3cd2491f83ea1116358d497992c02d34"
+    },
+    {
+      "image": "mashiro_10face+",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 15123,
+      "after": 14469,
+      "beforeSha256": "624d09c308a5257fe41948b8a86cd201441bf850cac56f8fac86ae312638fe41",
+      "sha256": "2d7c913069bf028b1caaccef61abc87f4157316028d4f4ba417d87d437ea7cf2",
+      "reconstructedRgbaSha256": "db3e63704c7a6c7e9703149a5479259a33d031f474cb8ec0ee428dad0996fefa"
+    },
+    {
+      "image": "karuha_11face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18409,
+      "after": 17689,
+      "beforeSha256": "7aa842d6583f7708ff28b05758634f761f4b4cda61dd4d5b06fa50eb60e0698a",
+      "sha256": "cb54ce2e75f006620267bafad7829732e2d34dad57f10defa4023d2047071d84",
+      "reconstructedRgbaSha256": "2a3fe3bbfee32cc4fc980d1e765f326ee132bf79e34b60c7d8b9b3ecc0b262d6"
+    },
+    {
+      "image": "neri_01face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17993,
+      "after": 17340,
+      "beforeSha256": "57d502e3d3aee271e6734f6093d1fb219eb184801ad4bec633820d4b9df07eeb",
+      "sha256": "ce7a2191b31887419ea5fc93018f9e85b391b58eacab3e9e32c5d80c6e6f49c6",
+      "reconstructedRgbaSha256": "d44de644f82f569ec14dc242e06035c7b41abdc9390490502b07ca1f7f2ecfc8"
+    },
+    {
+      "image": "neri_10face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17792,
+      "after": 17107,
+      "beforeSha256": "127772d6b5e9899835ab50f163585aa308d5634f0d21f87b0f225c9566581abe",
+      "sha256": "ebb642b8bf066ce397bb6cefdcdb11eaf7f19655489542082290a8315218c79d",
+      "reconstructedRgbaSha256": "52dccaf113de55de10e864b40b373cc42afdf0a91559506f99860394c5f9c011"
+    },
+    {
+      "image": "large_neri_05face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22933,
+      "after": 22589,
+      "beforeSha256": "0d292a79b567e14e8dbca266089f74250f8572a74e5b2e8f036c34992017ad22",
+      "sha256": "039cf07ea8c5d1858ba2777662a856c1b2545e07de3e7ff16343aaf4efcb7abc",
+      "reconstructedRgbaSha256": "8d23f6cc769afbda0e9f16042119517e4c408836d089bd4424ab98b3fb355f2d"
+    },
+    {
+      "image": "large_jibie_12face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 25896,
+      "after": 25594,
+      "beforeSha256": "1884b06bcd186982cb28194aa7660fc8035d9efb5dfda4f733ef1eb8674b14f1",
+      "sha256": "1689cc6c2f0e3dde28497f645c61e0c4d55bc9493e2decd4513d3a6a19d53610",
+      "reconstructedRgbaSha256": "f232422764da2505f31b34d578b23ac59c2378ab22e3cdc00df92ac1908aa889"
+    },
+    {
+      "image": "large_noir_11face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20158,
+      "after": 19772,
+      "beforeSha256": "13b5896566cbbf7b62200a49c70a96c56c66ff8cc7b093114e02abc9e2df10aa",
+      "sha256": "9ecd82b3dddc708edc1bed01ecb91bb0d2fb1160389b54ab869accb471a3510d",
+      "reconstructedRgbaSha256": "b4cd02ae3929623f49043026976b1e9ed34fb7aed030b1ad13353aed93c7aea0"
+    },
+    {
+      "image": "jibie_20face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17504,
+      "after": 16738,
+      "beforeSha256": "98f98434e40ef14835ed172d4db95f508a6395878d60188533d70d34b95b9914",
+      "sha256": "7056e509a0a7ce28813a02439a13d57069928b152709e1f59de54da61e462678",
+      "reconstructedRgbaSha256": "b85a7a1af1740ba62d39cd426c9b1aab745a28428ecb59a884b9acb61e9a1b72"
+    },
+    {
+      "image": "large_jibie_06face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26542,
+      "after": 26205,
+      "beforeSha256": "d53e70eba32d33a69f0c268a13eecb2cb67d1302b158681c3314d647311555d1",
+      "sha256": "58816b2ca21832fbdcb279fe17f12213f659b33c48086ba3ee3f31c01e30b8b6",
+      "reconstructedRgbaSha256": "0387e39ee795a488b3621c09e2fbdefbc8297dcfa3c4521c71ebc2e1b509001c"
+    },
+    {
+      "image": "large_neri_13face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22390,
+      "after": 22051,
+      "beforeSha256": "c275174a2ca75fbaa157b0cba5dfe10d14b256c1971df97eca1fc97481ef6a0c",
+      "sha256": "e0f1860adfb6ddbdfe9d0e90adb130bb3ba6e815c8fa37944f029817d8dfc314",
+      "reconstructedRgbaSha256": "dc457af66203af2551eb8937c2eae8fd84723d5e59b624e07614fe416722c897"
+    },
+    {
+      "image": "hanae_01face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13835,
+      "after": 13097,
+      "beforeSha256": "bf45ad60a839dd2f2e6f510e03237c50b952243ee0a8104f9fedcf25dfc49a46",
+      "sha256": "da187cdf3095bce57a3a91e37d21b191a8608f9903fef2af23893dcb4b1b20ee",
+      "reconstructedRgbaSha256": "191dd3b61fb6c8a8a2018bfcc114ba048768edea542e4a396d18c14e57344e23"
+    },
+    {
+      "image": "large_noir_16face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20561,
+      "after": 20203,
+      "beforeSha256": "56a9be2ec03cf1f71906246e773a1657ba092e57db78be4ffaf8d85a7454241c",
+      "sha256": "5cac127cb444b8c17d856fb0e557a54e3fa0f5ce1682d6ab7b2ae543ed1518e1",
+      "reconstructedRgbaSha256": "f80a6284fa6c46e4b68e6bf558cb59e4b67f06fd8ddf2255cf1752929d136320"
+    },
+    {
+      "image": "large_noir_09face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20493,
+      "after": 20122,
+      "beforeSha256": "342066fa8bc1f312cd907744b96ae18f00785b6064c9b0ffb8aca9c11052d5de",
+      "sha256": "373801c04afdee00e515c4ab5a70f2cd0bb87307990f09e0cbf57d60571865c7",
+      "reconstructedRgbaSha256": "535fb0ef27dc4d916f07573c27d349bea7abb9c16567366b63c3ffeaeb4cc463"
+    },
+    {
+      "image": "takase_06face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11141,
+      "after": 10508,
+      "beforeSha256": "74c1a4c4747256d38d8be8ee6d8b8afdc657f88d53c9ea6c7934a8cc086e3438",
+      "sha256": "e4187608d9d833622dc0aadbcf65a77e3c9f790671843e9ecbc395e8f9ebddd0",
+      "reconstructedRgbaSha256": "8af7b6357f1989f8514596e30277de2d42ea911d93e272862832eeed8f19c6b4"
+    },
+    {
+      "image": "jibie_04face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17743,
+      "after": 16969,
+      "beforeSha256": "2c7a5341337c25ce4cc34bde7dd8591bc242c64e04a916a1354779928d87480d",
+      "sha256": "89b910382bdadfbe57e1a780252071dc1dac636a7b4a9bb8b6b53d1ac845628c",
+      "reconstructedRgbaSha256": "d0c95edc8b6e46f8c2f279522492246845c6ddcea12a76fbc36ee117bcdb87b5"
+    },
+    {
+      "image": "large_noir_10face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20144,
+      "after": 19763,
+      "beforeSha256": "84a080086703cfbc8059d19c6a0c9096b02a89bccb73d17e7e957560f141ab0c",
+      "sha256": "1f5a4b1ee5bdefd79635838e6e27d128db80a910fbc7451479ec6a961c587c9c",
+      "reconstructedRgbaSha256": "0c776afa214b2e32269697bbfd0b22b9cf6d843c38d66650070003a972072cf8"
+    },
+    {
+      "image": "jibie_14face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17725,
+      "after": 16953,
+      "beforeSha256": "d539ce0b065d97ef28fdb7bdfa9060bf49c96d54ab1a503211720006c79f7704",
+      "sha256": "75d448626f75a622a6e5102bdb0387acf692187045153ffb2d041d250c461ca6",
+      "reconstructedRgbaSha256": "f16cadd9f7e6e48d5fe2d80fd5a96c2ea324fa09ddc7a26a5aafbfcad607cb3f"
+    },
+    {
+      "image": "large_noir_14face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20240,
+      "after": 19892,
+      "beforeSha256": "cd699e2758ac99c5aa100ddd472ba13f6102943102c5a9e6c10d0e537d45484d",
+      "sha256": "44caf8e8e82c9dd6835435998759768b216bfcf1a880f19f10a4af1c128471b1",
+      "reconstructedRgbaSha256": "e2af5dd8b632f9b46ef0eb7c48bbaca128dde2b082b68c50244dd981ba83e201"
+    },
+    {
+      "image": "large_noir_13face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20233,
+      "after": 19877,
+      "beforeSha256": "9c1b19d512d47b1cc56dbb1119eb445d115b6571a5e8acd7b250c92f9795ccc6",
+      "sha256": "35defdda09b3914ec2614351e59f18520379df518230a0b43d448ef8c85ab924",
+      "reconstructedRgbaSha256": "06f8b84aa729a8f6c57d47fd277c48bf996d7baa7b68a1571b80a8b47a64cbe1"
+    },
+    {
+      "image": "noir_08face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16126,
+      "after": 15535,
+      "beforeSha256": "5d9de66243ec838ce22df36c9af6e62bbba3010010f81fabe0d6d547f338c2f5",
+      "sha256": "b96112a2b1e7b4a63a0ce36dbd7b43b606554fa810798f0913454aa590b129dc",
+      "reconstructedRgbaSha256": "606e3f59106650bb95eb131d8325b8e23630792500c63ebd3c865a446b4e35a5"
+    },
+    {
+      "image": "mashiro_08face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14704,
+      "after": 14068,
+      "beforeSha256": "e5c17a7114187b447e49ee58bfba6134a43b22515c8bdbec737e0df3b0ba7932",
+      "sha256": "db8297eed27e033b371546bd0fc7f76af1268f369ed400b6eb756c812411a2c3",
+      "reconstructedRgbaSha256": "91e5622bf0276e75f577e27956f1327cf50a7990dbb97db5866ee911ab1eefdc"
+    },
+    {
+      "image": "jibie_03face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17751,
+      "after": 16981,
+      "beforeSha256": "f48779a9d55332c45e11a48b2e90f2fda60241a2fc465606d36180e168c10589",
+      "sha256": "6dcc71414d3497cab35d8c62881396def0fde2d5bcb21fe29795c9c646b808d7",
+      "reconstructedRgbaSha256": "14c1ee4cc7e08fccd525e2bd2510a2cd89c17549abd406fbe4f01c647024f9b8"
+    },
+    {
+      "image": "mashiro_07face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14782,
+      "after": 14133,
+      "beforeSha256": "dce54e34f38eb8816cb4d1a4b55dc14798c9c6d4fcbec60178560bc652cc9a72",
+      "sha256": "03e7a0b22fb4ab9341ef9ea37d645f9f46eab61e4a567d25bebbc3f6bd42ef30",
+      "reconstructedRgbaSha256": "40e809800bc75341213e95f742c022da595b3820e3b5faf08a7efb25ae449ac7"
+    },
+    {
+      "image": "hanae_08face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13842,
+      "after": 13139,
+      "beforeSha256": "bc0f3276510a1f20e226f1bb2f6eb368bdcdbeb9aad9cce4e063d000aaac1931",
+      "sha256": "3de61a6acae7c3f726f603a9a0de2b1dd2f0b63e3d864df67f8d63df2c0ee65a",
+      "reconstructedRgbaSha256": "1e085606766bbb494104946f19ffd854eba21f7eda8d46c62f129b238f1054dd"
+    },
+    {
+      "image": "large_mashiro_07face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17918,
+      "after": 17513,
+      "beforeSha256": "c5059e9e9ce67edb5e513211b8c0dec205604c3af6c216f140bd197a631905c9",
+      "sha256": "616febb8fa4c2013c741553ee19f4b993676bc979d29213dfcd2189a3f187cbc",
+      "reconstructedRgbaSha256": "a798a3c52be6b02a6577e8c3eabe7c1d8d0d41e53087d4997cb457eea8c7456d"
+    },
+    {
+      "image": "large_hanae_17face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18191,
+      "after": 17457,
+      "beforeSha256": "20c5d5a87202fff4c936b5c884ac72b1d99b80955fca0f0ac13db8f244b97435",
+      "sha256": "4885d3b457f7991cfb9ba1466d86928873ac332ecd7c66a46efd9f4d90d7127d",
+      "reconstructedRgbaSha256": "cc7be6d9340e137626ebb0d5216ac4d2020dfb91a087e549da4af9305f445840"
+    },
+    {
+      "image": "mashiro_02face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14807,
+      "after": 14157,
+      "beforeSha256": "c578e2760abb2de0ccb50b9893e21c0c7de07c3618c6cace00a554e76cdc55ce",
+      "sha256": "76bb45021649188ccd97fee37b52855da8a155a3da1b963eb19675d977f2a151",
+      "reconstructedRgbaSha256": "5793afd8860b254715e5c3464cd78cac04ef04fb60dc26cb40afb18ea3cf22b1"
+    },
+    {
+      "image": "large_karuha_20face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29897,
+      "after": 29487,
+      "beforeSha256": "1b532120888d05b373cefea6851b340e0592e785d1386eb94f2dfda25b4abd1a",
+      "sha256": "540498ba0f74bac77d9cbecf7223373ea6c459f246ffcd6a75f9b7e0dc13f897",
+      "reconstructedRgbaSha256": "eb86d280e52845b2a4f4ffad7cc397284e89dc4bdbbec3e4c1908579b37594cc"
+    },
+    {
+      "image": "large_mashiro_15face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17892,
+      "after": 17484,
+      "beforeSha256": "bb1ccc6466e96dc77b999b81fb1e560d4281a58d999f56d6c9af29cf3eec4a87",
+      "sha256": "4e2356f5b2a9bd18b79888fd10a767c75312504b21ea25e6db0fc6d3b837ebc6",
+      "reconstructedRgbaSha256": "9ff2ea2873de1b61ff914da7db2351c055b5e997bf1adbc9efba28494332b06b"
+    },
+    {
+      "image": "hanae_15face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13814,
+      "after": 13095,
+      "beforeSha256": "95a5d150116a6fa94fbc29e4645769d7af2ea21d4b55d4dec819dbe74d10a132",
+      "sha256": "cf9103dbc6ae2869beb51f5687f764fad01c870947226e378cc577dae49aa16a",
+      "reconstructedRgbaSha256": "efe2ce3d9c43bb4801f02d50153d3c88a378818b2c3253cab91ecc0b6ba0bbd6"
+    },
+    {
+      "image": "large_hanae_09face+",
+      "box": [
+        100,
+        0,
+        312,
+        286
+      ],
+      "before": 19309,
+      "after": 18570,
+      "beforeSha256": "cc495173ec6c6d17df3716b877fe4638628894d9a4ee2c3860b8bb3f5355f814",
+      "sha256": "3ef361c79a71555f61a59e9cdf1d4d88303458ed0b585f93b5b190cc609e5188",
+      "reconstructedRgbaSha256": "70c62d63bf603c8f64ebce39b1080c00c507406218d67bd423ad8447e05ec002"
+    },
+    {
+      "image": "large_mashiro_29face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18107,
+      "after": 17694,
+      "beforeSha256": "f01bca36f197069c5f2af3c7ddd9dd88c77134bd2f1a0591302501ff4673b871",
+      "sha256": "0252d59832cd0cfe975f22fd68c5a53921a07b7a8b73e5dbd37b20580a7e7a55",
+      "reconstructedRgbaSha256": "622895f6d4b37ea690f43d1d57e83381b9236a9dfc6e5528f21e3742c07a741b"
+    },
+    {
+      "image": "large_hanae_13face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18501,
+      "after": 17782,
+      "beforeSha256": "493f0e2937a0d6a09952a3307a445ef4dec5880b99228d91516a0b04ce6df0d4",
+      "sha256": "f25ea5c83da8009d1e4b15d885acd948832bfe9f68d42c041aac5cb3c9686865",
+      "reconstructedRgbaSha256": "ec7b3501ce166e7822543ec46f49856455506e43c6374f409ab98c84239c657d"
+    },
+    {
+      "image": "large_neri_03face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 23034,
+      "after": 22685,
+      "beforeSha256": "07a2f9d43dbb26159d4c6b7693325ccfdd85531e08e7d8295a4f618a1f7faf24",
+      "sha256": "7597467157f7a3c03cd14ef3d43f791352ea8acf591418174ccd69511c0bf6a0",
+      "reconstructedRgbaSha256": "1ec76a4064f1b4df7ddabf4cbe8a5754bd1cbfb8310d10486cd3fe324b93e75f"
+    },
+    {
+      "image": "karuha_14face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18352,
+      "after": 17629,
+      "beforeSha256": "7c2b61fd6fb17bbc595b82e6bf12d613c26bda5a40c0ca5e2eb7c8c316dbeb76",
+      "sha256": "9fcff06e8dcd12fac0d396c25ea9743b733b4e120f193a0fc61c74641afaf5ea",
+      "reconstructedRgbaSha256": "c26bd119a44a0f83e4ffc8064d007cedd2a6931b4d39511c62c03fdc598c2e06"
+    },
+    {
+      "image": "large_mashiro_09face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17441,
+      "after": 17035,
+      "beforeSha256": "9c86e8b9d361c847d2a8506bf8ca28a1671dd3e4bbc9ffffa438c2e94bc72bab",
+      "sha256": "37d1ecc812d54492c7861084508ea9038d4da45dfe33bbb973ce0e0c95ee9e80",
+      "reconstructedRgbaSha256": "806101b8b2fb97cdef2636ff449d752664ebfa2a0ac3317bd9cd4042a92c6f90"
+    },
+    {
+      "image": "mashiro_16face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14848,
+      "after": 14197,
+      "beforeSha256": "93145ee8f3beedb5b46dcc1be8bead9e2bdb2220f282d51ec6ea7f44772cccd4",
+      "sha256": "b777e7bdf8af43de79d20e556f72e273198d9ce98e09cc86eb4de20001778495",
+      "reconstructedRgbaSha256": "9665aac917bdaa3772caf382e008a98f0dd25f754d7e93c0a64dc48be8f95bba"
+    },
+    {
+      "image": "large_hanae_01face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18516,
+      "after": 17781,
+      "beforeSha256": "3bb4c2600df0f6d5697b1128abfea58b3239d545616c8e3ba2887e9bb1e532fa",
+      "sha256": "d7a8d8bea3c52929880ab8cb4e094dcc7e027efbc069366208af14887c109fbb",
+      "reconstructedRgbaSha256": "d061fc18c462b1fbe1b09b1c407b500e0706a010f0626708c9b29b2e4452f51a"
+    },
+    {
+      "image": "large_hanae_11face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18177,
+      "after": 17460,
+      "beforeSha256": "ae2be6482f06c2f978fce63bdc8614f6d2c304b73eebcbadbe06163c13665658",
+      "sha256": "5ad0901b48a7236cb51df03db6302123093f4c481cf61d034527a53c860ffd55",
+      "reconstructedRgbaSha256": "48dacefa0c2c033ae58c2c01c2bed8f2171f9547e64a93c27447cbed6120c4f8"
+    },
+    {
+      "image": "large_karuha_11face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30065,
+      "after": 29655,
+      "beforeSha256": "c5a90c7299ba79fa0c78dae224692e4d3ce9304f63ec07a9613a63811550e4fb",
+      "sha256": "2d74d841bc0b62015619f629a5d3377ca685d1a978a95983582480c90e58d6df",
+      "reconstructedRgbaSha256": "4d0934255aa76c050c21c3ccf0e62efc9e344f962b1f3b2e0163753d18ff4bd8"
+    },
+    {
+      "image": "noir_15face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16161,
+      "after": 15560,
+      "beforeSha256": "34fb39f5689d4dc491792eea309fe75198b915b61a1bb911949e1438f8f124f8",
+      "sha256": "80fc1a6eb17981ee293dc24a89693d3e7990d20c302f50aeaffb508abfdede3d",
+      "reconstructedRgbaSha256": "b8668c6babe34ee6eef04c854e638b1bb72a192245d029d5e7bc13cbbfe67b29"
+    },
+    {
+      "image": "karuha_37face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18358,
+      "after": 17617,
+      "beforeSha256": "389e2d5b3be5266affba709c9dcb0bc7ce289cead1895dd1a49b82eef3d05bce",
+      "sha256": "aa1ee8ea7e77a4500b1fb7c5b98a3f28e6a138f165f684a834f99d191ce8cd3a",
+      "reconstructedRgbaSha256": "8b3e0efa8ba0ad30b64d6c88c6aa4a084da78b8bb9cf1494b19cc9093b2047c8"
+    },
+    {
+      "image": "large_noir_07face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20566,
+      "after": 20183,
+      "beforeSha256": "29972afc4bcf5893857e201275cbb73a19e5ed8bdc7e48b777f85c5fc0fc7943",
+      "sha256": "304966b626d81fef8263be6375c5016062f7f16ec6a4d7e3ae5b72a9ed5ed2f1",
+      "reconstructedRgbaSha256": "adbf03996c7d22cbdf1206df58a255af87ee6b3e589f77501758c87696f98f84"
+    },
+    {
+      "image": "neri_15face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17782,
+      "after": 17124,
+      "beforeSha256": "f6186429cbfa4584d0cc8b87ebf7dfaeb1c61e9a8f2d7506ea7da2a482d07b20",
+      "sha256": "fe210845a9237cc36587e806564afa314b8eba85ce921f4391566ce2d9fb0583",
+      "reconstructedRgbaSha256": "d7c3fb3a8cf14c852e79cc21cfbba611b1c357f76e364d307c6f316431e0f4d2"
+    },
+    {
+      "image": "large_takase_18face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15220,
+      "after": 14665,
+      "beforeSha256": "4d09418b2794b0a4ba7fd51c0c84c6752b0800da03c69e0264170a6eb2172cda",
+      "sha256": "f53ab47394742285def364df8a2e1031529fc80fdcfcc09e44bfb0642c4f0d02",
+      "reconstructedRgbaSha256": "e502ffba4896a1e854992b2e0fe15b7130e4f56fda5501b847b22494c4f4cee4"
+    },
+    {
+      "image": "takase_09face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11220,
+      "after": 10582,
+      "beforeSha256": "b17f82bead8392ae2f504633f7c83df4cc72b4a500e70c0b046d8ffac85ef101",
+      "sha256": "67f85ec981a8cff27c20eeeb03458a08ff193d761a6a31fcdfda82b2c5f6a7e3",
+      "reconstructedRgbaSha256": "a9acff72759a7a75965efc45bcab401b313fc3570fa6520aa0abc738a0cef0bd"
+    },
+    {
+      "image": "mashiro_04face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14836,
+      "after": 14186,
+      "beforeSha256": "983bb9bec110e3acdefc5c80c8505411008d4b7805a64c310fdde77d43c23b0a",
+      "sha256": "bcb3f84055ba8e3ee91d2e898756c2f22ef6ca2e8c8550b93e5a860e70fc2858",
+      "reconstructedRgbaSha256": "e7d62937140f7291b415c5e25f0cd3387781e9715fdbf581f9a100b8420448df"
+    },
+    {
+      "image": "large_takase_17face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15145,
+      "after": 14587,
+      "beforeSha256": "01958188c477777b5f23fbfcc0cf70a79ad091d18840c6d3b4fee5d872468117",
+      "sha256": "526f6eb9a903ffa7da9283089e3616deaecb2547edf4fc4668df42c974ee5c48",
+      "reconstructedRgbaSha256": "0ebfacdd0c7a548eeffeb07a70dc81267b8e08b0a64d53341d7508cbbb2881da"
+    },
+    {
+      "image": "large_hanae_02face+",
+      "box": [
+        100,
+        0,
+        312,
+        286
+      ],
+      "before": 19275,
+      "after": 18505,
+      "beforeSha256": "fe787ed8d4d627806d4a56cd1a5bca265a506ffdf9c2470b4bb22e800da9781a",
+      "sha256": "ef6eea20b8b048e7def6dda22a05f658b76a1337ec8213265702b0da6fb70ab6",
+      "reconstructedRgbaSha256": "ffe5a9beb41552e265a9055d3c415697d105db58873d19b4d69222e1f81700b4"
+    },
+    {
+      "image": "large_noir_15face++",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20670,
+      "after": 20284,
+      "beforeSha256": "c91835f21e3b4a27c5b676cdefa9e131dede36938585943e73ca347f998687a8",
+      "sha256": "cc18d054c716c32b7404e3abe0d30a265bac364b9ce30625618e034fb8a35cf1",
+      "reconstructedRgbaSha256": "3e6340437f719c9d6a6dcda4c65f4fb41b56dca65a363a8eaf9764fff023f69f"
+    },
+    {
+      "image": "mashiro_06face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14816,
+      "after": 14169,
+      "beforeSha256": "f607241507a60d724964812eb037fd440f9a86d398e70f472dae438fa5224c63",
+      "sha256": "95cda8f5dee4da43544f94a96a098a2f8b1715e6e1acfc8480ce1cf8a769ae06",
+      "reconstructedRgbaSha256": "c6132bda98a92b8d863803653427b0982f8967bf7efa86af125dd1d2c33f87a4"
+    },
+    {
+      "image": "noir_11face+",
+      "box": [
+        100,
+        60,
+        344,
+        286
+      ],
+      "before": 17274,
+      "after": 16682,
+      "beforeSha256": "fb4dd2995f3560d5f2f63fb66870e532104264d572c7d2d9d48eafc0d4013d6b",
+      "sha256": "86454f5634d3f8062dbc3e0c35cfba36666af637154fec823463379558491b7c",
+      "reconstructedRgbaSha256": "d20996359d4ad6a035e4d52b6c2f75d0908ee446c0ecd02829fb3131b9d63da4"
+    },
+    {
+      "image": "karuha_16face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18316,
+      "after": 17606,
+      "beforeSha256": "bfd58d15ef85065a7d468188c266d10e7df4f955ad1ae1c47d893da2bac56070",
+      "sha256": "4bea0caf8b87957469d4f5f72c4a3f001eab4be42515e464012f2362624e8f30",
+      "reconstructedRgbaSha256": "e8b399124b7b930ef716ae589a0f5954116117bff93b3711b2abbe47d67f1594"
+    },
+    {
+      "image": "large_jibie_07face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26430,
+      "after": 26115,
+      "beforeSha256": "d4758084eda1f8499c0e245e656a3779db09e83dc78e7e2a0e8f69b589ffe534",
+      "sha256": "9e01796a4ebdb8b94cff0a4df7b647fc9d03bf0aab88b53c13b2aae47ed298c3",
+      "reconstructedRgbaSha256": "2d9cc0a8c1fa9f391637f3c33130bcb650f57d46e145afb0e062980e1f7c0130"
+    },
+    {
+      "image": "noir_03face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16144,
+      "after": 15538,
+      "beforeSha256": "cf0408ecbb2af4cd1106ac78085b8ceb267fe7234cf365c164cfdcfe67994a09",
+      "sha256": "a9ff60a43db1f99b8dc90389aceb1ddbd1d37cd713927da1d10777460cef8d52",
+      "reconstructedRgbaSha256": "a16eb4eef9e5a5ed6a0547efbac89875aef607e6848f12bc2d315fe67933e736"
+    },
+    {
+      "image": "large_takase_15face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15492,
+      "after": 14925,
+      "beforeSha256": "9fcf3a4956df6de6c5cd086dd3e21f538dd1360cc5ef8edd9d3a8abf9fcb642e",
+      "sha256": "15d34bd61d61076dd42a6b991583343e07f891126a8f94752b8de8a042e9981c",
+      "reconstructedRgbaSha256": "18b87263d86996e54ce1272f711c6b3e58c42d710dcf8e001a972c5c214ec551"
+    },
+    {
+      "image": "large_jibie_20face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 25898,
+      "after": 25606,
+      "beforeSha256": "9fd359b13269c459ab0eab3634475d3e121d0fe015125c0a8ff5cdba50d7ea97",
+      "sha256": "7d477badd5590cef4d763da11e5f14f865e92a724561d75c5130500085f8b999",
+      "reconstructedRgbaSha256": "5edcd04ba3e76e2d6ce4293cf32af911d968f0962ecbac6c61fb2016801662cf"
+    },
+    {
+      "image": "large_hanae_06face+",
+      "box": [
+        100,
+        0,
+        312,
+        286
+      ],
+      "before": 19272,
+      "after": 18523,
+      "beforeSha256": "3838b8e62de4f6f4b75f9d33511c7d0e2da7cf8cf144583ec1164032a494338e",
+      "sha256": "03ef567d30b36d4f86505ed85dc2aef711310740b46b9625ca2a892968239e18",
+      "reconstructedRgbaSha256": "5397b16c1609e99ea4cb282f7ebe33ac5f559b5667dd850c8e4b7f60924b7514"
+    },
+    {
+      "image": "takase_21face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11221,
+      "after": 10587,
+      "beforeSha256": "d74bf8a03897c586ce630399e75aa3a3f4bc960dd3b7263471cab944f2e66f09",
+      "sha256": "e8e0b3f9180a9ad1fa3e2b6c802e04225991946a339d489d797567ef317d1416",
+      "reconstructedRgbaSha256": "30a499651f0150fe5f79011149023bc7de9f5ed68ae9b8f5ff1908efe9abaef4"
+    },
+    {
+      "image": "large_karuha_01face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30063,
+      "after": 29637,
+      "beforeSha256": "a455f6e95285b829f6412c2f533dcc2261d6f26663f1badfb51a66a1043e5a04",
+      "sha256": "9ce27567ad8629824792bcd88e0bb428309a0f70502610bebd13f93645e9b77e",
+      "reconstructedRgbaSha256": "f0e38a0932fb896c9fda153a02281ef063069474e894a7798d3ceb9a0d27dbe4"
+    },
+    {
+      "image": "takase_13face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11217,
+      "after": 10579,
+      "beforeSha256": "f9682b73070bdc9cb5e19e772337baae0e8e8c745b68ab794c36568935f5b5e5",
+      "sha256": "fc0b76185d3c05fc1bc78c1501f1d23ea558682dfc9e006a390ceebe06aeb558",
+      "reconstructedRgbaSha256": "fa21d584016548d86fadbf23e107ebc13bb89f3e7d72062284bb0e48f1835dff"
+    },
+    {
+      "image": "large_jibie_05face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26541,
+      "after": 26209,
+      "beforeSha256": "98cec65e4496980654ff55f8a27d90ef6099252e2f5cd36558a82c91c5685300",
+      "sha256": "2be9cd5667e187f623efc76ddd37352bf2b902b6921cd59f08d5e9b23d2e9327",
+      "reconstructedRgbaSha256": "0ac64006e59717fb7a16fc4a9e608c1f5ef447f0e504e66b09cb73560ad39b33"
+    },
+    {
+      "image": "noir_25face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16000,
+      "after": 15406,
+      "beforeSha256": "74dae52f42aff2cb3713d2666be953f46e694da33166c2574524169d5960abe5",
+      "sha256": "ee8529d59daec74d81e76cad5befbba6957c9d0fac11d6e75fe70dbe4df2ad52",
+      "reconstructedRgbaSha256": "95dc7dc4438bbaf874e2f75845b39b45bea30fa38442bafb3c88e103951605ab"
+    },
+    {
+      "image": "large_hanae_02face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18477,
+      "after": 17741,
+      "beforeSha256": "60ad2106581c0ee2e8d421a56fbde7c5ab8ea0ff250e6f8593b17730c5966499",
+      "sha256": "275ab3f569a624be5820ac72a4a267169234d4766be108173176414f7ad6f1ad",
+      "reconstructedRgbaSha256": "10d1c87eff81cb4aaa3b96a44062912f6864c6efc1c8eb273dd962a72f7b5e7b"
+    },
+    {
+      "image": "large_noir_19face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20581,
+      "after": 20218,
+      "beforeSha256": "baf01393826ad5b7ec7e64a124ddc90295c9ed1d74f8550ed2e0713f3125c06a",
+      "sha256": "2449ece8b135f83ca5a45564c51f71a5a91cfa553cd099d1e8ecb71c1d737900",
+      "reconstructedRgbaSha256": "cc325632a9e5e92fb3c1f89a9838c13cea2d578721417e753005f802d227099e"
+    },
+    {
+      "image": "karuha_09face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18414,
+      "after": 17714,
+      "beforeSha256": "6cabee450286aba020b680eea68166e2f1e0109ab74d5c5334f7b791fb68a99e",
+      "sha256": "f02152f343d8243fd1b54ba1c164232eb43065736b0a2aa32af28255650caf46",
+      "reconstructedRgbaSha256": "e14c58f7fb03a03b06a7bcd264a8300b7341a358f93d1c6ff4c2e1ea315fbb9c"
+    },
+    {
+      "image": "neri_03face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 18031,
+      "after": 17361,
+      "beforeSha256": "5a80192138d4ce97512362ca675cbb3602e4755b30926d93ee8e93430def8574",
+      "sha256": "7a6d6e1cf7ea08cf08616d1a10d6580fa6a9667eb5a812c15786f440ebb5ceb5",
+      "reconstructedRgbaSha256": "4527b6e17a9e0d09646a84b8003fcdfe8415813c16a322f569806103f790e787"
+    },
+    {
+      "image": "jibie_05face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17784,
+      "after": 17008,
+      "beforeSha256": "2f6fa5f7e8265b20d0b859489ce9ca1e37d1ab94377a89e95c8c3bfb295afd6e",
+      "sha256": "ed3d51f54214d3de86bd0407390b12a6e817150d9532dc5aafe11bb76824f39b",
+      "reconstructedRgbaSha256": "19151341af4e170576b1acdb740fa1593b3deb6a4c12f90a77e01cafcf479c05"
+    },
+    {
+      "image": "hanae_12face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14043,
+      "after": 13280,
+      "beforeSha256": "b73631044292b25662b0ae079ac0f5db37bb9a20176455b6367f1ae83b67f6e4",
+      "sha256": "4e30ff56851f9339b1ea24c8cf74d1ff4a96c08c4dfb0591938e2e8140155e04",
+      "reconstructedRgbaSha256": "80e2ad1f28fa64b1589750e93e5a50a7f9fac765b5a1f8e5fb748ece38b4ada7"
+    },
+    {
+      "image": "noir_18face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16123,
+      "after": 15541,
+      "beforeSha256": "868d06ef7a70fcc9e5fd09a1eadf83de9bc48342477db2e9ccbcc0af5b79281d",
+      "sha256": "1a24c3fd358698ff2bba06e2a55c3f05c06bee1f7a4983798206fdd082c73117",
+      "reconstructedRgbaSha256": "77e78591bd173f84af1ed48205ea034b05337f5af9ced4e6ef9be26ba70e4249"
+    },
+    {
+      "image": "karuha_35face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18432,
+      "after": 17703,
+      "beforeSha256": "b00ed4756cbbcae3e2627731efe3f7371a44d64dc2e351170f11346a2719be60",
+      "sha256": "d004d5d6731820ef4f9457956777947effd99ecdcffd9c86dfbe86d279e09cf1",
+      "reconstructedRgbaSha256": "46482b44bf84f25122cb17f7cd9828f74ce9d6d85688385b86cadf001e9024f6"
+    },
+    {
+      "image": "large_mashiro_14face+",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18164,
+      "after": 17758,
+      "beforeSha256": "f98bfc7fa6d15966f58f790a3d64e7388524266228e2d722e91935b896e59b58",
+      "sha256": "0d654f02fb31b2e249a268d4ad0aa895e668fd8b705d227fc0642447f0f5f6a8",
+      "reconstructedRgbaSha256": "00dd8b4592325b3f058508894f8196ed008030921d232aadc6e9f28e5c1280bf"
+    },
+    {
+      "image": "large_karuha_29face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29644,
+      "after": 29240,
+      "beforeSha256": "f04a9f49c0d65f55697c2dfe060a7902f796b8e16f13fd375847bd80995992fb",
+      "sha256": "d6f3fed5d407e09646d0328f2f7de49a918089cf0a3af8e73a735a0d0327f557",
+      "reconstructedRgbaSha256": "35a636d5a5c2d7a34c8122fe6bbb54fd380945e14a9f347949ec914b305efdd8"
+    },
+    {
+      "image": "karuha_20face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18348,
+      "after": 17638,
+      "beforeSha256": "0afe92f8bfaa42498535eeeed162634b7ac3e11d1cd7c4c6c19e2c9053fb6c74",
+      "sha256": "508c74a237b3dc0687ac7cef14e5003bf520ae182d932007972d343a160578b0",
+      "reconstructedRgbaSha256": "082c4b975a107c42bd07c0aa62ae67fa48d61e32929b42c9fdac48390dbdd735"
+    },
+    {
+      "image": "large_neri_06face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22960,
+      "after": 22626,
+      "beforeSha256": "a852f087500e00bcb0aad36e0e7f72de2a8127b57eecca678d67cd3e1b766f67",
+      "sha256": "4d935b3f54239185890e1e1d6a1601f2e0a5cbcd9d4dc9795a04ff974d074c75",
+      "reconstructedRgbaSha256": "116ac887ed6ee11185e57bab34387c65d99ae1d6d69dfa7bdb27f446b01cee6e"
+    },
+    {
+      "image": "hanae_10face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13864,
+      "after": 13138,
+      "beforeSha256": "6d220139c6038a3a8c2f0d6b82de2123d181a560aa63e0460a0e1d5f31a9e4b2",
+      "sha256": "d4628b5e68cfb03f5c063ada07edca0817afec354142d84571719af68a060c3e",
+      "reconstructedRgbaSha256": "5a652956dfa65132dfe5cf54dc06df293caad60ae5f190c2b0296999f1d0ade6"
+    },
+    {
+      "image": "mashiro_26face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14785,
+      "after": 14138,
+      "beforeSha256": "05a024c858a4faa901440e4b2ad7f4064510e558c71ad1b257ec175d7b9c2e35",
+      "sha256": "148cf9526c9f2136497eb3116f42cc44f7dee119437a1ab95bfed531b4819031",
+      "reconstructedRgbaSha256": "954de0f29dd9f615f9a94e33ccd9e026efcc59c8a2991e2fee7d7b8eae1ac00e"
+    },
+    {
+      "image": "noir_26face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16002,
+      "after": 15410,
+      "beforeSha256": "99a570cdeee40efef4ed3a56753e8cbca52153f95a5c2759a558abad414133f6",
+      "sha256": "5f0b30a51e0a0605f276b22211a063c5b477f80c16260bc7bbb3c93b4cad57f8",
+      "reconstructedRgbaSha256": "ca61eeae58f8d275db94bf63a3230a47881f38a875e060fdbfada9ef75469c6d"
+    },
+    {
+      "image": "noir_12face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16013,
+      "after": 15436,
+      "beforeSha256": "e74c5865cec2d1b8abc284a9fe4279c76b12b9e3080df2ec14fa7e8ad9c6f43a",
+      "sha256": "f54e14845ab29a729e1236e18e25a267346fb87901ca71ef4e1d5a7009c5749b",
+      "reconstructedRgbaSha256": "21990ddd697cfca9b883e37f380e2ce6827798651c6a83aaccbcf57e78546b3c"
+    },
+    {
+      "image": "hanae_17face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13701,
+      "after": 12966,
+      "beforeSha256": "bf0b73baed7cb64a508f6aef0528768a9262056db05e065a1ff3076b5636dc79",
+      "sha256": "147cb38a68c507f10c209f235bb4f053a51dd9af997ec197098cc23199755dfd",
+      "reconstructedRgbaSha256": "5fa120a631c6accc3890f3c7b89090533fe0eb95b041c9fe96e04c0d2fe2e9d6"
+    },
+    {
+      "image": "large_mashiro_16face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18103,
+      "after": 17696,
+      "beforeSha256": "1a4dbb41af991b21b013a9d1356ec9966579a6775c75a3611e96ef9182d9f4f9",
+      "sha256": "529631de7e5d5b043dfda3222021fc1a6015c736a29e83a77f96c1ff3d7102db",
+      "reconstructedRgbaSha256": "cd81f148e19356a0f44b91aa0eb60abb7877a2a55cc3d8849bd35be824f1b1da"
+    },
+    {
+      "image": "large_noir_02face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20565,
+      "after": 20213,
+      "beforeSha256": "4bd4498bfe98fae311bde0803af0b93df793254f1fcc87ed00f5d8b55448d193",
+      "sha256": "63dea1fce294be0f213826f128fb5f16cfbe64dde7012ae847828b617c26c622",
+      "reconstructedRgbaSha256": "0cc12967f8278bc28b2d67e312dd0e48b73b3a768a09d2ddb7def0d9b3ea18fd"
+    },
+    {
+      "image": "large_karuha_35face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30082,
+      "after": 29681,
+      "beforeSha256": "2c28cb89eac7650ea266ae15ccec744d75aba96d6822526f9e1bf61f65b5ef04",
+      "sha256": "9f31b62078a4553c9e23c14deeb8f6bd5fba313a9d9266cf5f7dd0bc726607d2",
+      "reconstructedRgbaSha256": "33edb6ded5309466ccf182517f2c8826b48d63deea21eed3926f5d2c94beb6bf"
+    },
+    {
+      "image": "jibie_18face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17565,
+      "after": 16791,
+      "beforeSha256": "06f0ca98770563a33eb7985d8af6f1bc90852b43fab3500bd3a0d988de351ead",
+      "sha256": "1466f21a094e8bf11852187f5ff23b73f76f15525e8e633a38adf1edf486c618",
+      "reconstructedRgbaSha256": "cfe7b087f7c8240907a5a30ce2ed367fd0a35c1dc605d3f8be6a417b7d56cfde"
+    },
+    {
+      "image": "large_mashiro_10face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17464,
+      "after": 17046,
+      "beforeSha256": "2d48db8e2522f79a8147497c75a7e2b1e31bbbc5c70228ed784731f0eb80ada3",
+      "sha256": "08723d096c20a7ed3f1b86ac1c788c661e75bdd52fd78f5e14655582613153da",
+      "reconstructedRgbaSha256": "cff7161fb2e89b41155081bdda7737fdc8677fcc893fd3767f5c389983f15b04"
+    },
+    {
+      "image": "takase_01face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11142,
+      "after": 10522,
+      "beforeSha256": "19d5f9b867a66e3e467d038d7f60b4dd780f18980635b6c66bf020db8fa51c2c",
+      "sha256": "ae39b92a0b6a98a73c02bd142f632c0bebba3b62058ba0c99f03fc80d6366373",
+      "reconstructedRgbaSha256": "993cdf20d3c878cf0557dcf123c39ff29c6356b4e1386b4e32e720f282784b1d"
+    },
+    {
+      "image": "jibie_21face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17619,
+      "after": 16849,
+      "beforeSha256": "9984d7e9ca0710dde9df6e25b46263fbaf16c637cb2d7cc63431fa597c45be14",
+      "sha256": "59e7e265228da6782876a81135a7ccc503d1f43657af45f168819325b75123c3",
+      "reconstructedRgbaSha256": "69e93f1f5613990819cf5fddaa81d6bfef5835ea5b704677dd5716c034bd4bbe"
+    },
+    {
+      "image": "large_mashiro_22face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17965,
+      "after": 17561,
+      "beforeSha256": "f67939b0e36148d43ffce057b4013c0476b80b18f1fe227d9177e24fe1810edd",
+      "sha256": "e0bc7a9363791e5e1fa101ffa3d157a5757051221d38b25d92a0cefa00012603",
+      "reconstructedRgbaSha256": "9aa173ceb6c2e6d82f0880bba88e11f783ae5860e9033497fe9ffc042afc24eb"
+    },
+    {
+      "image": "large_noir_04face+",
+      "box": [
+        76,
+        22,
+        358,
+        286
+      ],
+      "before": 22849,
+      "after": 22430,
+      "beforeSha256": "15681b14c0256d1f0186423ae55a0e08c75ac01bb4b378de2182ec1085dbbde8",
+      "sha256": "e7df9af6a62edf2023a06282c147170a47a4121629db4d64c3e20e0277482d56",
+      "reconstructedRgbaSha256": "6a71f4910da5120625815465427baf2ed8253cd1896856512958912baf3e2848"
+    },
+    {
+      "image": "large_takase_04face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15213,
+      "after": 14639,
+      "beforeSha256": "36661ae72997c9e6783758931be2d64a17fd7958d50b922e4df636b07f6783ca",
+      "sha256": "50df73502036a47f470fa0946a8972ed95667afea382d7506bf1dbe9461439f8",
+      "reconstructedRgbaSha256": "78cab2084994d69fc673566a2297c47879ad28cd15ddf55e1389b5f971b2fbfc"
+    },
+    {
+      "image": "large_noir_17face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20577,
+      "after": 20222,
+      "beforeSha256": "1fc0a4abf34b2c94fd31f1cd2da6baacef6534ce3038fbcee9cf2203aee02160",
+      "sha256": "3602e10a91c88ac0cd4572f77af1ed93e8894ad908c546d118696a45d7cc68c8",
+      "reconstructedRgbaSha256": "91d05b088aaf81b0ff2d7a15f4367c63302140b6638937a11dd78e3194f7388c"
+    },
+    {
+      "image": "large_takase_19face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15238,
+      "after": 14677,
+      "beforeSha256": "4e92cdc662ef51d83cb7b3dd26690ddf12ae9014efdf333d59beed8df450969e",
+      "sha256": "a7ed6178f8f9d2c0f8ae743dd0f131a200ad583c2e0cd141cd2d956b6f23bee5",
+      "reconstructedRgbaSha256": "b76a3ba6a68549000d48c2434bdb0608fe5fbe412da74ecbeb005cdf1fc519be"
+    },
+    {
+      "image": "large_noir_08face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20565,
+      "after": 20193,
+      "beforeSha256": "9dd1be5a75168e4015f2976ab5e0e7b9a46f12dde35d724935bdfe5521e004bd",
+      "sha256": "2e1cf596a64292e1c7a8d647dddb07ef8101293ff72e96c4402f1e14b3bd7686",
+      "reconstructedRgbaSha256": "2a531186bb8146f69344688b6cc3d0f0cb67f8410701d960ed0e041e3789f3e9"
+    },
+    {
+      "image": "neri_04face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17995,
+      "after": 17339,
+      "beforeSha256": "5cf0e313c80fac2192d0953256f966bf291c61e23f1ee72b5ef7ec590b946984",
+      "sha256": "ffc7adb2dac9005e6c12aaca139091e9b1ed4843ad97ca31bdca03e61d6a66de",
+      "reconstructedRgbaSha256": "b595c25a8cf4311eb378d6b9bee58b3859179c0ea028034f21c7f74e013f4c3d"
+    },
+    {
+      "image": "hanae_07face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14177,
+      "after": 13421,
+      "beforeSha256": "75815445309c0037a33b5ebd28f1a6ff241465d5b1b7b2bbb94d4dd96d0855c0",
+      "sha256": "cdd64a6bb805fe7a733b6dbaa5c20caa485a7cada49c1d3a3ba407a670323a6e",
+      "reconstructedRgbaSha256": "6f29ab7869e48f6b8f92257663304f504c99c5f59b9c08f7ccbc50704c167fac"
+    },
+    {
+      "image": "jibie_09face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17525,
+      "after": 16748,
+      "beforeSha256": "7101bb5aa782e922e2af509196e58d19b06667cbf6f0bdc3689e2e7e0ff32332",
+      "sha256": "5a4834e3a0117c2755f41b3861c909db0b1b6df1dfc4b57f0865f5fc4521a7df",
+      "reconstructedRgbaSha256": "f2a7a4b4423c1c89667e9c293aa554637484b8fcfd492dce47fb7316bee1ad2d"
+    },
+    {
+      "image": "large_hanae_15face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18440,
+      "after": 17721,
+      "beforeSha256": "03a5d956084a30a9d887f65900a3b19efb003846ad8285aea899d6667e7f368a",
+      "sha256": "fc649f6a003119f4dbc0f6272c0a1b8efb880917ce7a3f0e0f08de57ded1a56e",
+      "reconstructedRgbaSha256": "da88ee6c0b11bd199e4b2713708d3bff2b4581b6c29a3d1243a74ff3bad89245"
+    },
+    {
+      "image": "large_hanae_03face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18495,
+      "after": 17760,
+      "beforeSha256": "d3a8ea7c326fbfa4dbe9959331a7d08ecfdac4fe9dc964f8882690c666c18ca4",
+      "sha256": "21dad19e674928f2cfb7cad0bbfa2ab2cf45e93de58a67dcc05dd5f41282794b",
+      "reconstructedRgbaSha256": "5ed2e862000270fa1618e9050dd9beb6ec55ea6617a2bbe654a6edfa74c04715"
+    },
+    {
+      "image": "karuha_01face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18391,
+      "after": 17676,
+      "beforeSha256": "dbf9ba1a15bf32eebbef343d1d78231c519cfe02f3e94cafca0fe2d122ac2b61",
+      "sha256": "4d03742cd9d4ebc5df7e0491240424025594c68da92c2b4e72d96f21eb0c34f6",
+      "reconstructedRgbaSha256": "f75f7d24e9f708929166a63cd3bd7b170379fc7ce4474a185deb7df9e306efb0"
+    },
+    {
+      "image": "karuha_19face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18401,
+      "after": 17672,
+      "beforeSha256": "d7e905e8dd077c15b6ea55fafdc073448aa7157db2a85c8779c3f624ba543c3f",
+      "sha256": "6ac468137e43f035f24386d02abd4456873fad59d8b241eccf077db9e64451b4",
+      "reconstructedRgbaSha256": "b1bd7e9c2a48a925423c904197186b03559399a503aa3fd3f171841cd9e90e2d"
+    },
+    {
+      "image": "takase_02face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11140,
+      "after": 10496,
+      "beforeSha256": "75857efed7124982af098e122482404e3d12f8551f3e16caa861740c00bd168c",
+      "sha256": "d5186c3c689fcf5d03683d6ed8a1e6d921d7fb6b8ec0c8d8c8a0eeed2cafa160",
+      "reconstructedRgbaSha256": "526c770d14b4f4ce8cb00c643e798933077b15b24ddea1e224ec9d090a48ad2c"
+    },
+    {
+      "image": "large_karuha_25face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30063,
+      "after": 29649,
+      "beforeSha256": "fbec93b4306cac81d54402702fdc38cc90c9ec238354ecd15699a79fd4194649",
+      "sha256": "b6f865fbc58f9d6e16300f9b449d3df42e583a655ebcef57341e6995b46e837f",
+      "reconstructedRgbaSha256": "309789e53889065beabd89c3a0cd2981ba7faaaab6ea3f834afe669d69c14db4"
+    },
+    {
+      "image": "hanae_04face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13858,
+      "after": 13151,
+      "beforeSha256": "204a3a35eeeb282f8f14fed74529a0fe1eb255780353711dbc403e339d76cb3a",
+      "sha256": "68488025a4b723d2425ee2863048ba8c8f3202de52fd8c98d3e0d170b69012c0",
+      "reconstructedRgbaSha256": "719c45edf144fc7418f72b64cfa7ba1b5c53d81898db2e03a374c60a7cea17ef"
+    },
+    {
+      "image": "neri_05face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17999,
+      "after": 17348,
+      "beforeSha256": "6ca84c95f51172f74b744e1d0033382c0327d3c746703dc7454704e82762dea6",
+      "sha256": "53af9cc113eabc369d80cccafb8c2e3bb6d6a3427b491a3c9904db86bdfb6f48",
+      "reconstructedRgbaSha256": "8dd5b8762bc7c83abd3d2ef19129c8c79cb4297d9f7c2da2cfc5d6dfbbc7df24"
+    },
+    {
+      "image": "large_mashiro_23face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18095,
+      "after": 17688,
+      "beforeSha256": "3a4bc434684cf0d091c5e6f639cfa6717bf7e27719fc750cb38f1cf926f4669d",
+      "sha256": "67619885281d404af983ef51f6926ab4db6030043c83990d5525f29e6560d024",
+      "reconstructedRgbaSha256": "743e6dd6629b536fe1c57e973543245e1f33bc8e876c8005eda5d8785ddfaf0a"
+    },
+    {
+      "image": "noir_06face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16011,
+      "after": 15414,
+      "beforeSha256": "f83b95eed88ab2b0e7832487e3362a7c569dec90fc09d2a2b3925b0392ca34e3",
+      "sha256": "3e05f0732ac9cbb9024ca755ceb2942517f25172c92a196d9479dd0a71316a39",
+      "reconstructedRgbaSha256": "08442d0deedce3357b802541d9b8e8b278556b3692984e10ee35b9dc1f699a67"
+    },
+    {
+      "image": "jibie_07face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17719,
+      "after": 16956,
+      "beforeSha256": "105eaaf04669588dc76948cac09b75c86bedde8400b0ed3ca0e648e7e7dc97af",
+      "sha256": "454a6ff40f39887d20b1f0daec0d99ea3e10c8fe02fcb4d465a16643ae33444f",
+      "reconstructedRgbaSha256": "5dee48fed1df93fe661dfb9771856d6df6cdadadb7829d1a1a72fe675ea3fa9c"
+    },
+    {
+      "image": "noir_04face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16142,
+      "after": 15545,
+      "beforeSha256": "c9d2cefbad831755bbf1d0acdd5bc6e69cf3cb221c95090db9061ea65de6c1d0",
+      "sha256": "54faf7a2cc744d95924c87e9dda801c5e9f3796fc2cac99a20d2f9f5d1e9136c",
+      "reconstructedRgbaSha256": "f6125135395554277758e42013d2733ef03025fe91ced7c68a4ec5a086a6c4e2"
+    },
+    {
+      "image": "large_neri_09face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22858,
+      "after": 22499,
+      "beforeSha256": "cc23be60ae5d4a600f8cd4cd800c8f1b8f418a564cf1b79b19276d7d965591b9",
+      "sha256": "082c082d03d69abd03d8ddd699c4a8d02b917ab05cde5593edfc96b7cadfac94",
+      "reconstructedRgbaSha256": "ddaaf80a7247e811f3d6246a18e0be1415e6f372e9f83dacc758e26aee5cd6cb"
+    },
+    {
+      "image": "hanae_02face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13822,
+      "after": 13095,
+      "beforeSha256": "e7ef72d8691412062b5f35041367889309bcc06bfa6c21a3b7a6fec000e9d940",
+      "sha256": "aed0bbeed044ef42f462b7c5084b160396889a2c999a03069d66890c89f2ffc5",
+      "reconstructedRgbaSha256": "ab4112aff371a8a910dd46ace9376570973969e593d23d81416b715838b9c401"
+    },
+    {
+      "image": "large_mashiro_26face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17956,
+      "after": 17545,
+      "beforeSha256": "624edf77ddcad9c6c50445563db424e68ffa95546308a7d34227f00b1a0b3e06",
+      "sha256": "618dc6de94224a8db9dff80dea0b7e0e6da186fe5a86c45fac332ca614393df0",
+      "reconstructedRgbaSha256": "61132111ffa8fc11cf2aec9a195ad0eadc1dba1d947b1e00b0ed13f7d136623b"
+    },
+    {
+      "image": "mashiro_20face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14799,
+      "after": 14154,
+      "beforeSha256": "2c43ad278ede5416b0ccd345988e9407660d62f9db0b52f602736336d6dead25",
+      "sha256": "92bae5b069f97112096c314ae74321e1bef5df0d4fcc9b9262cfea8f46a93bc3",
+      "reconstructedRgbaSha256": "679e4f20c7389d35677d49bb47c1271e6f02197c0b2fb4b4b97637c13ddf8bce"
+    },
+    {
+      "image": "large_noir_15face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20641,
+      "after": 20260,
+      "beforeSha256": "c46e01536d1ab20da1c201d239ea4df85871e6e2fad3bc93efc49522725a0f1b",
+      "sha256": "0264a448655b27acd3cfbe629e2896ada2f8c6165977c12697408940b0c74c88",
+      "reconstructedRgbaSha256": "5af0575c5721714469c5abc7fe276605040f6695e0cb0e325aa0e72a33ad0016"
+    },
+    {
+      "image": "mashiro_34face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14651,
+      "after": 14002,
+      "beforeSha256": "f87010567256d9016fe135820aa41389ea0295a391aea868c5ce940a9ff474ea",
+      "sha256": "04e2dc42d7d8825ed534d6053b83cedb32891c41746bc8e5ece412aef3a494ee",
+      "reconstructedRgbaSha256": "28eba73c65ce9d3e9b0b577308ae35fe008ed4ce80613bd1e148d21bf5591346"
+    },
+    {
+      "image": "neri_06face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17984,
+      "after": 17327,
+      "beforeSha256": "4f52796b487090cfc629c8921bb3da5beea17515bdf128727f00edc85676080d",
+      "sha256": "cf6241538f393152f5d8588764b6dff35e5a0f3e1ab2733ba15018d951e8e458",
+      "reconstructedRgbaSha256": "1c6ead0e610ae18e03e059e749d4a055f5297e843bdb5e58e128218df1da7d87"
+    },
+    {
+      "image": "jibie_06face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17788,
+      "after": 17008,
+      "beforeSha256": "437a8799e8f07761724c283295d2733ff52dccb8dd17ada13cbdc8bfa6a421bf",
+      "sha256": "796f9395511b534b6cf0726152a5c03486a50f465ff076ae98790f7ab606dcfd",
+      "reconstructedRgbaSha256": "374b43fb302e73ce15bdcaefb208560bc5fe60cd34224362f012f3a20c790078"
+    },
+    {
+      "image": "mashiro_01face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14803,
+      "after": 14151,
+      "beforeSha256": "cca5f79c8f725d5e4223ab0c8772edfcfda2671109a22ab50297fb3f16a76d68",
+      "sha256": "8a58399a65174c55cb74153f32a365324e915598e19113c250af9fd04760a2ca",
+      "reconstructedRgbaSha256": "3848ceca38856b67a3c8d96a10bc3a395cb71dff3a9198e89400d32ebe74f4e8"
+    },
+    {
+      "image": "takase_04face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11144,
+      "after": 10517,
+      "beforeSha256": "8eabfa31638dc14769492e1c69b7779959b09dc97fa9e64191a76998b03343dd",
+      "sha256": "f9cafb38350b9103cbae2463a0330494dea600bb68b6318215d9ef31f39f5843",
+      "reconstructedRgbaSha256": "bd2f99f3d535635cde521c3b50884ae1ecec035493a71906da22dfd4be09ec8f"
+    },
+    {
+      "image": "large_noir_21face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20566,
+      "after": 20197,
+      "beforeSha256": "5a4a447ffa7013ca32e73b35f9dee664c9840d374bdbb63d6367cceccc24593c",
+      "sha256": "c252ece835a657e3a79092b55bd41aea81b32a28912e8a1fbb67c2c90a944c09",
+      "reconstructedRgbaSha256": "9a2235033ba8e8e19ffc87efd71abc3fc2e70ed8d5e0ab7009cd6efe8051547d"
+    },
+    {
+      "image": "large_karuha_33face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29782,
+      "after": 29369,
+      "beforeSha256": "0b4ee6e804e8e8d8962c77e93f95f2e1d89b867cadd4c69491195ecdd60ae83c",
+      "sha256": "49be813fba5e1e93dc5d8d701f55c2357578d281305f699f7362635dce907a5f",
+      "reconstructedRgbaSha256": "b4eee16f417f45f7e5b8748e7e9205580deea1e855bb4a3ee8c060267abbe925"
+    },
+    {
+      "image": "karuha_30face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18359,
+      "after": 17645,
+      "beforeSha256": "f11e21b4e283f3d43c375ca1ea0a4a0e3f1e343594b38fa059e693405562c80d",
+      "sha256": "46733695d801a89712b1a9004c6b69e4643eb62d045062d17b8eb89a0dcfc473",
+      "reconstructedRgbaSha256": "7bb1594cb7030a21a2a9d79328e602bd83aafc1b0fafdf22c1674df94a5702b3"
+    },
+    {
+      "image": "karuha_34face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18330,
+      "after": 17610,
+      "beforeSha256": "66ae621d9c2a5938f1ee6dc26df58511077965056e69b8d7a29924d108efd91e",
+      "sha256": "9989b0bbf83143b34dccb1d909edbbad97401abf4975a99837204ab52a023644",
+      "reconstructedRgbaSha256": "a2aa9a6920085d41a6fee519bbd8e3113ef5fd16edc06b07c0c848bb62028ea6"
+    },
+    {
+      "image": "hanae_06face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13832,
+      "after": 13103,
+      "beforeSha256": "84c5cbd3a627d10a96d4fbcd90cf6d2ed97b0ec789494731548e280151606129",
+      "sha256": "80e8bdb2fd7b9d506b65eb1ca32b16bfa1f8b6c4d1e7d4b07ddfc3852d61dc05",
+      "reconstructedRgbaSha256": "1e4f570d38a09f7a6e3217b4493bf6f37d625a88b0ffa45612dac47b09884573"
+    },
+    {
+      "image": "large_noir_22face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20489,
+      "after": 20109,
+      "beforeSha256": "85b223bf3275d1cce8d81af1dc5e78f81a9eee9dff9a8066ab705de8759e9375",
+      "sha256": "2dca5dcc7479a61181372b4196ae6fcdf5b7b1425962c33638943def9db38495",
+      "reconstructedRgbaSha256": "751f75d79cddfa60f3434b7225117649457b469911c7d5540148c62863b70c6f"
+    },
+    {
+      "image": "large_karuha_04face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30108,
+      "after": 29720,
+      "beforeSha256": "20c2b1f04f45dae925613a42582698626525b11125b5e92c428cd47cb1b0fd3f",
+      "sha256": "d1cca8e1ccf439f152c4a78bbc03a6e5073dbea92ba84ffa0edef144b8ce32a4",
+      "reconstructedRgbaSha256": "ad34490ab2a6508afdaf72eeb0d7270ff6a63429d54b61b2e053577b0550b7c0"
+    },
+    {
+      "image": "large_jibie_16face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 25901,
+      "after": 25610,
+      "beforeSha256": "13e20caa93166ffaef899320dde43872d7e91916a26f3b6fb0e5fe8a3b3e0f8a",
+      "sha256": "ceda513c9e1aa6257ae9fff76ebb74073d7189ec26799064915a82584ecd0d7b",
+      "reconstructedRgbaSha256": "6d7300cb65151d048a547f2ef66519e70f8ecbbfa0acb7d26836cd9282a3ab67"
+    },
+    {
+      "image": "noir_05face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16147,
+      "after": 15549,
+      "beforeSha256": "6e48652dd0dca6f16afd63697e34c5f6fc7cb3869ab7e7223a40936f8183ea14",
+      "sha256": "c0c8060349e3897c9237511cb0b0cdbe5910e7f26851941d1faf04d2ff0d87ea",
+      "reconstructedRgbaSha256": "641b2ffdc372fd1d0e6d9c3b607fcb779be8ea40ecee7a528522b3b656627953"
+    },
+    {
+      "image": "large_jibie_17face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 25955,
+      "after": 25655,
+      "beforeSha256": "d9f32f88cf914c1d1d3946d13b6f0786db91d71818c30005dae1d12acedb723f",
+      "sha256": "5ee763e99b4aeaf451e85169ab554e7f487c8922b45b2b86d516f87b26fe0486",
+      "reconstructedRgbaSha256": "ae9bbfdc420200b7e377146a1814e62007b330030896d339b3b76c641f5ded6a"
+    },
+    {
+      "image": "large_karuha_17face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29677,
+      "after": 29287,
+      "beforeSha256": "042cd5caa3c07f6e6a1f1f45d37ec3e4356448cb0c9d1544e9c6485734537f23",
+      "sha256": "53651fcdd1b45d8cf889574c2a47129341b0724c1b419264c57bee1004d8f389",
+      "reconstructedRgbaSha256": "da9fa1b10cf06a35e53d07e3fdfdbb3e096d7e328f3cb74e6a123c519d12c2bb"
+    },
+    {
+      "image": "large_karuha_05face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30150,
+      "after": 29716,
+      "beforeSha256": "0cdf5d1ce940763e0ed4c1c59e201f51e38e256c88b185abdf0472dcdb781ea5",
+      "sha256": "561b14647c2b1e5378c87e8fa2ca0fa2e8cc20dbedcb8c4b02b8a6ce141d6f7e",
+      "reconstructedRgbaSha256": "cfe521d0fe5cab07d72dd5a790472af005e592cd32afea583494d7d27aa358a9"
+    },
+    {
+      "image": "karuha_13face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18346,
+      "after": 17621,
+      "beforeSha256": "c7a6fef63ae07944151fd943a6273435d4ac42fd47252d16b1f5e9b688220454",
+      "sha256": "19e73bb9609ce4a1ae2725a704ce0d45b0b7c2c0f82f82effafeb00d845658ca",
+      "reconstructedRgbaSha256": "b78960e8b3bb64181c84728c089ac649cd2cdeb1187c5bdf0f08f0c5dc3683e3"
+    },
+    {
+      "image": "karuha_04face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18416,
+      "after": 17699,
+      "beforeSha256": "9953a1febdfd0b2ee19f9ddc9a7e54c1202582b82534585173e937f89b09cae9",
+      "sha256": "38b30c8fa17bf172307f99deac38d3074fd5442d2aae65d84dcfe08d139679fe",
+      "reconstructedRgbaSha256": "4f862a68c7748cae3127160bd96d6a22101b018dc124076b73f800eda86d091e"
+    },
+    {
+      "image": "hanae_09face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14169,
+      "after": 13402,
+      "beforeSha256": "846c0755c548429fe39990cf9d4c94863b1d6162fec795a92a389af4d8fd2580",
+      "sha256": "93a7aed897d32b7bbe4fba1abca834c07e39a581913cf7d68a4b3b4a0e3bdd9c",
+      "reconstructedRgbaSha256": "b1e0ab54b308f3107963cea21e99ace6624d9ed12f92b3536e710bc5e484c184"
+    },
+    {
+      "image": "hanae_09face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13850,
+      "after": 13120,
+      "beforeSha256": "176446b0cafaeb2a04f7b2bb0f6a755e9036b235b6f1e191cc5757fca8c2ab57",
+      "sha256": "1a0595bb4fd9816ca1880828d6e5a59b08ce65bf487f08100177f468b254d274",
+      "reconstructedRgbaSha256": "65a93e5af69bab7ca2c78b7274158eaa38e760cdd88bafc98be94b0e17616141"
+    },
+    {
+      "image": "jibie_01face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17749,
+      "after": 16988,
+      "beforeSha256": "e8c37dfdc024b0c585731bbee3b12eb7bfc37ee5d09c93f70a97b0923b54e3d9",
+      "sha256": "d312169e902bff68e6f882fb75c2a44c740a8dacd64eb6f9ec0fdcd78f422fc3",
+      "reconstructedRgbaSha256": "ef3ca22e89b9b346ff6fd1c2100adaa547d254688c985cee27883c21692b53a5"
+    },
+    {
+      "image": "large_mashiro_15face+",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18181,
+      "after": 17782,
+      "beforeSha256": "9e915541d71d96c19c28b10ab00b64751fab926789ff2c587d4641f527e325b2",
+      "sha256": "c0d2ff08948424668f24af25fba05e681e6a9ce8e8eb8e8bf0cae997dca7b5c2",
+      "reconstructedRgbaSha256": "b2ccf6171c189c71be1181db907962abbd6c56a42cad69a5c591e47188a4246e"
+    },
+    {
+      "image": "mashiro_14face+",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 15278,
+      "after": 14631,
+      "beforeSha256": "7e7a48a1fe6e3e6d5f995f578eae12c92c5fe6ade138956a10f132ed1ae7770c",
+      "sha256": "5e212779244c7582234374c4cb8059f5c380bf41f5f009fb9b3ecf9f26cdbcc9",
+      "reconstructedRgbaSha256": "93b93a86d7bd044f03586cee724d8dd887c224369b50a3ce0f175306bacb7eb3"
+    },
+    {
+      "image": "noir_10face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 15978,
+      "after": 15390,
+      "beforeSha256": "dce9a835d15a4dd5299a0ee9c9f19d102931efead341b3daf1d9e0d051f56f25",
+      "sha256": "3efc18045bde252efb2652ca15ed3f7f22351aa993eff4b43f32fe45f3909660",
+      "reconstructedRgbaSha256": "3c8305cf45429f54db353615c79500f763527c7fe633abccb0ac85be98d2ab59"
+    },
+    {
+      "image": "hanae_01face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14157,
+      "after": 13378,
+      "beforeSha256": "d7f4e955e70e93bf72f30ca695ca1035a151d4fdb950270cb7f896b5917dd41f",
+      "sha256": "faa56271348d5720b3eb7342687742eae1ce375e3a1335183164bdd2059b6bd6",
+      "reconstructedRgbaSha256": "258d7ed6f5e9439e07de9aa88d17f631d64f928ee9b442ace8ff939de727a6ef"
+    },
+    {
+      "image": "large_mashiro_18face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17622,
+      "after": 17204,
+      "beforeSha256": "0af0002531e9d015299d9327ba6fb44f5052219a56c6d6f88d050d74f48e6c0e",
+      "sha256": "5921bd6dbe1bbfe42a84e8d16acf544012d281f0e7f3a78d44b33a2eb365079b",
+      "reconstructedRgbaSha256": "60ff971f05eb6a7e90d1a9f89dd1168dd653a7f7c88af303a6a0bfef443a93d3"
+    },
+    {
+      "image": "karuha_15face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18295,
+      "after": 17575,
+      "beforeSha256": "60be49417ca3a599d54560088686aeecf398337266db6f7064df2b1fbb631a92",
+      "sha256": "a9a2b0a4e7d8a3fb91707eb3cc7544e054b8484b0ead5407ab43d84395fac5d0",
+      "reconstructedRgbaSha256": "6f93c21a1af739b70f254e7315dfa754776a1c9ec9a895a071d6b4ec0fd92d5e"
+    },
+    {
+      "image": "hanae_13face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14153,
+      "after": 13393,
+      "beforeSha256": "9fbe63e3ee4aff24e7807ea0b9ec26a4c106a2c36122e346d4dc8e7acf629714",
+      "sha256": "ad596cb7c2878505ca6b76f03d8e0f058f7ecc6fee2980dc8f881176dbc5c39d",
+      "reconstructedRgbaSha256": "0536836224206b64becd149b85278b23e56026b8a085fb126c0724f134757d9b"
+    },
+    {
+      "image": "large_hanae_12face+",
+      "box": [
+        100,
+        0,
+        312,
+        286
+      ],
+      "before": 18998,
+      "after": 18232,
+      "beforeSha256": "39bd1822acedcf78998bc6091f2cf7a38d3e25cd74320fe7dff3238a2c548572",
+      "sha256": "416f9d41c3baba166ecdc821ce01ec4ba6024602da3da396a59c80fa15e49037",
+      "reconstructedRgbaSha256": "0f2243c72fd7475b9606089b9b7e5fcfebbd83a75c845bd685a70beef2a3267c"
+    },
+    {
+      "image": "large_takase_02face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15190,
+      "after": 14622,
+      "beforeSha256": "f4bcd018747346a305263e62a45a242fd1963ca8ecfd88f51ceca160b7152f44",
+      "sha256": "6a7e06889355ca09a2e3c60566068455876c4c202bbfb4107d6ac58289e955ba",
+      "reconstructedRgbaSha256": "bebfd7cf8d48328f783213424f36d5467dd34b7b363c42aa93bcb511828c5ff9"
+    },
+    {
+      "image": "noir_01face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16135,
+      "after": 15535,
+      "beforeSha256": "9a845124f784cfbf83e8012f58df79f4a00c09f328d8cffd8a548a377ea7a6ba",
+      "sha256": "e091cc42f1067d5f010030cbe5cc2df4c9daeb60277d305ce66e6d95bb95e474",
+      "reconstructedRgbaSha256": "b0b8468aea36c6408175534cddc7252ee4d958977cd6ddd88b3cdfa406c2927b"
+    },
+    {
+      "image": "large_mashiro_04face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 18075,
+      "after": 17669,
+      "beforeSha256": "eeab7856ec01188cfc241fd2b0201d404ef75038acb8684dfaaf1c1e13027230",
+      "sha256": "381a8d0fc6a8c76cd2d5d074ab94f35971f3c64a92f03a2e06d8364b94efc948",
+      "reconstructedRgbaSha256": "11b75044287b283b539234adf5e0e0ca6d4b58b23590e77cdd3e32063af81f47"
+    },
+    {
+      "image": "jibie_19face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17632,
+      "after": 16855,
+      "beforeSha256": "ffb5040d49d36cb9a1fe151fbbe5c4dd0c6051f4d58f24515c690d6cd93fa65f",
+      "sha256": "a5a06e11ddc7fb981fd39ba96106cb6de8806c887f581a404ada8570442ba5d8",
+      "reconstructedRgbaSha256": "85044cb4fb817d3ff11c2ac650e7bb4b3681f7fc0e4fe484bdfba184de7de8f9"
+    },
+    {
+      "image": "takase_07face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11160,
+      "after": 10516,
+      "beforeSha256": "c861b51f390098516d219304fb710548b92d79054c54b6b3ab2b8c5fd0ed9357",
+      "sha256": "8c7fb3cfa6892ac98afe9f1ef2b2274f30c1024fa43b462801260b93fca97d35",
+      "reconstructedRgbaSha256": "d4e6329bfd33724a2c13e721c523258efa51cc47f29dbe463e991494605d9588"
+    },
+    {
+      "image": "hanae_03face",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 13839,
+      "after": 13124,
+      "beforeSha256": "2c2230de34dfddf415f804c0cbe10434e860eaf67e3b0e3f263af8e36f8f0a17",
+      "sha256": "32e310d0d2b779850b0a3f351b7fffb6a991e03d770d4d9b15e0cd079ff5afba",
+      "reconstructedRgbaSha256": "aa0f4c564c15d42aac3c231552042febd379731bf0aa7a87f1be5e52efeed449"
+    },
+    {
+      "image": "large_neri_16face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22570,
+      "after": 22228,
+      "beforeSha256": "5b187ba322eb23d940b9029b3b1e2da38c33148d52ddb2b943c20520391d8885",
+      "sha256": "36cefd196e725c99ccd6db9cc1641b6b76cac1bd698a73a9ae917badb6be0169",
+      "reconstructedRgbaSha256": "0835196a57965ef8f0db28e1073d88cc8b2ddcf40093336e85f71fd3ac730682"
+    },
+    {
+      "image": "large_hanae_03face+",
+      "box": [
+        100,
+        0,
+        312,
+        286
+      ],
+      "before": 19286,
+      "after": 18538,
+      "beforeSha256": "3a73dd2f3618ca0848c3df49c128626ab4b17f1921da769d364c3d5d1109b4ec",
+      "sha256": "bbdf05fc38a8829c98d6d5700f99c3910812c2b6ad77b74be5590c8cc19e9d24",
+      "reconstructedRgbaSha256": "d1e43f26ed4f6aff18eb83393309e336bc9cac99e170d684d396b1ef14ea7355"
+    },
+    {
+      "image": "large_jibie_19face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26108,
+      "after": 25812,
+      "beforeSha256": "01ab71b0c36960f5907689b51e956ce4585c31ddf990ccf44aa79afa808e36a8",
+      "sha256": "2c1c74ec203bf1ded915c2ec0bb0229b9ff39cb9de8f853a8e11dbe7adcd6d43",
+      "reconstructedRgbaSha256": "b3d549eb6b846005bb7388f6c0dbfcc44fcd5a189bededcf9382cff4e1cfa60d"
+    },
+    {
+      "image": "large_jibie_03face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26470,
+      "after": 26148,
+      "beforeSha256": "35f7640967d978543410f3adb24c3478bdf5a4aadf736eec49ce6accb56da98f",
+      "sha256": "62e880966c25b65d2f280dba88a64d1a0886540205f9f6ecf791ad26031015a3",
+      "reconstructedRgbaSha256": "75943fe82e7f47562af84eb299c9a9ec200076a04f14d1c7dd8e9a59772b5563"
+    },
+    {
+      "image": "large_takase_21face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15439,
+      "after": 14872,
+      "beforeSha256": "27cd4c5516d26121fad6ef45bfa32c88222e5950a795fbe7dc61a0b5e83f238c",
+      "sha256": "8993bdec7fcc60aeb36451c4465d694d5fb03955d44716c5ce9ea308f91462b5",
+      "reconstructedRgbaSha256": "b852a37642111843a77b0ddfd1062f0483c0880aab75f3fd3e5db8b7c3a290f6"
+    },
+    {
+      "image": "jibie_13face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17487,
+      "after": 16735,
+      "beforeSha256": "f983240e95c943098c58699601ec53ec3a53a3bb1ed72785a209ffd970239ef4",
+      "sha256": "ea0b5ef893008e105bb384dd42244bacc2c01960baf2691b988802765828154b",
+      "reconstructedRgbaSha256": "086d510bda218f8a6fe990ee62ed83333faded959d2a931c0ae1b4ee80192166"
+    },
+    {
+      "image": "large_hanae_11face+",
+      "box": [
+        100,
+        0,
+        312,
+        286
+      ],
+      "before": 18978,
+      "after": 18228,
+      "beforeSha256": "5a22d13d40d681ae7ab9775bacea90e84ca571f9606055baffaffa9b0848f6d4",
+      "sha256": "074558a6d00c8cf341b0a68b3705d9b45a6bd68d336f7c613ca0bce7e7f45365",
+      "reconstructedRgbaSha256": "8ff5fd6b57f85d5ec93284bc040e027f6dba1a892afb7d980655247da7ea283c"
+    },
+    {
+      "image": "large_jibie_08face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26393,
+      "after": 26095,
+      "beforeSha256": "e815cf052012ebe558ee18f20bc64458318d0ccd17b1d493e4648e669298eb56",
+      "sha256": "586a017c8269a08633993c39230172296758b0446c9f158c522f8cfb7dd20e57",
+      "reconstructedRgbaSha256": "ca7caef99290f73950143f6e74ed93d776f3fa77a61f40d2c75bf386ed40abb3"
+    },
+    {
+      "image": "neri_16face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17875,
+      "after": 17204,
+      "beforeSha256": "02434ebf52a98ea9ee472bebf7d30d182e873f84f968b06aae4b946183f872a4",
+      "sha256": "172cabc11d358427edf217133f86d1c62cc3de1ba7accc694277ecf003fb0e8f",
+      "reconstructedRgbaSha256": "940bdabf9c34b4aff1392408543fc620b13255de158de46051e3c78e7fa5ec82"
+    },
+    {
+      "image": "large_hanae_08face+",
+      "box": [
+        100,
+        0,
+        312,
+        286
+      ],
+      "before": 19346,
+      "after": 18581,
+      "beforeSha256": "006b346d48f43762819534d8dd84043dfe71ff95875b041d0a57abb778237dae",
+      "sha256": "364ea5f8065456b929bf7ef6be0fc2de31b447c70f0656e4685c4d1c1be75f2c",
+      "reconstructedRgbaSha256": "3a96144d38d40a57aec5c34f8e61c777e3143be79c9105dbcc5077273bf4f83c"
+    },
+    {
+      "image": "mashiro_10face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14591,
+      "after": 13945,
+      "beforeSha256": "d32fb61e7827e135e3b5c40489cb3eb6ac5f11aca66b176c2c41175f82d5cfdf",
+      "sha256": "fbef8deb4bee22c0f829186f6a2c1dbf6dd320d2fdaf25ac2eedba02e8500641",
+      "reconstructedRgbaSha256": "5a03f87f1f860f6ec7f6663640624c125e2a9abc0023c2c1661e81f771d1b191"
+    },
+    {
+      "image": "large_takase_07face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15207,
+      "after": 14644,
+      "beforeSha256": "3df6d2d51b569f14e266554b940151cd2b00dfb1edb4afdc9cbc84e83cc87ccd",
+      "sha256": "76070b16d3e0e7c93d070ed266961fb85188eaa8d4ebd390c1e5598647c9ba26",
+      "reconstructedRgbaSha256": "f7bf9b4c177595bcbe29f28243442fdb931e3decbaff5c33216c0f3bc9f3a6c7"
+    },
+    {
+      "image": "mashiro_25face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14846,
+      "after": 14199,
+      "beforeSha256": "c1603004d47e960238035e914aa6ac140eb15278ab93ff4a45065baae61acf13",
+      "sha256": "cca9b1b246162658126341570d07d11677b826dc7a0247eb1eaeb0e32215c28b",
+      "reconstructedRgbaSha256": "ee277c9a27d213b017a19fa6fa4cbb6a344f123da381931345efd764b930bbfb"
+    },
+    {
+      "image": "large_hanae_14face+",
+      "box": [
+        100,
+        0,
+        312,
+        286
+      ],
+      "before": 19300,
+      "after": 18550,
+      "beforeSha256": "5f9c209e2e12fd706cc1fd758b29955f46a655ff6c388de59ca0a052ca542d6c",
+      "sha256": "08791c20c50534152144cc2109b7d7b7ce5f4ec6a1e3b074ac98647c4d13deef",
+      "reconstructedRgbaSha256": "94a2c155e17a2a1afb99aee1aa30a3e3efb0fb81ed54c8c18e9ccc0634591ab2"
+    },
+    {
+      "image": "large_noir_11face+",
+      "box": [
+        76,
+        22,
+        358,
+        286
+      ],
+      "before": 22384,
+      "after": 21995,
+      "beforeSha256": "2907bb5601f527651af80208b2554946b6c321086b451376e05688ee65600819",
+      "sha256": "3f9d05fd0e97447f99e17f2d0ccc1b6f983739926da8fccbe4c8e05df0ed52e8",
+      "reconstructedRgbaSha256": "9d2beeed769b2fe7fb2ea3e9bbf02d50b3ed7724142c6d0008442e3fb985c0a4"
+    },
+    {
+      "image": "large_mashiro_17face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17906,
+      "after": 17485,
+      "beforeSha256": "cb4f0f80d384b37fe686d84caeaa260588e2239285d5d89c23cad0781d95b614",
+      "sha256": "711a65733aeddcad61f04030fe52fff7a903dec89968b6596f1cf4e8cfd289a2",
+      "reconstructedRgbaSha256": "ac0a750c3a7fd36809a9b700105a4fb1fd82bc374776bec186f40db1bfec6c3b"
+    },
+    {
+      "image": "neri_13face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17799,
+      "after": 17109,
+      "beforeSha256": "051d8274f8a615aac42cc372b332e442b884aa325b8cd5dd8d9992e6a52f9a2d",
+      "sha256": "ac4feebdc17b69d16f3c5d22a145ba87e00ae5db243e57fc9f7e85f64760a584",
+      "reconstructedRgbaSha256": "9434495df39c0148e887472c61ef0e4a7f3d02f4d30e2cd925871379ff0e918e"
+    },
+    {
+      "image": "large_karuha_37face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29757,
+      "after": 29349,
+      "beforeSha256": "45108097039807a8c114d2b13bd6143e0c24483a438ef5fc963acf6e854462b3",
+      "sha256": "42888eb370d246d51a2ca498198ce997aee64b7fdad78157557743315f136505",
+      "reconstructedRgbaSha256": "582d3770cd77458795f4aca7c664cef2bb67f4cd90c0decd53f34bcf809a24ec"
+    },
+    {
+      "image": "large_karuha_07face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30016,
+      "after": 29592,
+      "beforeSha256": "06109d2b4bae4e535ce1c5e77bd560502d161e5b75fedbbce8b60456b58dfb52",
+      "sha256": "d158cd043fc4daabed4e9126cd3b9bfe56050afad14f36e94dd56c3f4a11a308",
+      "reconstructedRgbaSha256": "718f689832e5b40ba4f9470de8b97b44de22b2576876599cac88559d7f5f716f"
+    },
+    {
+      "image": "large_neri_11face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22471,
+      "after": 22121,
+      "beforeSha256": "e753f73e7dcefcae69146c5586161baae96c7dbedc342a26fec8cde5dca64e80",
+      "sha256": "49bc3870e8488e2c664990ed52c227fd51d05068d1b04da3453ef81db844ea90",
+      "reconstructedRgbaSha256": "050179ed81d89c2aebefdc027bb3da20b20707c9dc63a6284fed1703c244011b"
+    },
+    {
+      "image": "large_neri_17face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22397,
+      "after": 22044,
+      "beforeSha256": "f35156ff3c6bc58e35949519f29ced166b877ff4e2c7240c8c96d181dd33d4e0",
+      "sha256": "c14df0b1c207880dce4c5a90afdae7af6325291ca3e42baa77775ed99dc0a673",
+      "reconstructedRgbaSha256": "5a404a31759d5195359963be93f888e7d6203d040b2bb07619c9331c56b66dfa"
+    },
+    {
+      "image": "large_karuha_13face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 29779,
+      "after": 29360,
+      "beforeSha256": "f7dfdfa2e7441152e689f1ea43215230ff5518e53b62226e4c9f833b51635dbf",
+      "sha256": "4968424ede245b7b48dcbb6d34c450f4e85647b2a0b4fe0a9d38876afa8c3d66",
+      "reconstructedRgbaSha256": "96c3bf99c212232a6ead3cebdb5db55bef9f68b127f2d0020ba1c7c51b68c03b"
+    },
+    {
+      "image": "large_jibie_22face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26191,
+      "after": 25869,
+      "beforeSha256": "590c064f132e17c6549449a8b8fd76999ca59b4fad5675058211cc4d6e536781",
+      "sha256": "310eeb6022609ce6499a5148cbc69161a78b6d1ff4b27f811272cf4a6296842a",
+      "reconstructedRgbaSha256": "e3b048d73c6f516886e5e3a3036a30d27ace4670742de2cf2fb64863efddb0f8"
+    },
+    {
+      "image": "large_takase_12face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15465,
+      "after": 14917,
+      "beforeSha256": "83d727c86a307cd984e3eb51ef73358ec628d2fb55bf2fd4073746b31a19638a",
+      "sha256": "46896b43d06f1ffb80b9dade565ce15ba947189ce9c9e742bf1ebcf9c10689fb",
+      "reconstructedRgbaSha256": "dba737a50ae6f0d643fbeebac493de4f28da40a56190ce90301663a5d2bd51f0"
+    },
+    {
+      "image": "large_noir_12face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20208,
+      "after": 19848,
+      "beforeSha256": "2bba710975271ae4db0c0e9cff9ce8660205a135fa19fa6b35cb4f30b5ded7a7",
+      "sha256": "1485456098619ecc010e1a08172474feee056d6e056916c6f367023e70b453a8",
+      "reconstructedRgbaSha256": "edbb47430b46d1bcba35b4e880bb3fdb3585afc008278649600744724c73d162"
+    },
+    {
+      "image": "large_neri_14face",
+      "box": [
+        75,
+        22,
+        386,
+        286
+      ],
+      "before": 22377,
+      "after": 22029,
+      "beforeSha256": "de9e2cceb979e1f7d4051b825eea42351fc2b629ea9fb3d5886ddf14827dc9c1",
+      "sha256": "104e08f894730f30092d802faf50ebf8c109a499c2874d72b8e3e1193c2950d3",
+      "reconstructedRgbaSha256": "60248ac8baf0b30e383839848e7429e022d45fe41f3e70174511b5b34fa3f385"
+    },
+    {
+      "image": "large_jibie_13face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 25851,
+      "after": 25554,
+      "beforeSha256": "50e89375b7da78fa689aa7194d86feb708dd851a1f87463cc386ca26d2d15df0",
+      "sha256": "8080f15e714634be0826c87de7a588ad09590b2bfae230b98d224c31abf84e74",
+      "reconstructedRgbaSha256": "611d29432ff26f24d51ae05df03c34070bb3e2a6a88972e8968a5f02db8d86c3"
+    },
+    {
+      "image": "neri_18face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17779,
+      "after": 17097,
+      "beforeSha256": "117be84f47b565016c6ca2627f4923997b213367f5ba1bee50313988e7c4b0ae",
+      "sha256": "eadc4269b32be100f55a484dd0db7df3a8a2c9d3bd2ca5c5f05ead86c2e20a2e",
+      "reconstructedRgbaSha256": "3b5331183388790b423cab5679d8ef13a6421e8a7033b76263788bd5cfa70da1"
+    },
+    {
+      "image": "takase_08face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11239,
+      "after": 10608,
+      "beforeSha256": "63f2dad5d410cda5d53c5a7e891862d3bba6859307e4dd31be1011872b9a99be",
+      "sha256": "d886b81f17a86fe4d1f803f9acd8a590003e04a2fbe41eda37c521865ae16d08",
+      "reconstructedRgbaSha256": "5472ef1b4b8902e5c82c8b083a193d150f148a53a30a8b288cbb711ab0ae4313"
+    },
+    {
+      "image": "large_noir_24face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20149,
+      "after": 19791,
+      "beforeSha256": "044f649e80d87ebe223302c0bbb88b4a8ec78d6bd22872923613060512560c1e",
+      "sha256": "5e4dc9c0cbe871af90bd31ebcfaeb0d3657d16f45350d3accab6d9ff146ddaa5",
+      "reconstructedRgbaSha256": "6c63c7b8877c3c7105e7d73106323810995c68110f2afdaa20edbdd2910d984b"
+    },
+    {
+      "image": "large_jibie_21face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26142,
+      "after": 25817,
+      "beforeSha256": "c92826e062949b94b6c526ad68e131b2d8a47f5ae10771dcf4739e51a237e669",
+      "sha256": "32dea1d51603be75ca5bcc1a13ff2da1b7447431945e68d4d7cf3f8bbcf863b9",
+      "reconstructedRgbaSha256": "531d8f3e912ef4ab755ad96cc41a08cc1c59b130d9f955ea6236c0a1d3ce58ca"
+    },
+    {
+      "image": "karuha_29face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18301,
+      "after": 17573,
+      "beforeSha256": "79a12ba2e1eb814913bcd96500c99541c649c82abb2df743088f19816db6cc4d",
+      "sha256": "b4faceee96d1d7f17f3419b92eb3d1b31a5f3723cb8b6f0b4b804c61a697d602",
+      "reconstructedRgbaSha256": "067bf979ffc4b4d10fb3bcf02f03e88fa91891a3ed61a8538c8c1c714a8b1fa3"
+    },
+    {
+      "image": "mashiro_29face",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 14848,
+      "after": 14202,
+      "beforeSha256": "4aca51f3f446d134b8b05bcbc6fa5c5599db52d0ed23c2747ceb892c5a23a9df",
+      "sha256": "c1792a79a7fde4d5aae40e27817edc988850ccfac0435a15a35735d80dbabd48",
+      "reconstructedRgbaSha256": "4767c36924c2516c4ee0b2c51ede33ad665b8699fbebe96b5493bfdfe322cb21"
+    },
+    {
+      "image": "mashiro_08face+",
+      "box": [
+        86,
+        64,
+        306,
+        286
+      ],
+      "before": 15249,
+      "after": 14588,
+      "beforeSha256": "a68a07f07a5c1e546690015925c13f9da9465a29268b625a66ddab5861c436f5",
+      "sha256": "8ef46b8f55093fde87d2c762f261edcb78c79c87ea7ddc488e7ecf6a755388f4",
+      "reconstructedRgbaSha256": "20d43c033718efe24e82abd7b48433bc1f6d77de10a0b225e8a99484f773cb12"
+    },
+    {
+      "image": "takase_10face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11233,
+      "after": 10602,
+      "beforeSha256": "f41005bd1c527ccc82eac771dfe4658fe19d56760643c54fde22b805da8ab09a",
+      "sha256": "500ce2c2e9c1844c5276ec572104c863c150b22840e604b8f40aa8a74cf2ceb2",
+      "reconstructedRgbaSha256": "b5af9c4011ad7c0935d3981dc9688d1730050dcba45c0cffacd958c4a805f4f2"
+    },
+    {
+      "image": "large_mashiro_24face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17968,
+      "after": 17564,
+      "beforeSha256": "5aa9a37d25eb9b3dc3af1cf6d08bda0ec76a9675d65a8b5f7e4f44bd15b409ed",
+      "sha256": "14ba0a56896e6a3aabca49365109284d10d1dc63d83a194fb6f314f18de54a6f",
+      "reconstructedRgbaSha256": "1cbf257b04afeaa863a338392a6c17c21027473be19621b7023c2921eb7515eb"
+    },
+    {
+      "image": "jibie_11face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17502,
+      "after": 16741,
+      "beforeSha256": "6e41207be775584fdbdbeaba7eb4e4dc763c0d50edeb789cdbe51b3053ab2f3a",
+      "sha256": "4a6c24faa8fc04ae1ff447882f2544cd04a42239019fd47631c96938be38f647",
+      "reconstructedRgbaSha256": "b892e3c95cca7fe1ad2225badc766b327af6f43d25eeaab800fc7cbb95bc1743"
+    },
+    {
+      "image": "takase_15face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11238,
+      "after": 10599,
+      "beforeSha256": "1aaec1ad06b7748a868f46ed6ae6816924f9de4da9a4bd00d9db43353a56544c",
+      "sha256": "e1d434b94cc450f805842553e2c120a38fe928e29fbb68447df4dc5df04523ee",
+      "reconstructedRgbaSha256": "75937e0d2036869d7bd52a488dba8b6bf6b38b8240624f679f876cc809bb9e86"
+    },
+    {
+      "image": "karuha_06face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18395,
+      "after": 17682,
+      "beforeSha256": "40936486e5eecde4b00fc4336b4fb8add985147bcd1d4dbae91ad7892d8299c4",
+      "sha256": "3682f5e09611aa3ecaa37b7b956de62583d1d8543b6ed122f8f6ff5809593206",
+      "reconstructedRgbaSha256": "7d10711d3638b71ae278026f8b9e8ee6b6609b41cd074349d59fb49ffeddf9df"
+    },
+    {
+      "image": "takase_19face",
+      "box": [
+        122,
+        4,
+        274,
+        286
+      ],
+      "before": 11164,
+      "after": 10529,
+      "beforeSha256": "136cdbe8f62af9ad974d775e3335622a97b7efdee4cadc7cd37e050c2f23c01e",
+      "sha256": "3da1161e3c312887ff924b6758df0f39dc2160d9b9082a248cda6419642c5131",
+      "reconstructedRgbaSha256": "8ea0905c481d0c3c5443360fff73a6e9d036e1e28aaf1433b035a41339657ba8"
+    },
+    {
+      "image": "neri_12face",
+      "box": [
+        111,
+        50,
+        323,
+        286
+      ],
+      "before": 17819,
+      "after": 17127,
+      "beforeSha256": "e623e5a7798c3a352073690bfba76f51dc0543c0443bfc6e3ed05e91dad2cf36",
+      "sha256": "e74757d0d02b970bbd201d3774372af934ed7889509393c61cba9586a32c0d30",
+      "reconstructedRgbaSha256": "c320f66cd5b4ad29b6261fd57f0d070b756d6d3eef361cbe35d04f342563358d"
+    },
+    {
+      "image": "jibie_02face",
+      "box": [
+        117,
+        27,
+        295,
+        286
+      ],
+      "before": 17770,
+      "after": 16995,
+      "beforeSha256": "f71c87c4cad05776d74c79c526a67eda7d9cab24d3b9b2941d166f5439e53413",
+      "sha256": "c0e25f5685900cd253ec77cf4f5ff62fe9752a7ea8c559a8c3e6742fbae900a3",
+      "reconstructedRgbaSha256": "a72480b67ce972986cb6cfe86284fcb51657eb8b6e3dca2a84497a7e552365d0"
+    },
+    {
+      "image": "large_jibie_02face",
+      "box": [
+        70,
+        0,
+        363,
+        286
+      ],
+      "before": 26491,
+      "after": 26166,
+      "beforeSha256": "55d1be200b4a627d35a14ddb84b5d168f8f147d3fa70dd4469de74e3fa553514",
+      "sha256": "e41068c0715d001c016b2634e4e10eea9c5958bf9490caecc7f7334cf22482d5",
+      "reconstructedRgbaSha256": "2ffc2519e3f00a1d50ac75273ef536610e3faeffd109b51e301b2a8f5bc4c7bd"
+    },
+    {
+      "image": "large_noir_05face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20621,
+      "after": 20251,
+      "beforeSha256": "21cc540d6e4f244b47e4993744bbb0409d0464bf2e15160e96c360ad333cffbd",
+      "sha256": "d71b4d1cc00107765079957c96aa299e497095b9b0ef6d073d943cff482bfa44",
+      "reconstructedRgbaSha256": "25abe9d5e8bea1c49cafe3e193c9d6da3fb38a95923e96b70a6beff0712f6f22"
+    },
+    {
+      "image": "karuha_31face",
+      "box": [
+        117,
+        45,
+        301,
+        286
+      ],
+      "before": 18358,
+      "after": 17650,
+      "beforeSha256": "529788a160d3d8d5be8bf2c6229a0d9c44519b927d8db55a79e2242aa2a1126e",
+      "sha256": "de320c131a1ba3e6a8b167e8b7b2d4d3b0e890fc294335ac83a5650f0f58720a",
+      "reconstructedRgbaSha256": "c019294522aac3003f80412f505e8825fc8ce22a1fb5df1337d9a49491617904"
+    },
+    {
+      "image": "large_noir_20face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20544,
+      "after": 20173,
+      "beforeSha256": "3e517b607041f8e492301a4cc643b174df42c2e005b154fc083f61cc42120654",
+      "sha256": "76a9268378a3465ff5c7f705d74aeda368d1e5bf6d28dcb1f4176f8e44c49c2a",
+      "reconstructedRgbaSha256": "15d815171b1a323ae5933dd83208a63a9ae8a089d6687d574b3461caea518c8c"
+    },
+    {
+      "image": "hanae_10face+",
+      "box": [
+        129,
+        18,
+        281,
+        286
+      ],
+      "before": 14171,
+      "after": 13407,
+      "beforeSha256": "d03f0af17bc20b8e1aa7608d975e1a2be3989760a8dbc620122546588ec7533c",
+      "sha256": "75fcb710fad14a68703276f64c0d942c98bfbc24f742c8909da6fc69be04bfc6",
+      "reconstructedRgbaSha256": "f7e4ccba25c3f357d7b629c8cc1c0c7b69d38b1d49f40b96e41202efc3f16bde"
+    },
+    {
+      "image": "noir_15face+",
+      "box": [
+        100,
+        60,
+        344,
+        286
+      ],
+      "before": 17461,
+      "after": 16869,
+      "beforeSha256": "3632a482349a3af47e1f01fc5df4d204c8c1584313f27803345dddc6ed1e675d",
+      "sha256": "79a9f6974f7554319db7d9b16c72afd6bdba0d0729c6845856f41766142637b7",
+      "reconstructedRgbaSha256": "ff69684228e53400f2d95d9ad348d2b244c439ecbbf92c8a8eabb676bc9550e6"
+    },
+    {
+      "image": "large_takase_09face",
+      "box": [
+        61,
+        0,
+        309,
+        286
+      ],
+      "before": 15434,
+      "after": 14887,
+      "beforeSha256": "3b3eed02088b7a8422b5833ce814ef3a9184bbf813aa4e53bd2e35f14861c421",
+      "sha256": "4b3d4df561a036960da8b2b03b59342632b4e437b99cf0b36eaf90537c5cf4bf",
+      "reconstructedRgbaSha256": "ec29b7e08d28af30c40aee67b1d975ef87d3e78aa51fb7728788a2d53a8ba7d2"
+    },
+    {
+      "image": "large_mashiro_08face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17796,
+      "after": 17390,
+      "beforeSha256": "b889f16e71a458d9ba4fbcfab7b44e8a3043660e9a80802ce692f5ca1af7cd99",
+      "sha256": "94454eec81463f02fb4f8652cf7c3a63b7589db03baacbb10a9d36a0505a1e0e",
+      "reconstructedRgbaSha256": "deda6bf32d7fd3468126ed78eaafd42436283c7105f6a1b54421bb920034f1e4"
+    },
+    {
+      "image": "large_mashiro_30face",
+      "box": [
+        79,
+        32,
+        353,
+        286
+      ],
+      "before": 17817,
+      "after": 17403,
+      "beforeSha256": "bdad955e930fa930e327ad6cfe4c839a0fa9a3cd4518d95f33dd2237eca4d730",
+      "sha256": "40150257350a5423aac2ac51ee311cf5f5a5c73a9712f85e7f107573c3bbd740",
+      "reconstructedRgbaSha256": "836f25f2645d6ac54bdb20cd3ea5ce891ab78187412668e170c9a6edfe7a5427"
+    },
+    {
+      "image": "noir_02face",
+      "box": [
+        100,
+        65,
+        344,
+        286
+      ],
+      "before": 16137,
+      "after": 15546,
+      "beforeSha256": "bde1322b32e913f68516e8fab3f618c6080ff90d0a8bae92e86acd6abaf10d6b",
+      "sha256": "1cf07f9379ffb40a4ac8ac03eabe0fa4b4426094f635226b62cea096629ef923",
+      "reconstructedRgbaSha256": "6125d86e7952f84e174498574f6fab3c58f1b1e3c83f65cca917bd76755a0b06"
+    },
+    {
+      "image": "large_hanae_06face",
+      "box": [
+        107,
+        0,
+        312,
+        286
+      ],
+      "before": 18488,
+      "after": 17759,
+      "beforeSha256": "c9e6ee04fd87ef19649a5213a6fa6f1440b79914010ce71db33d1a25a50b7819",
+      "sha256": "6241cd5fc5ca8a6709ed933e555b6c5c25e5ea7bb3b756bfbc04cc3bdeb238f2",
+      "reconstructedRgbaSha256": "a366729bb5729678ee6621d754aba09ab8457c0da6149c9d5d7433356d0f803b"
+    },
+    {
+      "image": "large_hanae_01face+",
+      "box": [
+        100,
+        0,
+        312,
+        286
+      ],
+      "before": 19305,
+      "after": 18539,
+      "beforeSha256": "707a6bd1b9fb1c78773d530d64372a5108790b004bc366624205fe4f3262a91c",
+      "sha256": "cfeebf2783b97622812989dbb3e3800beedb8ae09f9b5bebb7e5c0ec8f4467fd",
+      "reconstructedRgbaSha256": "99cc7c47ed056af740a6147755329d2b3273a7fda7f3d7225b9138d999cd7ed3"
+    },
+    {
+      "image": "large_noir_01face",
+      "box": [
+        80,
+        30,
+        353,
+        286
+      ],
+      "before": 20562,
+      "after": 20202,
+      "beforeSha256": "f3a1610f1cb4386a2ce3fed6d85607474dadbcad9b587091300ef5ae4af5fe1f",
+      "sha256": "86241cef51c5afc0b9e85de686f03cce2059a7d6177c27fc01590651873f421c",
+      "reconstructedRgbaSha256": "18dfc790daaf507dfd3e02ad36caa66ccc382ec22d68cf931d1800eb317b7b6c"
+    },
+    {
+      "image": "large_karuha_06face",
+      "box": [
+        53,
+        0,
+        355,
+        286
+      ],
+      "before": 30012,
+      "after": 29599,
+      "beforeSha256": "7b208df6b888c629d6132bb7ed806a0f776e62d7e44d3e0fb579e66509b2748e",
+      "sha256": "2f2203820879d5ca5401aac29e6419bb735f406d9e5c688a36747f50c40e8561",
+      "reconstructedRgbaSha256": "15c097d05b567e8674bb6b6c268dd50c51a494206261e31a2b3b04833a0d00fc"
+    },
+    {
+      "image": "noir_17face+",
+      "box": [
+        100,
+        60,
+        344,
+        286
+      ],
+      "before": 17424,
+      "after": 16828,
+      "beforeSha256": "49c954a141d539e19374b8b97107f076114d2bbf54a9a4cf6f3ef7989b81b415",
+      "sha256": "d444188834a8683e82a48511a77aef4e6cbfca5c377c01b35f458781029a8273",
+      "reconstructedRgbaSha256": "a5bafb4986b42c7c6621242d71b7f542dbfc6f885f253bf2ea8242d43774b010"
+    }
+  ]
+}

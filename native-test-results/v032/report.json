@@ -1,0 +1,79 @@
+{
+  "version": "0.3.2",
+  "passed": true,
+  "runtime": "official vela-watch-5.0",
+  "physicalDeviceTested": false,
+  "packageSha256": "d443acf99f628122709db9af61bd4e5d81043b1105ac332afc7db7666f30f048",
+  "checks": [
+    "Preserved slot 29 loads at chapter 2 cursor 120",
+    "Short speaker text starts at the first dialogue row",
+    "Automatic wrapping uses fixed left edge",
+    "Typing starts at the same upper left position as completed text",
+    "Large font uses the same first row",
+    "Long original paragraph grows and scrolls",
+    "Next line resets scroll to top",
+    "Preview returns to preserved chapter 2 progress without writing a save"
+  ],
+  "visualReviewPending": false,
+  "visualReviewPassed": true,
+  "dialogueWhitePixelBounds": {
+    "old-save-two-lines": [
+      20,
+      334,
+      398,
+      388
+    ],
+    "short-speaker-line": [
+      21,
+      334,
+      122,
+      354
+    ],
+    "automatic-wrap": [
+      20,
+      334,
+      398,
+      388
+    ],
+    "typing-first-glyphs": [
+      21,
+      334,
+      183,
+      354
+    ],
+    "typing-complete": [
+      21,
+      334,
+      194,
+      354
+    ],
+    "large-font-short": [
+      22,
+      332,
+      223,
+      356
+    ],
+    "long-paragraph-top": [
+      20,
+      331,
+      407,
+      458
+    ],
+    "next-line-reset": [
+      20,
+      331,
+      407,
+      390
+    ],
+    "preserved-progress": [
+      20,
+      334,
+      398,
+      388
+    ]
+  },
+  "all575RuntimeResourcesByteIdentical": true,
+  "oldUserDatabaseBytesPreserved": true,
+  "automatedTestsPassed": 32,
+  "originalChoicePaths": 36
+}

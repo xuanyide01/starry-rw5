@@ -1,0 +1,58 @@
+{
+  "version": "0.3.0",
+  "bytes": 10532638,
+  "expandedBytes": 12158387,
+  "sha256": "5afaa2de3f6088501ffc9edf9ab17729c684a139f8fc761a8d40da90b3847f78",
+  "certificateSha256": "4e8e1ee24968b0dad6d0956a7e14d848b38b22a203f39c389a45d8737bdc4585",
+  "zipCRCValid": true,
+  "outerSignatureValid": true,
+  "innerSignatureValid": true,
+  "allFileDigestsValid": true,
+  "signedFiles": 585,
+  "sameCertificateAsV027": true,
+  "device": "REDMI Watch 5",
+  "physicalDeviceTested": false,
+  "status": "26 automatic checks, all 36 original choice paths, native install/upgrade, old slot, automatic reading/choice protection, slot 30 and all six CG gallery pages passed; physical retest pending.",
+  "automatedTestsPassed": 26,
+  "originalChoicePaths": 36,
+  "originalChoiceGroups": 4,
+  "allPriorCommonResourceBytesIdentical": true,
+  "priorCommonResourcesCompared": 568,
+  "unchangedSourceModules": [
+    "engine.js",
+    "saves.js",
+    "gallery.js",
+    "assets.js",
+    "gallery.txt"
+  ],
+  "oldUserDatabaseBytesPreserved": true,
+  "oldUserDatabaseSha256": "c6cc33c78e3618889aa4f0612ce0ebf2f1b44b3fa1ed421b076ccdf7fb4c4fec",
+  "native": {
+    "version": "0.3.0",
+    "passed": true,
+    "runtime": "official vela-watch-5.0",
+    "device": "isolated emulator-5608 / StarryUI20261103",
+    "physicalDeviceTested": false,
+    "packageSha256": "5afaa2de3f6088501ffc9edf9ab17729c684a139f8fc761a8d40da90b3847f78",
+    "checks": [
+      "Original-style title buttons and config operate",
+      "0.2.7 slot 1 loads after an in-place upgrade with byte-identical old storage",
+      "Three automatic speed tiers switch",
+      "Automatic reading advances and pauses in menu/save selector",
+      "Slot 30 can be saved",
+      "Original first choice pauses and next chapter cannot bypass it",
+      "Manual choice resumes automatic reading",
+      "Large/standard font changes and previous line disables automatic reading",
+      "CG difference switches and all six gallery pages refresh",
+      "Returning to title shows the new layout"
+    ],
+    "galleryPageHashes": [
+      "995bd9d4460fe91965273710c5823175557c609fbdf2fbb0bb4e270acf902013",
+      "201fb3b6173a410eb0487193301fc792119ae68f2b6f4f7987297757366a0daf",
+      "1c52c8b4a4f378967c66f1140ac0c8a30c56b36d874e09e54a0b343c20e5053e",
+      "0f3aa471fd9778aac993279e1a6cafc55e5d7b8a58e62d1ed422d56ef6e9a17a",
+      "07ad18c8788396adee2498b6e68b22800211348183567d295080424fb397c701",
+      "4ed3881cc395ad42207d5405ef292ce6a28f501d6e481e233791a7edbde98c79"
+    ]
+  }
+}

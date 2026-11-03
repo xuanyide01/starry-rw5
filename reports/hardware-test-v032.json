@@ -1,0 +1,10 @@
+{
+  "version": "0.3.2",
+  "device": "REDMI Watch 5",
+  "passed": true,
+  "reportedBy": "maintainer",
+  "reportedOn": "2026-11-03",
+  "evidence": "维护者在本会话反馈“通过，上传github”；随后取消上传并要求继续压缩。",
+  "packageSha256": "d443acf99f628122709db9af61bd4e5d81043b1105ac332afc7db7666f30f048",
+  "appliesToV033": false
+}

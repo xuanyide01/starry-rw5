@@ -1,0 +1,71 @@
+{
+  "version": "0.3.1",
+  "bytes": 10493679,
+  "expandedBytes": 12038324,
+  "sha256": "f3a4b3a92de210b4a8edb12a4f6f4e4266d2d205f6ab05366a94a3034e3fdd1b",
+  "certificateSha256": "4e8e1ee24968b0dad6d0956a7e14d848b38b22a203f39c389a45d8737bdc4585",
+  "zipCRCValid": true,
+  "outerSignatureValid": true,
+  "innerSignatureValid": true,
+  "allFileDigestsValid": true,
+  "signedFiles": 581,
+  "sameCertificateAsV027": true,
+  "physicalDeviceTested": false,
+  "device": "REDMI Watch 5",
+  "automatedTestsPassed": 32,
+  "originalChoicePaths": 36,
+  "originalChoiceGroups": 4,
+  "unchangedSourceModules": [
+    "engine.js",
+    "saves.js",
+    "gallery.js",
+    "gallery.txt"
+  ],
+  "storyWhitespaceOnlyChanges": 1517,
+  "logicalImageIds": 548,
+  "cgImages": 124,
+  "cgGroups": 24,
+  "portraits": 368,
+  "portraitReconstructionPixelsIdentical": true,
+  "remainingPngPixelsIdentical": true,
+  "jpegImages": 132,
+  "jpegLossless": false,
+  "jpegSourceRelativeMseNoWorseThanPriorPalettePng": true,
+  "oldUserDatabaseBytesPreserved": true,
+  "finalInstallDatabaseSha256": "13eb23c04a1aa250fba1ebf9ca34508066832ffa0d81e9ca0f92b86a209c20fe",
+  "native": {
+    "version": "0.3.1",
+    "passed": true,
+    "runtime": "official vela-watch-5.0",
+    "device": "isolated emulator-5608 / StarryUI20261103",
+    "physicalDeviceTested": false,
+    "packageSha256": "f3a4b3a92de210b4a8edb12a4f6f4e4266d2d205f6ab05366a94a3034e3fdd1b",
+    "checks": [
+      "Original-style title buttons and config operate",
+      "0.2.7 slot 1 loads after an in-place upgrade with byte-identical old storage",
+      "Three automatic speed tiers switch",
+      "Automatic reading advances and pauses in menu/save selector",
+      "Slot 30 can be saved",
+      "Original first choice pauses and next chapter cannot bypass it",
+      "Manual choice resumes automatic reading",
+      "Large/standard font changes and previous line disables automatic reading",
+      "CG difference switches and all six gallery pages refresh",
+      "Returning to title shows the new layout"
+    ],
+    "galleryPageHashes": [
+      "9fcb8592c999c1f7f0c06842c9af06894b7bda89ca7a394370d60dad358b6547",
+      "b22dca43e87ae27b7ee075ab035da1f335ea27d1ce26a76e20ebf3f0769e4001",
+      "639fe53791a4e3d9ee04314974a809bcbff0d575c16c02ec6c1c84090f63ef82",
+      "bd606fbb5d8d59a9fee9e84be1abe5f05d8dd41410f060ab88ed7a444f00a102",
+      "bb35e0370dce3cc015fe2604da6d45bd923ea978194b5b4753eb2ac29e4c784c",
+      "02f3ec288fc235ad501407099a1671cc51e53a2bf846ba06122948e5f7c030b9"
+    ]
+  },
+  "packageLimitBytes": 10500000,
+  "compressionReferences": [
+    "STEINS;GATE 0",
+    "STEINS;GATE",
+    "CLANNAD"
+  ],
+  "status": "32 automated checks, all 36 selection paths, native installation/old save/automatic reading/choice protection/30 slots/CG pages passed; physical device retest pending."
+}

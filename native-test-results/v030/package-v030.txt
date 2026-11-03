@@ -1,0 +1,31 @@
+{
+[33m  package: com.codex.starry.rw5[0m
+  name: 星空列车与白的旅行
+  appType: QUICKAPP
+  isSystemUI: false
+  bAllValid: true
+  installPath: /data/app/com.codex.starry.rw5
+  manifest: /data/app/com.codex.starry.rw5/manifest.json
+  versionName: 0.3.0
+  icon: /common/logo.png
+  execfile: vappxms
+  entry: QuickActivity
+  installTime: 2026-11-03 10:35:16
+  shasum: 
+  priority: 1
+  userId: 1079368320
+  size: 12158387
+  windowEnterAnim: fade_in_and_scale
+  windowExitAnim: fade_out_and_scale
+  activities:[
+     {
+	name: QuickActivity
+	launchMode: singleTask
+	taskAffinity: com.codex.starry.rw5
+	actions:[
+	]
+     }
+  ]
+  services:[
+  ]
+}

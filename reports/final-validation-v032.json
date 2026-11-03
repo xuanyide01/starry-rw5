@@ -1,0 +1,111 @@
+{
+  "version": "0.3.2",
+  "bytes": 10493596,
+  "expandedBytes": 12038078,
+  "sha256": "d443acf99f628122709db9af61bd4e5d81043b1105ac332afc7db7666f30f048",
+  "certificateSha256": "4e8e1ee24968b0dad6d0956a7e14d848b38b22a203f39c389a45d8737bdc4585",
+  "zipCRCValid": true,
+  "outerSignatureValid": true,
+  "innerSignatureValid": true,
+  "allFileDigestsValid": true,
+  "signedFiles": 581,
+  "sameCertificateAsV027": true,
+  "physicalDeviceTested": false,
+  "automatedTestsPassed": 32,
+  "originalChoicePaths": 36,
+  "runtimeResourcesByteIdenticalToV031": 575,
+  "unchangedModules": [
+    "engine.js",
+    "saves.js",
+    "gallery.js",
+    "assets.js",
+    "portrait-layout.js",
+    "auto-reader.js",
+    "text-format.js",
+    "gallery.txt"
+  ],
+  "all17StoryFilesByteIdentical": true,
+  "oldUserDatabaseBytesPreserved": true,
+  "oldUserDatabaseSha256": "7aa13943ec0326076ba6f46ccad74a82b90b29a00a36df643d287314c1e31258",
+  "packageLimitBytes": 10500000,
+  "native": {
+    "version": "0.3.2",
+    "passed": true,
+    "runtime": "official vela-watch-5.0",
+    "physicalDeviceTested": false,
+    "packageSha256": "d443acf99f628122709db9af61bd4e5d81043b1105ac332afc7db7666f30f048",
+    "checks": [
+      "Preserved slot 29 loads at chapter 2 cursor 120",
+      "Short speaker text starts at the first dialogue row",
+      "Automatic wrapping uses fixed left edge",
+      "Typing starts at the same upper left position as completed text",
+      "Large font uses the same first row",
+      "Long original paragraph grows and scrolls",
+      "Next line resets scroll to top",
+      "Preview returns to preserved chapter 2 progress without writing a save"
+    ],
+    "visualReviewPending": false,
+    "visualReviewPassed": true,
+    "dialogueWhitePixelBounds": {
+      "old-save-two-lines": [
+        20,
+        334,
+        398,
+        388
+      ],
+      "short-speaker-line": [
+        21,
+        334,
+        122,
+        354
+      ],
+      "automatic-wrap": [
+        20,
+        334,
+        398,
+        388
+      ],
+      "typing-first-glyphs": [
+        21,
+        334,
+        183,
+        354
+      ],
+      "typing-complete": [
+        21,
+        334,
+        194,
+        354
+      ],
+      "large-font-short": [
+        22,
+        332,
+        223,
+        356
+      ],
+      "long-paragraph-top": [
+        20,
+        331,
+        407,
+        458
+      ],
+      "next-line-reset": [
+        20,
+        331,
+        407,
+        390
+      ],
+      "preserved-progress": [
+        20,
+        334,
+        398,
+        388
+      ]
+    },
+    "all575RuntimeResourcesByteIdentical": true,
+    "oldUserDatabaseBytesPreserved": true,
+    "automatedTestsPassed": 32,
+    "originalChoicePaths": 36
+  },
+  "status": "Left/top dialogue layout, native wrapping, typing anchor, large font, long paragraph scroll and next-line reset verified; physical retest pending."
+}

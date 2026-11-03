@@ -1,6 +1,7 @@
 """Extract original Unity/Utage tables, then rebuild the watch data and images."""
 import sys,json,argparse
 from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'pydeps'))
 import UnityPy
 from importlib.util import spec_from_file_location,module_from_spec
 
@@ -24,3 +25,4 @@ spec=spec_from_file_location('converter',Path(__file__).with_name('convert-game.
 module=module_from_spec(spec);spec.loader.exec_module(module);module.convert(probe,a.project)
 import subprocess
 subprocess.run([sys.executable,str(Path(__file__).with_name('export-images.py')),'--game-data',str(a.game_data),'--project',str(a.project)],check=True)
+subprocess.run([sys.executable,str(Path(__file__).with_name('build-original-portraits.py')),'--game-data',str(a.game_data),'--project',str(a.project)],check=True)

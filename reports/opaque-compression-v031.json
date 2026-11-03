@@ -1,0 +1,2662 @@
+{
+  "version": "0.3.1",
+  "passed": true,
+  "method": "Original Texture2D -> same watch dimensions -> non-progressive JPEG, adaptive quality 61..98, 4:2:0; keep PNG unless smaller and source-relative RGB MSE no worse than existing palette PNG.",
+  "references": [
+    "CLANNAD opaque JPEG / transparent PNG strategy",
+    "STEINS;GATE and STEINS;GATE 0 opaque JPEG strategy"
+  ],
+  "candidateImages": 157,
+  "convertedImages": 132,
+  "protectedPortraits": 368,
+  "allWatchDimensionsUnchanged": true,
+  "allConvertedSourceRelativeMseNoWorse": true,
+  "lossless": false,
+  "retainedPngInOtherOriginalBundle": [
+    "title_bg"
+  ],
+  "note": "JPEG is lossy. Source-relative MSE is an objective comparison with the existing palette PNG; it is not a claim of identical pixels or universally identical perception.",
+  "savedBytes": 1349223,
+  "rows": [
+    {
+      "image": "large_evcg10b",
+      "beforeFile": "large_evcg10b.png",
+      "file": "large_evcg10b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23766,
+      "bytes": 11438,
+      "beforeSourceMse": 32.84090805053711,
+      "newSourceMse": 29.730186462402344,
+      "sourceMseNoWorse": true,
+      "sha256": "a6bf39f9df729909295a431c5aed437bd0a04ac2d978b8a6ad12c70445b485e4"
+    },
+    {
+      "image": "evcg10b",
+      "beforeFile": "evcg10b.png",
+      "file": "evcg10b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24503,
+      "bytes": 11660,
+      "beforeSourceMse": 32.93662643432617,
+      "newSourceMse": 32.36494445800781,
+      "sourceMseNoWorse": true,
+      "sha256": "da15761457bdc435056c0d60401ccfeb6fefcb413cea035d8a574e172282ebcb"
+    },
+    {
+      "image": "evcg10d",
+      "beforeFile": "evcg10d.png",
+      "file": "evcg10d.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24514,
+      "bytes": 11667,
+      "beforeSourceMse": 32.93970489501953,
+      "newSourceMse": 32.366275787353516,
+      "sourceMseNoWorse": true,
+      "sha256": "b3b09a47d304a8a1a6012d8736393ae7af4de4bc84b412d0f80cda289e2ff9d8"
+    },
+    {
+      "image": "bg070a",
+      "beforeFile": "bg070a.png",
+      "file": "bg070a.jpg",
+      "quality": 75,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 36337,
+      "bytes": 17194,
+      "beforeSourceMse": 29.83847427368164,
+      "newSourceMse": 29.68408966064453,
+      "sourceMseNoWorse": true,
+      "sha256": "4e0b63494479e86b34a911fcd26e71af1f2722a2fd300e649257aa1b01abb3bd"
+    },
+    {
+      "image": "large_evcg07a",
+      "beforeFile": "large_evcg07a.png",
+      "file": "large_evcg07a.jpg",
+      "quality": 65,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 28750,
+      "bytes": 13275,
+      "beforeSourceMse": 36.17205047607422,
+      "newSourceMse": 35.72478485107422,
+      "sourceMseNoWorse": true,
+      "sha256": "4a2da6ea5ac7d3a216509a5d00b56120c223e8a7c4cc475be0251818ca6e465b"
+    },
+    {
+      "image": "bg035b",
+      "beforeFile": "bg035b.png",
+      "file": "bg035b.jpg",
+      "quality": 82,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 28054,
+      "bytes": 18749,
+      "beforeSourceMse": 20.75943374633789,
+      "newSourceMse": 19.86016845703125,
+      "sourceMseNoWorse": true,
+      "sha256": "c2ab79d902472acb6232cfa1715751cabb321650e78a6bea941863a4eceb6e55"
+    },
+    {
+      "image": "bg035a",
+      "beforeFile": "bg035a.png",
+      "file": "bg035a.jpg",
+      "quality": 72,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 36738,
+      "bytes": 17794,
+      "beforeSourceMse": 33.414512634277344,
+      "newSourceMse": 33.20998001098633,
+      "sourceMseNoWorse": true,
+      "sha256": "21cc36b04480c36013577cb917e543c6b861846bd6bfa08bb682323df23d1493"
+    },
+    {
+      "image": "large_bg130a",
+      "beforeFile": "large_bg130a.png",
+      "file": "large_bg130a.jpg",
+      "quality": 82,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 30750,
+      "bytes": 24628,
+      "beforeSourceMse": 27.47171974182129,
+      "newSourceMse": 26.92609405517578,
+      "sourceMseNoWorse": true,
+      "sha256": "08ab12eaac047013b9c6c6ae8f4b47903d7339b32ddfed60f88732c1ac8c0997"
+    },
+    {
+      "image": "evcg13a",
+      "beforeFile": "evcg13a.png",
+      "file": "evcg13a.jpg",
+      "quality": 75,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24151,
+      "bytes": 16278,
+      "beforeSourceMse": 29.425220489501953,
+      "newSourceMse": 27.43625259399414,
+      "sourceMseNoWorse": true,
+      "sha256": "104443986591a71e91ac97a806ed201d63b66c361a8c72372e2afc4ee7361beb"
+    },
+    {
+      "image": "evcg16a",
+      "beforeFile": "evcg16a.png",
+      "file": "evcg16a.jpg",
+      "quality": 78,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23872,
+      "bytes": 16830,
+      "beforeSourceMse": 22.534090042114258,
+      "newSourceMse": 20.47764015197754,
+      "sourceMseNoWorse": true,
+      "sha256": "102b5693dbc1df72e90ee16f1a41b8f49ff298f3619c630a0d05e9edf15604d5"
+    },
+    {
+      "image": "bg130a",
+      "beforeFile": "bg130a.png",
+      "file": "bg130a.jpg",
+      "quality": 85,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 32056,
+      "bytes": 28087,
+      "beforeSourceMse": 28.069459915161133,
+      "newSourceMse": 26.274187088012695,
+      "sourceMseNoWorse": true,
+      "sha256": "3c9f869a77110a7f1a2597912f4951ab626178c3264128a7a81f9de39a1a5b9c"
+    },
+    {
+      "image": "large_evcg19a",
+      "beforeFile": "large_evcg19a.png",
+      "file": "large_evcg19a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 22767,
+      "bytes": 10858,
+      "beforeSourceMse": 31.766952514648438,
+      "newSourceMse": 27.583559036254883,
+      "sourceMseNoWorse": true,
+      "sha256": "cc998baddd3be8a1fdd94b64dbc16d54c7f3d7a58e5b211c82952e4fbdbc0656"
+    },
+    {
+      "image": "evcg01c2",
+      "beforeFile": "evcg01c2.png",
+      "file": "evcg01c2.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 17373,
+      "bytes": 9364,
+      "beforeSourceMse": 30.485078811645508,
+      "newSourceMse": 23.148958206176758,
+      "sourceMseNoWorse": true,
+      "sha256": "65f794ee0934c68f4406bcfa62887283bf79ebc02c64fd554010d54885ea5a8e"
+    },
+    {
+      "image": "bg090c",
+      "beforeFile": "bg090c.png",
+      "file": "bg090c.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 9823,
+      "bytes": 5426,
+      "beforeSourceMse": 14.063017845153809,
+      "newSourceMse": 8.628962516784668,
+      "sourceMseNoWorse": true,
+      "sha256": "ca357a64cdc187c75a0119a56e3474709516ab7488e552700671badf3140ad5b"
+    },
+    {
+      "image": "evcg10h",
+      "beforeFile": "evcg10h.png",
+      "file": "evcg10h.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23297,
+      "bytes": 11509,
+      "beforeSourceMse": 34.80373764038086,
+      "newSourceMse": 29.1280574798584,
+      "sourceMseNoWorse": true,
+      "sha256": "58c23f1b43e4f2d90c15e1edb130fd753ac83a8b018bd41b0286807f4a27c5f4"
+    },
+    {
+      "image": "large_evcg03a",
+      "beforeFile": "large_evcg03a.png",
+      "file": "large_evcg03a.jpg",
+      "quality": 72,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 30415,
+      "bytes": 16067,
+      "beforeSourceMse": 36.23646545410156,
+      "newSourceMse": 34.6640510559082,
+      "sourceMseNoWorse": true,
+      "sha256": "fdf161f2c10cfebfec7a80061bb65cb63fc44c8a5fe113221d9f167736798377"
+    },
+    {
+      "image": "large_evcg17a",
+      "beforeFile": "large_evcg17a.png",
+      "file": "large_evcg17a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 22930,
+      "bytes": 11305,
+      "beforeSourceMse": 34.03276443481445,
+      "newSourceMse": 31.646137237548828,
+      "sourceMseNoWorse": true,
+      "sha256": "6b50f52a07ac7f74205d8005bce3f0863386d2a2c68b3d0c1a0e01c76e7c522f"
+    },
+    {
+      "image": "large_evcg10i",
+      "beforeFile": "large_evcg10i.png",
+      "file": "large_evcg10i.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 20498,
+      "bytes": 10778,
+      "beforeSourceMse": 30.611515045166016,
+      "newSourceMse": 26.84521484375,
+      "sourceMseNoWorse": true,
+      "sha256": "b0b1f26cde30074afb849156aea47cb792c19be164cfbfc51144bfa3861e9c74"
+    },
+    {
+      "image": "large_evcg18c",
+      "beforeFile": "large_evcg18c.png",
+      "file": "large_evcg18c.jpg",
+      "quality": 70,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 25490,
+      "bytes": 16488,
+      "beforeSourceMse": 31.169904708862305,
+      "newSourceMse": 30.60811996459961,
+      "sourceMseNoWorse": true,
+      "sha256": "7481ac82d2d94aef33e43e1c2fd9eb5e3478b39105257e0328dad11f2556c581"
+    },
+    {
+      "image": "large_evcg01c2",
+      "beforeFile": "large_evcg01c2.png",
+      "file": "large_evcg01c2.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 16635,
+      "bytes": 9218,
+      "beforeSourceMse": 30.301637649536133,
+      "newSourceMse": 21.369821548461914,
+      "sourceMseNoWorse": true,
+      "sha256": "3bba7ce15403b358275aabebb969150741d5a0b7299008c6bf9e968fba99813a"
+    },
+    {
+      "image": "large_evcg01b",
+      "beforeFile": "large_evcg01b.png",
+      "file": "large_evcg01b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 16416,
+      "bytes": 9211,
+      "beforeSourceMse": 30.257230758666992,
+      "newSourceMse": 21.479900360107422,
+      "sourceMseNoWorse": true,
+      "sha256": "58e6164bde4d6248e77f852073dd4068092ce7c4ff1e96f55149b1c588fc6ebf"
+    },
+    {
+      "image": "evcg01a",
+      "beforeFile": "evcg01a.png",
+      "file": "evcg01a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 17261,
+      "bytes": 9373,
+      "beforeSourceMse": 30.422822952270508,
+      "newSourceMse": 23.231719970703125,
+      "sourceMseNoWorse": true,
+      "sha256": "a091f80d0ab5e6d0fcd344e85c5e3481fd24b48e1e32e335f66b90e1b75518a3"
+    },
+    {
+      "image": "evcg09a",
+      "beforeFile": "evcg09a.png",
+      "file": "evcg09a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 26056,
+      "bytes": 13086,
+      "beforeSourceMse": 36.01380157470703,
+      "newSourceMse": 33.34334945678711,
+      "sourceMseNoWorse": true,
+      "sha256": "7e2f7581537cfacfb3cd15c339c6b005b555ffe0e233431dda52988099a582ac"
+    },
+    {
+      "image": "evcg10f",
+      "beforeFile": "evcg10f.png",
+      "file": "evcg10f.jpg",
+      "quality": 65,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23927,
+      "bytes": 12949,
+      "beforeSourceMse": 31.70318031311035,
+      "newSourceMse": 29.94040870666504,
+      "sourceMseNoWorse": true,
+      "sha256": "3b9937b485f245f7af31a1706ef5c6e3f91df68e1a99fb08c1aef8532f8f8cc1"
+    },
+    {
+      "image": "evcg10i",
+      "beforeFile": "evcg10i.png",
+      "file": "evcg10i.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 21176,
+      "bytes": 11008,
+      "beforeSourceMse": 30.723711013793945,
+      "newSourceMse": 28.916893005371094,
+      "sourceMseNoWorse": true,
+      "sha256": "cdb0374135156b4c7385a17855ee13e39bd6a86bfda42fb75ee1387ffb805f88"
+    },
+    {
+      "image": "evcg18b",
+      "beforeFile": "evcg18b.png",
+      "file": "evcg18b.jpg",
+      "quality": 75,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 26327,
+      "bytes": 18498,
+      "beforeSourceMse": 31.51602554321289,
+      "newSourceMse": 28.7868595123291,
+      "sourceMseNoWorse": true,
+      "sha256": "13b639ba564740e3cee198ba95ec83b3697f28602c80ff2aabf7f440a660c265"
+    },
+    {
+      "image": "bg075a",
+      "beforeFile": "bg075a.png",
+      "file": "bg075a.jpg",
+      "quality": 68,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 28313,
+      "bytes": 10437,
+      "beforeSourceMse": 22.776689529418945,
+      "newSourceMse": 22.51582908630371,
+      "sourceMseNoWorse": true,
+      "sha256": "f838f87eec6fb82c4e60b1169368f205f433cbb579e19a02de854760909ab9d4"
+    },
+    {
+      "image": "large_evcg12a",
+      "beforeFile": "large_evcg12a.png",
+      "file": "large_evcg12a.jpg",
+      "quality": 65,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 28300,
+      "bytes": 14485,
+      "beforeSourceMse": 36.43125915527344,
+      "newSourceMse": 35.10306930541992,
+      "sourceMseNoWorse": true,
+      "sha256": "c99afbe883ddecd47cdbc4d27ae6d3aa9445a1a03777bac6c21d0739f102d12a"
+    },
+    {
+      "image": "evcg21f",
+      "beforeFile": "evcg21f.png",
+      "file": "evcg21f.jpg",
+      "quality": 68,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23903,
+      "bytes": 13334,
+      "beforeSourceMse": 28.110843658447266,
+      "newSourceMse": 26.52140235900879,
+      "sourceMseNoWorse": true,
+      "sha256": "bed9ad4eb8d7847df0033e470232a17e8cc885212dd3ce0d74251003cc6b8397"
+    },
+    {
+      "image": "large_evcg20b",
+      "beforeFile": "large_evcg20b.png",
+      "file": "large_evcg20b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 17702,
+      "bytes": 7996,
+      "beforeSourceMse": 26.735021591186523,
+      "newSourceMse": 19.87116813659668,
+      "sourceMseNoWorse": true,
+      "sha256": "1bab9725f9dc2fcf285678bdd1d72471f8779f4233972a8cc926ad9ee2c4e8e0"
+    },
+    {
+      "image": "large_evcg16a",
+      "beforeFile": "large_evcg16a.png",
+      "file": "large_evcg16a.jpg",
+      "quality": 72,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23171,
+      "bytes": 14072,
+      "beforeSourceMse": 22.298398971557617,
+      "newSourceMse": 22.21683692932129,
+      "sourceMseNoWorse": true,
+      "sha256": "fc9934936131e0ba66cea0a0bfc88ffd5a1475bde8face613d5864af0c45ad93"
+    },
+    {
+      "image": "bg070d",
+      "beforeFile": "bg070d.png",
+      "file": "bg070d.jpg",
+      "quality": 72,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23056,
+      "bytes": 9407,
+      "beforeSourceMse": 14.412567138671875,
+      "newSourceMse": 14.070536613464355,
+      "sourceMseNoWorse": true,
+      "sha256": "182e1fd4ee3dce970ee241c2ef2e6f969cd9254df6d1b7206333764b3cdfecf4"
+    },
+    {
+      "image": "evcg06b",
+      "beforeFile": "evcg06b.png",
+      "file": "evcg06b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 7430,
+      "bytes": 4610,
+      "beforeSourceMse": 15.807886123657227,
+      "newSourceMse": 5.014053821563721,
+      "sourceMseNoWorse": true,
+      "sha256": "bf181505a4a61fa12038afa2a72a5a5e57305b0bc7abfa1098a3a6dac6d9f7ce"
+    },
+    {
+      "image": "evcg10a",
+      "beforeFile": "evcg10a.png",
+      "file": "evcg10a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24540,
+      "bytes": 11670,
+      "beforeSourceMse": 32.962345123291016,
+      "newSourceMse": 32.42826843261719,
+      "sourceMseNoWorse": true,
+      "sha256": "2c965df0be3bd44756848576fa9319d16b73d31799d336bc8f0d21c891569997"
+    },
+    {
+      "image": "large_bg035c",
+      "beforeFile": "large_bg035c.png",
+      "file": "large_bg035c.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 25204,
+      "bytes": 10040,
+      "beforeSourceMse": 25.767576217651367,
+      "newSourceMse": 25.148744583129883,
+      "sourceMseNoWorse": true,
+      "sha256": "36038f76ab7795d154eb74bf8bc7758a943794c27118a69dab6f4eb83d2c3f6c"
+    },
+    {
+      "image": "evcg08b",
+      "beforeFile": "evcg08b.png",
+      "file": "evcg08b.jpg",
+      "quality": 65,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 16589,
+      "bytes": 8373,
+      "beforeSourceMse": 15.985631942749023,
+      "newSourceMse": 15.782308578491211,
+      "sourceMseNoWorse": true,
+      "sha256": "90878890b1b0ca08383ead516202667cc60dc2b3f1b56ff24f079d1d0f46c157"
+    },
+    {
+      "image": "large_evcg21e",
+      "beforeFile": "large_evcg21e.png",
+      "file": "large_evcg21e.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23074,
+      "bytes": 11449,
+      "beforeSourceMse": 27.996490478515625,
+      "newSourceMse": 27.965166091918945,
+      "sourceMseNoWorse": true,
+      "sha256": "820b5cc51d98efb577bdd703bfd935d3ed8bd90e634ad82f24083dee20d5b060"
+    },
+    {
+      "image": "bg110a",
+      "beforeFile": "bg110a.png",
+      "file": "bg110a.jpg",
+      "quality": 78,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 20386,
+      "bytes": 17832,
+      "beforeSourceMse": 30.89466094970703,
+      "newSourceMse": 30.641101837158203,
+      "sourceMseNoWorse": true,
+      "sha256": "36427b032cd8e7a037f67f1f8a3377cd735f367fdda96a47b794cc2fba7057d4"
+    },
+    {
+      "image": "evcg18c",
+      "beforeFile": "evcg18c.png",
+      "file": "evcg18c.jpg",
+      "quality": 72,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 26273,
+      "bytes": 17423,
+      "beforeSourceMse": 31.499170303344727,
+      "newSourceMse": 31.3305606842041,
+      "sourceMseNoWorse": true,
+      "sha256": "f5e50eeeef9c884bc05d6e670a558f6761fb2307d47c60e2bc8dd4db68f95709"
+    },
+    {
+      "image": "evcg10g",
+      "beforeFile": "evcg10g.png",
+      "file": "evcg10g.jpg",
+      "quality": 65,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23939,
+      "bytes": 12971,
+      "beforeSourceMse": 31.71744728088379,
+      "newSourceMse": 30.056869506835938,
+      "sourceMseNoWorse": true,
+      "sha256": "f22c8eb675e2e3e9575ab82cc46f0efebe75a10fe0fbae4424b516aade84a7a6"
+    },
+    {
+      "image": "large_evcg08b",
+      "beforeFile": "large_evcg08b.png",
+      "file": "large_evcg08b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 15987,
+      "bytes": 7594,
+      "beforeSourceMse": 15.785395622253418,
+      "newSourceMse": 15.133551597595215,
+      "sourceMseNoWorse": true,
+      "sha256": "61a491f72b10d95073f2b820a0dc013d310b002abbfcaa9342ceffc61ffc5958"
+    },
+    {
+      "image": "large_evcg10e",
+      "beforeFile": "large_evcg10e.png",
+      "file": "large_evcg10e.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23190,
+      "bytes": 11961,
+      "beforeSourceMse": 31.579145431518555,
+      "newSourceMse": 30.589683532714844,
+      "sourceMseNoWorse": true,
+      "sha256": "50a55446d81ad081cff885bbd0cc4e9a3245850a6dbd7e83f4fb0d7ab871d9a6"
+    },
+    {
+      "image": "large_bg110e",
+      "beforeFile": "large_bg110e.png",
+      "file": "large_bg110e.jpg",
+      "quality": 78,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 22854,
+      "bytes": 18948,
+      "beforeSourceMse": 26.790409088134766,
+      "newSourceMse": 24.38866424560547,
+      "sourceMseNoWorse": true,
+      "sha256": "36c58a3d8b8a3b9e70541de849bd42274898d63eb9cfda1d034daa1853b604bf"
+    },
+    {
+      "image": "large_evcg01d",
+      "beforeFile": "large_evcg01d.png",
+      "file": "large_evcg01d.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 19318,
+      "bytes": 10340,
+      "beforeSourceMse": 30.989490509033203,
+      "newSourceMse": 25.50775718688965,
+      "sourceMseNoWorse": true,
+      "sha256": "d437d49d4a91e529e2114d3442cd938dafcea12ffa8cc739a53f86dd11823f62"
+    },
+    {
+      "image": "bg000d",
+      "beforeFile": "bg000d.png",
+      "file": "bg000d.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 10243,
+      "bytes": 4754,
+      "beforeSourceMse": 12.16632080078125,
+      "newSourceMse": 7.492334842681885,
+      "sourceMseNoWorse": true,
+      "sha256": "88de0fa0fb70b0b191522bd6e2a4fcdb866a627bdfab779a33ed8b89e4805c00"
+    },
+    {
+      "image": "large_evcg07b",
+      "beforeFile": "large_evcg07b.png",
+      "file": "large_evcg07b.jpg",
+      "quality": 65,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 28782,
+      "bytes": 13259,
+      "beforeSourceMse": 36.17948913574219,
+      "newSourceMse": 35.55598831176758,
+      "sourceMseNoWorse": true,
+      "sha256": "64a6a74c7cbf1ec29b7c8b1509050c35792c09e1cb945743ddabcc800d34d068"
+    },
+    {
+      "image": "bg030a",
+      "beforeFile": "bg030a.png",
+      "file": "bg030a.jpg",
+      "quality": 70,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 40394,
+      "bytes": 17088,
+      "beforeSourceMse": 34.383811950683594,
+      "newSourceMse": 34.133338928222656,
+      "sourceMseNoWorse": true,
+      "sha256": "aad812b4e9d254711332598b0f2e2d6612b21afa02dba4529e9b956bb8698604"
+    },
+    {
+      "image": "evcg12b",
+      "beforeFile": "evcg12b.png",
+      "file": "evcg12b.jpg",
+      "quality": 68,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 29164,
+      "bytes": 15643,
+      "beforeSourceMse": 36.4909782409668,
+      "newSourceMse": 35.611045837402344,
+      "sourceMseNoWorse": true,
+      "sha256": "454a1ee94b9dd94e16642b6007d246840c5a790d1d521677d015ea87201bda28"
+    },
+    {
+      "image": "evcg10k",
+      "beforeFile": "evcg10k.png",
+      "file": "evcg10k.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 12134,
+      "bytes": 7263,
+      "beforeSourceMse": 27.244522094726562,
+      "newSourceMse": 13.342195510864258,
+      "sourceMseNoWorse": true,
+      "sha256": "8f4a706d0af5e105fec12c95e387e65e5c3fcd09efe057870ca2e25022d90cf5"
+    },
+    {
+      "image": "large_bg070d",
+      "beforeFile": "large_bg070d.png",
+      "file": "large_bg070d.jpg",
+      "quality": 65,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 21905,
+      "bytes": 7597,
+      "beforeSourceMse": 14.235780715942383,
+      "newSourceMse": 13.890143394470215,
+      "sourceMseNoWorse": true,
+      "sha256": "198e254592b8eb9a38b418655bee0b4294019d096d2e2d92f16b5ea943666769"
+    },
+    {
+      "image": "evcg10j",
+      "beforeFile": "evcg10j.png",
+      "file": "evcg10j.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 16819,
+      "bytes": 9280,
+      "beforeSourceMse": 28.411243438720703,
+      "newSourceMse": 21.31550407409668,
+      "sourceMseNoWorse": true,
+      "sha256": "97e5440c0119397b06c62f93fe25260659bc06002530868430ddc367619d5b52"
+    },
+    {
+      "image": "large_evcg09a",
+      "beforeFile": "large_evcg09a.png",
+      "file": "large_evcg09a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 25233,
+      "bytes": 12861,
+      "beforeSourceMse": 35.93777847290039,
+      "newSourceMse": 30.780183792114258,
+      "sourceMseNoWorse": true,
+      "sha256": "f81d62795d70d2843d745f670e3553282ff1165a464e61fb8eb1a4e80242ec18"
+    },
+    {
+      "image": "large_bg000d",
+      "beforeFile": "large_bg000d.png",
+      "file": "large_bg000d.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 9596,
+      "bytes": 4572,
+      "beforeSourceMse": 12.175817489624023,
+      "newSourceMse": 6.791727066040039,
+      "sourceMseNoWorse": true,
+      "sha256": "e2c7b8d2d078af54366991d6adf7cd49cf7e767ccd88c2b8a84720dea4de0bae"
+    },
+    {
+      "image": "large_evcg12b",
+      "beforeFile": "large_evcg12b.png",
+      "file": "large_evcg12b.jpg",
+      "quality": 65,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 28388,
+      "bytes": 14475,
+      "beforeSourceMse": 36.46179962158203,
+      "newSourceMse": 35.09579086303711,
+      "sourceMseNoWorse": true,
+      "sha256": "7bda095ec90425cf17d96c8a70ab4ec478508d03423acc93c6f8db465f5ac08d"
+    },
+    {
+      "image": "large_bg090a",
+      "beforeFile": "large_bg090a.png",
+      "file": "large_bg090a.jpg",
+      "quality": 68,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 18428,
+      "bytes": 12950,
+      "beforeSourceMse": 31.765056610107422,
+      "newSourceMse": 30.842744827270508,
+      "sourceMseNoWorse": true,
+      "sha256": "20857a995eee7a3d7ce7dcf95a9f6ee897626d87e97bd8bde77961a6ec9f8122"
+    },
+    {
+      "image": "evcg14a",
+      "beforeFile": "evcg14a.png",
+      "file": "evcg14a.jpg",
+      "quality": 75,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 22096,
+      "bytes": 16550,
+      "beforeSourceMse": 24.34566879272461,
+      "newSourceMse": 23.077659606933594,
+      "sourceMseNoWorse": true,
+      "sha256": "9f12acb6a0d3bf65921355997459839c8cd15f1bb34dae1c0cbe87b9d2b7f9ac"
+    },
+    {
+      "image": "evcg21a",
+      "beforeFile": "evcg21a.png",
+      "file": "evcg21a.jpg",
+      "quality": 68,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24535,
+      "bytes": 13520,
+      "beforeSourceMse": 28.343727111816406,
+      "newSourceMse": 28.020084381103516,
+      "sourceMseNoWorse": true,
+      "sha256": "bcf7798ae785d42c8c8063ee65ece04adad41dc9dba3ec7629537c64eabe50f6"
+    },
+    {
+      "image": "large_evcg10a",
+      "beforeFile": "large_evcg10a.png",
+      "file": "large_evcg10a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23781,
+      "bytes": 11456,
+      "beforeSourceMse": 32.86178207397461,
+      "newSourceMse": 29.779369354248047,
+      "sourceMseNoWorse": true,
+      "sha256": "42e6d18f70a2c23a2afee8ea61fc1590a94a3cee2c2215c2a576ce818b24315d"
+    },
+    {
+      "image": "bg035d",
+      "beforeFile": "bg035d.png",
+      "file": "bg035d.jpg",
+      "quality": 68,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 26461,
+      "bytes": 11864,
+      "beforeSourceMse": 25.712600708007812,
+      "newSourceMse": 25.19654655456543,
+      "sourceMseNoWorse": true,
+      "sha256": "cd6538bdda851655aae49380c10c39f86b88a41249aa108482e5850c8eee7372"
+    },
+    {
+      "image": "bg010a",
+      "beforeFile": "bg010a.png",
+      "file": "bg010a.jpg",
+      "quality": 65,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 28630,
+      "bytes": 14241,
+      "beforeSourceMse": 35.44048309326172,
+      "newSourceMse": 33.01906967163086,
+      "sourceMseNoWorse": true,
+      "sha256": "22f6658dc3f54b120a6da456eee62bd64626a27462ebda811b9183afbe99bb4b"
+    },
+    {
+      "image": "large_bg120a",
+      "beforeFile": "large_bg120a.png",
+      "file": "large_bg120a.jpg",
+      "quality": 72,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 14940,
+      "bytes": 10330,
+      "beforeSourceMse": 23.968820571899414,
+      "newSourceMse": 23.010751724243164,
+      "sourceMseNoWorse": true,
+      "sha256": "e0891228764ebb399a9497d41940171754ae30d646821a3b2266242231d8ebe7"
+    },
+    {
+      "image": "large_bg060c",
+      "beforeFile": "large_bg060c.png",
+      "file": "large_bg060c.jpg",
+      "quality": 82,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 20784,
+      "bytes": 15731,
+      "beforeSourceMse": 21.539377212524414,
+      "newSourceMse": 20.36435317993164,
+      "sourceMseNoWorse": true,
+      "sha256": "f68f1baddc0a57c76da7935a90e166878178ac6f3f337154f52edecb0daf02b0"
+    },
+    {
+      "image": "evcg07b",
+      "beforeFile": "evcg07b.png",
+      "file": "evcg07b.jpg",
+      "quality": 70,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 29925,
+      "bytes": 15119,
+      "beforeSourceMse": 36.555110931396484,
+      "newSourceMse": 35.889190673828125,
+      "sourceMseNoWorse": true,
+      "sha256": "78ed9ec415dbf8e493d2a1418cf86c3650b270ec1c83fbd834643e466f4cb7e5"
+    },
+    {
+      "image": "evcg12c",
+      "beforeFile": "evcg12c.png",
+      "file": "evcg12c.jpg",
+      "quality": 65,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 25273,
+      "bytes": 12507,
+      "beforeSourceMse": 32.852325439453125,
+      "newSourceMse": 30.70771026611328,
+      "sourceMseNoWorse": true,
+      "sha256": "ccae274e4fb0aa4278c3d61702597d0db1fff17224b43f3b900499edc0d7738a"
+    },
+    {
+      "image": "evcg17a",
+      "beforeFile": "evcg17a.png",
+      "file": "evcg17a.jpg",
+      "quality": 65,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23855,
+      "bytes": 12265,
+      "beforeSourceMse": 34.25052261352539,
+      "newSourceMse": 32.23885726928711,
+      "sourceMseNoWorse": true,
+      "sha256": "7bd20143b54db48ecf39f32732df832e8d5b0d0f6ecbe3d7297032f9916d1378"
+    },
+    {
+      "image": "large_evcg21b",
+      "beforeFile": "large_evcg21b.png",
+      "file": "large_evcg21b.jpg",
+      "quality": 65,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23750,
+      "bytes": 12398,
+      "beforeSourceMse": 28.194732666015625,
+      "newSourceMse": 27.191465377807617,
+      "sourceMseNoWorse": true,
+      "sha256": "1da188ba4ab387c0992519251bbae80f615e42e07016fd6380374353b1b3c0a6"
+    },
+    {
+      "image": "evcg13a2",
+      "beforeFile": "evcg13a2.png",
+      "file": "evcg13a2.jpg",
+      "quality": 72,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 21707,
+      "bytes": 13965,
+      "beforeSourceMse": 27.9848575592041,
+      "newSourceMse": 26.619131088256836,
+      "sourceMseNoWorse": true,
+      "sha256": "941dfff32821e536ac5cd5d4c3e40f3497cbed6fe76cce7afc239e57e717c545"
+    },
+    {
+      "image": "evcg07a",
+      "beforeFile": "evcg07a.png",
+      "file": "evcg07a.jpg",
+      "quality": 70,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 29916,
+      "bytes": 15138,
+      "beforeSourceMse": 36.559547424316406,
+      "newSourceMse": 35.95669937133789,
+      "sourceMseNoWorse": true,
+      "sha256": "ca8e41d1eea92f43cb0a3f2651ceeb9ef4afd270ccfa0f8aac24aaec011b4ded"
+    },
+    {
+      "image": "large_evcg01e",
+      "beforeFile": "large_evcg01e.png",
+      "file": "large_evcg01e.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 21723,
+      "bytes": 11424,
+      "beforeSourceMse": 32.38978576660156,
+      "newSourceMse": 31.65074920654297,
+      "sourceMseNoWorse": true,
+      "sha256": "ca073c3f4e8c0f2c7cacf9cbddb0b1bdbb789b279a15fa6713deb9c207408ca4"
+    },
+    {
+      "image": "evcg18d",
+      "beforeFile": "evcg18d.png",
+      "file": "evcg18d.jpg",
+      "quality": 75,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 26506,
+      "bytes": 18474,
+      "beforeSourceMse": 31.659805297851562,
+      "newSourceMse": 28.902286529541016,
+      "sourceMseNoWorse": true,
+      "sha256": "418c0903cbae1d4f7a13c6d371836c6f1c89166022c9bd5182bbf72cc7c5b9b6"
+    },
+    {
+      "image": "bg090a",
+      "beforeFile": "bg090a.png",
+      "file": "bg090a.jpg",
+      "quality": 72,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 19212,
+      "bytes": 14428,
+      "beforeSourceMse": 31.916996002197266,
+      "newSourceMse": 31.90410804748535,
+      "sourceMseNoWorse": true,
+      "sha256": "7261d1a74eccc83ecdc3c74bc4d6e109aa59606c3720425e8bffc6e12f409827"
+    },
+    {
+      "image": "evcg05b",
+      "beforeFile": "evcg05b.png",
+      "file": "evcg05b.jpg",
+      "quality": 88,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 39135,
+      "bytes": 36265,
+      "beforeSourceMse": 45.38773727416992,
+      "newSourceMse": 42.1349983215332,
+      "sourceMseNoWorse": true,
+      "sha256": "57baa74338f287827ba9bcd1f9c2dfdffd3a593f3d6127f5e1b11d84264be389"
+    },
+    {
+      "image": "large_evcg18b",
+      "beforeFile": "large_evcg18b.png",
+      "file": "large_evcg18b.jpg",
+      "quality": 70,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 25548,
+      "bytes": 16523,
+      "beforeSourceMse": 31.182933807373047,
+      "newSourceMse": 30.827518463134766,
+      "sourceMseNoWorse": true,
+      "sha256": "0900ae220c737d4e4fe33bf3fcd050bd693c887b16c794fb9ec4039b936a0ff8"
+    },
+    {
+      "image": "large_evcg08a",
+      "beforeFile": "large_evcg08a.png",
+      "file": "large_evcg08a.jpg",
+      "quality": 68,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23799,
+      "bytes": 13142,
+      "beforeSourceMse": 24.037904739379883,
+      "newSourceMse": 22.957780838012695,
+      "sourceMseNoWorse": true,
+      "sha256": "88d20de493bee4d25f539666a370a9cd0687965356624158014c8be447226a4b"
+    },
+    {
+      "image": "evcg09b",
+      "beforeFile": "evcg09b.png",
+      "file": "evcg09b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 25989,
+      "bytes": 13060,
+      "beforeSourceMse": 36.00798034667969,
+      "newSourceMse": 33.24557113647461,
+      "sourceMseNoWorse": true,
+      "sha256": "e4da0a90fd1f096b3cc35907a3d0830cf282b84acdd2b4cbfb9a5d20b5fd36ba"
+    },
+    {
+      "image": "large_evcg21c",
+      "beforeFile": "large_evcg21c.png",
+      "file": "large_evcg21c.jpg",
+      "quality": 65,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23778,
+      "bytes": 12418,
+      "beforeSourceMse": 28.19874382019043,
+      "newSourceMse": 27.24345588684082,
+      "sourceMseNoWorse": true,
+      "sha256": "94f4eaeda008c6fe4f5fe37d2ecd8042d37780eac603fa9c2a9aa3f0dbb95f7c"
+    },
+    {
+      "image": "large_bg035a",
+      "beforeFile": "large_bg035a.png",
+      "file": "large_bg035a.jpg",
+      "quality": 68,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 35454,
+      "bytes": 15956,
+      "beforeSourceMse": 33.110816955566406,
+      "newSourceMse": 32.410728454589844,
+      "sourceMseNoWorse": true,
+      "sha256": "df4c9c6bd91bb715c6157643edad6f863ff0ff7dd4ce5e00f350c260a990e2fb"
+    },
+    {
+      "image": "evcg01d",
+      "beforeFile": "evcg01d.png",
+      "file": "evcg01d.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 20200,
+      "bytes": 10546,
+      "beforeSourceMse": 31.138364791870117,
+      "newSourceMse": 27.665634155273438,
+      "sourceMseNoWorse": true,
+      "sha256": "71dfe852b02366fc71e66af15ab9a227ebcc7e4625f75daa23a7cd27d43cd6af"
+    },
+    {
+      "image": "large_bg100c",
+      "beforeFile": "large_bg100c.png",
+      "file": "large_bg100c.jpg",
+      "quality": 70,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 21404,
+      "bytes": 12807,
+      "beforeSourceMse": 21.375791549682617,
+      "newSourceMse": 21.352855682373047,
+      "sourceMseNoWorse": true,
+      "sha256": "3cfdb7e64c4947dfb1469196914528b65598f8193892af805f30e48e3ab64077"
+    },
+    {
+      "image": "large_evcg09b",
+      "beforeFile": "large_evcg09b.png",
+      "file": "large_evcg09b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 25216,
+      "bytes": 12842,
+      "beforeSourceMse": 35.95515441894531,
+      "newSourceMse": 30.676204681396484,
+      "sourceMseNoWorse": true,
+      "sha256": "7d62018867e60358b527d94c302261725be55e0391e435c074408469ec6e3951"
+    },
+    {
+      "image": "large_evcg21f",
+      "beforeFile": "large_evcg21f.png",
+      "file": "large_evcg21f.jpg",
+      "quality": 65,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23101,
+      "bytes": 12184,
+      "beforeSourceMse": 28.00967788696289,
+      "newSourceMse": 25.70577049255371,
+      "sourceMseNoWorse": true,
+      "sha256": "b3e3cb2b966a949ede433d8d9bd6d5aa56bdfdc8a6d8d239100b3f41ab0803af"
+    },
+    {
+      "image": "evcg13c",
+      "beforeFile": "evcg13c.png",
+      "file": "evcg13c.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 11311,
+      "bytes": 6293,
+      "beforeSourceMse": 29.473434448242188,
+      "newSourceMse": 18.559051513671875,
+      "sourceMseNoWorse": true,
+      "sha256": "e4e097fb90b43af8f213ce59d7dcb5f412006af6b85faf6652ea149454a3f5d9"
+    },
+    {
+      "image": "large_evcg10g",
+      "beforeFile": "large_evcg10g.png",
+      "file": "large_evcg10g.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23152,
+      "bytes": 11951,
+      "beforeSourceMse": 31.58903694152832,
+      "newSourceMse": 30.50295639038086,
+      "sourceMseNoWorse": true,
+      "sha256": "e500a3ff4ac2363b831f0831df849efa5504a959a11c2437a92050acc76eb0e3"
+    },
+    {
+      "image": "bg000b",
+      "beforeFile": "bg000b.png",
+      "file": "bg000b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 16930,
+      "bytes": 8809,
+      "beforeSourceMse": 27.34764862060547,
+      "newSourceMse": 15.825074195861816,
+      "sourceMseNoWorse": true,
+      "sha256": "40b53801defe01303e12288452bd3daaa4c0e8daee2ba04dda50fc690137ff14"
+    },
+    {
+      "image": "evcg01c",
+      "beforeFile": "evcg01c.png",
+      "file": "evcg01c.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 17335,
+      "bytes": 9357,
+      "beforeSourceMse": 30.49604034423828,
+      "newSourceMse": 23.288623809814453,
+      "sourceMseNoWorse": true,
+      "sha256": "643ec98e0248c565a9ef6c113cf4a71c9007f57b8297225e296874a6bb3c8236"
+    },
+    {
+      "image": "large_evcg21a",
+      "beforeFile": "large_evcg21a.png",
+      "file": "large_evcg21a.jpg",
+      "quality": 65,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23739,
+      "bytes": 12378,
+      "beforeSourceMse": 28.196800231933594,
+      "newSourceMse": 27.14469337463379,
+      "sourceMseNoWorse": true,
+      "sha256": "bacf10ccfa0f10611bbe09433b1b1f76ce19586a93e7f84d67309a0e12c81ad9"
+    },
+    {
+      "image": "large_evcg12c",
+      "beforeFile": "large_evcg12c.png",
+      "file": "large_evcg12c.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24422,
+      "bytes": 11381,
+      "beforeSourceMse": 32.772762298583984,
+      "newSourceMse": 30.32204246520996,
+      "sourceMseNoWorse": true,
+      "sha256": "1c6b91ebabb25686e14b0f92a52a93672de7c50163cb92f0f25122b2e46b985d"
+    },
+    {
+      "image": "bg130d",
+      "beforeFile": "bg130d.png",
+      "file": "bg130d.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 14591,
+      "bytes": 6287,
+      "beforeSourceMse": 14.121866226196289,
+      "newSourceMse": 8.687471389770508,
+      "sourceMseNoWorse": true,
+      "sha256": "85b87eb1902e6efbb4ed890d2ecbd0d005a6b28b1373443667593b82d92d0822"
+    },
+    {
+      "image": "large_bg010a",
+      "beforeFile": "large_bg010a.png",
+      "file": "large_bg010a.jpg",
+      "quality": 65,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 26502,
+      "bytes": 14006,
+      "beforeSourceMse": 34.27918243408203,
+      "newSourceMse": 33.06149673461914,
+      "sourceMseNoWorse": true,
+      "sha256": "73686be2adfaec40d87ed6a6b18b3fdb6bf4275a619a6c42c8507e2411936b22"
+    },
+    {
+      "image": "large_evcg01c",
+      "beforeFile": "large_evcg01c.png",
+      "file": "large_evcg01c.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 16474,
+      "bytes": 9191,
+      "beforeSourceMse": 30.340810775756836,
+      "newSourceMse": 21.44596290588379,
+      "sourceMseNoWorse": true,
+      "sha256": "c1f47d78c9e4c29406df6a6f817cdd47a679493131e669212d0263eddfc09f6d"
+    },
+    {
+      "image": "evcg14b",
+      "beforeFile": "evcg14b.png",
+      "file": "evcg14b.jpg",
+      "quality": 75,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 22852,
+      "bytes": 16756,
+      "beforeSourceMse": 24.45189094543457,
+      "newSourceMse": 24.123355865478516,
+      "sourceMseNoWorse": true,
+      "sha256": "a87e6c94e0e32e20a12da87efc19446e38aa514eeb67c950583c2c54181fd1be"
+    },
+    {
+      "image": "large_evcg10d",
+      "beforeFile": "large_evcg10d.png",
+      "file": "large_evcg10d.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23748,
+      "bytes": 11440,
+      "beforeSourceMse": 32.84965896606445,
+      "newSourceMse": 29.73652458190918,
+      "sourceMseNoWorse": true,
+      "sha256": "5955f83457be996901bdaeb5923cc2c9dfed92c6cfacb34931ac2017a8efa636"
+    },
+    {
+      "image": "evcg20a",
+      "beforeFile": "evcg20a.png",
+      "file": "evcg20a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 19564,
+      "bytes": 8660,
+      "beforeSourceMse": 27.294143676757812,
+      "newSourceMse": 24.18041229248047,
+      "sourceMseNoWorse": true,
+      "sha256": "f46230f01c71e90eba19116d71c1e9da3b25e3b3c39552f07b00b94c9206ad16"
+    },
+    {
+      "image": "large_evcg10c",
+      "beforeFile": "large_evcg10c.png",
+      "file": "large_evcg10c.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23815,
+      "bytes": 11467,
+      "beforeSourceMse": 32.87866973876953,
+      "newSourceMse": 29.85175323486328,
+      "sourceMseNoWorse": true,
+      "sha256": "0fc8c96eef8ba5b109c1a35957a177ab784725dfce04b152df7ea2c64533cb01"
+    },
+    {
+      "image": "bg000a",
+      "beforeFile": "bg000a.png",
+      "file": "bg000a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 16185,
+      "bytes": 7967,
+      "beforeSourceMse": 30.01959800720215,
+      "newSourceMse": 14.008712768554688,
+      "sourceMseNoWorse": true,
+      "sha256": "065a9cc72453300846e5d4a9afc98c4f596e74c131e74cc801b3008900b3cc16"
+    },
+    {
+      "image": "large_evcg20a",
+      "beforeFile": "large_evcg20a.png",
+      "file": "large_evcg20a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 18728,
+      "bytes": 8460,
+      "beforeSourceMse": 26.902942657470703,
+      "newSourceMse": 21.888446807861328,
+      "sourceMseNoWorse": true,
+      "sha256": "297019f904d20ee84cb4290a58d7f14ad2d9f46355cf260cb1902a0f5ee3ec79"
+    },
+    {
+      "image": "evcg19a",
+      "beforeFile": "evcg19a.png",
+      "file": "evcg19a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23496,
+      "bytes": 11144,
+      "beforeSourceMse": 31.86897087097168,
+      "newSourceMse": 30.701337814331055,
+      "sourceMseNoWorse": true,
+      "sha256": "78c644c0ba44a415a2427b48ee26e4d7b0ae1dc9b6943c0a35eb0bdd6ca9bf85"
+    },
+    {
+      "image": "evcg03a",
+      "beforeFile": "evcg03a.png",
+      "file": "evcg03a.jpg",
+      "quality": 75,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 31619,
+      "bytes": 17605,
+      "beforeSourceMse": 36.35000991821289,
+      "newSourceMse": 35.61064147949219,
+      "sourceMseNoWorse": true,
+      "sha256": "38436a9f8cd46ffc2b0de1eb7f3ebeea7b548cf4eeebec774085182fbfe41e08"
+    },
+    {
+      "image": "bg020c",
+      "beforeFile": "bg020c.png",
+      "file": "bg020c.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24652,
+      "bytes": 9392,
+      "beforeSourceMse": 25.233911514282227,
+      "newSourceMse": 23.836368560791016,
+      "sourceMseNoWorse": true,
+      "sha256": "2b171b237ed2926150cfd42e3876faeb6612749df587afcaaf755254734a0006"
+    },
+    {
+      "image": "bg120a",
+      "beforeFile": "bg120a.png",
+      "file": "bg120a.jpg",
+      "quality": 75,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 15818,
+      "bytes": 11353,
+      "beforeSourceMse": 24.37193489074707,
+      "newSourceMse": 23.992300033569336,
+      "sourceMseNoWorse": true,
+      "sha256": "2bd02d8e8fd798dcfab412a1bc79f02b9ad96718d3d31fb93ebb20969c8d306e"
+    },
+    {
+      "image": "evcg08a",
+      "beforeFile": "evcg08a.png",
+      "file": "evcg08a.jpg",
+      "quality": 72,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24689,
+      "bytes": 14776,
+      "beforeSourceMse": 24.382638931274414,
+      "newSourceMse": 23.05426025390625,
+      "sourceMseNoWorse": true,
+      "sha256": "5d31c3452bcbb9ca814632100d5d08ea47854cbfed89a82c05cfdf87d80bf902"
+    },
+    {
+      "image": "large_evcg10f",
+      "beforeFile": "large_evcg10f.png",
+      "file": "large_evcg10f.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23144,
+      "bytes": 11924,
+      "beforeSourceMse": 31.566904067993164,
+      "newSourceMse": 30.406299591064453,
+      "sourceMseNoWorse": true,
+      "sha256": "704942bc2a7d1d2b81b380c33c0ca958f3cdeea75fe1c11688d3778d95244040"
+    },
+    {
+      "image": "bg060c",
+      "beforeFile": "bg060c.png",
+      "file": "bg060c.jpg",
+      "quality": 85,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 21871,
+      "bytes": 18236,
+      "beforeSourceMse": 21.750621795654297,
+      "newSourceMse": 20.341102600097656,
+      "sourceMseNoWorse": true,
+      "sha256": "d94368531c1cbf53421209a9bae872ccd59674bbaef8c7308399ff3f8917565e"
+    },
+    {
+      "image": "large_evcg20d",
+      "beforeFile": "large_evcg20d.png",
+      "file": "large_evcg20d.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23558,
+      "bytes": 9894,
+      "beforeSourceMse": 29.381540298461914,
+      "newSourceMse": 27.63397979736328,
+      "sourceMseNoWorse": true,
+      "sha256": "e553e9afa8144abf821c53290f9f1be7521657c647b4e383f4735f6f0c66bb17"
+    },
+    {
+      "image": "evcg13b",
+      "beforeFile": "evcg13b.png",
+      "file": "evcg13b.jpg",
+      "quality": 65,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 18856,
+      "bytes": 10215,
+      "beforeSourceMse": 29.446413040161133,
+      "newSourceMse": 27.724327087402344,
+      "sourceMseNoWorse": true,
+      "sha256": "f12e24e4a719389efe212f5b9d237a4b9255d007229961edc9f043983c592792"
+    },
+    {
+      "image": "evcg20d",
+      "beforeFile": "evcg20d.png",
+      "file": "evcg20d.jpg",
+      "quality": 65,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24572,
+      "bytes": 10866,
+      "beforeSourceMse": 29.697473526000977,
+      "newSourceMse": 28.74050521850586,
+      "sourceMseNoWorse": true,
+      "sha256": "8089771bcac6cfed69265027f534a93557045b713eacf9b74401bd10dc5e4282"
+    },
+    {
+      "image": "bg110e",
+      "beforeFile": "bg110e.png",
+      "file": "bg110e.jpg",
+      "quality": 78,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24152,
+      "bytes": 19493,
+      "beforeSourceMse": 27.163646697998047,
+      "newSourceMse": 26.532413482666016,
+      "sourceMseNoWorse": true,
+      "sha256": "f867c0e968cfa5fcd58ba6e0976d0f14425c7acffa7d087510c18c8ee202cd44"
+    },
+    {
+      "image": "evcg21e",
+      "beforeFile": "evcg21e.png",
+      "file": "evcg21e.jpg",
+      "quality": 68,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23880,
+      "bytes": 13316,
+      "beforeSourceMse": 28.101266860961914,
+      "newSourceMse": 26.477928161621094,
+      "sourceMseNoWorse": true,
+      "sha256": "f10ea00f49d5f92ee5df383fc2cafbfdc88b6062831f4085ae1eac9c23a08ae9"
+    },
+    {
+      "image": "evcg21d",
+      "beforeFile": "evcg21d.png",
+      "file": "evcg21d.jpg",
+      "quality": 68,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23866,
+      "bytes": 13304,
+      "beforeSourceMse": 28.105398178100586,
+      "newSourceMse": 26.442419052124023,
+      "sourceMseNoWorse": true,
+      "sha256": "18df66adaa0760fe5e3ecc00fcd0a0e23704f00036d185e633dad93756ea1cc4"
+    },
+    {
+      "image": "evcg01e",
+      "beforeFile": "evcg01e.png",
+      "file": "evcg01e.jpg",
+      "quality": 65,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 22579,
+      "bytes": 12385,
+      "beforeSourceMse": 32.6207160949707,
+      "newSourceMse": 31.930463790893555,
+      "sourceMseNoWorse": true,
+      "sha256": "59373b2b4997336630e3d9643eb86a40ab21c0b77c3bc2baa58e5d9576b4e6f9"
+    },
+    {
+      "image": "evcg10c",
+      "beforeFile": "evcg10c.png",
+      "file": "evcg10c.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24545,
+      "bytes": 11685,
+      "beforeSourceMse": 32.95766830444336,
+      "newSourceMse": 32.53620147705078,
+      "sourceMseNoWorse": true,
+      "sha256": "bf4295e1cdc273a9887f0f43e4bf46d1262c158cea2dbe8549ad3c50d3d37cbc"
+    },
+    {
+      "image": "bg090b",
+      "beforeFile": "bg090b.png",
+      "file": "bg090b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 18931,
+      "bytes": 9398,
+      "beforeSourceMse": 43.06985855102539,
+      "newSourceMse": 23.136911392211914,
+      "sourceMseNoWorse": true,
+      "sha256": "111ffa71d677c859eeb76b49f1d29b2774bdb53d86dcc572a8c1b155ce5d440e"
+    },
+    {
+      "image": "evcg10l",
+      "beforeFile": "evcg10l.png",
+      "file": "evcg10l.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 7380,
+      "bytes": 4681,
+      "beforeSourceMse": 20.693471908569336,
+      "newSourceMse": 6.156407356262207,
+      "sourceMseNoWorse": true,
+      "sha256": "d7e1ffa3997dec384cfb05a20dc1e392213e46f63963688cb20fbda86770f155"
+    },
+    {
+      "image": "evcg01b",
+      "beforeFile": "evcg01b.png",
+      "file": "evcg01b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 17264,
+      "bytes": 9370,
+      "beforeSourceMse": 30.42272186279297,
+      "newSourceMse": 23.284408569335938,
+      "sourceMseNoWorse": true,
+      "sha256": "39b37cec7dd55b9cfb976a269546f13e2e76db694669efe95a561322af33b79a"
+    },
+    {
+      "image": "evcg21c",
+      "beforeFile": "evcg21c.png",
+      "file": "evcg21c.jpg",
+      "quality": 68,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24572,
+      "bytes": 13554,
+      "beforeSourceMse": 28.35013771057129,
+      "newSourceMse": 28.12246322631836,
+      "sourceMseNoWorse": true,
+      "sha256": "0171292d216b20584a933c57a0851762f098ad5486a22c5dfb2988ab5a1530bc"
+    },
+    {
+      "image": "large_evcg05a",
+      "beforeFile": "large_evcg05a.png",
+      "file": "large_evcg05a.jpg",
+      "quality": 85,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 34578,
+      "bytes": 28693,
+      "beforeSourceMse": 43.202571868896484,
+      "newSourceMse": 39.836341857910156,
+      "sourceMseNoWorse": true,
+      "sha256": "e5f13cddf7623fa86da8959aa9e1e487835102b63fd183ac3f4490f0f4c4c2d0"
+    },
+    {
+      "image": "large_evcg10h",
+      "beforeFile": "large_evcg10h.png",
+      "file": "large_evcg10h.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 22580,
+      "bytes": 11260,
+      "beforeSourceMse": 34.73000717163086,
+      "newSourceMse": 26.963119506835938,
+      "sourceMseNoWorse": true,
+      "sha256": "33b6ae379bf0b12f4e450e608cb695ec6808a59bde5eff6f534e1b6ee1636ab4"
+    },
+    {
+      "image": "bg010b",
+      "beforeFile": "bg010b.png",
+      "file": "bg010b.jpg",
+      "quality": 65,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24020,
+      "bytes": 12490,
+      "beforeSourceMse": 28.82408332824707,
+      "newSourceMse": 27.40570831298828,
+      "sourceMseNoWorse": true,
+      "sha256": "f4c384ca20f4e85c8a103ff47e20ad36ed1b612f378eb9045af1eb629b751dbf"
+    },
+    {
+      "image": "evcg12a",
+      "beforeFile": "evcg12a.png",
+      "file": "evcg12a.jpg",
+      "quality": 68,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 29094,
+      "bytes": 15665,
+      "beforeSourceMse": 36.46958541870117,
+      "newSourceMse": 35.6390266418457,
+      "sourceMseNoWorse": true,
+      "sha256": "ff5410c0159574d127021f876639c8e1b63e6e78274d8c2e892393808265187c"
+    },
+    {
+      "image": "evcg21b",
+      "beforeFile": "evcg21b.png",
+      "file": "evcg21b.jpg",
+      "quality": 68,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 24550,
+      "bytes": 13540,
+      "beforeSourceMse": 28.34320831298828,
+      "newSourceMse": 28.0719051361084,
+      "sourceMseNoWorse": true,
+      "sha256": "707144f58b64133fdb48c0adfc9ec2749e0685828e61c058d1719c3bdb849d44"
+    },
+    {
+      "image": "large_evcg21d",
+      "beforeFile": "large_evcg21d.png",
+      "file": "large_evcg21d.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23064,
+      "bytes": 11434,
+      "beforeSourceMse": 27.99601173400879,
+      "newSourceMse": 27.974267959594727,
+      "sourceMseNoWorse": true,
+      "sha256": "783fe3e821b04a023da890330448c33a39a0af958483686738723c0640c7ba20"
+    },
+    {
+      "image": "large_evcg05b",
+      "beforeFile": "large_evcg05b.png",
+      "file": "large_evcg05b.jpg",
+      "quality": 88,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 38194,
+      "bytes": 35215,
+      "beforeSourceMse": 44.774871826171875,
+      "newSourceMse": 38.928531646728516,
+      "sourceMseNoWorse": true,
+      "sha256": "a502c35e471634ca4a8bc6160a16766d19e61b9a68301b7465c0fa6c8f2c9ef8"
+    },
+    {
+      "image": "bg080a",
+      "beforeFile": "bg080a.png",
+      "file": "bg080a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 21323,
+      "bytes": 10306,
+      "beforeSourceMse": 31.844341278076172,
+      "newSourceMse": 28.737651824951172,
+      "sourceMseNoWorse": true,
+      "sha256": "af2e1519e424836c9356b7b14b2bfd292784f825d8be7df8a60a634a5ea00a98"
+    },
+    {
+      "image": "bg010c",
+      "beforeFile": "bg010c.png",
+      "file": "bg010c.jpg",
+      "quality": 72,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 25311,
+      "bytes": 14898,
+      "beforeSourceMse": 27.930057525634766,
+      "newSourceMse": 27.256290435791016,
+      "sourceMseNoWorse": true,
+      "sha256": "bea7840af2d93fb8c33da3f213781055e3619d83af4e1eead25bad899e8bcd11"
+    },
+    {
+      "image": "bg030d",
+      "beforeFile": "bg030d.png",
+      "file": "bg030d.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 25503,
+      "bytes": 9307,
+      "beforeSourceMse": 24.493982315063477,
+      "newSourceMse": 22.98224639892578,
+      "sourceMseNoWorse": true,
+      "sha256": "b86356437310e7b5dfed7dbbb70d64184f74de2f29dfe17786dfdd6f5d1bbcc9"
+    },
+    {
+      "image": "evcg10e",
+      "beforeFile": "evcg10e.png",
+      "file": "evcg10e.jpg",
+      "quality": 65,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 23998,
+      "bytes": 12987,
+      "beforeSourceMse": 31.705759048461914,
+      "newSourceMse": 30.131986618041992,
+      "sourceMseNoWorse": true,
+      "sha256": "ae74c8c04add675f4438e2e0dfdfedbc151a95089e6d29464eec1a176ebd1a3d"
+    },
+    {
+      "image": "large_evcg18d",
+      "beforeFile": "large_evcg18d.png",
+      "file": "large_evcg18d.jpg",
+      "quality": 70,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 25694,
+      "bytes": 16512,
+      "beforeSourceMse": 31.333362579345703,
+      "newSourceMse": 30.919727325439453,
+      "sourceMseNoWorse": true,
+      "sha256": "5ed33ae173e367ab332b9c0c7e159aa13d0eface976bf20ecc06898162f1042b"
+    },
+    {
+      "image": "bg100c",
+      "beforeFile": "bg100c.png",
+      "file": "bg100c.jpg",
+      "quality": 75,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 22566,
+      "bytes": 14770,
+      "beforeSourceMse": 21.760602951049805,
+      "newSourceMse": 21.222686767578125,
+      "sourceMseNoWorse": true,
+      "sha256": "cfe09ec97010752b9306732b331f49bc0914f85a299d181c36b4718e81050484"
+    },
+    {
+      "image": "large_bg010b",
+      "beforeFile": "large_bg010b.png",
+      "file": "large_bg010b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 22861,
+      "bytes": 11391,
+      "beforeSourceMse": 28.649341583251953,
+      "newSourceMse": 26.44917869567871,
+      "sourceMseNoWorse": true,
+      "sha256": "7a3c3042f9dc91ff7b3f64ec598bf2c0435211e454c7cf89b2224dbaadf69b5e"
+    },
+    {
+      "image": "large_evcg01a",
+      "beforeFile": "large_evcg01a.png",
+      "file": "large_evcg01a.jpg",
+      "quality": 61,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 16423,
+      "bytes": 9207,
+      "beforeSourceMse": 30.262025833129883,
+      "newSourceMse": 21.433406829833984,
+      "sourceMseNoWorse": true,
+      "sha256": "8bdbfb7f3cdc6c3a2e9b6c3e4be1abf617ea09d9cc272f65cd726991a0b7e6da"
+    },
+    {
+      "image": "large_bg035b",
+      "beforeFile": "large_bg035b.png",
+      "file": "large_bg035b.jpg",
+      "quality": 78,
+      "sourceSize": [
+        2560,
+        1440
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 26694,
+      "bytes": 16015,
+      "beforeSourceMse": 20.578725814819336,
+      "newSourceMse": 19.769128799438477,
+      "sourceMseNoWorse": true,
+      "sha256": "3359a031bc6e3f89f6026b1d8d2835873f84d4414e51126e0e70f9bbad995bd4"
+    },
+    {
+      "image": "evcg20b",
+      "beforeFile": "evcg20b.png",
+      "file": "evcg20b.jpg",
+      "quality": 61,
+      "sourceSize": [
+        1280,
+        720
+      ],
+      "watchSize": [
+        432,
+        243
+      ],
+      "beforeBytes": 18522,
+      "bytes": 8200,
+      "beforeSourceMse": 27.001123428344727,
+      "newSourceMse": 21.910913467407227,
+      "sourceMseNoWorse": true,
+      "sha256": "7cd9d3f04523a9bbb805f47e805edc184638d438580a55b0ea6b69d74875ae47"
+    }
+  ]
+}

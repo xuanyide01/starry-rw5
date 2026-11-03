@@ -1,0 +1,10 @@
+{
+  "version": "0.3.3",
+  "device": "REDMI Watch 5",
+  "passed": true,
+  "reportedBy": "maintainer",
+  "reportedOn": "2026-11-03",
+  "evidence": "维护者在本会话对 0.3.3 反馈“通过，上传github”。",
+  "packageSha256": "7876e4d5319536688682a65d5d1273304b46a3a992a81d9fc492d14a36bb18af",
+  "scope": "Maintainer-reported physical device acceptance; separate from the recorded native emulator checks."
+}

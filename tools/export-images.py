@@ -1,5 +1,6 @@
 import sys,json,argparse,hashlib
 from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[2]/'pydeps'))
 import UnityPy
 from PIL import Image,ImageOps
 from gallery_index import build_catalog

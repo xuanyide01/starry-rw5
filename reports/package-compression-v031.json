@@ -1,0 +1,10 @@
+{
+  "beforeBytes": 10512910,
+  "afterBytes": 10493679,
+  "savedBytes": 19231,
+  "allUncompressedFileBytesIdentical": true,
+  "sha256": "f3a4b3a92de210b4a8edb12a4f6f4e4266d2d205f6ab05366a94a3034e3fdd1b",
+  "version": "0.3.1",
+  "method": "Standard ZIP DEFLATE, Zopfli 15 iterations for text; compatible development certificate re-signing",
+  "resources": 23
+}

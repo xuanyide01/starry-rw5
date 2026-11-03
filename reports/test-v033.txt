@@ -1,0 +1,44 @@
+
+> starry-rw5-reproduction@0.3.3 test
+> node --test tests/*.test.cjs
+
+✔ three automatic speeds use bounded waits after final glyph (1.3019ms)
+✔ automatic mode starts off; old font/speed settings work and only the speed tier persists (3.7777ms)
+✔ automatic reading waits then types at 30ms without changing manual speed (2.0894ms)
+✔ manual completion of a typing line restarts a full reading delay (2.4579ms)
+✔ menu and 30-slot selectors pause automatic reading; return waits afresh (3.9849ms)
+✔ every original choice pauses automatic reading until a manual choice (36.9756ms)
+✔ dragging dialogue pauses the wait and never acts as a tap (2.8432ms)
+✔ background suspension freezes story and restarts waiting on return (2.7009ms)
+✔ chapter read that finishes in background renders only when shown (1.8666ms)
+✔ previous, title, error, end and destruction cancel automatic reading (9.1379ms)
+✔ late cancelled callbacks cannot erase a newer wait or advance a changed scene (1.8228ms)
+✔ save from automatic reading preserves the original save format and continues after success (4.187ms)
+✔ title config retains speed settings and stale title/gallery callbacks do not change story (2.7162ms)
+✔ every chapter skip preserves the original first decision, variables and call stack (29.1581ms)
+✔ skip respects local branch operations and stops before selecting even in the final chapter (0.1951ms)
+✔ every extracted image and jump target exists (884.594ms)
+✔ all reachable branches finish without losing save/restore state (75.8022ms)
+✔ back restores visuals and previous selection; history is bounded (0.3956ms)
+✔ closing an event picture restores the regular scene background (0.138ms)
+✔ normal and closeup portraits preserve original character-table anchors on one pixel scale (1.2816ms)
+✔ every used portrait keeps bounded geometry after trimming transparent margins (135.8034ms)
+✔ actual page reads packaged TXT chapters and CG catalog; API 202 exits loading and exposes its reason (32.4529ms)
+✔ thirty slots keep independent positions, choices and save metadata (1.6466ms)
+✔ empty, damaged and legacy saves have useful slot labels (1.4236ms)
+✔ all CG variants have usable images and a complete distinct catalog (49.4623ms)
+✔ scene grouping keeps every image exactly once, including closeups and extra variants (0.9939ms)
+✔ tapping cycles every variant within its own scene and wraps at both ends (0.6005ms)
+✔ all 36 reachable selection paths keep their original ending state with menu skip (83.4703ms)
+✔ desktop indentation disappears while paragraph boundaries and Latin words remain (0.8373ms)
+✔ JS cleanup agrees with every original whitespace fix, preserving all visible characters (7.4161ms)
+✔ all dialogue, choice and speaker strings are clean and stable after repeated display (39.9809ms)
+✔ numeric chapter counters and empty narrator nameplates are absent from reading template (1.1758ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1064.1113

@@ -1,0 +1,4084 @@
+{
+  "version": "0.3.3",
+  "baselineVersion": "0.3.2",
+  "lossless": false,
+  "method": "Original unquantized watch-size RGBA -> no-dither imagequant 96/80 colors -> indexed PNG; unchanged portrait geometry. Opaque title/menu backgrounds -> non-progressive JPEG 98/95, 4:4:4.",
+  "portraitsChanged": 149,
+  "portraitsUnchanged": 219,
+  "noirPortraitsByteIdentical": 61,
+  "paletteCounts": {
+    "96": 84,
+    "80": 65
+  },
+  "portraitSavedBytes": 250886,
+  "uiSavedBytes": 252099,
+  "resourceSavedBytes": 502985,
+  "allConvertedPortraitDimensionsCoordinatesUnchanged": true,
+  "allConvertedSourceMetricsNoWorse": true,
+  "metrics": [
+    "composite0",
+    "composite48",
+    "composite255",
+    "opaqueRgb",
+    "alpha",
+    "upperCenterRgb"
+  ],
+  "note": "Palette quantization and JPEG are lossy. The source-relative MSE checks are conservative objective checks, not a guarantee of identical perception or pixels. All unchanged CG/backgrounds and portrait files retain their original bytes.",
+  "portraits": [
+    {
+      "colors": 80,
+      "bytes": 11668,
+      "savedBytes": 1429,
+      "metrics": {
+        "composite0": 14.80428409576416,
+        "composite48": 13.092591285705566,
+        "composite255": 13.36076831817627,
+        "opaqueRgb": 15.204743385314941,
+        "alpha": 9.423727989196777,
+        "upperCenterRgb": 16.904455184936523
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "633f5cddf84254d5cfcd5078725adea0674bfa209a641ef99f435201148b69f7",
+      "image": "hanae_01face",
+      "file": "images/hanae_01face.png",
+      "beforeBytes": 13097,
+      "beforeSha256": "da187cdf3095bce57a3a91e37d21b191a8608f9903fef2af23893dcb4b1b20ee",
+      "beforeMetrics": {
+        "composite0": 19.22994613647461,
+        "composite48": 17.58816909790039,
+        "composite255": 20.872295379638672,
+        "opaqueRgb": 25.480735778808594,
+        "alpha": 12.76762580871582,
+        "upperCenterRgb": 27.796728134155273
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11356,
+      "savedBytes": 2022,
+      "metrics": {
+        "composite0": 14.916446685791016,
+        "composite48": 13.127511978149414,
+        "composite255": 13.508818626403809,
+        "opaqueRgb": 15.128607749938965,
+        "alpha": 9.973438262939453,
+        "upperCenterRgb": 15.902714729309082
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "d8e40dc5d14b3a5685fe56f451fb0e4dc8de04f4a41743af27fd77e49f5e8b8d",
+      "image": "hanae_01face+",
+      "file": "images/hanae_01face+.png",
+      "beforeBytes": 13378,
+      "beforeSha256": "faa56271348d5720b3eb7342687742eae1ce375e3a1335183164bdd2059b6bd6",
+      "beforeMetrics": {
+        "composite0": 19.90190887451172,
+        "composite48": 18.021087646484375,
+        "composite255": 21.05838394165039,
+        "opaqueRgb": 25.571680068969727,
+        "alpha": 13.733478546142578,
+        "upperCenterRgb": 27.949857711791992
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11549,
+      "savedBytes": 1546,
+      "metrics": {
+        "composite0": 14.344834327697754,
+        "composite48": 12.839162826538086,
+        "composite255": 13.137428283691406,
+        "opaqueRgb": 15.137027740478516,
+        "alpha": 8.366310119628906,
+        "upperCenterRgb": 16.309968948364258
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "816f60329e5b41204dc3ef0c205d76d31adc7b68888f23807dd2fe62647318e8",
+      "image": "hanae_02face",
+      "file": "images/hanae_02face.png",
+      "beforeBytes": 13095,
+      "beforeSha256": "aed0bbeed044ef42f462b7c5084b160396889a2c999a03069d66890c89f2ffc5",
+      "beforeMetrics": {
+        "composite0": 18.794845581054688,
+        "composite48": 17.218076705932617,
+        "composite255": 20.67441177368164,
+        "opaqueRgb": 25.09153175354004,
+        "alpha": 12.63440227508545,
+        "upperCenterRgb": 27.033878326416016
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 12389,
+      "savedBytes": 983,
+      "metrics": {
+        "composite0": 13.67756175994873,
+        "composite48": 12.115116119384766,
+        "composite255": 12.227210998535156,
+        "opaqueRgb": 14.0910005569458,
+        "alpha": 8.438580513000488,
+        "upperCenterRgb": 14.934072494506836
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "89e36b9b6fc0f8d2acd9ad852f53bdf222c17ff637001ceef7e868533da1da24",
+      "image": "hanae_02face+",
+      "file": "images/hanae_02face+.png",
+      "beforeBytes": 13372,
+      "beforeSha256": "9d88980a22ad3ffb5b77b4ae70e6678d17b8412892768a2999ba5d166a2ff1e2",
+      "beforeMetrics": {
+        "composite0": 19.40437889099121,
+        "composite48": 17.603363037109375,
+        "composite255": 20.966196060180664,
+        "opaqueRgb": 25.197731018066406,
+        "alpha": 13.710526466369629,
+        "upperCenterRgb": 27.126371383666992
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11519,
+      "savedBytes": 1605,
+      "metrics": {
+        "composite0": 14.961790084838867,
+        "composite48": 13.249005317687988,
+        "composite255": 13.170215606689453,
+        "opaqueRgb": 15.507363319396973,
+        "alpha": 9.002111434936523,
+        "upperCenterRgb": 16.571969985961914
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "88cdb38f45c944233eae75bf201acb5056044076ca3a3f88abe2b5ee1c15907e",
+      "image": "hanae_03face",
+      "file": "images/hanae_03face.png",
+      "beforeBytes": 13124,
+      "beforeSha256": "32e310d0d2b779850b0a3f351b7fffb6a991e03d770d4d9b15e0cd079ff5afba",
+      "beforeMetrics": {
+        "composite0": 19.10652732849121,
+        "composite48": 17.477373123168945,
+        "composite255": 20.67499542236328,
+        "opaqueRgb": 25.346336364746094,
+        "alpha": 12.593995094299316,
+        "upperCenterRgb": 27.487091064453125
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11828,
+      "savedBytes": 1323,
+      "metrics": {
+        "composite0": 14.705780029296875,
+        "composite48": 13.224884986877441,
+        "composite255": 13.098137855529785,
+        "opaqueRgb": 15.485017776489258,
+        "alpha": 7.71111536026001,
+        "upperCenterRgb": 16.932605743408203
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "5c67414997a34df335b4c72e692c49ed8e0bc0dea587721a61a35e8720ed73b1",
+      "image": "hanae_04face",
+      "file": "images/hanae_04face.png",
+      "beforeBytes": 13151,
+      "beforeSha256": "68488025a4b723d2425ee2863048ba8c8f3202de52fd8c98d3e0d170b69012c0",
+      "beforeMetrics": {
+        "composite0": 19.12411880493164,
+        "composite48": 17.490724563598633,
+        "composite255": 20.876676559448242,
+        "opaqueRgb": 25.39333152770996,
+        "alpha": 12.848512649536133,
+        "upperCenterRgb": 27.65224266052246
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11448,
+      "savedBytes": 1962,
+      "metrics": {
+        "composite0": 15.358231544494629,
+        "composite48": 13.51842975616455,
+        "composite255": 13.786702156066895,
+        "opaqueRgb": 15.49939250946045,
+        "alpha": 10.1044282913208,
+        "upperCenterRgb": 17.19699478149414
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "1106a22344e04b4400459f2bebc06dd9dc6e589e61ee7e8f02872c7b25d934dd",
+      "image": "hanae_04face+",
+      "file": "images/hanae_04face+.png",
+      "beforeBytes": 13410,
+      "beforeSha256": "c07bce55a05fc42d965b824e3cc185b63656f6cc1e8bc558773c00e58d73c027",
+      "beforeMetrics": {
+        "composite0": 19.79588508605957,
+        "composite48": 17.919328689575195,
+        "composite255": 21.0423583984375,
+        "opaqueRgb": 25.508819580078125,
+        "alpha": 13.816428184509277,
+        "upperCenterRgb": 27.813671112060547
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11792,
+      "savedBytes": 1311,
+      "metrics": {
+        "composite0": 14.670866012573242,
+        "composite48": 13.085578918457031,
+        "composite255": 13.641009330749512,
+        "opaqueRgb": 15.469881057739258,
+        "alpha": 9.106073379516602,
+        "upperCenterRgb": 16.95490837097168
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "7ac72d555a6fe9932198fc5913a46b040972a9b6b4f12b385163d30d575489b2",
+      "image": "hanae_06face",
+      "file": "images/hanae_06face.png",
+      "beforeBytes": 13103,
+      "beforeSha256": "80e8bdb2fd7b9d506b65eb1ca32b16bfa1f8b6c4d1e7d4b07ddfc3852d61dc05",
+      "beforeMetrics": {
+        "composite0": 19.248994827270508,
+        "composite48": 17.594371795654297,
+        "composite255": 20.739641189575195,
+        "opaqueRgb": 25.457712173461914,
+        "alpha": 12.664817810058594,
+        "upperCenterRgb": 27.720333099365234
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 12606,
+      "savedBytes": 777,
+      "metrics": {
+        "composite0": 13.369293212890625,
+        "composite48": 11.730598449707031,
+        "composite255": 11.592366218566895,
+        "opaqueRgb": 12.621173858642578,
+        "alpha": 8.53527545928955,
+        "upperCenterRgb": 13.3364839553833
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "42354bf0f224a4fa59644b5d7197c4560798f4f31f84f0f45d12e1e3a9f1b4fe",
+      "image": "hanae_06face+",
+      "file": "images/hanae_06face+.png",
+      "beforeBytes": 13383,
+      "beforeSha256": "15ba54e96aecd3257f97f15ca067e9866c009b9879c515df86f95ffc28d1b25a",
+      "beforeMetrics": {
+        "composite0": 19.49603843688965,
+        "composite48": 17.673707962036133,
+        "composite255": 20.976804733276367,
+        "opaqueRgb": 25.30591583251953,
+        "alpha": 13.750171661376953,
+        "upperCenterRgb": 27.350208282470703
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11667,
+      "savedBytes": 1458,
+      "metrics": {
+        "composite0": 14.86422348022461,
+        "composite48": 13.246769905090332,
+        "composite255": 13.847378730773926,
+        "opaqueRgb": 15.189775466918945,
+        "alpha": 9.332605361938477,
+        "upperCenterRgb": 16.27103042602539
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "121918dadf77d5643197b887332372f6662608dbb00022065c7be64379ca18c8",
+      "image": "hanae_07face",
+      "file": "images/hanae_07face.png",
+      "beforeBytes": 13125,
+      "beforeSha256": "7575966eb9ab7a8a0fcbb7f1f3c7acbacbc3ef975cfab55af907ce3dfe65a6dc",
+      "beforeMetrics": {
+        "composite0": 19.112369537353516,
+        "composite48": 17.491424560546875,
+        "composite255": 20.847068786621094,
+        "opaqueRgb": 25.41596031188965,
+        "alpha": 12.745065689086914,
+        "upperCenterRgb": 27.702394485473633
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 12409,
+      "savedBytes": 1012,
+      "metrics": {
+        "composite0": 12.83814525604248,
+        "composite48": 11.299394607543945,
+        "composite255": 12.205636024475098,
+        "opaqueRgb": 12.949362754821777,
+        "alpha": 9.290995597839355,
+        "upperCenterRgb": 13.748197555541992
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "c4ffa9f5e1e948b238beabb590f6dfe1a0d3643d65a6f41879ebd25f1964c99b",
+      "image": "hanae_07face+",
+      "file": "images/hanae_07face+.png",
+      "beforeBytes": 13421,
+      "beforeSha256": "cdd64a6bb805fe7a733b6dbaa5c20caa485a7cada49c1d3a3ba407a670323a6e",
+      "beforeMetrics": {
+        "composite0": 19.757993698120117,
+        "composite48": 17.893726348876953,
+        "composite255": 21.084888458251953,
+        "opaqueRgb": 25.49677848815918,
+        "alpha": 13.835084915161133,
+        "upperCenterRgb": 27.865266799926758
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 12407,
+      "savedBytes": 732,
+      "metrics": {
+        "composite0": 13.011587142944336,
+        "composite48": 11.584513664245605,
+        "composite255": 11.770819664001465,
+        "opaqueRgb": 13.175047874450684,
+        "alpha": 7.810830593109131,
+        "upperCenterRgb": 13.665908813476562
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "59002b6e5a3205d5b63c8f355abf270752bd149ee8c5e16ff4f6c9f5d1d9511b",
+      "image": "hanae_08face",
+      "file": "images/hanae_08face.png",
+      "beforeBytes": 13139,
+      "beforeSha256": "3de61a6acae7c3f726f603a9a0de2b1dd2f0b63e3d864df67f8d63df2c0ee65a",
+      "beforeMetrics": {
+        "composite0": 19.111909866333008,
+        "composite48": 17.499128341674805,
+        "composite255": 20.84752655029297,
+        "opaqueRgb": 25.460369110107422,
+        "alpha": 12.692753791809082,
+        "upperCenterRgb": 27.742788314819336
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11533,
+      "savedBytes": 1882,
+      "metrics": {
+        "composite0": 15.37294864654541,
+        "composite48": 13.639777183532715,
+        "composite255": 13.887365341186523,
+        "opaqueRgb": 16.40473175048828,
+        "alpha": 9.512470245361328,
+        "upperCenterRgb": 16.832120895385742
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "692269a062153f32e9491244c4f1a74d43f3b2eb9c91970e43ba55472641e5fe",
+      "image": "hanae_08face+",
+      "file": "images/hanae_08face+.png",
+      "beforeBytes": 13415,
+      "beforeSha256": "e5cbde9124c466ca6682e03fba30f2dc83057987f907d632a7a00b9b961bc64c",
+      "beforeMetrics": {
+        "composite0": 19.777793884277344,
+        "composite48": 17.922739028930664,
+        "composite255": 21.135459899902344,
+        "opaqueRgb": 25.534696578979492,
+        "alpha": 13.81269645690918,
+        "upperCenterRgb": 27.98678970336914
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11608,
+      "savedBytes": 1512,
+      "metrics": {
+        "composite0": 14.887738227844238,
+        "composite48": 13.147648811340332,
+        "composite255": 13.869400978088379,
+        "opaqueRgb": 15.7329683303833,
+        "alpha": 10.133346557617188,
+        "upperCenterRgb": 16.533817291259766
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "d29ea0e465210b83333d14f7e0d934c8a01582dbc69e9dec784f08e19d92ec62",
+      "image": "hanae_09face",
+      "file": "images/hanae_09face.png",
+      "beforeBytes": 13120,
+      "beforeSha256": "1a0595bb4fd9816ca1880828d6e5a59b08ce65bf487f08100177f468b254d274",
+      "beforeMetrics": {
+        "composite0": 19.11736297607422,
+        "composite48": 17.477174758911133,
+        "composite255": 20.7884464263916,
+        "opaqueRgb": 25.280656814575195,
+        "alpha": 12.792640686035156,
+        "upperCenterRgb": 27.367454528808594
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 12693,
+      "savedBytes": 709,
+      "metrics": {
+        "composite0": 13.635099411010742,
+        "composite48": 11.934402465820312,
+        "composite255": 11.491463661193848,
+        "opaqueRgb": 12.799287796020508,
+        "alpha": 8.489296913146973,
+        "upperCenterRgb": 14.113858222961426
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "4f38444e374c78678b31488d1ee26f8998e06f029f0cc654f8a8f1a200b00be8",
+      "image": "hanae_09face+",
+      "file": "images/hanae_09face+.png",
+      "beforeBytes": 13402,
+      "beforeSha256": "93a7aed897d32b7bbe4fba1abca834c07e39a581913cf7d68a4b3b4a0e3bdd9c",
+      "beforeMetrics": {
+        "composite0": 19.78575325012207,
+        "composite48": 17.907487869262695,
+        "composite255": 20.97872543334961,
+        "opaqueRgb": 25.421096801757812,
+        "alpha": 13.761709213256836,
+        "upperCenterRgb": 27.587589263916016
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11864,
+      "savedBytes": 1274,
+      "metrics": {
+        "composite0": 15.091581344604492,
+        "composite48": 13.304868698120117,
+        "composite255": 13.643823623657227,
+        "opaqueRgb": 15.092166900634766,
+        "alpha": 9.909465789794922,
+        "upperCenterRgb": 16.689970016479492
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "331ef0623758a8f19846570a3e06fd36c53f6ab40ffbecaca99720a71024c449",
+      "image": "hanae_10face",
+      "file": "images/hanae_10face.png",
+      "beforeBytes": 13138,
+      "beforeSha256": "d4628b5e68cfb03f5c063ada07edca0817afec354142d84571719af68a060c3e",
+      "beforeMetrics": {
+        "composite0": 19.08680534362793,
+        "composite48": 17.466106414794922,
+        "composite255": 20.87904930114746,
+        "opaqueRgb": 25.40996742248535,
+        "alpha": 12.814316749572754,
+        "upperCenterRgb": 27.621273040771484
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11782,
+      "savedBytes": 1625,
+      "metrics": {
+        "composite0": 15.158548355102539,
+        "composite48": 13.30005931854248,
+        "composite255": 13.725635528564453,
+        "opaqueRgb": 15.438876152038574,
+        "alpha": 10.397486686706543,
+        "upperCenterRgb": 16.416105270385742
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "46e911abe22d3ebf5a3187771412531e906016cefd321997e280cf9fef571e69",
+      "image": "hanae_10face+",
+      "file": "images/hanae_10face+.png",
+      "beforeBytes": 13407,
+      "beforeSha256": "75fcb710fad14a68703276f64c0d942c98bfbc24f742c8909da6fc69be04bfc6",
+      "beforeMetrics": {
+        "composite0": 19.858474731445312,
+        "composite48": 17.978599548339844,
+        "composite255": 21.040414810180664,
+        "opaqueRgb": 25.60403060913086,
+        "alpha": 13.758641242980957,
+        "upperCenterRgb": 27.88892936706543
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 12390,
+      "savedBytes": 606,
+      "metrics": {
+        "composite0": 12.559383392333984,
+        "composite48": 11.221329689025879,
+        "composite255": 11.080379486083984,
+        "opaqueRgb": 13.022119522094727,
+        "alpha": 6.934775352478027,
+        "upperCenterRgb": 13.633333206176758
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "516d023e271916629fac778993a33b8a786de9ca3325ca1ad7aa55257296c53e",
+      "image": "hanae_11face",
+      "file": "images/hanae_11face.png",
+      "beforeBytes": 12996,
+      "beforeSha256": "adb2775e08681bcf05cdbdcb0d81740db54d2bdbab3daaa8247b0a4a64844bd4",
+      "beforeMetrics": {
+        "composite0": 18.86760711669922,
+        "composite48": 17.234188079833984,
+        "composite255": 20.435413360595703,
+        "opaqueRgb": 24.89082908630371,
+        "alpha": 12.62109661102295,
+        "upperCenterRgb": 26.599029541015625
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11664,
+      "savedBytes": 1610,
+      "metrics": {
+        "composite0": 14.879921913146973,
+        "composite48": 13.300162315368652,
+        "composite255": 14.185745239257812,
+        "opaqueRgb": 15.673747062683105,
+        "alpha": 9.483405113220215,
+        "upperCenterRgb": 16.701295852661133
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "8dfb1b3cd7a4c6cdf0b959b8e95d26dfd40ee0a24fdeb4e84455fb10b19294fc",
+      "image": "hanae_11face+",
+      "file": "images/hanae_11face+.png",
+      "beforeBytes": 13274,
+      "beforeSha256": "404de8b854a51c10b83035934ccddbef4948e713cfd4b76b41936f14c95704cf",
+      "beforeMetrics": {
+        "composite0": 19.500463485717773,
+        "composite48": 17.628726959228516,
+        "composite255": 20.700326919555664,
+        "opaqueRgb": 24.964555740356445,
+        "alpha": 13.72746467590332,
+        "upperCenterRgb": 26.697175979614258
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 12196,
+      "savedBytes": 799,
+      "metrics": {
+        "composite0": 12.846270561218262,
+        "composite48": 11.242818832397461,
+        "composite255": 10.953133583068848,
+        "opaqueRgb": 12.0950927734375,
+        "alpha": 8.161478996276855,
+        "upperCenterRgb": 12.511454582214355
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "042cb1c3ddd4d2738617a07e1a18c4b2ba542224889fd815ba329296523c957c",
+      "image": "hanae_12face",
+      "file": "images/hanae_12face.png",
+      "beforeBytes": 12995,
+      "beforeSha256": "1dd23ae2906d5217da5959c72aaede8dc9184cc9124709a402ee5f11d42cf560",
+      "beforeMetrics": {
+        "composite0": 18.75185775756836,
+        "composite48": 17.13764762878418,
+        "composite255": 20.56154441833496,
+        "opaqueRgb": 24.826732635498047,
+        "alpha": 12.793352127075195,
+        "upperCenterRgb": 26.47987937927246
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11632,
+      "savedBytes": 1648,
+      "metrics": {
+        "composite0": 14.80538272857666,
+        "composite48": 13.16259765625,
+        "composite255": 13.38480281829834,
+        "opaqueRgb": 15.000452041625977,
+        "alpha": 9.001030921936035,
+        "upperCenterRgb": 15.372538566589355
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "002209b72d90d3447fc3ce4a90efd9ea92cc2f3388178296f767031d4ce93943",
+      "image": "hanae_12face+",
+      "file": "images/hanae_12face+.png",
+      "beforeBytes": 13280,
+      "beforeSha256": "4e30ff56851f9339b1ea24c8cf74d1ff4a96c08c4dfb0591938e2e8140155e04",
+      "beforeMetrics": {
+        "composite0": 19.52569007873535,
+        "composite48": 17.664339065551758,
+        "composite255": 20.811946868896484,
+        "opaqueRgb": 25.042835235595703,
+        "alpha": 13.765932083129883,
+        "upperCenterRgb": 26.74177360534668
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11756,
+      "savedBytes": 1371,
+      "metrics": {
+        "composite0": 14.793682098388672,
+        "composite48": 13.03583812713623,
+        "composite255": 13.200700759887695,
+        "opaqueRgb": 15.175273895263672,
+        "alpha": 9.541633605957031,
+        "upperCenterRgb": 16.95245361328125
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "3ce54e14a37c2c8e9e47b18c53c33e37d488644aecbbc588cbca8483804fabfa",
+      "image": "hanae_13face",
+      "file": "images/hanae_13face.png",
+      "beforeBytes": 13127,
+      "beforeSha256": "e18a922c61bdb82a9e7a9756ebdca5e7288f72e6143a59b03cc0e0cc1dddf870",
+      "beforeMetrics": {
+        "composite0": 19.04234504699707,
+        "composite48": 17.428951263427734,
+        "composite255": 20.874805450439453,
+        "opaqueRgb": 25.37884521484375,
+        "alpha": 12.816059112548828,
+        "upperCenterRgb": 27.570453643798828
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11623,
+      "savedBytes": 1770,
+      "metrics": {
+        "composite0": 14.821293830871582,
+        "composite48": 13.255204200744629,
+        "composite255": 13.574641227722168,
+        "opaqueRgb": 15.874515533447266,
+        "alpha": 8.713349342346191,
+        "upperCenterRgb": 16.558988571166992
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "f8fc3f49914346ea70b9bde7d1c5fe6eb453006d13bdd53162b2b2e374617019",
+      "image": "hanae_13face+",
+      "file": "images/hanae_13face+.png",
+      "beforeBytes": 13393,
+      "beforeSha256": "ad596cb7c2878505ca6b76f03d8e0f058f7ecc6fee2980dc8f881176dbc5c39d",
+      "beforeMetrics": {
+        "composite0": 19.655349731445312,
+        "composite48": 17.810863494873047,
+        "composite255": 21.06509017944336,
+        "opaqueRgb": 25.445560455322266,
+        "alpha": 13.807663917541504,
+        "upperCenterRgb": 27.726686477661133
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 12555,
+      "savedBytes": 560,
+      "metrics": {
+        "composite0": 12.50136661529541,
+        "composite48": 11.043225288391113,
+        "composite255": 11.554194450378418,
+        "opaqueRgb": 13.087968826293945,
+        "alpha": 8.375834465026855,
+        "upperCenterRgb": 13.945757865905762
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "8c72d16c88284fa8884dabd03399f88fd74db3a55e9ee603318f21d118605db1",
+      "image": "hanae_14face",
+      "file": "images/hanae_14face.png",
+      "beforeBytes": 13115,
+      "beforeSha256": "4d9ae82003d636993e25d7daf9db8597f0e650f8427d0d71e78201ba8fa4cba6",
+      "beforeMetrics": {
+        "composite0": 19.111719131469727,
+        "composite48": 17.490703582763672,
+        "composite255": 20.846057891845703,
+        "opaqueRgb": 25.414730072021484,
+        "alpha": 12.745065689086914,
+        "upperCenterRgb": 27.691909790039062
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11549,
+      "savedBytes": 1854,
+      "metrics": {
+        "composite0": 15.437410354614258,
+        "composite48": 13.494599342346191,
+        "composite255": 13.861830711364746,
+        "opaqueRgb": 15.431838035583496,
+        "alpha": 10.773566246032715,
+        "upperCenterRgb": 16.674785614013672
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "a8fadcf6cb531b51f676c709a16c5d1ef211889e1bda5e4555829563f374898e",
+      "image": "hanae_14face+",
+      "file": "images/hanae_14face+.png",
+      "beforeBytes": 13403,
+      "beforeSha256": "7e89a3309d8ef87f8b85741211e194c2f87f9a39947c240d6126f9eaba529208",
+      "beforeMetrics": {
+        "composite0": 19.756267547607422,
+        "composite48": 17.89202880859375,
+        "composite255": 21.083322525024414,
+        "opaqueRgb": 25.494035720825195,
+        "alpha": 13.835084915161133,
+        "upperCenterRgb": 27.85938835144043
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11558,
+      "savedBytes": 1537,
+      "metrics": {
+        "composite0": 15.047844886779785,
+        "composite48": 13.394521713256836,
+        "composite255": 13.472051620483398,
+        "opaqueRgb": 15.350152969360352,
+        "alpha": 8.878780364990234,
+        "upperCenterRgb": 16.09421157836914
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "46fc5e87be7ce7287a12079d2f032c61260929a3ac0b91376e58755b82bbc3ba",
+      "image": "hanae_15face",
+      "file": "images/hanae_15face.png",
+      "beforeBytes": 13095,
+      "beforeSha256": "cf9103dbc6ae2869beb51f5687f764fad01c870947226e378cc577dae49aa16a",
+      "beforeMetrics": {
+        "composite0": 18.97692108154297,
+        "composite48": 17.380111694335938,
+        "composite255": 20.766002655029297,
+        "opaqueRgb": 25.303991317749023,
+        "alpha": 12.65408992767334,
+        "upperCenterRgb": 27.43463706970215
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 11864,
+      "savedBytes": 1102,
+      "metrics": {
+        "composite0": 14.692292213439941,
+        "composite48": 13.072515487670898,
+        "composite255": 13.071245193481445,
+        "opaqueRgb": 15.034783363342285,
+        "alpha": 8.603495597839355,
+        "upperCenterRgb": 15.141364097595215
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "58365a18f11f97bf55e17ff4f54a75d015bbfddf732869c050f1e7f2b498b2ba",
+      "image": "hanae_17face",
+      "file": "images/hanae_17face.png",
+      "beforeBytes": 12966,
+      "beforeSha256": "147cb38a68c507f10c209f235bb4f053a51dd9af997ec197098cc23199755dfd",
+      "beforeMetrics": {
+        "composite0": 18.855119705200195,
+        "composite48": 17.257434844970703,
+        "composite255": 20.584754943847656,
+        "opaqueRgb": 24.979421615600586,
+        "alpha": 12.5866060256958,
+        "upperCenterRgb": 26.82375717163086
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15969,
+      "savedBytes": 1019,
+      "metrics": {
+        "composite0": 15.925458908081055,
+        "composite48": 14.326299667358398,
+        "composite255": 14.78149700164795,
+        "opaqueRgb": 17.955387115478516,
+        "alpha": 9.05628776550293,
+        "upperCenterRgb": 24.156614303588867
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "f20b98f7d470954749c000fe43e21855cf610f44fe56c2634fcca64f6f224f63",
+      "image": "jibie_01face",
+      "file": "images/jibie_01face.png",
+      "beforeBytes": 16988,
+      "beforeSha256": "d312169e902bff68e6f882fb75c2a44c740a8dacd64eb6f9ec0fdcd78f422fc3",
+      "beforeMetrics": {
+        "composite0": 26.432592391967773,
+        "composite48": 23.490205764770508,
+        "composite255": 22.959957122802734,
+        "opaqueRgb": 32.65628433227539,
+        "alpha": 14.978221893310547,
+        "upperCenterRgb": 34.84029006958008
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 15108,
+      "savedBytes": 1887,
+      "metrics": {
+        "composite0": 18.245214462280273,
+        "composite48": 16.191335678100586,
+        "composite255": 16.61969757080078,
+        "opaqueRgb": 20.114437103271484,
+        "alpha": 11.438918113708496,
+        "upperCenterRgb": 26.860713958740234
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "608ac24ce5a405f27c027a52d2c7f8156dd4ba2a6ba078f415f193ecca8605ca",
+      "image": "jibie_02face",
+      "file": "images/jibie_02face.png",
+      "beforeBytes": 16995,
+      "beforeSha256": "c0e25f5685900cd253ec77cf4f5ff62fe9752a7ea8c559a8c3e6742fbae900a3",
+      "beforeMetrics": {
+        "composite0": 26.45274543762207,
+        "composite48": 23.51022720336914,
+        "composite255": 22.97939682006836,
+        "opaqueRgb": 32.69137191772461,
+        "alpha": 14.978221893310547,
+        "upperCenterRgb": 34.91865539550781
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15813,
+      "savedBytes": 1168,
+      "metrics": {
+        "composite0": 15.85416030883789,
+        "composite48": 14.401670455932617,
+        "composite255": 14.860639572143555,
+        "opaqueRgb": 18.297637939453125,
+        "alpha": 8.281744956970215,
+        "upperCenterRgb": 24.76056671142578
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "f692e4fc4911191f102509f7992cbaf4b23618a5305f07d1239b9e5580269d56",
+      "image": "jibie_03face",
+      "file": "images/jibie_03face.png",
+      "beforeBytes": 16981,
+      "beforeSha256": "6dcc71414d3497cab35d8c62881396def0fde2d5bcb21fe29795c9c646b808d7",
+      "beforeMetrics": {
+        "composite0": 26.4392147064209,
+        "composite48": 23.496793746948242,
+        "composite255": 22.966384887695312,
+        "opaqueRgb": 32.66827392578125,
+        "alpha": 14.978221893310547,
+        "upperCenterRgb": 34.86705017089844
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16152,
+      "savedBytes": 817,
+      "metrics": {
+        "composite0": 16.156749725341797,
+        "composite48": 14.521787643432617,
+        "composite255": 14.911858558654785,
+        "opaqueRgb": 18.171844482421875,
+        "alpha": 9.166261672973633,
+        "upperCenterRgb": 24.27374267578125
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "14729dc9e6e4cfdad753ebeb14e1f5be09135d439823f24b291a5faa969c1d95",
+      "image": "jibie_04face",
+      "file": "images/jibie_04face.png",
+      "beforeBytes": 16969,
+      "beforeSha256": "89b910382bdadfbe57e1a780252071dc1dac636a7b4a9bb8b6b53d1ac845628c",
+      "beforeMetrics": {
+        "composite0": 26.546613693237305,
+        "composite48": 23.571996688842773,
+        "composite255": 22.93862533569336,
+        "opaqueRgb": 32.6146240234375,
+        "alpha": 15.02245044708252,
+        "upperCenterRgb": 34.748619079589844
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15876,
+      "savedBytes": 1132,
+      "metrics": {
+        "composite0": 15.816934585571289,
+        "composite48": 14.254239082336426,
+        "composite255": 14.784928321838379,
+        "opaqueRgb": 17.998937606811523,
+        "alpha": 8.95557689666748,
+        "upperCenterRgb": 23.98825454711914
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "58eafa1063c5146680567a76cd54287729f48ffe7632ae1d2be80d2b7aa2a704",
+      "image": "jibie_05face",
+      "file": "images/jibie_05face.png",
+      "beforeBytes": 17008,
+      "beforeSha256": "ed3d51f54214d3de86bd0407390b12a6e817150d9532dc5aafe11bb76824f39b",
+      "beforeMetrics": {
+        "composite0": 26.639039993286133,
+        "composite48": 23.68065643310547,
+        "composite255": 23.081405639648438,
+        "opaqueRgb": 32.87921142578125,
+        "alpha": 14.978221893310547,
+        "upperCenterRgb": 35.24626159667969
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 15042,
+      "savedBytes": 1966,
+      "metrics": {
+        "composite0": 18.124187469482422,
+        "composite48": 16.49973487854004,
+        "composite255": 17.243494033813477,
+        "opaqueRgb": 21.192712783813477,
+        "alpha": 9.546136856079102,
+        "upperCenterRgb": 27.65590476989746
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "09c4ad76c65f2e29fcbd685b2ee38ac94a7a1deb142d07d3223434438f75a434",
+      "image": "jibie_06face",
+      "file": "images/jibie_06face.png",
+      "beforeBytes": 17008,
+      "beforeSha256": "796f9395511b534b6cf0726152a5c03486a50f465ff076ae98790f7ab606dcfd",
+      "beforeMetrics": {
+        "composite0": 26.775487899780273,
+        "composite48": 23.772029876708984,
+        "composite255": 23.076074600219727,
+        "opaqueRgb": 32.87217330932617,
+        "alpha": 15.098564147949219,
+        "upperCenterRgb": 35.18366241455078
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14778,
+      "savedBytes": 2178,
+      "metrics": {
+        "composite0": 17.901334762573242,
+        "composite48": 16.167266845703125,
+        "composite255": 16.392927169799805,
+        "opaqueRgb": 20.21120834350586,
+        "alpha": 9.490217208862305,
+        "upperCenterRgb": 27.290203094482422
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "d3231a7ed6f3aa88eec130e92fc9895717304a31c649bf3da69d3a404b2d3128",
+      "image": "jibie_07face",
+      "file": "images/jibie_07face.png",
+      "beforeBytes": 16956,
+      "beforeSha256": "454a6ff40f39887d20b1f0daec0d99ea3e10c8fe02fcb4d465a16643ae33444f",
+      "beforeMetrics": {
+        "composite0": 26.421703338623047,
+        "composite48": 23.43838882446289,
+        "composite255": 22.844768524169922,
+        "opaqueRgb": 32.45037841796875,
+        "alpha": 15.117587089538574,
+        "upperCenterRgb": 34.533714294433594
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16285,
+      "savedBytes": 657,
+      "metrics": {
+        "composite0": 15.808905601501465,
+        "composite48": 14.241823196411133,
+        "composite255": 14.663092613220215,
+        "opaqueRgb": 17.91515350341797,
+        "alpha": 8.844084739685059,
+        "upperCenterRgb": 23.289335250854492
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "dacaedf9cd500511ff09e6576cf77335ce7a90c181181f181fb01de6f2bc2c60",
+      "image": "jibie_08face",
+      "file": "images/jibie_08face.png",
+      "beforeBytes": 16942,
+      "beforeSha256": "87b4784ec550bf3ce68ec3efb70dc61f0ea965bb1957887074b77d549bcf18da",
+      "beforeMetrics": {
+        "composite0": 26.671615600585938,
+        "composite48": 23.61668586730957,
+        "composite255": 22.846961975097656,
+        "opaqueRgb": 32.44900131225586,
+        "alpha": 15.281137466430664,
+        "upperCenterRgb": 34.44175338745117
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 15244,
+      "savedBytes": 1504,
+      "metrics": {
+        "composite0": 17.283313751220703,
+        "composite48": 15.580841064453125,
+        "composite255": 15.513503074645996,
+        "opaqueRgb": 19.296340942382812,
+        "alpha": 8.961433410644531,
+        "upperCenterRgb": 24.02777099609375
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "221e80b6037114a77b54d4fb7cff0f44eb205c1c92514a0177fe518181667e73",
+      "image": "jibie_09face",
+      "file": "images/jibie_09face.png",
+      "beforeBytes": 16748,
+      "beforeSha256": "5a4834e3a0117c2755f41b3861c909db0b1b6df1dfc4b57f0865f5fc4521a7df",
+      "beforeMetrics": {
+        "composite0": 25.715059280395508,
+        "composite48": 22.892318725585938,
+        "composite255": 22.321746826171875,
+        "opaqueRgb": 31.794130325317383,
+        "alpha": 14.292959213256836,
+        "upperCenterRgb": 33.01229476928711
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 15014,
+      "savedBytes": 1752,
+      "metrics": {
+        "composite0": 17.163965225219727,
+        "composite48": 15.232867240905762,
+        "composite255": 15.767147064208984,
+        "opaqueRgb": 18.438867568969727,
+        "alpha": 10.917119026184082,
+        "upperCenterRgb": 22.987070083618164
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "c60bd058b083a8f273450b95f0f332b1d0b710739ecdf2d0c9fa27915ac465bc",
+      "image": "jibie_10face",
+      "file": "images/jibie_10face.png",
+      "beforeBytes": 16766,
+      "beforeSha256": "b495e835daa00d223537ac147209dd94f33f88afdd96e27dbc724c0c87a1015a",
+      "beforeMetrics": {
+        "composite0": 25.78775978088379,
+        "composite48": 22.95149803161621,
+        "composite255": 22.351932525634766,
+        "opaqueRgb": 31.863773345947266,
+        "alpha": 14.329052925109863,
+        "upperCenterRgb": 33.08976364135742
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16194,
+      "savedBytes": 547,
+      "metrics": {
+        "composite0": 14.979473114013672,
+        "composite48": 13.378817558288574,
+        "composite255": 14.374238967895508,
+        "opaqueRgb": 16.1477108001709,
+        "alpha": 9.729729652404785,
+        "upperCenterRgb": 20.17963981628418
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "799041d8d4bc35484812bed55afdb60631adbadddc91085fd3d97b1fb417d6a9",
+      "image": "jibie_11face",
+      "file": "images/jibie_11face.png",
+      "beforeBytes": 16741,
+      "beforeSha256": "4a6c24faa8fc04ae1ff447882f2544cd04a42239019fd47631c96938be38f647",
+      "beforeMetrics": {
+        "composite0": 25.537485122680664,
+        "composite48": 22.726848602294922,
+        "composite255": 22.181560516357422,
+        "opaqueRgb": 31.606525421142578,
+        "alpha": 14.259793281555176,
+        "upperCenterRgb": 32.654170989990234
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14776,
+      "savedBytes": 1975,
+      "metrics": {
+        "composite0": 17.464048385620117,
+        "composite48": 15.699539184570312,
+        "composite255": 15.843466758728027,
+        "opaqueRgb": 19.40738296508789,
+        "alpha": 9.55125617980957,
+        "upperCenterRgb": 24.162080764770508
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "3f292a3b501754a7edd05c946965fae2bd4bbc8776977e1203305709482c3c0c",
+      "image": "jibie_12face",
+      "file": "images/jibie_12face.png",
+      "beforeBytes": 16751,
+      "beforeSha256": "1f69f8dad179c9295e82106e5bbab1e362e7034ce976887a553f96d821746119",
+      "beforeMetrics": {
+        "composite0": 25.552213668823242,
+        "composite48": 22.741336822509766,
+        "composite255": 22.195005416870117,
+        "opaqueRgb": 31.630931854248047,
+        "alpha": 14.259793281555176,
+        "upperCenterRgb": 32.708641052246094
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14847,
+      "savedBytes": 1888,
+      "metrics": {
+        "composite0": 17.25079345703125,
+        "composite48": 15.333847045898438,
+        "composite255": 15.617116928100586,
+        "opaqueRgb": 18.700199127197266,
+        "alpha": 10.532732009887695,
+        "upperCenterRgb": 22.952037811279297
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "f5e62fdbc43b9fe3db5df6facb7ca6a8713ce4240f29f0234c57db5186e72ec6",
+      "image": "jibie_13face",
+      "file": "images/jibie_13face.png",
+      "beforeBytes": 16735,
+      "beforeSha256": "ea0b5ef893008e105bb384dd42244bacc2c01960baf2691b988802765828154b",
+      "beforeMetrics": {
+        "composite0": 25.5170955657959,
+        "composite48": 22.70508575439453,
+        "composite255": 22.16743278503418,
+        "opaqueRgb": 31.56182098388672,
+        "alpha": 14.276495933532715,
+        "upperCenterRgb": 32.5532112121582
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 15115,
+      "savedBytes": 1838,
+      "metrics": {
+        "composite0": 18.660608291625977,
+        "composite48": 16.61579704284668,
+        "composite255": 16.80257797241211,
+        "opaqueRgb": 20.668947219848633,
+        "alpha": 11.093141555786133,
+        "upperCenterRgb": 27.416383743286133
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "22b05059078165a13278889ca8c0780269c1b8d5856cf3996f931bfc67b89c36",
+      "image": "jibie_14face",
+      "file": "images/jibie_14face.png",
+      "beforeBytes": 16953,
+      "beforeSha256": "75d448626f75a622a6e5102bdb0387acf692187045153ffb2d041d250c461ca6",
+      "beforeMetrics": {
+        "composite0": 26.76743507385254,
+        "composite48": 23.70259666442871,
+        "composite255": 22.887845993041992,
+        "opaqueRgb": 32.52787399291992,
+        "alpha": 15.278295516967773,
+        "upperCenterRgb": 34.72492599487305
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 15061,
+      "savedBytes": 1885,
+      "metrics": {
+        "composite0": 18.625225067138672,
+        "composite48": 16.6632137298584,
+        "composite255": 17.193632125854492,
+        "opaqueRgb": 21.055540084838867,
+        "alpha": 11.07661247253418,
+        "upperCenterRgb": 27.341867446899414
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "a565dede236b4dea6714cf1a666eb1451e82319bd47286f2876798099b8f14bd",
+      "image": "jibie_15face",
+      "file": "images/jibie_15face.png",
+      "beforeBytes": 16946,
+      "beforeSha256": "775fee20ec5066ad6c38bdc326a60680e8df447dd1291e8e340bb66b0579c39f",
+      "beforeMetrics": {
+        "composite0": 26.726581573486328,
+        "composite48": 23.684545516967773,
+        "composite255": 22.934518814086914,
+        "opaqueRgb": 32.617061614990234,
+        "alpha": 15.23688793182373,
+        "upperCenterRgb": 34.78715133666992
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14944,
+      "savedBytes": 1811,
+      "metrics": {
+        "composite0": 17.846006393432617,
+        "composite48": 15.818924903869629,
+        "composite255": 15.780386924743652,
+        "opaqueRgb": 18.76643180847168,
+        "alpha": 10.721400260925293,
+        "upperCenterRgb": 23.0037899017334
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "e4ea7459545eeef64256c1a291db86a4398714946fa4952f8d78232de6bb8591",
+      "image": "jibie_17face",
+      "file": "images/jibie_17face.png",
+      "beforeBytes": 16755,
+      "beforeSha256": "4c59c1f17fcf8ec2918f4eb824369685f9411b907be413cb8d127b7e29adb63c",
+      "beforeMetrics": {
+        "composite0": 25.746984481811523,
+        "composite48": 22.911684036254883,
+        "composite255": 22.350154876708984,
+        "opaqueRgb": 31.809024810791016,
+        "alpha": 14.370808601379395,
+        "upperCenterRgb": 33.02305603027344
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14926,
+      "savedBytes": 1865,
+      "metrics": {
+        "composite0": 17.220474243164062,
+        "composite48": 15.545464515686035,
+        "composite255": 15.958888053894043,
+        "opaqueRgb": 19.68218231201172,
+        "alpha": 9.407791137695312,
+        "upperCenterRgb": 24.187421798706055
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "141ca2a18b07d35096f020ae3a9fdf3758b16d0744e711a5d412c2a51bb67d6d",
+      "image": "jibie_18face",
+      "file": "images/jibie_18face.png",
+      "beforeBytes": 16791,
+      "beforeSha256": "1466f21a094e8bf11852187f5ff23b73f76f15525e8e633a38adf1edf486c618",
+      "beforeMetrics": {
+        "composite0": 25.801218032836914,
+        "composite48": 22.968225479125977,
+        "composite255": 22.36168098449707,
+        "opaqueRgb": 31.899301528930664,
+        "alpha": 14.303089141845703,
+        "upperCenterRgb": 33.16494369506836
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14968,
+      "savedBytes": 1887,
+      "metrics": {
+        "composite0": 17.533838272094727,
+        "composite48": 15.475261688232422,
+        "composite255": 16.011199951171875,
+        "opaqueRgb": 18.569665908813477,
+        "alpha": 11.596394538879395,
+        "upperCenterRgb": 23.248504638671875
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "8655d91b2454c195df1b4d78af25b4e19122f5800b770a07b6c4155e789885ae",
+      "image": "jibie_19face",
+      "file": "images/jibie_19face.png",
+      "beforeBytes": 16855,
+      "beforeSha256": "a5a06e11ddc7fb981fd39ba96106cb6de8806c887f581a404ada8570442ba5d8",
+      "beforeMetrics": {
+        "composite0": 25.86780548095703,
+        "composite48": 23.04001235961914,
+        "composite255": 22.728164672851562,
+        "opaqueRgb": 31.92811393737793,
+        "alpha": 14.638497352600098,
+        "upperCenterRgb": 33.42038345336914
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14891,
+      "savedBytes": 1847,
+      "metrics": {
+        "composite0": 17.39112091064453,
+        "composite48": 15.589978218078613,
+        "composite255": 16.14883041381836,
+        "opaqueRgb": 19.241331100463867,
+        "alpha": 10.257017135620117,
+        "upperCenterRgb": 24.858369827270508
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "4d819696dac804f443ee00d443e61091f4ef413daf8a0f28b7e8ad4b37daa9fc",
+      "image": "jibie_20face",
+      "file": "images/jibie_20face.png",
+      "beforeBytes": 16738,
+      "beforeSha256": "7056e509a0a7ce28813a02439a13d57069928b152709e1f59de54da61e462678",
+      "beforeMetrics": {
+        "composite0": 25.694236755371094,
+        "composite48": 22.872211456298828,
+        "composite255": 22.341493606567383,
+        "opaqueRgb": 31.753028869628906,
+        "alpha": 14.338250160217285,
+        "upperCenterRgb": 32.955421447753906
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 15010,
+      "savedBytes": 1839,
+      "metrics": {
+        "composite0": 17.223112106323242,
+        "composite48": 15.205930709838867,
+        "composite255": 15.664844512939453,
+        "opaqueRgb": 18.2874755859375,
+        "alpha": 11.281614303588867,
+        "upperCenterRgb": 22.92536735534668
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "a62827d8857489395dece51e5fc7ee496e0aed1441b35d601470424de3ed1c9b",
+      "image": "jibie_21face",
+      "file": "images/jibie_21face.png",
+      "beforeBytes": 16849,
+      "beforeSha256": "59e7e265228da6782876a81135a7ccc503d1f43657af45f168819325b75123c3",
+      "beforeMetrics": {
+        "composite0": 25.777084350585938,
+        "composite48": 22.978322982788086,
+        "composite255": 22.595827102661133,
+        "opaqueRgb": 31.932249069213867,
+        "alpha": 14.397228240966797,
+        "upperCenterRgb": 33.3037109375
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16015,
+      "savedBytes": 1661,
+      "metrics": {
+        "composite0": 16.773115158081055,
+        "composite48": 14.462414741516113,
+        "composite255": 14.400291442871094,
+        "opaqueRgb": 17.548810958862305,
+        "alpha": 12.199057579040527,
+        "upperCenterRgb": 21.986209869384766
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "c56725dda8b5607ba6e4738d4b2526b593420de08bad5deda834342953000941",
+      "image": "karuha_01face",
+      "file": "images/karuha_01face.png",
+      "beforeBytes": 17676,
+      "beforeSha256": "4d03742cd9d4ebc5df7e0491240424025594c68da92c2b4e72d96f21eb0c34f6",
+      "beforeMetrics": {
+        "composite0": 24.411941528320312,
+        "composite48": 21.908340454101562,
+        "composite255": 25.10144805908203,
+        "opaqueRgb": 32.94035720825195,
+        "alpha": 17.233943939208984,
+        "upperCenterRgb": 38.74266815185547
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15771,
+      "savedBytes": 1906,
+      "metrics": {
+        "composite0": 17.124929428100586,
+        "composite48": 14.546459197998047,
+        "composite255": 14.569119453430176,
+        "opaqueRgb": 17.071443557739258,
+        "alpha": 13.726028442382812,
+        "upperCenterRgb": 21.3144474029541
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "cd86bb129d9ffaf2efc3fbb087ad39002ace7d8b00ac6d01f7ed35cfb558d46c",
+      "image": "karuha_02face",
+      "file": "images/karuha_02face.png",
+      "beforeBytes": 17677,
+      "beforeSha256": "8563f7668034efd60cbe3438ceeb28dce022192487e0c9a2566786d1635762ab",
+      "beforeMetrics": {
+        "composite0": 24.45723533630371,
+        "composite48": 21.93576431274414,
+        "composite255": 25.09136962890625,
+        "opaqueRgb": 32.94401931762695,
+        "alpha": 17.282699584960938,
+        "upperCenterRgb": 38.74999237060547
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16099,
+      "savedBytes": 1600,
+      "metrics": {
+        "composite0": 17.32127571105957,
+        "composite48": 14.76457691192627,
+        "composite255": 15.041119575500488,
+        "opaqueRgb": 17.283740997314453,
+        "alpha": 13.923123359680176,
+        "upperCenterRgb": 21.283246994018555
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "7a6ee652048ee87b4ac5406900313f31d1644f11dac067190813543ee92ee214",
+      "image": "karuha_03face",
+      "file": "images/karuha_03face.png",
+      "beforeBytes": 17699,
+      "beforeSha256": "00c2cca9bc9654bbbccc63e0df41a56ef9782b2cfd7bfb29c0ac27a27489e6a3",
+      "beforeMetrics": {
+        "composite0": 24.446874618530273,
+        "composite48": 21.932754516601562,
+        "composite255": 25.14443016052246,
+        "opaqueRgb": 33.009525299072266,
+        "alpha": 17.31269073486328,
+        "upperCenterRgb": 38.89167022705078
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16090,
+      "savedBytes": 1609,
+      "metrics": {
+        "composite0": 16.924358367919922,
+        "composite48": 14.666257858276367,
+        "composite255": 15.328296661376953,
+        "opaqueRgb": 17.956342697143555,
+        "alpha": 12.811721801757812,
+        "upperCenterRgb": 22.705244064331055
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "192d550468607b07cc5a707211a6d32d5fe584946ac8dde4f47b7306ed4c5d95",
+      "image": "karuha_04face",
+      "file": "images/karuha_04face.png",
+      "beforeBytes": 17699,
+      "beforeSha256": "38b30c8fa17bf172307f99deac38d3074fd5442d2aae65d84dcfe08d139679fe",
+      "beforeMetrics": {
+        "composite0": 24.44129180908203,
+        "composite48": 21.926849365234375,
+        "composite255": 25.13711166381836,
+        "opaqueRgb": 32.99602508544922,
+        "alpha": 17.31266975402832,
+        "upperCenterRgb": 38.86666488647461
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16306,
+      "savedBytes": 1420,
+      "metrics": {
+        "composite0": 17.052648544311523,
+        "composite48": 14.461528778076172,
+        "composite255": 15.152772903442383,
+        "opaqueRgb": 16.823692321777344,
+        "alpha": 14.616859436035156,
+        "upperCenterRgb": 21.310476303100586
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "7bfd3b0707fcdc9be3eef6e458dc2ceed924d47c8ed1552792de982ca48d871a",
+      "image": "karuha_05face",
+      "file": "images/karuha_05face.png",
+      "beforeBytes": 17726,
+      "beforeSha256": "a9496573090e8f5fc3ae8c52a0e0d79fffbb51e2b9c33f63282d2ce4fc980c6f",
+      "beforeMetrics": {
+        "composite0": 24.706228256225586,
+        "composite48": 22.13082504272461,
+        "composite255": 25.108491897583008,
+        "opaqueRgb": 33.064697265625,
+        "alpha": 17.349990844726562,
+        "upperCenterRgb": 38.836647033691406
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16138,
+      "savedBytes": 1544,
+      "metrics": {
+        "composite0": 16.345186233520508,
+        "composite48": 14.345773696899414,
+        "composite255": 14.645751953125,
+        "opaqueRgb": 17.6478271484375,
+        "alpha": 10.991408348083496,
+        "upperCenterRgb": 21.994821548461914
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "e6c48108890b5d5ca3a521e0b41719b63ba6ead9bcd0e9d0827eda78cd0ab185",
+      "image": "karuha_06face",
+      "file": "images/karuha_06face.png",
+      "beforeBytes": 17682,
+      "beforeSha256": "3682f5e09611aa3ecaa37b7b956de62583d1d8543b6ed122f8f6ff5809593206",
+      "beforeMetrics": {
+        "composite0": 24.5164852142334,
+        "composite48": 21.973573684692383,
+        "composite255": 25.062936782836914,
+        "opaqueRgb": 32.98361587524414,
+        "alpha": 17.314970016479492,
+        "upperCenterRgb": 38.88753890991211
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16102,
+      "savedBytes": 1570,
+      "metrics": {
+        "composite0": 16.638992309570312,
+        "composite48": 14.257637977600098,
+        "composite255": 14.575006484985352,
+        "opaqueRgb": 16.952238082885742,
+        "alpha": 13.041899681091309,
+        "upperCenterRgb": 21.033615112304688
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "22ef66665a99d49b3d6a885bf0316994bb4d551412590539641757807a508db3",
+      "image": "karuha_07face",
+      "file": "images/karuha_07face.png",
+      "beforeBytes": 17672,
+      "beforeSha256": "6fe93d35b58b651318ca2445a63c8280522865e3ab3c14e668404f8b3eab16f0",
+      "beforeMetrics": {
+        "composite0": 24.50888442993164,
+        "composite48": 21.971752166748047,
+        "composite255": 25.06427001953125,
+        "opaqueRgb": 32.99152374267578,
+        "alpha": 17.288156509399414,
+        "upperCenterRgb": 38.96407699584961
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14919,
+      "savedBytes": 2775,
+      "metrics": {
+        "composite0": 19.388656616210938,
+        "composite48": 16.837818145751953,
+        "composite255": 16.777231216430664,
+        "opaqueRgb": 21.46723175048828,
+        "alpha": 13.476704597473145,
+        "upperCenterRgb": 27.238954544067383
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "224d326dccbd06040dcc5dadb3150b4ed0e63df45cfc4c9d90aef3f7b5a8493c",
+      "image": "karuha_08face",
+      "file": "images/karuha_08face.png",
+      "beforeBytes": 17694,
+      "beforeSha256": "d202dfcac75569c8a38a4c2d93da28c3ea9bb817b54d893c7ff80f3423975db5",
+      "beforeMetrics": {
+        "composite0": 24.54686164855957,
+        "composite48": 21.97686195373535,
+        "composite255": 24.818286895751953,
+        "opaqueRgb": 32.89668273925781,
+        "alpha": 17.1534366607666,
+        "upperCenterRgb": 38.66543197631836
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15841,
+      "savedBytes": 1873,
+      "metrics": {
+        "composite0": 17.266300201416016,
+        "composite48": 14.629815101623535,
+        "composite255": 15.14423942565918,
+        "opaqueRgb": 17.074508666992188,
+        "alpha": 14.64004135131836,
+        "upperCenterRgb": 21.42151641845703
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "6bea8a6179b3c142fe66166e81a63b74b9503325a5c0120716abaea3f9a15bd9",
+      "image": "karuha_09face",
+      "file": "images/karuha_09face.png",
+      "beforeBytes": 17714,
+      "beforeSha256": "f02152f343d8243fd1b54ba1c164232eb43065736b0a2aa32af28255650caf46",
+      "beforeMetrics": {
+        "composite0": 24.536380767822266,
+        "composite48": 21.978967666625977,
+        "composite255": 24.93589973449707,
+        "opaqueRgb": 33.00786590576172,
+        "alpha": 17.228870391845703,
+        "upperCenterRgb": 38.88375473022461
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14684,
+      "savedBytes": 3010,
+      "metrics": {
+        "composite0": 18.63096046447754,
+        "composite48": 16.330516815185547,
+        "composite255": 17.105594635009766,
+        "opaqueRgb": 20.712766647338867,
+        "alpha": 13.175920486450195,
+        "upperCenterRgb": 25.17156219482422
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "6d119d63c33e8b38ad80734ee6c39755428cc80c192bff827f6ae6d73649bfb5",
+      "image": "karuha_10face",
+      "file": "images/karuha_10face.png",
+      "beforeBytes": 17694,
+      "beforeSha256": "74eb63298bc2f77c07627f778a69180635c1c0c12e9c55835bf9d0e6ca3cf6fa",
+      "beforeMetrics": {
+        "composite0": 24.554941177368164,
+        "composite48": 22.003450393676758,
+        "composite255": 25.20760726928711,
+        "opaqueRgb": 33.07487869262695,
+        "alpha": 17.501962661743164,
+        "upperCenterRgb": 39.006839752197266
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16161,
+      "savedBytes": 1528,
+      "metrics": {
+        "composite0": 16.095890045166016,
+        "composite48": 14.02239990234375,
+        "composite255": 14.489960670471191,
+        "opaqueRgb": 17.341197967529297,
+        "alpha": 11.591399192810059,
+        "upperCenterRgb": 21.733976364135742
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "d4e4fc3ec79d72312889e4a1ed6f549a44ae4b60e073db917b6f97ac7aabfd84",
+      "image": "karuha_11face",
+      "file": "images/karuha_11face.png",
+      "beforeBytes": 17689,
+      "beforeSha256": "cb54ce2e75f006620267bafad7829732e2d34dad57f10defa4023d2047071d84",
+      "beforeMetrics": {
+        "composite0": 24.65898895263672,
+        "composite48": 22.08899688720703,
+        "composite255": 25.19255256652832,
+        "opaqueRgb": 33.204402923583984,
+        "alpha": 17.476322174072266,
+        "upperCenterRgb": 39.26036071777344
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15949,
+      "savedBytes": 1649,
+      "metrics": {
+        "composite0": 16.351953506469727,
+        "composite48": 14.098616600036621,
+        "composite255": 14.490058898925781,
+        "opaqueRgb": 16.832765579223633,
+        "alpha": 12.453071594238281,
+        "upperCenterRgb": 20.640777587890625
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "92d28320093209c4ddb0a4511059ad4ffe9ea1a2a582219803e988d34c0ad5f7",
+      "image": "karuha_12face",
+      "file": "images/karuha_12face.png",
+      "beforeBytes": 17598,
+      "beforeSha256": "ec37ae393ee8c58a62f1e2a40854ecd2202ab410b1cfa611f58ccaffe4fb1a67",
+      "beforeMetrics": {
+        "composite0": 24.4357852935791,
+        "composite48": 21.946027755737305,
+        "composite255": 25.136272430419922,
+        "opaqueRgb": 33.04239273071289,
+        "alpha": 17.156864166259766,
+        "upperCenterRgb": 38.99723815917969
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16162,
+      "savedBytes": 1459,
+      "metrics": {
+        "composite0": 17.01791000366211,
+        "composite48": 14.529276847839355,
+        "composite255": 14.98298454284668,
+        "opaqueRgb": 16.876977920532227,
+        "alpha": 13.779767036437988,
+        "upperCenterRgb": 20.88268280029297
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "41aa10db8ea01d1beccc090f93983e955114de2eab725176dbe9f7ca471b7464",
+      "image": "karuha_13face",
+      "file": "images/karuha_13face.png",
+      "beforeBytes": 17621,
+      "beforeSha256": "19e73bb9609ce4a1ae2725a704ce0d45b0b7c2c0f82f82effafeb00d845658ca",
+      "beforeMetrics": {
+        "composite0": 24.62483787536621,
+        "composite48": 22.113920211791992,
+        "composite255": 25.23050308227539,
+        "opaqueRgb": 33.24773406982422,
+        "alpha": 17.17853546142578,
+        "upperCenterRgb": 39.25604248046875
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15514,
+      "savedBytes": 2115,
+      "metrics": {
+        "composite0": 17.17837142944336,
+        "composite48": 14.329821586608887,
+        "composite255": 14.834136962890625,
+        "opaqueRgb": 16.438268661499023,
+        "alpha": 15.754172325134277,
+        "upperCenterRgb": 20.308570861816406
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "6170402e070712ae42d00358e4aeb8379a96cf0fa448cdae71c19da6be02ede3",
+      "image": "karuha_14face",
+      "file": "images/karuha_14face.png",
+      "beforeBytes": 17629,
+      "beforeSha256": "9fcff06e8dcd12fac0d396c25ea9743b733b4e120f193a0fc61c74641afaf5ea",
+      "beforeMetrics": {
+        "composite0": 24.625890731811523,
+        "composite48": 22.10536766052246,
+        "composite255": 25.176118850708008,
+        "opaqueRgb": 33.23815155029297,
+        "alpha": 17.1731014251709,
+        "upperCenterRgb": 39.24831771850586
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15552,
+      "savedBytes": 2023,
+      "metrics": {
+        "composite0": 16.60044288635254,
+        "composite48": 14.26800537109375,
+        "composite255": 14.540046691894531,
+        "opaqueRgb": 17.012025833129883,
+        "alpha": 12.72618579864502,
+        "upperCenterRgb": 21.243648529052734
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "b4eded2eda5734255fa4385d07a72d2b9672197dc136487002bff20022298e12",
+      "image": "karuha_15face",
+      "file": "images/karuha_15face.png",
+      "beforeBytes": 17575,
+      "beforeSha256": "a9a2b0a4e7d8a3fb91707eb3cc7544e054b8484b0ead5407ab43d84395fac5d0",
+      "beforeMetrics": {
+        "composite0": 24.387096405029297,
+        "composite48": 21.910167694091797,
+        "composite255": 24.989957809448242,
+        "opaqueRgb": 33.00725555419922,
+        "alpha": 16.9526424407959,
+        "upperCenterRgb": 38.99592208862305
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16044,
+      "savedBytes": 1562,
+      "metrics": {
+        "composite0": 16.516082763671875,
+        "composite48": 14.339194297790527,
+        "composite255": 14.132390975952148,
+        "opaqueRgb": 17.621021270751953,
+        "alpha": 11.30996322631836,
+        "upperCenterRgb": 21.569175720214844
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "4f7da3dce23f041f09ffff7fa4c10226769dbf615996b6abf74911f20729943b",
+      "image": "karuha_16face",
+      "file": "images/karuha_16face.png",
+      "beforeBytes": 17606,
+      "beforeSha256": "4bea0caf8b87957469d4f5f72c4a3f001eab4be42515e464012f2362624e8f30",
+      "beforeMetrics": {
+        "composite0": 24.49127960205078,
+        "composite48": 22.02717399597168,
+        "composite255": 25.411277770996094,
+        "opaqueRgb": 33.18613052368164,
+        "alpha": 17.259403228759766,
+        "upperCenterRgb": 39.229671478271484
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15635,
+      "savedBytes": 1960,
+      "metrics": {
+        "composite0": 16.39603614807129,
+        "composite48": 14.073375701904297,
+        "composite255": 14.741122245788574,
+        "opaqueRgb": 16.891529083251953,
+        "alpha": 13.161712646484375,
+        "upperCenterRgb": 20.718122482299805
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "5d2189cb30791b5e8091ec30141959c46e83a7abeb19f3f92a3b5b8e8ee5b574",
+      "image": "karuha_17face",
+      "file": "images/karuha_17face.png",
+      "beforeBytes": 17595,
+      "beforeSha256": "57df5fcc9686637bbb8f98623526601b94ae2809298a0bab5c841627c142a791",
+      "beforeMetrics": {
+        "composite0": 24.48990249633789,
+        "composite48": 22.025489807128906,
+        "composite255": 25.41964340209961,
+        "opaqueRgb": 33.189510345458984,
+        "alpha": 17.273406982421875,
+        "upperCenterRgb": 39.236915588378906
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16017,
+      "savedBytes": 1646,
+      "metrics": {
+        "composite0": 16.33541488647461,
+        "composite48": 14.196053504943848,
+        "composite255": 14.625249862670898,
+        "opaqueRgb": 17.641338348388672,
+        "alpha": 11.894078254699707,
+        "upperCenterRgb": 21.810543060302734
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "ef87285c77db7d2bf957688f25ebdf11f00c52562aab3220c859f549069d9763",
+      "image": "karuha_18face",
+      "file": "images/karuha_18face.png",
+      "beforeBytes": 17663,
+      "beforeSha256": "1197908cf5fdb54565fde79391bd41050b39f05d99729713a954a2234ee0f289",
+      "beforeMetrics": {
+        "composite0": 24.517364501953125,
+        "composite48": 21.999391555786133,
+        "composite255": 25.13470458984375,
+        "opaqueRgb": 33.048526763916016,
+        "alpha": 17.239086151123047,
+        "upperCenterRgb": 38.965553283691406
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16070,
+      "savedBytes": 1602,
+      "metrics": {
+        "composite0": 16.88057518005371,
+        "composite48": 14.448725700378418,
+        "composite255": 14.56899356842041,
+        "opaqueRgb": 16.604978561401367,
+        "alpha": 13.067359924316406,
+        "upperCenterRgb": 20.495988845825195
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "1db022f88c9aae87e90706038c97ffb0101972f6dfa31bd1ee785ece35b5aa3e",
+      "image": "karuha_19face",
+      "file": "images/karuha_19face.png",
+      "beforeBytes": 17672,
+      "beforeSha256": "6ac468137e43f035f24386d02abd4456873fad59d8b241eccf077db9e64451b4",
+      "beforeMetrics": {
+        "composite0": 24.58184814453125,
+        "composite48": 22.062217712402344,
+        "composite255": 25.19328498840332,
+        "opaqueRgb": 33.16229248046875,
+        "alpha": 17.2426700592041,
+        "upperCenterRgb": 39.05172348022461
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15968,
+      "savedBytes": 1670,
+      "metrics": {
+        "composite0": 16.47850227355957,
+        "composite48": 14.394647598266602,
+        "composite255": 14.27973747253418,
+        "opaqueRgb": 17.416404724121094,
+        "alpha": 10.928919792175293,
+        "upperCenterRgb": 21.53352165222168
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "49a662a74b530ec5d1ac56630d47a0d8a3d68208e087b8c0901e3edc77a2dc7c",
+      "image": "karuha_20face",
+      "file": "images/karuha_20face.png",
+      "beforeBytes": 17638,
+      "beforeSha256": "508c74a237b3dc0687ac7cef14e5003bf520ae182d932007972d343a160578b0",
+      "beforeMetrics": {
+        "composite0": 24.5301570892334,
+        "composite48": 22.032169342041016,
+        "composite255": 25.27301025390625,
+        "opaqueRgb": 33.20450210571289,
+        "alpha": 17.262922286987305,
+        "upperCenterRgb": 39.241878509521484
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16069,
+      "savedBytes": 1617,
+      "metrics": {
+        "composite0": 16.92779541015625,
+        "composite48": 14.535158157348633,
+        "composite255": 15.089422225952148,
+        "opaqueRgb": 17.87065887451172,
+        "alpha": 13.393671989440918,
+        "upperCenterRgb": 22.32600975036621
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "ecab65e18f21fae22d0f546bd92b52f41dd2855d4114d4d07037498a8100e800",
+      "image": "karuha_21face",
+      "file": "images/karuha_21face.png",
+      "beforeBytes": 17686,
+      "beforeSha256": "3ee793a40f6ddc860b4efcaa78833562b713ba33528a3c2ba3d3377e7161301d",
+      "beforeMetrics": {
+        "composite0": 24.411394119262695,
+        "composite48": 21.9095516204834,
+        "composite255": 25.10013771057129,
+        "opaqueRgb": 32.94316482543945,
+        "alpha": 17.221494674682617,
+        "upperCenterRgb": 38.747982025146484
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15673,
+      "savedBytes": 2020,
+      "metrics": {
+        "composite0": 16.846492767333984,
+        "composite48": 14.415679931640625,
+        "composite255": 15.174715995788574,
+        "opaqueRgb": 17.168540954589844,
+        "alpha": 13.84872817993164,
+        "upperCenterRgb": 21.3170223236084
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "019ec543f63a682f4b6ff4f5de23f7cc3325cbc40a22d7e0216e7066dd750fb9",
+      "image": "karuha_22face",
+      "file": "images/karuha_22face.png",
+      "beforeBytes": 17693,
+      "beforeSha256": "5810e847ccd527bb414165d941aa7042f5a3051d7b14687b72395380801b4ff2",
+      "beforeMetrics": {
+        "composite0": 24.43153190612793,
+        "composite48": 21.92877197265625,
+        "composite255": 25.117589950561523,
+        "opaqueRgb": 32.974998474121094,
+        "alpha": 17.224178314208984,
+        "upperCenterRgb": 38.93429946899414
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 15360,
+      "savedBytes": 2336,
+      "metrics": {
+        "composite0": 19.262422561645508,
+        "composite48": 16.88751792907715,
+        "composite255": 17.542524337768555,
+        "opaqueRgb": 20.87839698791504,
+        "alpha": 13.423574447631836,
+        "upperCenterRgb": 25.987873077392578
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "0b27091e598fcd334d5b57f670bf4a84a81542ffa5e0c37204c30cefca8407b9",
+      "image": "karuha_23face",
+      "file": "images/karuha_23face.png",
+      "beforeBytes": 17696,
+      "beforeSha256": "bacfe580cc2533cb3eee87c2a029298622a4cdf8b8532f471ab6a6c5d9d02333",
+      "beforeMetrics": {
+        "composite0": 24.430517196655273,
+        "composite48": 21.91514015197754,
+        "composite255": 25.113117218017578,
+        "opaqueRgb": 32.97708511352539,
+        "alpha": 17.30247688293457,
+        "upperCenterRgb": 38.9333610534668
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16128,
+      "savedBytes": 1579,
+      "metrics": {
+        "composite0": 16.589818954467773,
+        "composite48": 14.237894058227539,
+        "composite255": 14.404767036437988,
+        "opaqueRgb": 16.879077911376953,
+        "alpha": 12.700161933898926,
+        "upperCenterRgb": 21.17094612121582
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "0505caa599974d974ab347ff33690ab28c87db063c9d9b3a43d31264a44f5719",
+      "image": "karuha_24face",
+      "file": "images/karuha_24face.png",
+      "beforeBytes": 17707,
+      "beforeSha256": "7d394c0377fe03f6735cf510e4969435a7f256031c4570f66b1db81ab65e4d26",
+      "beforeMetrics": {
+        "composite0": 24.444133758544922,
+        "composite48": 21.93366813659668,
+        "composite255": 25.147724151611328,
+        "opaqueRgb": 33.0289192199707,
+        "alpha": 17.296207427978516,
+        "upperCenterRgb": 38.9184455871582
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16140,
+      "savedBytes": 1447,
+      "metrics": {
+        "composite0": 17.28987693786621,
+        "composite48": 14.499659538269043,
+        "composite255": 14.898722648620605,
+        "opaqueRgb": 16.978647232055664,
+        "alpha": 15.314631462097168,
+        "upperCenterRgb": 20.951818466186523
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "1da77189c95b389c29156f60480f5818872f7280ad72fb018ed87012734a3915",
+      "image": "karuha_26face",
+      "file": "images/karuha_26face.png",
+      "beforeBytes": 17587,
+      "beforeSha256": "ec25bb6b0d7792618ac065ffe0a023f408c160d3aab1eed91df5d126e5988b9e",
+      "beforeMetrics": {
+        "composite0": 24.52385139465332,
+        "composite48": 22.01551055908203,
+        "composite255": 25.095836639404297,
+        "opaqueRgb": 33.05785369873047,
+        "alpha": 17.120174407958984,
+        "upperCenterRgb": 39.03898239135742
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14975,
+      "savedBytes": 2700,
+      "metrics": {
+        "composite0": 18.782169342041016,
+        "composite48": 16.47249984741211,
+        "composite255": 17.10200309753418,
+        "opaqueRgb": 20.663074493408203,
+        "alpha": 13.045598030090332,
+        "upperCenterRgb": 25.487350463867188
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "a94c86e921003d15c803e7740d2796132248b2d9441472fd0e21d013cbc99cdb",
+      "image": "karuha_27face",
+      "file": "images/karuha_27face.png",
+      "beforeBytes": 17675,
+      "beforeSha256": "c9ace052981bbb2ccbacce280e311ebd9ff88f952b5ddbea7352531813e41170",
+      "beforeMetrics": {
+        "composite0": 24.594633102416992,
+        "composite48": 22.038022994995117,
+        "composite255": 25.200956344604492,
+        "opaqueRgb": 33.1007194519043,
+        "alpha": 17.478374481201172,
+        "upperCenterRgb": 39.05775833129883
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16261,
+      "savedBytes": 1418,
+      "metrics": {
+        "composite0": 16.37005043029785,
+        "composite48": 14.42230224609375,
+        "composite255": 14.572028160095215,
+        "opaqueRgb": 17.76015853881836,
+        "alpha": 10.531864166259766,
+        "upperCenterRgb": 22.251428604125977
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "32129486d0f64af7caa6ae9ddd90b541c84ac2a432d0ac05ddedc99b5a133cb7",
+      "image": "karuha_28face",
+      "file": "images/karuha_28face.png",
+      "beforeBytes": 17679,
+      "beforeSha256": "1951f4c0830d1d3d008d10e81cf003e4440f98bcb4001cb6c6d293038ed7e059",
+      "beforeMetrics": {
+        "composite0": 24.603347778320312,
+        "composite48": 22.043880462646484,
+        "composite255": 25.210783004760742,
+        "opaqueRgb": 33.101741790771484,
+        "alpha": 17.498443603515625,
+        "upperCenterRgb": 39.066558837890625
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15992,
+      "savedBytes": 1581,
+      "metrics": {
+        "composite0": 17.00202178955078,
+        "composite48": 14.796502113342285,
+        "composite255": 14.78359603881836,
+        "opaqueRgb": 18.178550720214844,
+        "alpha": 11.700928688049316,
+        "upperCenterRgb": 23.193857192993164
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "f21533e8e2969d0f2c5aa1a2e70210b4433b85ae51b1c2faeef8e08e57511659",
+      "image": "karuha_29face",
+      "file": "images/karuha_29face.png",
+      "beforeBytes": 17573,
+      "beforeSha256": "b4faceee96d1d7f17f3419b92eb3d1b31a5f3723cb8b6f0b4b804c61a697d602",
+      "beforeMetrics": {
+        "composite0": 24.318405151367188,
+        "composite48": 21.87497329711914,
+        "composite255": 25.29357147216797,
+        "opaqueRgb": 33.03773880004883,
+        "alpha": 17.192066192626953,
+        "upperCenterRgb": 38.99713134765625
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14792,
+      "savedBytes": 2853,
+      "metrics": {
+        "composite0": 19.10193634033203,
+        "composite48": 16.77553939819336,
+        "composite255": 17.375446319580078,
+        "opaqueRgb": 21.556676864624023,
+        "alpha": 13.098006248474121,
+        "upperCenterRgb": 27.13749122619629
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "e96a29b3898831abe1c5aa0ca1af5fedf6d83ec4e6ea665c54cb4ffd9667345e",
+      "image": "karuha_30face",
+      "file": "images/karuha_30face.png",
+      "beforeBytes": 17645,
+      "beforeSha256": "46733695d801a89712b1a9004c6b69e4643eb62d045062d17b8eb89a0dcfc473",
+      "beforeMetrics": {
+        "composite0": 24.501707077026367,
+        "composite48": 21.952774047851562,
+        "composite255": 24.810462951660156,
+        "opaqueRgb": 33.01455307006836,
+        "alpha": 17.06156349182129,
+        "upperCenterRgb": 38.88676071166992
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 15967,
+      "savedBytes": 1683,
+      "metrics": {
+        "composite0": 16.835927963256836,
+        "composite48": 14.39676284790039,
+        "composite255": 14.677107810974121,
+        "opaqueRgb": 16.542011260986328,
+        "alpha": 13.303422927856445,
+        "upperCenterRgb": 20.491910934448242
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "21228c178073fde131f9572592f706cb9296c5bc5743448af2a9e3fe5ea49d6b",
+      "image": "karuha_31face",
+      "file": "images/karuha_31face.png",
+      "beforeBytes": 17650,
+      "beforeSha256": "de320c131a1ba3e6a8b167e8b7b2d4d3b0e890fc294335ac83a5650f0f58720a",
+      "beforeMetrics": {
+        "composite0": 24.406530380249023,
+        "composite48": 21.899778366088867,
+        "composite255": 24.93250846862793,
+        "opaqueRgb": 33.05485916137695,
+        "alpha": 17.05310821533203,
+        "upperCenterRgb": 38.96391677856445
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14861,
+      "savedBytes": 2791,
+      "metrics": {
+        "composite0": 19.017934799194336,
+        "composite48": 16.716093063354492,
+        "composite255": 17.497827529907227,
+        "opaqueRgb": 21.260093688964844,
+        "alpha": 13.191548347473145,
+        "upperCenterRgb": 26.63951301574707
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "700d546826a5b5467728ec8d43e442711c7d0222a422db39035ac2a0abbf117c",
+      "image": "karuha_32face",
+      "file": "images/karuha_32face.png",
+      "beforeBytes": 17652,
+      "beforeSha256": "8c5e21c7629cea4176adb0a21e7dcee1cfa1b58508b895b815d7b6a2dd301d7c",
+      "beforeMetrics": {
+        "composite0": 24.549705505371094,
+        "composite48": 21.9882755279541,
+        "composite255": 24.98697853088379,
+        "opaqueRgb": 33.010623931884766,
+        "alpha": 17.301664352416992,
+        "upperCenterRgb": 38.9141960144043
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16170,
+      "savedBytes": 1462,
+      "metrics": {
+        "composite0": 17.513412475585938,
+        "composite48": 14.784783363342285,
+        "composite255": 15.11784839630127,
+        "opaqueRgb": 16.91086769104004,
+        "alpha": 14.906143188476562,
+        "upperCenterRgb": 20.87828254699707
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "fe273d87f05e1219a96e4c660b32aef6fd0d8aceb7ac9e5deea64e5c30f255e4",
+      "image": "karuha_33face",
+      "file": "images/karuha_33face.png",
+      "beforeBytes": 17632,
+      "beforeSha256": "3c0c87b862e7e06685d74078192ae1b871e5699248ed53d3194866b7f892b0af",
+      "beforeMetrics": {
+        "composite0": 24.566709518432617,
+        "composite48": 22.05641746520996,
+        "composite255": 25.135339736938477,
+        "opaqueRgb": 33.223968505859375,
+        "alpha": 17.12881088256836,
+        "upperCenterRgb": 39.2259407043457
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16111,
+      "savedBytes": 1499,
+      "metrics": {
+        "composite0": 16.775192260742188,
+        "composite48": 14.354887008666992,
+        "composite255": 14.590538024902344,
+        "opaqueRgb": 16.56606101989746,
+        "alpha": 13.148159980773926,
+        "upperCenterRgb": 20.642629623413086
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "8d7aaeb1be25635ad98da3c81b978cb62aa5415e3f3fc873f2cb7574c2ac9a8e",
+      "image": "karuha_34face",
+      "file": "images/karuha_34face.png",
+      "beforeBytes": 17610,
+      "beforeSha256": "9989b0bbf83143b34dccb1d909edbbad97401abf4975a99837204ab52a023644",
+      "beforeMetrics": {
+        "composite0": 24.525327682495117,
+        "composite48": 22.01567268371582,
+        "composite255": 25.097448348999023,
+        "opaqueRgb": 33.153961181640625,
+        "alpha": 17.12894630432129,
+        "upperCenterRgb": 39.22063064575195
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 14920,
+      "savedBytes": 2783,
+      "metrics": {
+        "composite0": 19.23857307434082,
+        "composite48": 16.782669067382812,
+        "composite255": 17.166257858276367,
+        "opaqueRgb": 21.567808151245117,
+        "alpha": 13.519529342651367,
+        "upperCenterRgb": 27.23605728149414
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "391a8e5e9d2c75ad887113e18191d07b61e2c7a232f6324c26a787ec1e6adcc2",
+      "image": "karuha_35face",
+      "file": "images/karuha_35face.png",
+      "beforeBytes": 17703,
+      "beforeSha256": "d004d5d6731820ef4f9457956777947effd99ecdcffd9c86dfbe86d279e09cf1",
+      "beforeMetrics": {
+        "composite0": 24.54676628112793,
+        "composite48": 22.013671875,
+        "composite255": 25.120716094970703,
+        "opaqueRgb": 33.13709259033203,
+        "alpha": 17.28459358215332,
+        "upperCenterRgb": 39.12190628051758
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 15386,
+      "savedBytes": 2295,
+      "metrics": {
+        "composite0": 19.104373931884766,
+        "composite48": 16.80886459350586,
+        "composite255": 16.474002838134766,
+        "opaqueRgb": 20.907175064086914,
+        "alpha": 11.78238296508789,
+        "upperCenterRgb": 25.832918167114258
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "f79c0e67fa3e56027920deae36a3ca2fb5c4dc13c821497a40fe9c6618ed2157",
+      "image": "karuha_36face",
+      "file": "images/karuha_36face.png",
+      "beforeBytes": 17681,
+      "beforeSha256": "b001ab49c8654e4fa34cc000a6d811d355bc80756ae17d51cc60bb005f96d48c",
+      "beforeMetrics": {
+        "composite0": 24.55855369567871,
+        "composite48": 22.03351402282715,
+        "composite255": 25.112428665161133,
+        "opaqueRgb": 33.10731887817383,
+        "alpha": 17.2071533203125,
+        "upperCenterRgb": 38.95184326171875
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16030,
+      "savedBytes": 1587,
+      "metrics": {
+        "composite0": 17.567310333251953,
+        "composite48": 14.831583976745605,
+        "composite255": 15.204008102416992,
+        "opaqueRgb": 16.833858489990234,
+        "alpha": 14.992332458496094,
+        "upperCenterRgb": 20.72075080871582
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "4b68d77c8c7d3be03c6624d20dcb6851c27de74f2726366c2c876d09a0f5095d",
+      "image": "karuha_37face",
+      "file": "images/karuha_37face.png",
+      "beforeBytes": 17617,
+      "beforeSha256": "aa1ee8ea7e77a4500b1fb7c5b98a3f28e6a138f165f684a834f99d191ce8cd3a",
+      "beforeMetrics": {
+        "composite0": 24.347766876220703,
+        "composite48": 21.89784049987793,
+        "composite255": 25.485280990600586,
+        "opaqueRgb": 33.26535415649414,
+        "alpha": 17.43455696105957,
+        "upperCenterRgb": 39.29368209838867
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 16345,
+      "savedBytes": 1334,
+      "metrics": {
+        "composite0": 16.911924362182617,
+        "composite48": 14.636256217956543,
+        "composite255": 14.612261772155762,
+        "opaqueRgb": 17.546951293945312,
+        "alpha": 12.059917449951172,
+        "upperCenterRgb": 21.996566772460938
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "a1071f0a13317912e24a4a392646dc77f045266e2f7c95e0857fd011a3f2e211",
+      "image": "karuha_38face",
+      "file": "images/karuha_38face.png",
+      "beforeBytes": 17679,
+      "beforeSha256": "f278cd52c4201c585c2c63ae90b86d8c3563d92b5b3501f777444fcb669ca4ec",
+      "beforeMetrics": {
+        "composite0": 24.531280517578125,
+        "composite48": 21.994190216064453,
+        "composite255": 24.80962562561035,
+        "opaqueRgb": 32.98011016845703,
+        "alpha": 16.94659996032715,
+        "upperCenterRgb": 38.789833068847656
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 17129,
+      "savedBytes": 1410,
+      "metrics": {
+        "composite0": 15.1016263961792,
+        "composite48": 13.521446228027344,
+        "composite255": 13.442051887512207,
+        "opaqueRgb": 14.541363716125488,
+        "alpha": 8.296905517578125,
+        "upperCenterRgb": 14.681526184082031
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "f02ba377bb484eb58e3d5bb53f17f6e7f0d8c4bb246f4251a8bb9470eec8a1dd",
+      "image": "large_hanae_01face+",
+      "file": "images/large_hanae_01face+.png",
+      "beforeBytes": 18539,
+      "beforeSha256": "cfeebf2783b97622812989dbb3e3800beedb8ae09f9b5bebb7e5c0ec8f4467fd",
+      "beforeMetrics": {
+        "composite0": 21.082754135131836,
+        "composite48": 19.54608726501465,
+        "composite255": 21.907747268676758,
+        "opaqueRgb": 25.580543518066406,
+        "alpha": 11.07284927368164,
+        "upperCenterRgb": 27.271923065185547
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 18354,
+      "savedBytes": 184,
+      "metrics": {
+        "composite0": 12.671131134033203,
+        "composite48": 11.32177734375,
+        "composite255": 11.681147575378418,
+        "opaqueRgb": 12.249775886535645,
+        "alpha": 7.611145973205566,
+        "upperCenterRgb": 12.316851615905762
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "8f76eeeae5b91f5459ea6bd37f0d1950a86833b1b158ffd3e24d35bda6092e26",
+      "image": "large_hanae_03face+",
+      "file": "images/large_hanae_03face+.png",
+      "beforeBytes": 18538,
+      "beforeSha256": "bbdf05fc38a8829c98d6d5700f99c3910812c2b6ad77b74be5590c8cc19e9d24",
+      "beforeMetrics": {
+        "composite0": 20.97886085510254,
+        "composite48": 19.477893829345703,
+        "composite255": 21.951213836669922,
+        "opaqueRgb": 25.50554656982422,
+        "alpha": 11.020748138427734,
+        "upperCenterRgb": 27.06525993347168
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 16989,
+      "savedBytes": 1534,
+      "metrics": {
+        "composite0": 14.606756210327148,
+        "composite48": 13.11624813079834,
+        "composite255": 13.37010669708252,
+        "opaqueRgb": 14.300326347351074,
+        "alpha": 8.231049537658691,
+        "upperCenterRgb": 14.235363006591797
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "e819dd0ee1663d7016e511aaef43318c137f3b64386a45a3700e8704d405081f",
+      "image": "large_hanae_06face+",
+      "file": "images/large_hanae_06face+.png",
+      "beforeBytes": 18523,
+      "beforeSha256": "03ef567d30b36d4f86505ed85dc2aef711310740b46b9625ca2a892968239e18",
+      "beforeMetrics": {
+        "composite0": 20.9815616607666,
+        "composite48": 19.482555389404297,
+        "composite255": 21.916709899902344,
+        "opaqueRgb": 25.607973098754883,
+        "alpha": 10.962066650390625,
+        "upperCenterRgb": 27.230653762817383
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 18322,
+      "savedBytes": 259,
+      "metrics": {
+        "composite0": 12.933265686035156,
+        "composite48": 11.488147735595703,
+        "composite255": 11.603377342224121,
+        "opaqueRgb": 12.389469146728516,
+        "alpha": 7.819138526916504,
+        "upperCenterRgb": 11.98105239868164
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "747247b529f4c161438faca14aa4c870eda094758f262f73452eb739e0270bb2",
+      "image": "large_hanae_08face+",
+      "file": "images/large_hanae_08face+.png",
+      "beforeBytes": 18581,
+      "beforeSha256": "364ea5f8065456b929bf7ef6be0fc2de31b447c70f0656e4685c4d1c1be75f2c",
+      "beforeMetrics": {
+        "composite0": 21.1229305267334,
+        "composite48": 19.588224411010742,
+        "composite255": 21.95802879333496,
+        "opaqueRgb": 25.65028953552246,
+        "alpha": 11.072469711303711,
+        "upperCenterRgb": 27.400136947631836
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 17366,
+      "savedBytes": 422,
+      "metrics": {
+        "composite0": 15.072235107421875,
+        "composite48": 13.709813117980957,
+        "composite255": 13.844911575317383,
+        "opaqueRgb": 14.677133560180664,
+        "alpha": 7.404298305511475,
+        "upperCenterRgb": 14.925806045532227
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "610bf984186684cce667452d2c8387921e9ceaaccd17a34f2fcd5949c9823e2c",
+      "image": "large_hanae_09face",
+      "file": "images/large_hanae_09face.png",
+      "beforeBytes": 17788,
+      "beforeSha256": "bf7ae90551671cb511c80c93e86107520ae989e2147db0172d25ca0a83f12332",
+      "beforeMetrics": {
+        "composite0": 20.697994232177734,
+        "composite48": 19.51643943786621,
+        "composite255": 22.053794860839844,
+        "opaqueRgb": 25.45221710205078,
+        "alpha": 9.402763366699219,
+        "upperCenterRgb": 27.259483337402344
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 17140,
+      "savedBytes": 1430,
+      "metrics": {
+        "composite0": 15.245800971984863,
+        "composite48": 13.743097305297852,
+        "composite255": 13.552433967590332,
+        "opaqueRgb": 15.37299919128418,
+        "alpha": 7.74823522567749,
+        "upperCenterRgb": 14.47077465057373
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "502a43e18f0b978f3a05d866423c7f9c24e1190ec4fc37e173a49f3db21937ea",
+      "image": "large_hanae_09face+",
+      "file": "images/large_hanae_09face+.png",
+      "beforeBytes": 18570,
+      "beforeSha256": "3ef361c79a71555f61a59e9cdf1d4d88303458ed0b585f93b5b190cc609e5188",
+      "beforeMetrics": {
+        "composite0": 21.08211326599121,
+        "composite48": 19.5495662689209,
+        "composite255": 21.87734031677246,
+        "opaqueRgb": 25.589599609375,
+        "alpha": 11.0092191696167,
+        "upperCenterRgb": 27.248886108398438
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 16595,
+      "savedBytes": 865,
+      "metrics": {
+        "composite0": 14.179258346557617,
+        "composite48": 12.70765495300293,
+        "composite255": 12.304073333740234,
+        "opaqueRgb": 13.223533630371094,
+        "alpha": 7.320723056793213,
+        "upperCenterRgb": 11.881242752075195
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "cd301784e8a0968549972f7a43ab7f8d88212692fe9d7cf69066986b13699672",
+      "image": "large_hanae_11face",
+      "file": "images/large_hanae_11face.png",
+      "beforeBytes": 17460,
+      "beforeSha256": "5ad0901b48a7236cb51df03db6302123093f4c481cf61d034527a53c860ffd55",
+      "beforeMetrics": {
+        "composite0": 20.091699600219727,
+        "composite48": 18.898942947387695,
+        "composite255": 21.352651596069336,
+        "opaqueRgb": 24.464435577392578,
+        "alpha": 9.35921859741211,
+        "upperCenterRgb": 25.336204528808594
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 16887,
+      "savedBytes": 1341,
+      "metrics": {
+        "composite0": 14.188728332519531,
+        "composite48": 12.715204238891602,
+        "composite255": 12.666568756103516,
+        "opaqueRgb": 13.980175971984863,
+        "alpha": 7.768191814422607,
+        "upperCenterRgb": 12.263697624206543
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "18736bd2bd927571831343da7f50e6e662f0771e60ed6c6d7d71cc4add83865d",
+      "image": "large_hanae_11face+",
+      "file": "images/large_hanae_11face+.png",
+      "beforeBytes": 18228,
+      "beforeSha256": "074558a6d00c8cf341b0a68b3705d9b45a6bd68d336f7c613ca0bce7e7f45365",
+      "beforeMetrics": {
+        "composite0": 20.378910064697266,
+        "composite48": 18.885971069335938,
+        "composite255": 21.17552375793457,
+        "opaqueRgb": 24.708723068237305,
+        "alpha": 10.751715660095215,
+        "upperCenterRgb": 25.41128921508789
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 16900,
+      "savedBytes": 557,
+      "metrics": {
+        "composite0": 14.013542175292969,
+        "composite48": 12.639338493347168,
+        "composite255": 12.511805534362793,
+        "opaqueRgb": 13.447552680969238,
+        "alpha": 7.143356800079346,
+        "upperCenterRgb": 11.973502159118652
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "02ddd2e62d78dbfa90a3934495dc3ea3669ea4d05c0a954b6208e116bced4ca3",
+      "image": "large_hanae_17face",
+      "file": "images/large_hanae_17face.png",
+      "beforeBytes": 17457,
+      "beforeSha256": "4885d3b457f7991cfb9ba1466d86928873ac332ecd7c66a46efd9f4d90d7127d",
+      "beforeMetrics": {
+        "composite0": 20.2725772857666,
+        "composite48": 19.06915855407715,
+        "composite255": 21.41128158569336,
+        "opaqueRgb": 24.63502311706543,
+        "alpha": 9.278407096862793,
+        "upperCenterRgb": 25.612340927124023
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 25458,
+      "savedBytes": 691,
+      "metrics": {
+        "composite0": 15.909232139587402,
+        "composite48": 14.054665565490723,
+        "composite255": 14.104445457458496,
+        "opaqueRgb": 17.741809844970703,
+        "alpha": 9.913708686828613,
+        "upperCenterRgb": 19.595552444458008
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "208fbd2254caf1eeb0b3a1888e8af4e85bf4330857cea6a363a4cb6be8dfcc9b",
+      "image": "large_jibie_01face",
+      "file": "images/large_jibie_01face.png",
+      "beforeBytes": 26149,
+      "beforeSha256": "7b7cdb7b19627222f382f396a76c040b4d7e968252302330e3ddd1c179467837",
+      "beforeMetrics": {
+        "composite0": 23.6524600982666,
+        "composite48": 21.51155662536621,
+        "composite255": 22.200969696044922,
+        "opaqueRgb": 32.137306213378906,
+        "alpha": 12.222833633422852,
+        "upperCenterRgb": 33.91691207885742
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 23528,
+      "savedBytes": 2638,
+      "metrics": {
+        "composite0": 18.331981658935547,
+        "composite48": 16.66680335998535,
+        "composite255": 17.162216186523438,
+        "opaqueRgb": 22.95444107055664,
+        "alpha": 9.456550598144531,
+        "upperCenterRgb": 26.004179000854492
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "724ee90571a0978f2da5fa156b4e8d72d13bf7009515bda5c507ea1f14d3bdfd",
+      "image": "large_jibie_02face",
+      "file": "images/large_jibie_02face.png",
+      "beforeBytes": 26166,
+      "beforeSha256": "e41068c0715d001c016b2634e4e10eea9c5958bf9490caecc7f7334cf22482d5",
+      "beforeMetrics": {
+        "composite0": 23.702817916870117,
+        "composite48": 21.55953598022461,
+        "composite255": 22.23890495300293,
+        "opaqueRgb": 32.21022033691406,
+        "alpha": 12.223095893859863,
+        "upperCenterRgb": 34.05202865600586
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 25282,
+      "savedBytes": 866,
+      "metrics": {
+        "composite0": 15.177894592285156,
+        "composite48": 13.727829933166504,
+        "composite255": 14.036500930786133,
+        "opaqueRgb": 18.147171020507812,
+        "alpha": 8.083724975585938,
+        "upperCenterRgb": 19.784555435180664
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "ac0c6ff6da5e3cb3f82f27903016daff458e46fa7192ddc4e5aa9fc11efc2f8a",
+      "image": "large_jibie_03face",
+      "file": "images/large_jibie_03face.png",
+      "beforeBytes": 26148,
+      "beforeSha256": "62e880966c25b65d2f280dba88a64d1a0886540205f9f6ecf791ad26031015a3",
+      "beforeMetrics": {
+        "composite0": 23.660402297973633,
+        "composite48": 21.519750595092773,
+        "composite255": 22.210224151611328,
+        "opaqueRgb": 32.15385055541992,
+        "alpha": 12.222833633422852,
+        "upperCenterRgb": 33.95210266113281
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 25554,
+      "savedBytes": 588,
+      "metrics": {
+        "composite0": 14.920165061950684,
+        "composite48": 13.714696884155273,
+        "composite255": 14.314961433410645,
+        "opaqueRgb": 18.82711410522461,
+        "alpha": 7.143499851226807,
+        "upperCenterRgb": 20.253644943237305
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "fb2af78e509f93e9092a617f60b5fee46ad4845c218417246b69d658bcd9a1d8",
+      "image": "large_jibie_04face",
+      "file": "images/large_jibie_04face.png",
+      "beforeBytes": 26142,
+      "beforeSha256": "f24e6883a500cfa5cbb98cf188bfdfea2500e3779a34305dc347961a855a0079",
+      "beforeMetrics": {
+        "composite0": 23.667879104614258,
+        "composite48": 21.489009857177734,
+        "composite255": 21.906517028808594,
+        "opaqueRgb": 32.02182388305664,
+        "alpha": 12.089584350585938,
+        "upperCenterRgb": 33.71390914916992
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 23403,
+      "savedBytes": 2806,
+      "metrics": {
+        "composite0": 17.913867950439453,
+        "composite48": 16.238544464111328,
+        "composite255": 16.08829689025879,
+        "opaqueRgb": 20.61920166015625,
+        "alpha": 8.715076446533203,
+        "upperCenterRgb": 22.274803161621094
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "15b208db8f85b6d2b6905e4f5ac28c66cdeabc82956aa82f98ef219bcfaca9ac",
+      "image": "large_jibie_05face",
+      "file": "images/large_jibie_05face.png",
+      "beforeBytes": 26209,
+      "beforeSha256": "2be9cd5667e187f623efc76ddd37352bf2b902b6921cd59f08d5e9b23d2e9327",
+      "beforeMetrics": {
+        "composite0": 23.794645309448242,
+        "composite48": 21.65133285522461,
+        "composite255": 22.33053207397461,
+        "opaqueRgb": 32.37835693359375,
+        "alpha": 12.223072052001953,
+        "upperCenterRgb": 34.29743957519531
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 23784,
+      "savedBytes": 2421,
+      "metrics": {
+        "composite0": 18.630596160888672,
+        "composite48": 16.999671936035156,
+        "composite255": 16.917116165161133,
+        "opaqueRgb": 22.624011993408203,
+        "alpha": 8.562590599060059,
+        "upperCenterRgb": 23.578121185302734
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "a53cb4a14b42c73f61f291ea052e9cd3597e1bf386c0fa1b0e880b2a7ee2e78c",
+      "image": "large_jibie_06face",
+      "file": "images/large_jibie_06face.png",
+      "beforeBytes": 26205,
+      "beforeSha256": "58816b2ca21832fbdcb279fe17f12213f659b33c48086ba3ee3f31c01e30b8b6",
+      "beforeMetrics": {
+        "composite0": 23.733888626098633,
+        "composite48": 21.596935272216797,
+        "composite255": 22.29859161376953,
+        "opaqueRgb": 32.352474212646484,
+        "alpha": 12.216926574707031,
+        "upperCenterRgb": 34.30994415283203
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 24054,
+      "savedBytes": 2061,
+      "metrics": {
+        "composite0": 18.611236572265625,
+        "composite48": 16.85381507873535,
+        "composite255": 17.001176834106445,
+        "opaqueRgb": 22.07473373413086,
+        "alpha": 9.517828941345215,
+        "upperCenterRgb": 24.903331756591797
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "778d638a5c487841046a5f607b099654d104c3dbf59f17e48da1720baf0b7957",
+      "image": "large_jibie_07face",
+      "file": "images/large_jibie_07face.png",
+      "beforeBytes": 26115,
+      "beforeSha256": "9e01796a4ebdb8b94cff0a4df7b647fc9d03bf0aab88b53c13b2aae47ed298c3",
+      "beforeMetrics": {
+        "composite0": 23.659080505371094,
+        "composite48": 21.53152084350586,
+        "composite255": 22.10749626159668,
+        "opaqueRgb": 32.21881103515625,
+        "alpha": 12.012219429016113,
+        "upperCenterRgb": 34.128692626953125
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 25801,
+      "savedBytes": 294,
+      "metrics": {
+        "composite0": 15.623040199279785,
+        "composite48": 14.146353721618652,
+        "composite255": 14.674787521362305,
+        "opaqueRgb": 18.691370010375977,
+        "alpha": 8.495870590209961,
+        "upperCenterRgb": 20.95083999633789
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "6bbcc64c52155231330a39e84b8cf50c16bfc4c8e20c87bd99eef48de7637d99",
+      "image": "large_jibie_08face",
+      "file": "images/large_jibie_08face.png",
+      "beforeBytes": 26095,
+      "beforeSha256": "586a017c8269a08633993c39230172296758b0446c9f158c522f8cfb7dd20e57",
+      "beforeMetrics": {
+        "composite0": 23.63335609436035,
+        "composite48": 21.509754180908203,
+        "composite255": 22.102588653564453,
+        "opaqueRgb": 32.190940856933594,
+        "alpha": 12.011945724487305,
+        "upperCenterRgb": 34.110809326171875
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 25339,
+      "savedBytes": 303,
+      "metrics": {
+        "composite0": 14.057377815246582,
+        "composite48": 12.73324203491211,
+        "composite255": 12.962095260620117,
+        "opaqueRgb": 16.705862045288086,
+        "alpha": 7.316391944885254,
+        "upperCenterRgb": 17.052387237548828
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "f510d1869c415eacaa5f9fe67a115ef4f0f98a6232fff75f9761fe6d9d0470fb",
+      "image": "large_jibie_09face",
+      "file": "images/large_jibie_09face.png",
+      "beforeBytes": 25642,
+      "beforeSha256": "da1d5a7ec8cbbe18480d3368d6076118a777d3c05a3ab2dc73e9c1e95a76e524",
+      "beforeMetrics": {
+        "composite0": 22.748172760009766,
+        "composite48": 20.741506576538086,
+        "composite255": 21.427452087402344,
+        "opaqueRgb": 31.200557708740234,
+        "alpha": 11.505417823791504,
+        "upperCenterRgb": 32.089542388916016
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 23653,
+      "savedBytes": 2035,
+      "metrics": {
+        "composite0": 15.864588737487793,
+        "composite48": 14.534798622131348,
+        "composite255": 15.507612228393555,
+        "opaqueRgb": 18.820119857788086,
+        "alpha": 8.262893676757812,
+        "upperCenterRgb": 19.3757266998291
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "7caedd5a9ffe65af99ef6aa2653f8d2c64ccd4379b9f93c7cbf1b3fafaac502a",
+      "image": "large_jibie_10face",
+      "file": "images/large_jibie_10face.png",
+      "beforeBytes": 25688,
+      "beforeSha256": "4f769950e58d9d51a660275dc6af9d35c894809b842f2cc781856f5c272b2b68",
+      "beforeMetrics": {
+        "composite0": 22.827367782592773,
+        "composite48": 20.818801879882812,
+        "composite255": 21.496564865112305,
+        "opaqueRgb": 31.329843521118164,
+        "alpha": 11.505441665649414,
+        "upperCenterRgb": 32.369083404541016
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 25274,
+      "savedBytes": 303,
+      "metrics": {
+        "composite0": 13.425501823425293,
+        "composite48": 12.227067947387695,
+        "composite255": 12.722436904907227,
+        "opaqueRgb": 16.40165901184082,
+        "alpha": 6.9769086837768555,
+        "upperCenterRgb": 15.884528160095215
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "0788c8b200e8e0d687cd4783207d5a0ca595ae5da586b90c3c4520de7d31c87f",
+      "image": "large_jibie_11face",
+      "file": "images/large_jibie_11face.png",
+      "beforeBytes": 25577,
+      "beforeSha256": "1dd09e37f979e1be41a724a27566dab7ae37f210549e26abf5444fd9afdbe08c",
+      "beforeMetrics": {
+        "composite0": 22.595993041992188,
+        "composite48": 20.598785400390625,
+        "composite255": 21.22977066040039,
+        "opaqueRgb": 30.972320556640625,
+        "alpha": 11.387491226196289,
+        "upperCenterRgb": 31.787782669067383
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 25305,
+      "savedBytes": 289,
+      "metrics": {
+        "composite0": 14.539000511169434,
+        "composite48": 12.814098358154297,
+        "composite255": 13.165342330932617,
+        "opaqueRgb": 15.514671325683594,
+        "alpha": 9.596231460571289,
+        "upperCenterRgb": 15.20412540435791
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "d814c5189801836b4136f6452459f4f5889852681ba60deb07a67c66b587e70c",
+      "image": "large_jibie_12face",
+      "file": "images/large_jibie_12face.png",
+      "beforeBytes": 25594,
+      "beforeSha256": "1689cc6c2f0e3dde28497f645c61e0c4d55bc9493e2decd4513d3a6a19d53610",
+      "beforeMetrics": {
+        "composite0": 22.622800827026367,
+        "composite48": 20.62493896484375,
+        "composite255": 21.25335693359375,
+        "opaqueRgb": 31.016536712646484,
+        "alpha": 11.387789726257324,
+        "upperCenterRgb": 31.878650665283203
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 23271,
+      "savedBytes": 2283,
+      "metrics": {
+        "composite0": 16.340490341186523,
+        "composite48": 14.841928482055664,
+        "composite255": 15.324822425842285,
+        "opaqueRgb": 19.82140350341797,
+        "alpha": 8.555968284606934,
+        "upperCenterRgb": 19.698925018310547
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "ae221aa0c6d0e686e48b9f65c388c83c734e0afec5b292a743836585143e38d1",
+      "image": "large_jibie_13face",
+      "file": "images/large_jibie_13face.png",
+      "beforeBytes": 25554,
+      "beforeSha256": "8080f15e714634be0826c87de7a588ad09590b2bfae230b98d224c31abf84e74",
+      "beforeMetrics": {
+        "composite0": 22.57422637939453,
+        "composite48": 20.58298110961914,
+        "composite255": 21.256114959716797,
+        "opaqueRgb": 30.95505714416504,
+        "alpha": 11.407718658447266,
+        "upperCenterRgb": 31.75606918334961
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 25721,
+      "savedBytes": 415,
+      "metrics": {
+        "composite0": 15.556258201599121,
+        "composite48": 14.016700744628906,
+        "composite255": 14.47787857055664,
+        "opaqueRgb": 18.544923782348633,
+        "alpha": 8.747010231018066,
+        "upperCenterRgb": 20.03893280029297
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "cbbaa811858298cadbd63bbaa5e5f142e9d5c15361ef337bc56ec6d3cdca1c1d",
+      "image": "large_jibie_15face",
+      "file": "images/large_jibie_15face.png",
+      "beforeBytes": 26136,
+      "beforeSha256": "b00e82f58ef12a2b7c33b95ddc7cf5761ae7ee561da771e95b95d910a03d1062",
+      "beforeMetrics": {
+        "composite0": 23.68435287475586,
+        "composite48": 21.560216903686523,
+        "composite255": 22.10747528076172,
+        "opaqueRgb": 32.29957580566406,
+        "alpha": 11.958626747131348,
+        "upperCenterRgb": 34.234310150146484
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 24143,
+      "savedBytes": 1512,
+      "metrics": {
+        "composite0": 16.61821174621582,
+        "composite48": 15.030734062194824,
+        "composite255": 15.205826759338379,
+        "opaqueRgb": 19.42096710205078,
+        "alpha": 8.649168014526367,
+        "upperCenterRgb": 19.39120864868164
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "81eff875a4b1e9dc5107025892881ff3ef16de35ee159fe05fb1cb3c6342b6ef",
+      "image": "large_jibie_17face",
+      "file": "images/large_jibie_17face.png",
+      "beforeBytes": 25655,
+      "beforeSha256": "5ee763e99b4aeaf451e85169ab554e7f487c8922b45b2b86d516f87b26fe0486",
+      "beforeMetrics": {
+        "composite0": 22.732181549072266,
+        "composite48": 20.731775283813477,
+        "composite255": 21.381710052490234,
+        "opaqueRgb": 31.207536697387695,
+        "alpha": 11.427814483642578,
+        "upperCenterRgb": 32.14539337158203
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 25469,
+      "savedBytes": 343,
+      "metrics": {
+        "composite0": 14.70137882232666,
+        "composite48": 13.20932674407959,
+        "composite255": 13.814972877502441,
+        "opaqueRgb": 16.735746383666992,
+        "alpha": 8.67261791229248,
+        "upperCenterRgb": 17.070154190063477
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "21a438859d31dbd4802d222c0321de6695c39a2457c4716e6a500ef688a11cc4",
+      "image": "large_jibie_19face",
+      "file": "images/large_jibie_19face.png",
+      "beforeBytes": 25812,
+      "beforeSha256": "2c1c74ec203bf1ded915c2ec0bb0229b9ff39cb9de8f853a8e11dbe7adcd6d43",
+      "beforeMetrics": {
+        "composite0": 23.020708084106445,
+        "composite48": 20.974388122558594,
+        "composite255": 21.75176429748535,
+        "opaqueRgb": 31.3958683013916,
+        "alpha": 11.828719139099121,
+        "upperCenterRgb": 32.53189468383789
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 23969,
+      "savedBytes": 1637,
+      "metrics": {
+        "composite0": 16.53986930847168,
+        "composite48": 14.997424125671387,
+        "composite255": 15.240813255310059,
+        "opaqueRgb": 19.458770751953125,
+        "alpha": 8.49406909942627,
+        "upperCenterRgb": 18.826059341430664
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "c349ef8122ea37f4c647417910ff6e206b1f94294ab7aa86b7b561b9e5332a80",
+      "image": "large_jibie_20face",
+      "file": "images/large_jibie_20face.png",
+      "beforeBytes": 25606,
+      "beforeSha256": "7d477badd5590cef4d763da11e5f14f865e92a724561d75c5130500085f8b999",
+      "beforeMetrics": {
+        "composite0": 22.675012588500977,
+        "composite48": 20.6759033203125,
+        "composite255": 21.351303100585938,
+        "opaqueRgb": 31.057947158813477,
+        "alpha": 11.452301979064941,
+        "upperCenterRgb": 31.825342178344727
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 25495,
+      "savedBytes": 322,
+      "metrics": {
+        "composite0": 14.035114288330078,
+        "composite48": 12.895157814025879,
+        "composite255": 13.364274978637695,
+        "opaqueRgb": 17.643516540527344,
+        "alpha": 6.633917331695557,
+        "upperCenterRgb": 18.27347755432129
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "40ba52a7f2e933c9629dbe717f1505d071ded715433dfed2de1cc4d6534c1126",
+      "image": "large_jibie_21face",
+      "file": "images/large_jibie_21face.png",
+      "beforeBytes": 25817,
+      "beforeSha256": "32dea1d51603be75ca5bcc1a13ff2da1b7447431945e68d4d7cf3f8bbcf863b9",
+      "beforeMetrics": {
+        "composite0": 22.77796173095703,
+        "composite48": 20.744176864624023,
+        "composite255": 21.335243225097656,
+        "opaqueRgb": 31.18845558166504,
+        "alpha": 11.532626152038574,
+        "upperCenterRgb": 32.074684143066406
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 25606,
+      "savedBytes": 263,
+      "metrics": {
+        "composite0": 15.284933090209961,
+        "composite48": 13.654996871948242,
+        "composite255": 13.872532844543457,
+        "opaqueRgb": 18.12649917602539,
+        "alpha": 8.92701530456543,
+        "upperCenterRgb": 20.149757385253906
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "13ce8839813af747af7032c602ff8e48be60beb60c8bd3ab5454a06c77d1c014",
+      "image": "large_jibie_22face",
+      "file": "images/large_jibie_22face.png",
+      "beforeBytes": 25869,
+      "beforeSha256": "310eeb6022609ce6499a5148cbc69161a78b6d1ff4b27f811272cf4a6296842a",
+      "beforeMetrics": {
+        "composite0": 23.36945152282715,
+        "composite48": 21.253196716308594,
+        "composite255": 21.61775016784668,
+        "opaqueRgb": 31.786935806274414,
+        "alpha": 11.69171142578125,
+        "upperCenterRgb": 33.22551727294922
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27218,
+      "savedBytes": 2419,
+      "metrics": {
+        "composite0": 16.031150817871094,
+        "composite48": 14.291093826293945,
+        "composite255": 14.61921501159668,
+        "opaqueRgb": 17.391111373901367,
+        "alpha": 9.64825439453125,
+        "upperCenterRgb": 20.184507369995117
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "6083b1817a8be727fff1368c3254fe8657157eb948c54f5d594643bb41f8a852",
+      "image": "large_karuha_01face",
+      "file": "images/large_karuha_01face.png",
+      "beforeBytes": 29637,
+      "beforeSha256": "9ce27567ad8629824792bcd88e0bb428309a0f70502610bebd13f93645e9b77e",
+      "beforeMetrics": {
+        "composite0": 23.830951690673828,
+        "composite48": 22.136642456054688,
+        "composite255": 25.698917388916016,
+        "opaqueRgb": 33.33702850341797,
+        "alpha": 13.389339447021484,
+        "upperCenterRgb": 34.42558670043945
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 25707,
+      "savedBytes": 3941,
+      "metrics": {
+        "composite0": 17.983280181884766,
+        "composite48": 16.185026168823242,
+        "composite255": 16.468595504760742,
+        "opaqueRgb": 20.67360496520996,
+        "alpha": 9.902549743652344,
+        "upperCenterRgb": 23.893718719482422
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "7013366d9ce6a492acbf012aeeeca65983516cea1641590a5f909c6b55192608",
+      "image": "large_karuha_02face",
+      "file": "images/large_karuha_02face.png",
+      "beforeBytes": 29648,
+      "beforeSha256": "062e0c3cb9fa9c02b33a87a66cb75b39109e921920cd570f6c5700c0148895db",
+      "beforeMetrics": {
+        "composite0": 23.83820343017578,
+        "composite48": 22.143999099731445,
+        "composite255": 25.706722259521484,
+        "opaqueRgb": 33.350528717041016,
+        "alpha": 13.389339447021484,
+        "upperCenterRgb": 34.43061447143555
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27690,
+      "savedBytes": 2030,
+      "metrics": {
+        "composite0": 16.19020652770996,
+        "composite48": 14.139948844909668,
+        "composite255": 14.754034996032715,
+        "opaqueRgb": 17.03937530517578,
+        "alpha": 11.648473739624023,
+        "upperCenterRgb": 19.939149856567383
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "2e7011ea20a11823edb1d46161638a90d510cbf3376e9697e7663b74f13aaa95",
+      "image": "large_karuha_04face",
+      "file": "images/large_karuha_04face.png",
+      "beforeBytes": 29720,
+      "beforeSha256": "d1cca8e1ccf439f152c4a78bbc03a6e5073dbea92ba84ffa0edef144b8ce32a4",
+      "beforeMetrics": {
+        "composite0": 23.87411117553711,
+        "composite48": 22.183744430541992,
+        "composite255": 25.763364791870117,
+        "opaqueRgb": 33.4173469543457,
+        "alpha": 13.38976764678955,
+        "upperCenterRgb": 34.323097229003906
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 25889,
+      "savedBytes": 3827,
+      "metrics": {
+        "composite0": 18.015666961669922,
+        "composite48": 16.115358352661133,
+        "composite255": 16.515140533447266,
+        "opaqueRgb": 20.86239242553711,
+        "alpha": 10.587875366210938,
+        "upperCenterRgb": 24.177316665649414
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "49ecf83b6ddf1df2c7f6bc72ef70a463b9702602caa2f146c5a9bce2971bd9b4",
+      "image": "large_karuha_05face",
+      "file": "images/large_karuha_05face.png",
+      "beforeBytes": 29716,
+      "beforeSha256": "561b14647c2b1e5378c87e8fa2ca0fa2e8cc20dbedcb8c4b02b8a6ce141d6f7e",
+      "beforeMetrics": {
+        "composite0": 24.161928176879883,
+        "composite48": 22.45911979675293,
+        "composite255": 25.96546745300293,
+        "opaqueRgb": 33.80474853515625,
+        "alpha": 13.365592956542969,
+        "upperCenterRgb": 35.03887176513672
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27094,
+      "savedBytes": 2426,
+      "metrics": {
+        "composite0": 16.56810760498047,
+        "composite48": 14.626575469970703,
+        "composite255": 14.456685066223145,
+        "opaqueRgb": 17.31155014038086,
+        "alpha": 10.105103492736816,
+        "upperCenterRgb": 20.11600685119629
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "66541f63b249a63398d76df7d7a851336c32b1a9cf9213ba452f6b96776c654e",
+      "image": "large_karuha_05face+",
+      "file": "images/large_karuha_05face+.png",
+      "beforeBytes": 29520,
+      "beforeSha256": "72c0f68acc339b792b672d186693808344f7b9b7cbbf6b359e9514c0399551e8",
+      "beforeMetrics": {
+        "composite0": 23.9696044921875,
+        "composite48": 22.300504684448242,
+        "composite255": 25.774375915527344,
+        "opaqueRgb": 33.58765411376953,
+        "alpha": 13.146517753601074,
+        "upperCenterRgb": 34.67414855957031
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 25904,
+      "savedBytes": 3695,
+      "metrics": {
+        "composite0": 18.794816970825195,
+        "composite48": 16.976560592651367,
+        "composite255": 16.742952346801758,
+        "opaqueRgb": 21.60531234741211,
+        "alpha": 9.37171745300293,
+        "upperCenterRgb": 24.800336837768555
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "5b6958f8b5d48d3c3e40777fd8176e6d6114bd6df0ab7feb3f204e02ee312c12",
+      "image": "large_karuha_06face",
+      "file": "images/large_karuha_06face.png",
+      "beforeBytes": 29599,
+      "beforeSha256": "2f2203820879d5ca5401aac29e6419bb735f406d9e5c688a36747f50c40e8561",
+      "beforeMetrics": {
+        "composite0": 23.799869537353516,
+        "composite48": 22.10871124267578,
+        "composite255": 25.582170486450195,
+        "opaqueRgb": 33.30525588989258,
+        "alpha": 13.263187408447266,
+        "upperCenterRgb": 34.35541915893555
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 28534,
+      "savedBytes": 1089,
+      "metrics": {
+        "composite0": 17.07615852355957,
+        "composite48": 14.649274826049805,
+        "composite255": 14.842894554138184,
+        "opaqueRgb": 16.852991104125977,
+        "alpha": 13.131339073181152,
+        "upperCenterRgb": 19.023883819580078
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "ea33761862bf184829b84dda8c14817f8242109eb17ad33f39bdf3ef111f10a7",
+      "image": "large_karuha_08face",
+      "file": "images/large_karuha_08face.png",
+      "beforeBytes": 29623,
+      "beforeSha256": "2b759f30a2f47c141f194c7d086faeb62f6d4f566146a27629c3848354aa962a",
+      "beforeMetrics": {
+        "composite0": 23.900753021240234,
+        "composite48": 22.18483543395996,
+        "composite255": 25.664806365966797,
+        "opaqueRgb": 33.288116455078125,
+        "alpha": 13.402746200561523,
+        "upperCenterRgb": 34.34758377075195
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27834,
+      "savedBytes": 1795,
+      "metrics": {
+        "composite0": 15.758513450622559,
+        "composite48": 14.021239280700684,
+        "composite255": 14.25039005279541,
+        "opaqueRgb": 17.463151931762695,
+        "alpha": 9.511554718017578,
+        "upperCenterRgb": 19.884347915649414
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "f87bbf63411c49d0b72ceac64e63adee6f408535a91dd07e36ad46063946ee70",
+      "image": "large_karuha_09face",
+      "file": "images/large_karuha_09face.png",
+      "beforeBytes": 29629,
+      "beforeSha256": "2f297b39592969a65801634252bb0aa0e792cf419e535f73a1ee5a23b2e5f1ef",
+      "beforeMetrics": {
+        "composite0": 23.866636276245117,
+        "composite48": 22.168716430664062,
+        "composite255": 25.862268447875977,
+        "opaqueRgb": 33.23154067993164,
+        "alpha": 13.5702543258667,
+        "upperCenterRgb": 34.190765380859375
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27843,
+      "savedBytes": 1838,
+      "metrics": {
+        "composite0": 16.260698318481445,
+        "composite48": 14.471292495727539,
+        "composite255": 14.594069480895996,
+        "opaqueRgb": 17.783708572387695,
+        "alpha": 9.657458305358887,
+        "upperCenterRgb": 20.809246063232422
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "42fedc551e850d53034ce78cfc03ee28dc6992f55f9e746665603fa39cdaddd8",
+      "image": "large_karuha_10face",
+      "file": "images/large_karuha_10face.png",
+      "beforeBytes": 29681,
+      "beforeSha256": "9459e9c5f948d7eb8ea3c506176bad46eff683400bc0b77adbd938bc36c5f1b2",
+      "beforeMetrics": {
+        "composite0": 24.077062606811523,
+        "composite48": 22.35674476623535,
+        "composite255": 25.746870040893555,
+        "opaqueRgb": 33.63037872314453,
+        "alpha": 13.315438270568848,
+        "upperCenterRgb": 34.814640045166016
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27499,
+      "savedBytes": 2156,
+      "metrics": {
+        "composite0": 15.93587589263916,
+        "composite48": 14.119717597961426,
+        "composite255": 14.568390846252441,
+        "opaqueRgb": 17.163000106811523,
+        "alpha": 10.201048851013184,
+        "upperCenterRgb": 19.393449783325195
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "547692e16e79524ec2fc0ba49c19ff68fc545d83ce0898e04ccb9e62317a6598",
+      "image": "large_karuha_11face",
+      "file": "images/large_karuha_11face.png",
+      "beforeBytes": 29655,
+      "beforeSha256": "2d74d841bc0b62015619f629a5d3377ca685d1a978a95983582480c90e58d6df",
+      "beforeMetrics": {
+        "composite0": 24.025854110717773,
+        "composite48": 22.326210021972656,
+        "composite255": 25.919004440307617,
+        "opaqueRgb": 33.58794403076172,
+        "alpha": 13.455286026000977,
+        "upperCenterRgb": 34.94548797607422
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 26979,
+      "savedBytes": 2296,
+      "metrics": {
+        "composite0": 15.634317398071289,
+        "composite48": 13.587050437927246,
+        "composite255": 14.146045684814453,
+        "opaqueRgb": 16.013105392456055,
+        "alpha": 11.564720153808594,
+        "upperCenterRgb": 17.597705841064453
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "f8daa128d0ec4d12c75a503e53895f2e7967cd6953ab5ad3f6bd1e74e782e944",
+      "image": "large_karuha_12face",
+      "file": "images/large_karuha_12face.png",
+      "beforeBytes": 29275,
+      "beforeSha256": "38b769ed0dfa0293dd2eb69c6a9819f3caa4563c79fa99796c5b35dda784a049",
+      "beforeMetrics": {
+        "composite0": 23.723337173461914,
+        "composite48": 22.09510040283203,
+        "composite255": 25.57390022277832,
+        "opaqueRgb": 33.37748336791992,
+        "alpha": 12.935511589050293,
+        "upperCenterRgb": 34.532840728759766
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27710,
+      "savedBytes": 1650,
+      "metrics": {
+        "composite0": 15.649269104003906,
+        "composite48": 13.965258598327637,
+        "composite255": 14.298930168151855,
+        "opaqueRgb": 17.150564193725586,
+        "alpha": 9.357349395751953,
+        "upperCenterRgb": 19.214452743530273
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "5b157272444a928ad8d1838136d238fbde2179a3401fa8f86af8baf9d6de50f4",
+      "image": "large_karuha_13face",
+      "file": "images/large_karuha_13face.png",
+      "beforeBytes": 29360,
+      "beforeSha256": "4968424ede245b7b48dcbb6d34c450f4e85647b2a0b4fe0a9d38876afa8c3d66",
+      "beforeMetrics": {
+        "composite0": 23.89565658569336,
+        "composite48": 22.26381492614746,
+        "composite255": 25.701717376708984,
+        "opaqueRgb": 33.6422119140625,
+        "alpha": 12.904274940490723,
+        "upperCenterRgb": 34.7147102355957
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27137,
+      "savedBytes": 2236,
+      "metrics": {
+        "composite0": 16.174182891845703,
+        "composite48": 14.27367877960205,
+        "composite255": 14.7362699508667,
+        "opaqueRgb": 16.84910774230957,
+        "alpha": 10.666280746459961,
+        "upperCenterRgb": 18.959871292114258
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "95e84630a022901050f40dbd5857b55c26696881adab847e356e7a55670a2007",
+      "image": "large_karuha_14face",
+      "file": "images/large_karuha_14face.png",
+      "beforeBytes": 29373,
+      "beforeSha256": "6dd3ae2736f3e46feb7131cf9b042a31acd87c2b392d12788cc105f922338027",
+      "beforeMetrics": {
+        "composite0": 23.928936004638672,
+        "composite48": 22.27901840209961,
+        "composite255": 25.71748161315918,
+        "opaqueRgb": 33.642478942871094,
+        "alpha": 13.000995635986328,
+        "upperCenterRgb": 34.70149612426758
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 25446,
+      "savedBytes": 3795,
+      "metrics": {
+        "composite0": 17.682199478149414,
+        "composite48": 15.891670227050781,
+        "composite255": 16.485572814941406,
+        "opaqueRgb": 20.315393447875977,
+        "alpha": 10.243805885314941,
+        "upperCenterRgb": 22.844585418701172
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "35bfb45e82c85566113f7a64b46c216c51f154509898094172244c18e4f356f4",
+      "image": "large_karuha_15face",
+      "file": "images/large_karuha_15face.png",
+      "beforeBytes": 29241,
+      "beforeSha256": "dff4e8521225c8a55ab694a029be7f41639f00e121a0a72ffaa57b2b912d442b",
+      "beforeMetrics": {
+        "composite0": 23.699405670166016,
+        "composite48": 22.08915901184082,
+        "composite255": 25.786279678344727,
+        "opaqueRgb": 33.357486724853516,
+        "alpha": 13.108866691589355,
+        "upperCenterRgb": 34.513275146484375
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 26918,
+      "savedBytes": 2369,
+      "metrics": {
+        "composite0": 15.647425651550293,
+        "composite48": 14.035850524902344,
+        "composite255": 14.223837852478027,
+        "opaqueRgb": 17.182668685913086,
+        "alpha": 8.793069839477539,
+        "upperCenterRgb": 19.4337100982666
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "dd6081c1182c52383ff2e172ef77e4b69e9aba61423d05ba922d5ef33db0602e",
+      "image": "large_karuha_17face",
+      "file": "images/large_karuha_17face.png",
+      "beforeBytes": 29287,
+      "beforeSha256": "53651fcdd1b45d8cf889574c2a47129341b0724c1b419264c57bee1004d8f389",
+      "beforeMetrics": {
+        "composite0": 23.882638931274414,
+        "composite48": 22.235811233520508,
+        "composite255": 26.0427188873291,
+        "opaqueRgb": 33.50227355957031,
+        "alpha": 13.438464164733887,
+        "upperCenterRgb": 34.731544494628906
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27741,
+      "savedBytes": 1704,
+      "metrics": {
+        "composite0": 15.843768119812012,
+        "composite48": 14.038987159729004,
+        "composite255": 14.368124008178711,
+        "opaqueRgb": 17.003910064697266,
+        "alpha": 9.993354797363281,
+        "upperCenterRgb": 19.304738998413086
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "2b29c26452f569f58a7510846983c677393224ec1cc29aa024e02fb8c5d6426f",
+      "image": "large_karuha_18face",
+      "file": "images/large_karuha_18face.png",
+      "beforeBytes": 29445,
+      "beforeSha256": "a4b7b0b785673bd2beb54183a76ee9df6769420ab2c1c417c7db0f87000ce060",
+      "beforeMetrics": {
+        "composite0": 23.852733612060547,
+        "composite48": 22.15878677368164,
+        "composite255": 25.472562789916992,
+        "opaqueRgb": 33.41863250732422,
+        "alpha": 13.081299781799316,
+        "upperCenterRgb": 34.1099967956543
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 25734,
+      "savedBytes": 3743,
+      "metrics": {
+        "composite0": 18.088727951049805,
+        "composite48": 16.338415145874023,
+        "composite255": 16.757970809936523,
+        "opaqueRgb": 20.681224822998047,
+        "alpha": 9.815380096435547,
+        "upperCenterRgb": 24.084327697753906
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "3481d2af45c1f4b5ddcd14188128bc277ddf91481e142fa6cad37777dab76d3b",
+      "image": "large_karuha_19face",
+      "file": "images/large_karuha_19face.png",
+      "beforeBytes": 29477,
+      "beforeSha256": "74971fa6e70bc8804d07ddcd1c28761eb3de4b20fe8bb073cd37d1e793f124e5",
+      "beforeMetrics": {
+        "composite0": 23.90084457397461,
+        "composite48": 22.2070369720459,
+        "composite255": 25.521455764770508,
+        "opaqueRgb": 33.50083923339844,
+        "alpha": 13.081334114074707,
+        "upperCenterRgb": 34.37520980834961
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 26904,
+      "savedBytes": 2583,
+      "metrics": {
+        "composite0": 15.427206039428711,
+        "composite48": 13.527129173278809,
+        "composite255": 14.182852745056152,
+        "opaqueRgb": 16.593355178833008,
+        "alpha": 10.901935577392578,
+        "upperCenterRgb": 18.50184440612793
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "6e638b9dbb4244b1cbd97fdd232f74f8478639fd56e69b56b0fa5173bef2e350",
+      "image": "large_karuha_20face",
+      "file": "images/large_karuha_20face.png",
+      "beforeBytes": 29487,
+      "beforeSha256": "540498ba0f74bac77d9cbecf7223373ea6c459f246ffcd6a75f9b7e0dc13f897",
+      "beforeMetrics": {
+        "composite0": 24.072368621826172,
+        "composite48": 22.385103225708008,
+        "composite255": 25.8346004486084,
+        "opaqueRgb": 33.66289520263672,
+        "alpha": 13.212997436523438,
+        "upperCenterRgb": 34.99695587158203
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27229,
+      "savedBytes": 2421,
+      "metrics": {
+        "composite0": 15.55164623260498,
+        "composite48": 13.910842895507812,
+        "composite255": 14.509584426879883,
+        "opaqueRgb": 17.30936050415039,
+        "alpha": 9.45434856414795,
+        "upperCenterRgb": 19.9901180267334
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "b2be188b5081d10b18e7f83bb1c767f09bc9f0d2b0cd9726282214008089874c",
+      "image": "large_karuha_21face",
+      "file": "images/large_karuha_21face.png",
+      "beforeBytes": 29650,
+      "beforeSha256": "cf6c1f565b6e9e9ddb253ffabae3d97e381c279a02a3bba9fa6943505bc84a0d",
+      "beforeMetrics": {
+        "composite0": 23.83574104309082,
+        "composite48": 22.141387939453125,
+        "composite255": 25.703474044799805,
+        "opaqueRgb": 33.344871520996094,
+        "alpha": 13.389339447021484,
+        "upperCenterRgb": 34.425270080566406
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27745,
+      "savedBytes": 1887,
+      "metrics": {
+        "composite0": 16.590715408325195,
+        "composite48": 14.387798309326172,
+        "composite255": 14.502012252807617,
+        "opaqueRgb": 17.041236877441406,
+        "alpha": 11.84369945526123,
+        "upperCenterRgb": 19.802724838256836
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "07e25769326626cad2023b07bd0f982b80008419bc7c55dc86945773ad812722",
+      "image": "large_karuha_22face",
+      "file": "images/large_karuha_22face.png",
+      "beforeBytes": 29632,
+      "beforeSha256": "40ea220910b4ca7102d1497d34d88362d237cb9eef8c3ec783aac2705467b12b",
+      "beforeMetrics": {
+        "composite0": 23.816267013549805,
+        "composite48": 22.12984848022461,
+        "composite255": 25.715715408325195,
+        "opaqueRgb": 33.34270095825195,
+        "alpha": 13.376487731933594,
+        "upperCenterRgb": 34.3984375
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 28148,
+      "savedBytes": 1497,
+      "metrics": {
+        "composite0": 16.310039520263672,
+        "composite48": 14.411338806152344,
+        "composite255": 14.319268226623535,
+        "opaqueRgb": 17.078872680664062,
+        "alpha": 9.973428726196289,
+        "upperCenterRgb": 19.146831512451172
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "7e0a8dab4b1b59fd57b2510e0c05fad95ccf6fcb9e5e81650539d55cf4c2688e",
+      "image": "large_karuha_23face",
+      "file": "images/large_karuha_23face.png",
+      "beforeBytes": 29645,
+      "beforeSha256": "6fb3246bea19faa0b918c0412bb3e9ed9b0f154c5f9f7183b6e872ffe7291b5b",
+      "beforeMetrics": {
+        "composite0": 23.814184188842773,
+        "composite48": 22.12217140197754,
+        "composite255": 25.692249298095703,
+        "opaqueRgb": 33.31084060668945,
+        "alpha": 13.386756896972656,
+        "upperCenterRgb": 34.35133743286133
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27334,
+      "savedBytes": 2386,
+      "metrics": {
+        "composite0": 16.36431121826172,
+        "composite48": 14.527714729309082,
+        "composite255": 14.646608352661133,
+        "opaqueRgb": 17.90073013305664,
+        "alpha": 9.90339469909668,
+        "upperCenterRgb": 21.02404022216797
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "2ba8e3247fcbdfec0b188b4511cc3ce73ec314188cb839898d5ad22b7431344d",
+      "image": "large_karuha_24face",
+      "file": "images/large_karuha_24face.png",
+      "beforeBytes": 29720,
+      "beforeSha256": "1aa59803aff8dd5aad9944188ef33602e5d63639722e4953d164d4e869527594",
+      "beforeMetrics": {
+        "composite0": 23.85252571105957,
+        "composite48": 22.170896530151367,
+        "composite255": 25.751075744628906,
+        "opaqueRgb": 33.42943572998047,
+        "alpha": 13.344035148620605,
+        "upperCenterRgb": 34.342979431152344
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27684,
+      "savedBytes": 1965,
+      "metrics": {
+        "composite0": 15.756552696228027,
+        "composite48": 13.968342781066895,
+        "composite255": 14.542379379272461,
+        "opaqueRgb": 17.48048210144043,
+        "alpha": 10.207011222839355,
+        "upperCenterRgb": 20.289188385009766
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "313b5d6aa749a3f3e4bac89879d97fa40796e48ed9aa73b57483f291ddd9f890",
+      "image": "large_karuha_25face",
+      "file": "images/large_karuha_25face.png",
+      "beforeBytes": 29649,
+      "beforeSha256": "b6f865fbc58f9d6e16300f9b449d3df42e583a655ebcef57341e6995b46e837f",
+      "beforeMetrics": {
+        "composite0": 23.798572540283203,
+        "composite48": 22.117183685302734,
+        "composite255": 25.698396682739258,
+        "opaqueRgb": 33.338958740234375,
+        "alpha": 13.344046592712402,
+        "upperCenterRgb": 34.414485931396484
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 26211,
+      "savedBytes": 3428,
+      "metrics": {
+        "composite0": 18.114789962768555,
+        "composite48": 16.273313522338867,
+        "composite255": 16.3931827545166,
+        "opaqueRgb": 20.142133712768555,
+        "alpha": 9.930498123168945,
+        "upperCenterRgb": 23.149168014526367
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "cfa7bc74230baa814f00c2c6617f2eacc770f1acb89a45f411295d35529ad379",
+      "image": "large_karuha_27face",
+      "file": "images/large_karuha_27face.png",
+      "beforeBytes": 29639,
+      "beforeSha256": "f130c35e589c32219a55ebe389b8215ac625e9fcda6878fc9a7d5615edf6810c",
+      "beforeMetrics": {
+        "composite0": 24.011384963989258,
+        "composite48": 22.303197860717773,
+        "composite255": 25.772676467895508,
+        "opaqueRgb": 33.52665710449219,
+        "alpha": 13.348747253417969,
+        "upperCenterRgb": 34.7337646484375
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 25784,
+      "savedBytes": 3842,
+      "metrics": {
+        "composite0": 18.45083999633789,
+        "composite48": 16.647428512573242,
+        "composite255": 17.247333526611328,
+        "opaqueRgb": 21.673938751220703,
+        "alpha": 10.319652557373047,
+        "upperCenterRgb": 25.347387313842773
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "2355d90789cd8a07696f972eb5d83879728b98335a51d00865ffac26a26ab436",
+      "image": "large_karuha_28face",
+      "file": "images/large_karuha_28face.png",
+      "beforeBytes": 29626,
+      "beforeSha256": "997ab047e6507ecee0f732627bc79f36b04953777a74477518574499b8e7b31b",
+      "beforeMetrics": {
+        "composite0": 23.96906852722168,
+        "composite48": 22.276161193847656,
+        "composite255": 25.877750396728516,
+        "opaqueRgb": 33.52945327758789,
+        "alpha": 13.430313110351562,
+        "upperCenterRgb": 34.73678207397461
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27551,
+      "savedBytes": 1689,
+      "metrics": {
+        "composite0": 15.903853416442871,
+        "composite48": 14.066376686096191,
+        "composite255": 14.575839042663574,
+        "opaqueRgb": 17.288131713867188,
+        "alpha": 10.389200210571289,
+        "upperCenterRgb": 19.66303253173828
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "1ca693d06bb165f5f9f6cfd057a596eef41886aaf83d2b2d2eedb6fdb982f481",
+      "image": "large_karuha_29face",
+      "file": "images/large_karuha_29face.png",
+      "beforeBytes": 29240,
+      "beforeSha256": "d6f3fed5d407e09646d0328f2f7de49a918089cf0a3af8e73a735a0d0327f557",
+      "beforeMetrics": {
+        "composite0": 23.798519134521484,
+        "composite48": 22.161502838134766,
+        "composite255": 25.885568618774414,
+        "opaqueRgb": 33.372154235839844,
+        "alpha": 13.284281730651855,
+        "upperCenterRgb": 34.44020462036133
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 28000,
+      "savedBytes": 1389,
+      "metrics": {
+        "composite0": 15.171977996826172,
+        "composite48": 13.67276668548584,
+        "composite255": 14.123661041259766,
+        "opaqueRgb": 17.631256103515625,
+        "alpha": 8.520017623901367,
+        "upperCenterRgb": 19.665708541870117
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "cf71d6e6fa4905a9219c8de6bdceeb7d56254561eff4993a6b74875fc2cba449",
+      "image": "large_karuha_30face",
+      "file": "images/large_karuha_30face.png",
+      "beforeBytes": 29389,
+      "beforeSha256": "d4ac1f5780e7adc5d482876c3813d0a79b12bc760b42ff93a0a6ce422bfd7999",
+      "beforeMetrics": {
+        "composite0": 23.6649112701416,
+        "composite48": 22.002809524536133,
+        "composite255": 25.479473114013672,
+        "opaqueRgb": 33.18949890136719,
+        "alpha": 13.11277961730957,
+        "upperCenterRgb": 34.040916442871094
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 26193,
+      "savedBytes": 3205,
+      "metrics": {
+        "composite0": 17.39260482788086,
+        "composite48": 15.626545906066895,
+        "composite255": 16.24578094482422,
+        "opaqueRgb": 20.175127029418945,
+        "alpha": 10.145011901855469,
+        "upperCenterRgb": 23.046283721923828
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "c7d9db89eccc8fce6845a4daa7511f85526f3675547d0806b1154066265ab2ed",
+      "image": "large_karuha_31face",
+      "file": "images/large_karuha_31face.png",
+      "beforeBytes": 29398,
+      "beforeSha256": "ac63dcbea97174b70d7f955b08c0c60e983b30d4fc41acd6e29719282351e1cd",
+      "beforeMetrics": {
+        "composite0": 23.66845703125,
+        "composite48": 22.006120681762695,
+        "composite255": 25.481781005859375,
+        "opaqueRgb": 33.19391632080078,
+        "alpha": 13.11277961730957,
+        "upperCenterRgb": 34.03671646118164
+      }
+    },
+    {
+      "colors": 80,
+      "bytes": 25771,
+      "savedBytes": 3717,
+      "metrics": {
+        "composite0": 17.743818283081055,
+        "composite48": 15.999884605407715,
+        "composite255": 16.358112335205078,
+        "opaqueRgb": 20.48309326171875,
+        "alpha": 9.70594596862793,
+        "upperCenterRgb": 23.340194702148438
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "fe95e51c638263d11d2636d43731461f2534aaa94d19ea676027105f2b451863",
+      "image": "large_karuha_32face",
+      "file": "images/large_karuha_32face.png",
+      "beforeBytes": 29488,
+      "beforeSha256": "3d15d44019434890a30b754a510754375e3464ebd8ce65c352265259a105604d",
+      "beforeMetrics": {
+        "composite0": 24.042327880859375,
+        "composite48": 22.36031150817871,
+        "composite255": 25.47096061706543,
+        "opaqueRgb": 33.415401458740234,
+        "alpha": 12.767690658569336,
+        "upperCenterRgb": 34.012020111083984
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27353,
+      "savedBytes": 2016,
+      "metrics": {
+        "composite0": 16.04979705810547,
+        "composite48": 14.340411186218262,
+        "composite255": 14.623485565185547,
+        "opaqueRgb": 17.462093353271484,
+        "alpha": 9.429826736450195,
+        "upperCenterRgb": 20.33371353149414
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "ff7322205ff7816f8549cfeb3060263758e3bda1a42b615a75cf277c02d7b1e3",
+      "image": "large_karuha_33face",
+      "file": "images/large_karuha_33face.png",
+      "beforeBytes": 29369,
+      "beforeSha256": "49be813fba5e1e93dc5d8d701f55c2357578d281305f699f7362635dce907a5f",
+      "beforeMetrics": {
+        "composite0": 23.90101432800293,
+        "composite48": 22.261917114257812,
+        "composite255": 25.650793075561523,
+        "opaqueRgb": 33.63675308227539,
+        "alpha": 12.882415771484375,
+        "upperCenterRgb": 34.6524543762207
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27606,
+      "savedBytes": 1722,
+      "metrics": {
+        "composite0": 15.333585739135742,
+        "composite48": 13.468743324279785,
+        "composite255": 14.170555114746094,
+        "opaqueRgb": 16.462738037109375,
+        "alpha": 10.771523475646973,
+        "upperCenterRgb": 18.734275817871094
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "7acb6059cf951e422d12a412f1ee545373d9fb8acdb4e29bdbe8fa7cf036fcdf",
+      "image": "large_karuha_34face",
+      "file": "images/large_karuha_34face.png",
+      "beforeBytes": 29328,
+      "beforeSha256": "f2473934c5ddd27a6b2959e70c8e512daa5c00ade87ee51e36091ba5cc1ebfbe",
+      "beforeMetrics": {
+        "composite0": 23.83070182800293,
+        "composite48": 22.192380905151367,
+        "composite255": 25.584590911865234,
+        "opaqueRgb": 33.52264404296875,
+        "alpha": 12.882415771484375,
+        "upperCenterRgb": 34.7227783203125
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27875,
+      "savedBytes": 1806,
+      "metrics": {
+        "composite0": 15.325742721557617,
+        "composite48": 13.75666332244873,
+        "composite255": 14.300429344177246,
+        "opaqueRgb": 17.48848533630371,
+        "alpha": 9.005592346191406,
+        "upperCenterRgb": 20.092424392700195
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "566e7724616e52ba232b9568425fdf35379eb9b214c3a6f07f197dfa3b3b360e",
+      "image": "large_karuha_35face",
+      "file": "images/large_karuha_35face.png",
+      "beforeBytes": 29681,
+      "beforeSha256": "9f31b62078a4553c9e23c14deeb8f6bd5fba313a9d9266cf5f7dd0bc726607d2",
+      "beforeMetrics": {
+        "composite0": 23.889442443847656,
+        "composite48": 22.202808380126953,
+        "composite255": 25.786964416503906,
+        "opaqueRgb": 33.45766067504883,
+        "alpha": 13.375526428222656,
+        "upperCenterRgb": 34.61593246459961
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27233,
+      "savedBytes": 2266,
+      "metrics": {
+        "composite0": 15.443650245666504,
+        "composite48": 13.712060928344727,
+        "composite255": 14.093174934387207,
+        "opaqueRgb": 16.887805938720703,
+        "alpha": 9.668549537658691,
+        "upperCenterRgb": 18.38184928894043
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "c760389eb525a0b9393132845e748405813ec02c445f453a7662d0377cf3c9cb",
+      "image": "large_karuha_36face",
+      "file": "images/large_karuha_36face.png",
+      "beforeBytes": 29499,
+      "beforeSha256": "a7c5677336019c8e4738a66e0c249dd59718dac9906b5a802f015534a4a76882",
+      "beforeMetrics": {
+        "composite0": 23.953760147094727,
+        "composite48": 22.265287399291992,
+        "composite255": 25.580833435058594,
+        "opaqueRgb": 33.591094970703125,
+        "alpha": 13.05439281463623,
+        "upperCenterRgb": 34.107975006103516
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 28237,
+      "savedBytes": 1112,
+      "metrics": {
+        "composite0": 17.51981544494629,
+        "composite48": 15.129559516906738,
+        "composite255": 15.244534492492676,
+        "opaqueRgb": 17.51415252685547,
+        "alpha": 12.839866638183594,
+        "upperCenterRgb": 20.66219139099121
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "4f1af11db681782ed8b17225f1228c716a5696aa35f35cc4c785b103a2a81b7b",
+      "image": "large_karuha_37face",
+      "file": "images/large_karuha_37face.png",
+      "beforeBytes": 29349,
+      "beforeSha256": "42888eb370d246d51a2ca498198ce997aee64b7fdad78157557743315f136505",
+      "beforeMetrics": {
+        "composite0": 23.889554977416992,
+        "composite48": 22.285600662231445,
+        "composite255": 25.929912567138672,
+        "opaqueRgb": 33.603084564208984,
+        "alpha": 13.010396957397461,
+        "upperCenterRgb": 34.2314338684082
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 27511,
+      "savedBytes": 1997,
+      "metrics": {
+        "composite0": 16.343881607055664,
+        "composite48": 14.391884803771973,
+        "composite255": 14.77314281463623,
+        "opaqueRgb": 17.634382247924805,
+        "alpha": 10.83964729309082,
+        "upperCenterRgb": 19.290199279785156
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "a1c03bf4a3a6bbdf07823d1011bf4e6e513d79d2056c6e988aa7f71e7a09a200",
+      "image": "large_karuha_38face",
+      "file": "images/large_karuha_38face.png",
+      "beforeBytes": 29508,
+      "beforeSha256": "5c8b38127a112a1fda03404b350a4badefa384785520616fcc008323c1752c8a",
+      "beforeMetrics": {
+        "composite0": 23.95067024230957,
+        "composite48": 22.286235809326172,
+        "composite255": 25.88009262084961,
+        "opaqueRgb": 33.564083099365234,
+        "alpha": 13.269543647766113,
+        "upperCenterRgb": 34.13789367675781
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 17266,
+      "savedBytes": 95,
+      "metrics": {
+        "composite0": 9.871251106262207,
+        "composite48": 8.729063034057617,
+        "composite255": 9.0115385055542,
+        "opaqueRgb": 11.435042381286621,
+        "alpha": 6.415853977203369,
+        "upperCenterRgb": 14.63159465789795
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "f22682de0b493b975b03b9096e0664bf3eca9f8c7253f315f462f6cbf5b07ca9",
+      "image": "neri_03face",
+      "file": "images/neri_03face.png",
+      "beforeBytes": 17361,
+      "beforeSha256": "7a6d6e1cf7ea08cf08616d1a10d6580fa6a9667eb5a812c15786f440ebb5ceb5",
+      "beforeMetrics": {
+        "composite0": 17.802371978759766,
+        "composite48": 16.023258209228516,
+        "composite255": 16.52591323852539,
+        "opaqueRgb": 24.261808395385742,
+        "alpha": 10.070775032043457,
+        "upperCenterRgb": 28.81232452392578
+      }
+    },
+    {
+      "colors": 96,
+      "bytes": 17180,
+      "savedBytes": 134,
+      "metrics": {
+        "composite0": 10.222126007080078,
+        "composite48": 8.772642135620117,
+        "composite255": 9.009195327758789,
+        "opaqueRgb": 10.255278587341309,
+        "alpha": 7.991785049438477,
+        "upperCenterRgb": 13.129791259765625
+      },
+      "allSourceMetricsNoWorse": true,
+      "sha256": "812e72f9c8d2bf586f7ad344aac76e4515c07336cd98518cef9c60fe14587c0d",
+      "image": "neri_08face",
+      "file": "images/neri_08face.png",
+      "beforeBytes": 17314,
+      "beforeSha256": "f3fa2d58adfa97641e1e1bfe0ddfa89a2e32f2f6e9e9474d67021a94d4ab8600",
+      "beforeMetrics": {
+        "composite0": 17.661108016967773,
+        "composite48": 15.914006233215332,
+        "composite255": 16.441234588623047,
+        "opaqueRgb": 24.200647354125977,
+        "alpha": 9.930984497070312,
+        "upperCenterRgb": 28.662607192993164
+      }
+    }
+  ],
+  "ui": [
+    {
+      "file": "ui/title.jpg",
+      "quality": 98,
+      "subsampling": "4:4:4",
+      "size": [
+        432,
+        514
+      ],
+      "beforeBytes": 300282,
+      "bytes": 144106,
+      "savedBytes": 156176,
+      "beforeSha256": "a0c50548c7c742c15d6f034e1782516d5013b57b4bd3119a2bac21ec660b8fbf",
+      "sha256": "6e7a29050215d9c1d3084a7f289ce08b0de5fc6a5234a6add7edf933b3cb0366",
+      "mseAgainstV032Png": 1.4585930109024048
+    },
+    {
+      "file": "ui/panel.jpg",
+      "quality": 95,
+      "subsampling": "4:4:4",
+      "size": [
+        432,
+        514
+      ],
+      "beforeBytes": 131618,
+      "bytes": 35695,
+      "savedBytes": 95923,
+      "beforeSha256": "f80030fade35659d52439ab5a3302dcb9b221d95dea8462f62fe3cdbaa0bd5c9",
+      "sha256": "71d5ac4c96c0de4ae6591bf3f8bddbd084015351870f25d272297c0df19044a4",
+      "mseAgainstV032Png": 1.050166368484497
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "version": "0.3.1",
+  "allAliasedImageBytesIdentical": true,
+  "logicalImageIds": 548,
+  "savedBytes": 47607,
+  "rows": [
+    {
+      "file": "evcg04a.png",
+      "canonical": "bg_black.png",
+      "keys": [
+        "evcg04a"
+      ],
+      "savedBytes": 973,
+      "sameSha256": "9ad257a16b13e4bdd6611784ffd1dc6831c1a66b8ffca44e64eacb1a4aa0f773"
+    },
+    {
+      "file": "evcg04b.png",
+      "canonical": "bg_black.png",
+      "keys": [
+        "evcg04b"
+      ],
+      "savedBytes": 973,
+      "sameSha256": "9ad257a16b13e4bdd6611784ffd1dc6831c1a66b8ffca44e64eacb1a4aa0f773"
+    },
+    {
+      "file": "evcg04d.png",
+      "canonical": "evcg04c.png",
+      "keys": [
+        "evcg04d"
+      ],
+      "savedBytes": 11315,
+      "sameSha256": "97144fb868ca23a1003f4a1efefcf160a76c370581ed94accaaf9f8adaa47982"
+    },
+    {
+      "file": "common/title_bg.png",
+      "canonical": "common/images/title_bg.png",
+      "savedBytes": 34346
+    }
+  ]
+}

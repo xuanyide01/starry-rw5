@@ -1,0 +1,128 @@
+{
+  "source": "User-provided original Unity sharedassets0.assets",
+  "sourceUnmodified": true,
+  "date": "2026-11-03",
+  "assets": [
+    {
+      "file": "common/ui/title.png",
+      "source": "title_bg",
+      "detail": "Preserve character, moon/train and baked logo in [160,0,1120,720]; adapt night sky below to portrait, dim only the button area.",
+      "size": [
+        432,
+        514
+      ],
+      "bytes": 300282,
+      "sha256": "a0c50548c7c742c15d6f034e1782516d5013b57b4bd3119a2bac21ec660b8fbf"
+    },
+    {
+      "file": "common/ui/panel.png",
+      "source": "config_BG",
+      "detail": "Original cloud colors and texture; remove desktop-only CONFIG heading, adapt backdrop to portrait.",
+      "size": [
+        432,
+        514
+      ],
+      "bytes": 146373,
+      "sha256": "3c0897bb499873f7ef93142b417bb09c215a0c757d6033817842e5adbeaacd68"
+    },
+    {
+      "file": "common/ui/dialogue.png",
+      "source": "window_message",
+      "detail": "Nine-slice original lavender stripe/star panel; native watch-sized text remains separate.",
+      "size": [
+        432,
+        228
+      ],
+      "bytes": 25495,
+      "sha256": "e6b547c812990c8dbdab15408d75d36a6df007e015fd7f1f7cf882b64ba8b036"
+    },
+    {
+      "file": "common/ui/slot.png",
+      "source": "saveload_frame",
+      "detail": "Nine-slice original save-card frame, native labels overlaid.",
+      "size": [
+        396,
+        84
+      ],
+      "bytes": 1943,
+      "sha256": "76a2502f5216713808396b14e8f033bd6606d57a0150e61e5adf9af6daead387"
+    },
+    {
+      "file": "common/ui/title_01start_on.png",
+      "source": "title_01start_on",
+      "detail": "Original Chinese button artwork/icon; proportional resampling only.",
+      "size": [
+        182,
+        39
+      ],
+      "bytes": 16956,
+      "sha256": "7852f92aef867fc5959a02470a92bdcbc94e8011615d887e02faadf9ddd6c352"
+    },
+    {
+      "file": "common/ui/title_02load_on.png",
+      "source": "title_02load_on",
+      "detail": "Original Chinese button artwork/icon; proportional resampling only.",
+      "size": [
+        182,
+        39
+      ],
+      "bytes": 10176,
+      "sha256": "60316fe5e5d4d2370531af7eb39c3cea910ab9ef53300798550d82e2ce0bd6f9"
+    },
+    {
+      "file": "common/ui/title_03config_on.png",
+      "source": "title_03config_on",
+      "detail": "Original Chinese button artwork/icon; proportional resampling only.",
+      "size": [
+        182,
+        39
+      ],
+      "bytes": 9223,
+      "sha256": "9b1217890fa3f81db3d87c34c2f02d5957bd8a60e4028ce52b742ff3eb001aea"
+    },
+    {
+      "file": "common/ui/title_04gallery_on.png",
+      "source": "title_04gallery_on",
+      "detail": "Original Chinese button artwork/icon; proportional resampling only.",
+      "size": [
+        182,
+        39
+      ],
+      "bytes": 9295,
+      "sha256": "2414dff9590b3a4bd21e47ebbfae75c99200d74eb341da527c5a033b76c590d3"
+    },
+    {
+      "file": "common/ui/window_name.png",
+      "source": "window_name",
+      "detail": "Original Chinese button artwork/icon; proportional resampling only.",
+      "size": [
+        190,
+        30
+      ],
+      "bytes": 1432,
+      "sha256": "b504896d94cf6fb62e125fe933f0d9f2bf96b697beab7171200992073e417ed4"
+    },
+    {
+      "file": "common/ui/window_click.png",
+      "source": "window_click",
+      "detail": "Original Chinese button artwork/icon; proportional resampling only.",
+      "size": [
+        20,
+        20
+      ],
+      "bytes": 1159,
+      "sha256": "219355b049cb746624d4552420ff15a4b9670ced059b3491ce79042b8ed82a2f"
+    },
+    {
+      "file": "common/ui/window_config_ov.png",
+      "source": "window_config_ov",
+      "detail": "Original Chinese button artwork/icon; proportional resampling only.",
+      "size": [
+        22,
+        26
+      ],
+      "bytes": 566,
+      "sha256": "8a7262f12e118be221deda983ef9b53bb984b4c700afc4811dd7f3f0e9910056"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+
+> starry-rw5-reproduction@0.3.1 test
+> node --test tests/*.test.cjs
+
+✔ three automatic speeds use bounded waits after final glyph (0.6508ms)
+✔ automatic mode starts off; old font/speed settings work and only the speed tier persists (5.6247ms)
+✔ automatic reading waits then types at 30ms without changing manual speed (2.2088ms)
+✔ manual completion of a typing line restarts a full reading delay (2.8505ms)
+✔ menu and 30-slot selectors pause automatic reading; return waits afresh (4.7294ms)
+✔ every original choice pauses automatic reading until a manual choice (40.4375ms)
+✔ dragging dialogue pauses the wait and never acts as a tap (3.108ms)
+✔ background suspension freezes story and restarts waiting on return (1.9691ms)
+✔ chapter read that finishes in background renders only when shown (1.763ms)
+✔ previous, title, error, end and destruction cancel automatic reading (10.1286ms)
+✔ late cancelled callbacks cannot erase a newer wait or advance a changed scene (2.0523ms)
+✔ save from automatic reading preserves the original save format and continues after success (4.1316ms)
+✔ title config retains speed settings and stale title/gallery callbacks do not change story (1.9582ms)
+✔ every chapter skip preserves the original first decision, variables and call stack (36.9292ms)
+✔ skip respects local branch operations and stops before selecting even in the final chapter (0.3873ms)
+✔ every extracted image and jump target exists (866.0899ms)
+✔ all reachable branches finish without losing save/restore state (76.4497ms)
+✔ back restores visuals and previous selection; history is bounded (0.3735ms)
+✔ closing an event picture restores the regular scene background (0.1348ms)
+✔ normal and closeup portraits preserve original character-table anchors on one pixel scale (1.4241ms)
+✔ every used portrait keeps bounded geometry after trimming transparent margins (56.9679ms)
+✔ actual page reads packaged TXT chapters and CG catalog; API 202 exits loading and exposes its reason (35.9345ms)
+✔ thirty slots keep independent positions, choices and save metadata (2.6571ms)
+✔ empty, damaged and legacy saves have useful slot labels (2.6008ms)
+✔ all CG variants have usable images and a complete distinct catalog (45.9669ms)
+✔ scene grouping keeps every image exactly once, including closeups and extra variants (0.8076ms)
+✔ tapping cycles every variant within its own scene and wraps at both ends (0.5085ms)
+✔ all 36 reachable selection paths keep their original ending state with menu skip (84.7286ms)
+✔ desktop indentation disappears while paragraph boundaries and Latin words remain (0.8435ms)
+✔ JS cleanup agrees with every original whitespace fix, preserving all visible characters (9.6748ms)
+✔ all dialogue, choice and speaker strings are clean and stable after repeated display (39.1553ms)
+✔ numeric chapter counters and empty narrator nameplates are absent from reading template (1.0475ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1065.527
+npm notice
+npm notice New major version of npm available! 11.17.0 -> 12.2.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1
+npm notice To update run: npm install -g npm@12.2.1
+npm notice

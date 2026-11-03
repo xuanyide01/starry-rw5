@@ -1,0 +1,13 @@
+{
+  "version": "0.3.2",
+  "bytes": 10493596,
+  "expandedBytes": 12038078,
+  "sha256": "d443acf99f628122709db9af61bd4e5d81043b1105ac332afc7db7666f30f048",
+  "certificateSha256": "4e8e1ee24968b0dad6d0956a7e14d848b38b22a203f39c389a45d8737bdc4585",
+  "zipCRCValid": true,
+  "outerSignatureValid": true,
+  "innerSignatureValid": true,
+  "allFileDigestsValid": true,
+  "signedFiles": 581,
+  "sameCertificateAsV027": true
+}

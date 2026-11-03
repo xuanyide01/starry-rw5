@@ -1,5 +1,5 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
-const root=path.resolve(__dirname,'..'),starry=path.basename(root)==='starry-rw5',chunkSize=path.basename(root)==='summer-rw5'?1024:512;
+const root=path.resolve(__dirname,'..'),starry=fs.existsSync(path.join(root,'src/common/story/1.txt')),chunkSize=path.basename(root)==='summer-rw5'?1024:512;
 const code=n=>fs.readFileSync(path.join(root,'src/common',n+'.js'),'utf8').replace(/^import[^\n]*\n/gm,'').replace(/export /g,'');
 const api=new Function((starry?'':code('catalog'))+code('engine')+';return {newState,readFrame,readChapterSkip,nextChapter,next,choose,previous,checkpoint,restore'+(starry?'':',catalog')+'};')();
 const cache=new Map();function story(id){if(!cache.has(id)){const file=starry?path.join(root,'src/common/story',id+'.txt'):path.join(root,'converted-story',id+'.json');cache.set(id,JSON.parse(fs.readFileSync(file,'utf8')));}return cache.get(id);}

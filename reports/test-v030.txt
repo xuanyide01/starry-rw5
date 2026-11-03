@@ -1,0 +1,34 @@
+✔ three automatic speeds use bounded waits after final glyph (0.8247ms)
+✔ automatic mode starts off; old font/speed settings work and only the speed tier persists (6.2319ms)
+✔ automatic reading waits then types at 30ms without changing manual speed (2.9548ms)
+✔ manual completion of a typing line restarts a full reading delay (2.7118ms)
+✔ menu and 30-slot selectors pause automatic reading; return waits afresh (3.7945ms)
+✔ every original choice pauses automatic reading until a manual choice (46.4384ms)
+✔ dragging dialogue pauses the wait and never acts as a tap (3.3939ms)
+✔ background suspension freezes story and restarts waiting on return (2.2447ms)
+✔ chapter read that finishes in background renders only when shown (2.4844ms)
+✔ previous, title, error, end and destruction cancel automatic reading (11.4831ms)
+✔ late cancelled callbacks cannot erase a newer wait or advance a changed scene (2.2662ms)
+✔ save from automatic reading preserves the original save format and continues after success (4.4451ms)
+✔ title config retains speed settings and stale title/gallery callbacks do not change story (2.371ms)
+✔ every chapter skip preserves the original first decision, variables and call stack (40.5158ms)
+✔ skip respects local branch operations and stops before selecting even in the final chapter (0.2536ms)
+✔ every extracted image and jump target exists (956.1499ms)
+✔ all reachable branches finish without losing save/restore state (91.9846ms)
+✔ back restores visuals and previous selection; history is bounded (0.7212ms)
+✔ closing an event picture restores the regular scene background (0.3575ms)
+✔ actual page reads packaged TXT chapters and CG catalog; API 202 exits loading and exposes its reason (38.0532ms)
+✔ thirty slots keep independent positions, choices and save metadata (3.3337ms)
+✔ empty, damaged and legacy saves have useful slot labels (1.719ms)
+✔ all CG variants have usable images and a complete distinct catalog (77.5158ms)
+✔ scene grouping keeps every image exactly once, including closeups and extra variants (0.9527ms)
+✔ tapping cycles every variant within its own scene and wraps at both ends (0.5637ms)
+✔ all 36 reachable selection paths keep their original ending state with menu skip (100.1533ms)
+ℹ tests 26
+ℹ suites 0
+ℹ pass 26
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1189.3148

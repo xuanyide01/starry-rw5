@@ -1,0 +1,10 @@
+{
+  "baseline": "0.3.2",
+  "version": "0.3.3",
+  "unchangedCommonResources": 424,
+  "changedPortraits": 149,
+  "changedOpaqueUiBackgrounds": 2,
+  "allOtherCommonResourceBytesIdentical": true,
+  "all17StoryFilesByteIdentical": true,
+  "all124CgResourcesByteIdentical": true
+}

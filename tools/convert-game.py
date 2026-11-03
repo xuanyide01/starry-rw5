@@ -2,12 +2,13 @@
 import argparse, json, re, collections
 from pathlib import Path
 from gallery_index import build_catalog
+from text_format import normalize_text
 
 def clean(s):
     s=s.replace('\\n','\n').replace('\\u3000','　')
     s=re.sub(r'<dash=(\d+)>',lambda m:'—'*int(m.group(1)),s)
     s=re.sub(r'<ruby=[^>]*>|</ruby>|<[^>]+>','',s)
-    return s.strip()
+    return normalize_text(s)
 
 def convert(probe, project):
     book=json.loads((probe/'scenarios.asset_-2507898223139034885.json').read_text(encoding='utf-8'))
@@ -92,4 +93,4 @@ def convert(probe, project):
     return manifest
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('--probe',type=Path,default=Path(__file__).resolve().parents[1]/'.extracted');p.add_argument('--project',type=Path,default=Path(__file__).resolve().parents[1]);a=p.parse_args();convert(a.probe,a.project)
+    p=argparse.ArgumentParser();p.add_argument('--probe',type=Path,default=Path(__file__).resolve().parents[2]/'train_source_probe');p.add_argument('--project',type=Path,default=Path(__file__).resolve().parents[1]);a=p.parse_args();convert(a.probe,a.project)
